@@ -1,0 +1,62 @@
+{
+    "name": "Los Cascabeles",
+    "address": "San Juan # 2541 e/ Calzada de Bejucal y Matanzas, Arroyo Naranjo",
+    "schedule": {
+      "monday": {"open": "11:00", "close": "23:30"},
+      "tuesday": {"open": "11:00", "close": "23:30"},
+      "wednesday":{"open": "11:00", "close": "23:30"},
+      "thursday": {"open": "11:00", "close": "23:30"},
+      "friday": {"open": "11:00", "close": "23:30"},
+      "saturday": {"open": "11:00", "close": "23:30"},
+      "sunday": {"open": "11:00", "close": "23:30"}
+    },
+    "phone_number": "+5376449509",
+    "website": {
+      "website": "URL del sitio web",
+      "instagram": "@nombre_de_usuario_instagram",
+      "facebook": "URL de la página de Facebook"
+    },
+    "type_establishment": "Cafeteria-Restaurante",
+    "specialty": "Cubana, Italiana",
+    "parking": false,
+    "reservations": true,
+    "payment_methods": {
+      "cash_national": true,
+      "digital_transfer_national": false,
+      "usd_cash": true,
+      "usd_transfer": false,
+      "mlc": false
+    },
+    "free_wifi": false,
+    "delivery_areas": [
+      "Zona 1",
+      "Zona 2",
+      "Zona 3" 
+    ],
+    "power_generator": "Sí" ,
+    "capacity": 100,
+    "menu": {
+      "entrants": [
+        {"name": "Nombre del entrante", "price": 10.00},
+        {"name": "Nombre del entrante", "price": 12.50}
+      ],
+      "main_course": [
+        {"name": "Nombre del plato", "price": 25.00},
+        {"name": "Nombre del plato", "price": 30.00}
+  
+      ],
+      "garrison": [
+        {"name": "Nombre del acompañamiento", "price": 5.00},
+        {"name": "Nombre del acompañamiento", "price": 7.00}
+      ],
+      "desserts": [
+        {"name": "Nombre del postre", "price": 8.00},
+        {"name": "Nombre del postre", "price": 6.50}
+      ],
+      "drinks": [
+        {"name": "Nombre de la bebida", "price": 3.00},
+        {"name": "Nombre de la bebida", "price": 4.00}
+      ]
+    },
+    "service_charge_percentage": 5 
+}

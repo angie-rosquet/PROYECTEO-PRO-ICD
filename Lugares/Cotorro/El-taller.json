@@ -1,0 +1,62 @@
+{
+    "name": "El taller",
+    "address": "calle 107 número 2811, Cotorro",
+    "schedule": {
+      "monday": {"open": "10:00", "close": "22:00"},
+      "tuesday": {"open": "10:00", "close": "22:00"},
+      "wednesday": {"open": "10:00", "close": "22:00"},
+      "thursday": {"open": "10:00", "close": "22:00"},
+      "friday": {"open": "10:00", "close": "22:00"},
+      "saturday": {"open": "10:00", "close": "22:00"},
+      "sunday": {"open": "10:00", "close": "22:00"}
+    },
+    "phone_number": "76822778",
+    "website": {
+      "website": null,
+      "instagram": null,
+      "facebook": null
+    },
+    "classification": "Categoría del restaurante (ej: Casual, Lujo, Familiar)",
+    "type_establishment": "restaurante",
+    "specialty": "cubana",
+    "parking": false,
+    "reservations": false,
+    "payment_methods": {
+      "cash_national": true,
+      "digital_transfer_national": true,
+      "usd_cash": true,
+      "usd_transfer": true,
+      "mlc": true
+    },
+    "free_wifi": false,
+    "delivery_areas": [
+      "Arroyo Naranjo",
+      "Cotorro"
+    ],
+    "power_generator": "Sí" ,
+    "capacity": "poca",
+    "menu": {
+      "entrants": [
+        {"name": "Nombre del entrante", "price": 10.00},
+        {"name": "Nombre del entrante", "price": 12.50}
+      ],
+      "main_course": [
+        {"name": "Nombre del plato", "price": 25.00},
+        {"name": "Nombre del plato", "price": 30.00}
+  
+      ],
+      "garrison": [
+        {"name": "Nombre del acompañamiento", "price": 5.00},
+        {"name": "Nombre del acompañamiento", "price": 7.00}
+      ],
+      "desserts": [
+        {"name": "Nombre del postre", "price": 8.00},
+        {"name": "Nombre del postre", "price": 6.50}
+      ],
+      "drinks": [
+        {"name": "Nombre de la bebida", "price": 3.00},
+        {"name": "Nombre de la bebida", "price": 4.00}
+      ]
+    },
+    "service_charge_percentage": 0 
+  }

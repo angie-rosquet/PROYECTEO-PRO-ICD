@@ -1,0 +1,60 @@
+{
+    "name": "El Gallo de Oro",
+    "address": "Callejón de Lucero #7, e/ Calzada de Managua y Santa Hortencia, Arroyo Naranjo",
+    "schedule": {
+      "monday": {"open": "11:00", "close": "23:30"},
+      "tuesday": {"open": "11:00", "close": "23:30"},
+      "wednesday":{"open": "11:00", "close": "23:30"},
+      "thursday": {"open": "11:00", "close": "23:30"},
+      "friday": {"open": "11:00", "close": "23:30"},
+      "saturday": {"open": "11:00", "close": "23:30"},
+      "sunday": {"open": "11:00", "close": "23:30"}
+    },
+    "phone_number": "76944445",
+    "website": {
+      "website": "URL del sitio web",
+      "instagram": "@nombre_de_usuario_instagram",
+      "facebook": "URL de la página de Facebook"
+    },
+    "type_establishment": "Bar-Restaurante",
+    "specialty": "Cubana, Iternacional",
+    "parking": true,
+    "reservations": true,
+    "payment_methods": {
+      "cash_national": true,
+      "digital_transfer_national": true,
+      "usd_cash": true,
+      "usd_transfer": true,
+      "mlc": true
+    },
+    "free_wifi": false,
+    "delivery_areas": [
+      null 
+    ],
+    "power_generator": "Sí" ,
+    "capacity": 100,
+    "menu": {
+      "entrants": [
+        {"name": "Nombre del entrante", "price": 10.00},
+        {"name": "Nombre del entrante", "price": 12.50}
+      ],
+      "main_course": [
+        {"name": "Nombre del plato", "price": 25.00},
+        {"name": "Nombre del plato", "price": 30.00}
+  
+      ],
+      "garrison": [
+        {"name": "Nombre del acompañamiento", "price": 5.00},
+        {"name": "Nombre del acompañamiento", "price": 7.00}
+      ],
+      "desserts": [
+        {"name": "Nombre del postre", "price": 8.00},
+        {"name": "Nombre del postre", "price": 6.50}
+      ],
+      "drinks": [
+        {"name": "Nombre de la bebida", "price": 3.00},
+        {"name": "Nombre de la bebida", "price": 4.00}
+      ]
+    },
+    "service_charge_percentage": 10
+}

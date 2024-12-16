@@ -1,0 +1,86 @@
+{
+    "name": "Mi terraza",
+    "address": "Calle 71 % 24 y 26, Las Brisas,  Cotorro",
+    "schedule": {
+      "monday": {"open": "11:00", "close": "23:00"},
+      "tuesday": {"open": "11:00", "close": "23:00"},
+      "wednesday": {"open": "11:00", "close": "23:00"},
+      "thursday": {"open": "11:00", "close": "23:00"},
+      "friday":{"open": "11:00", "close": "23:00"},
+      "saturday": {"open": "11:00", "close": "23:00"},
+      "sunday": {"open": "11:00", "close": "23:00"}
+    },
+    "phone_number": "76822381",
+    "website": {
+      "website": null,
+      "instagram": "@miterraza_pizzeria",
+      "facebook": null
+    },
+    "type_establishment": "cafeteria",
+    "specialty": "Italiana",
+    "parking": true,
+    "reservations": true,
+    "payment_methods": {
+      "cash_national": true,
+      "digital_transfer_national": true,
+      "usd_cash": true,
+      "usd_transfer": true,
+      "mlc": true
+    },
+    "free_wifi": false,
+    "delivery_areas": [
+      "Cotorro"
+    ],
+    "power_generator": "Sí" ,
+    "capacity": "media",
+    "menu": {
+        "entrants": [
+          {"name": "Crema de queso","price": 850.00},
+          {"name": "Crema Virginia","price": 1100.00}
+        ],
+        "main_course": [
+          {"name": "Sandwich de queso","price": 700.00},
+          {"name": "Sandwich de jamón","price": 650.00},
+          {"name": "Sandwich de jamón y queso","price": 900.00},
+          {"name": "Sandwich de atún","price": 1100.00},
+          {"name": "Sandwich Mi Terraza","price": 1100.00},
+          {"name": "Espaguetis Napolitanos","price": 1000.00},
+          {"name": "Espaguetis de jamón","price": 1250.00},
+          {"name": "Espaguetis de atún","price": 1400.00},
+          {"name": "Espaguetis a la Carbonara","price": 1600.00},
+          {"name": "Espaguetis doble queso","price": 1500.00},
+          {"name": "Canelos","price": 1500.00},
+          {"name": "Pizza Napolitana","price": 1200.00},
+          {"name": "Pizza Hawaiana","price": 1700.00},
+          {"name": "Pizza Mi Terraza","price": 1800.00}
+        ],
+        "garrison": [
+          {"name": "Doble queso (150g)","price": 500.00},
+          {"name": "Jamón (60g)","price": 300.00},
+          {"name": "Cebolla","price": 250.00},
+          {"name": "Piña","price": 200.00},
+          {"name": "Atún","price": 400.00},
+          {"name": "Aceitunas","price": 400.00},
+          {"name": "Chorizo","price": 200.00},
+          {"name": "Bacon","price": 700.00}
+        ],
+        "drinks": [
+          {"name": "Limonada Frappe","price": 350.00},
+          {"name": "Malteada","price": 500.00},
+          {"name": "Chelada","price": 550.00},
+          {"name": "Batidos (mango, fruta bomba o guayaba)","price": 400.00},
+          {"name": "Batidos de Helado (fresa, chocolate, helado con galleta, mozcatel)","price": 600.00},
+          {"name": "Pica Pica Mi Terraza","price": 1700.00},
+          {"name": "Tostones de jamón y queso","price": 1000.00},
+          {"name": "Tostones de atún","price": 1200.00},
+          {"name": "Fajitas de pollo (con mayonesa)","price": 1000.00},
+          {"name": "Ensalada de pollo","price": 400.00},
+          {"name": "Frituras de malanga (con miel)","price": 400.00},
+          {"name": "Bolitas de queso (con miel)","price": 400.00},
+          {"name": "Croquetas (con mayonesa)","price": 400.00},
+          {"name": "Chicharritas","price": 300.00},
+          {"name": "Papas prefritas","price": 600.00}
+        ]
+      },
+    "service_charge_percentage": 0 
+  }

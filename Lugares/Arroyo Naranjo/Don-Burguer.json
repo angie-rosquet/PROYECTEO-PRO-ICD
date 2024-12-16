@@ -1,0 +1,99 @@
+{
+    "name": "Don Burguer",
+    "address": "Calzada de 10 de Octubre, entre  Aranguren y Santa Isabel, La Palma, Arroyo Naranjo",
+    "schedule": {
+      "monday": {"open": "10:00", "close": "23:00"},
+      "tuesday": {"open": "10:00", "close": "23:00"},
+      "wednesday": {"open": "10:00", "close": "23:00"},
+      "thursday": {"open": "10:00", "close": "23:00"},
+      "friday": {"open": "10:00", "close": "23:00"},
+      "saturday": {"open": "10:00", "close": "23:00"},
+      "sunday": {"open": "10:00", "close": "23:00"}
+    },
+    "phone_number": "+53 56073379",
+    "website": {
+      "website": null,
+      "instagram": "@donburguercuba",
+      "facebook": "Don Burguer JJ"
+    },
+    "type_establishment": "cafeteria",
+    "specialty": "comida chatarra",
+    "parking": true,
+    "reservations": false,
+    "payment_methods": {
+      "cash_national": true,
+      "digital_transfer_national": true,
+      "usd_cash": true,
+      "usd_transfer": true,
+      "mlc": true
+    },
+    "free_wifi": false,
+    "delivery_areas": [
+      null 
+    ],
+    "power_generator": "Sí" ,
+    "capacity": "media",
+    "menu": {
+        "entrants": [
+            {"name":"ENSALADA FRÍA","price":580.00},
+            {"name":"ACEITUNAS (RACIÓN)","price":420.00},
+            {"name":"BOLITAS DE QUESO","price":640.00},
+            {"name":"FRITURAS DE MALANGA","price":510.00},
+            {"name":"CROQUETAS","price":640.00},
+            {"name":"PAPITAS","price":640.00},
+            {"name":"FAJITAS DE POLLO","price":940.00},
+            {"name":"ENTREMES SURTIDO","price":1720.00},
+            {"name":"BRUSQUETAS","price":780.00},
+            {"name":"BURRITOS DE JAMÓN Y QUESO","price":1260.00}
+        ],
+        "main_course": [
+            {"name":"TACOS DE VEGETALES","price":620.00},
+            {"name":"TACOS DE CERDO","price":1120.00},
+            {"name":"TACOS DE POLLO","price":1120.00},
+            {"name":"TACOS DE RES","price":1280.00},
+            {"name":"HAMBURGUESA (CERDO)","price":740.00},
+            {"name":"HAMBURGUESA (POLLO)","price":740.00},
+            {"name":"HAMBURGUESA (RES)","price":860.00},
+            {"name":"DOBLE HAMB. (CERDO)","price":1040.00},
+            {"name":"DOBLE HAMB. (POLLO)","price":1040.00},
+            {"name":"DOBLE HAMB. (RES)","price":1480.00},
+            {"name":"DOBLE HAMBURGUESA DE CERDO(BISTEC DE CERDO Y 3 AGREGOS / JAMON VICKING, QUESO Y CHORIZO)","price":2680.00},
+            {"name":"PAN C/ BISTEC DE CERDO","price":840.00},
+            {"name":"PAN C/ BISTEC DE POLLO","price":810.00},
+            {"name":"PAN C/ LECHÓN","price":890.00},
+            {"name":"BOCADITO DE ATÚN","price":840.00},
+            {"name":"SANDWICH DE JAMÓN QUESO Y CHORIZO","price":890.00},
+            {"name":"SANDWICH CUBANO","price":1290.00},
+            {"name":"JAMÓN VICKING","price":120.00},
+            {"name":"JAMÓN PIERNA","price":190.00},
+            {"name":"BACON","price":190.00},
+            {"name":"QUESO","price":150.00},
+            {"name":"CHORIZO","price":120.00},
+            {"name":"HUEVO","price":190.00},
+            {"name":"CEBOLLA","price":60.00},
+            {"name":"TOMATE","price":60.00},
+            {"name":"LECHUGA","price":30.00},
+            {"name":"PEPINILLO ENCURTIDO","price":30.00},
+            {"name":"PIÑA GLASEADA","price":80.00}
+        ],
+        "desserts": [
+            {"name":"3 GRACIAS","price":740.00},
+            {"name":"ENSALADA","price":1080.00},
+            {"name":"SUERO DE HELADO","price":840.00},
+            {"name":"CASQUITOS DE GUAYABA","price":560.00},
+            {"name":"FLAN","price":560.00},
+            {"name":"DULCE DE COCO","price":460.00},
+            {"name":"TORREJAS","price":680.00},
+            {"name":"DULCE DE FRUTA BOMBA","price":460.00}
+        ],
+        "drinks": [
+            {"name":"AGUA","price":150.00},
+            {"name":"REFRESCO","price":240.00},
+            {"name":"BATIDO DE FRUTAS","price":390.00},
+            {"name":"LIMONADA FRAPE","price":380.00},
+            {"name":"LIMONADA CON HIERBA BUENA","price":460.00},
+            {"name":"MALTA","price":400.00}
+        ]
+    },
+    "service_charge_percentage": 5 
+}

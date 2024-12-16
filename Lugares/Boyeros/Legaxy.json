@@ -1,0 +1,60 @@
+{
+    "name": "Legaxy",
+    "address": "Calle D, esq. a 10, Altabana, Boyeros",
+    "schedule": {
+      "monday": {"open": "22:00", "close": "06:00"},
+      "tuesday": {"open": "22:00", "close": "06:00"},
+      "wednesday":{"open": "22:00", "close": "06:00"},
+      "thursday": {"open": "22:00", "close": "06:00"},
+      "friday": {"open": "22:00", "close": "06:00"},
+      "saturday": {"open": "22:00", "close": "06:00"},
+      "sunday": {"open": "22:00", "close": "06:00"}
+    },
+    "phone_number": "+53 5515 0025",
+    "website": {
+      "website": "URL del sitio web",
+      "instagram": "@nombre_de_usuario_instagram",
+      "facebook": "URL de la página de Facebook"
+    },
+    "type_establishment": "Bar",
+    "specialty": "Tapas",
+    "parking": true,
+    "reservations": true,
+    "payment_methods": {
+      "cash_national": true,
+      "digital_transfer_national": false,
+      "usd_cash": true,
+      "usd_transfer": false,
+      "mlc": false
+    },
+    "free_wifi": false,
+    "delivery_areas": [
+        null
+    ],
+    "power_generator": "Sí" ,
+    "capacity": 100,
+    "menu": {
+      "entrants": [
+        {"name": "Nombre del entrante", "price": 10.00},
+        {"name": "Nombre del entrante", "price": 12.50}
+      ],
+      "main_course": [
+        {"name": "Nombre del plato", "price": 25.00},
+        {"name": "Nombre del plato", "price": 30.00}
+  
+      ],
+      "garrison": [
+        {"name": "Nombre del acompañamiento", "price": 5.00},
+        {"name": "Nombre del acompañamiento", "price": 7.00}
+      ],
+      "desserts": [
+        {"name": "Nombre del postre", "price": 8.00},
+        {"name": "Nombre del postre", "price": 6.50}
+      ],
+      "drinks": [
+        {"name": "Nombre de la bebida", "price": 3.00},
+        {"name": "Nombre de la bebida", "price": 4.00}
+      ]
+    },
+    "service_charge_percentage": 0
+  }

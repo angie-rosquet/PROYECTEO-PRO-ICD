@@ -1,0 +1,83 @@
+{
+    "name": "Casa del Maíz",
+    "address": "Avenida 1er anillo % Calzada de Managua y San Agustin",
+    "schedule": {
+      "monday": {"open": "10:00", "close": "20:00"},
+      "tuesday": {"open": "10:00", "close": "20:00"},
+      "wednesday": {"open": "10:00", "close": "20:00"},
+      "thursday": {"open": "10:00", "close": "20:00"},
+      "friday": {"open": "10:00", "close": "20:00"},
+      "saturday": {"open": "10:00", "close": "20:00"},
+      "sunday": {"open": "10:00", "close": "20:00"}
+    },
+    "phone_number": "+5252003758",
+    "website": {
+      "website": null,
+      "instagram": null,
+      "facebook": "casadelmaizcuba"
+    },
+    "type_establishment": "restaurante",
+    "specialty": "cubana",
+    "parking": true,
+    "reservations": false,
+    "payment_methods": {
+      "cash_national": true,
+      "digital_transfer_national": true,
+      "usd_cash": false,
+      "usd_transfer": false,
+      "mlc": false
+    },
+    "free_wifi": false,
+    "delivery_areas": [
+        null
+    ],
+    "power_generator": "Sí" ,
+    "capacity": "mucha",
+    "menu": {
+      "entrants": [
+        {"name": "Fritura de Malte",
+      "price": 350},
+        {"name": "Fritura de Malanga","price": 450},
+        {"name": "Tostón Relleno","price": 450},
+        {"name": "Chicharrón","price": 500},
+        {"name": "Garbanzos","price": 550},
+        {"name": "Cubito de Maíz","price": 1070},
+        {"name": "Garbanzos Fritos","price": 450}
+      ],
+      "main_course": [
+        {"name": "Fricasé de Cerdo","price": 1150},
+        {"name": "Bistec de Cerdo","price": 1250},
+        {"name": "Lomo Ahumado","price": 1450},
+        {"name": "Costilla Ahumada","price": 1450},
+        {"name": "Fajitas de Cerdo","price": 1150},
+        {"name": "Fajita de Pollo","price": 1150},
+        {"name": "Alitas de Pollo","price": 1050},
+        {"name": "Pollo en Cazuela","price": 1050},
+        {"name": "Pechuga de Pollo","price": 1650},
+        {"name": "Filete de Pescado","price": 1480},
+        {"name": "Espeñan","price": 1280},
+        {"name": "Ropa Vieja","price": 1420},
+        {"name": "Chilindrón de Carnero","price": 1420}
+      ],
+      "garrison": [
+        {"name": "Arroz Salteado","price": 530},
+        {"name": "Arroz Moro","price": 250},
+        {"name": "Arroz Blanco","price": 180},
+        {"name": "Tamal Especial","price": 90},
+        {"name": "Tostón Criollo","price": 450},
+        {"name": "Ensalada Mixta","price": 450},
+        {"name": "Ají Relleno","price": 650},
+        {"name": "Malanga Hervida","price": 425},
+        {"name": "Puré de Boniato","price": 250},
+        {"name": "Plátano Maduro Frito","price": 400},
+        {"name": "Yuca con Mojo","price": 250},
+        {"name": "Fufú de Plátano","price": 300}
+      ],
+      "desserts": [
+      {"name": "Helado Pote de 1lt","price": 850},
+      {"name": "Helado Pote Pequeño","price": 490},
+      {"name": "Arroz con Leche","price": 200}
+      ]
+    },
+    "service_charge_percentage": 5
+}

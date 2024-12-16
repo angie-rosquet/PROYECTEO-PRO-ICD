@@ -1,0 +1,62 @@
+{
+    "name": "Nombre del Restaurante",
+    "address": "Dirección completa del restaurante",
+    "schedule": {
+      "monday": {"open": "HH:mm", "close": "HH:mm"},
+      "tuesday": {"open": "HH:mm", "close": "HH:mm"},
+      "wednesday": {"open": "HH:mm", "close": "HH:mm"},
+      "thursday": {"open": "HH:mm", "close": "HH:mm"},
+      "friday": {"open": "HH:mm", "close": "HH:mm"},
+      "saturday": {"open": "HH:mm", "close": "HH:mm"},
+      "sunday": {"open": "HH:mm", "close": "HH:mm"}
+    },
+    "phone_number": "+XX XXX XXX XXXX",
+    "website": {
+      "website": "URL del sitio web",
+      "instagram": "@nombre_de_usuario_instagram",
+      "facebook": "URL de la página de Facebook"
+    },
+    "type_establishment": "Tipo de establecimiento (ej: Restaurante, Cafetería, Bar)",
+    "specialty": "Especialidad del restaurante (ej: Cocina italiana, Mariscos, Pizzas)",
+    "parking": true,
+    "reservations": true,
+    "payment_methods": {
+      "cash_national": true,
+      "digital_transfer_national": true,
+      "usd_cash": true,
+      "usd_transfer": true,
+      "mlc": true
+    },
+    "free_wifi": false,
+    "delivery_areas": [
+      "Zona 1",
+      "Zona 2",
+      "Zona 3" 
+    ],
+    "power_generator": "Sí" ,
+    "capacity": 100,
+    "menu": {
+      "entrants": [
+        {"name": "Nombre del entrante", "price": 10.00},
+        {"name": "Nombre del entrante", "price": 12.50}
+      ],
+      "main_course": [
+        {"name": "Nombre del plato", "price": 25.00},
+        {"name": "Nombre del plato", "price": 30.00}
+  
+      ],
+      "garrison": [
+        {"name": "Nombre del acompañamiento", "price": 5.00},
+        {"name": "Nombre del acompañamiento", "price": 7.00}
+      ],
+      "desserts": [
+        {"name": "Nombre del postre", "price": 8.00},
+        {"name": "Nombre del postre", "price": 6.50}
+      ],
+      "drinks": [
+        {"name": "Nombre de la bebida", "price": 3.00},
+        {"name": "Nombre de la bebida", "price": 4.00}
+      ]
+    },
+    "service_charge_percentage": 5 
+  }
