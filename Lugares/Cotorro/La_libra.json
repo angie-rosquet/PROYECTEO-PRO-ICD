@@ -1,0 +1,86 @@
+{
+  "name": "La libra",
+  "address": "calle 105 entre 20 y 26, Cotorro",
+  "schedule": {
+    "monday": {"open": "11:00", "close": "24:00"},
+    "tuesday": {"open": "11:00", "close": "24:00"},
+    "wednesday": {"open": "11:00", "close": "24:00"},
+    "thursday": {"open": "11:00", "close": "24:00"},
+    "friday": {"open": "11:00", "close": "24:00"},
+    "saturday":{"open": "11:00", "close": "24:00"},
+    "sunday": {"open": "11:00", "close": "24:00"}
+  },
+  "contacts": {
+    "phone_number": null,
+    "mobile": "53010844",
+    "website": null,
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["cubana"],
+  "parking": true,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": [
+      null
+  ],
+  "power_generator": true,
+  "menu": {
+    "entrants": [
+      {"name": "Fajita de pollo", "price": 1700},
+      {"name": "Fajita de cerdo", "price": 1600},
+      {"name": "Alitas de pollo", "price": 1300},
+      {"name": "Croquetas", "price": 550},
+      {"name": "Toston Natural", "price": 300},
+      {"name": "Toston al Ajillo", "price": 350},
+      {"name": "Toston relleno", "price": 1100},
+      {"name": "Toston Campesino", "price": 1100},
+      {"name": "Papas Fritas", "price": 900},
+      {"name": "Fritura de Malanga", "price": 500},
+      {"name": "Entremes", "price": 1500},
+      {"name": "Eperlan", "price": 2500}
+    ],
+    "main_course": [
+      {"name": "Pizza Napolitana", "price": 1200, "added":{
+        "queso" : 700,
+        "jamon" : 600,
+        "aji" : 400,
+        "camaron" : 800,
+        "aceituna" : 400,
+        "atun" : 800,
+        "cebolla" : 300,
+        "tomate" : 500
+      }},
+      {"name": "Langosta Grille", "price": 2000},
+      {"name": "Masa Frita", "price": 2400},
+      {"name": "Bistec de Cerdo", "price": 2000},
+      {"name": "Fricase de cerdo", "price": 2300},
+      {"name": "Costilla Frita", "price": 2300},
+      {"name": "Costilla en Salsa", "price": 2500},
+      {"name": "Langosta Enchilada", "price": 2500},
+      {"name": "Camaron Grille", "price": 1700},
+      {"name": "Camaron Enchilado", "price": 2300},
+      {"name": "Camaron al ajillo", "price": 1500},
+      {"name": "Bistec de Res Grille", "price": 3000},
+      {"name": "Filete de Cerdo", "price": 3400},
+      {"name": "Bistec Uruguayo", "price": 2900}
+    ],
+    "garrison": [
+      null
+    ],
+    "desserts": [
+      null
+    ],
+    "drinks": [
+      null
+    ]
+  },
+  "service_charge_percentage": 0
+}

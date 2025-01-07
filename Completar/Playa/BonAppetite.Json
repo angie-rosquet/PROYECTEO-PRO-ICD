@@ -1,0 +1,631 @@
+{
+    "Name" : "Bom Apetite",
+    "type" : "Restaurante",
+    "#" : null,
+    "web" : "no poseen una web pero poseen insta",
+    "Reference Point" : "Hotel Gran Mutuh",
+    "Status" : "mipime",
+    "events" : "Competencia de Bartender en la Florida",
+    "people_trend" : "Todas las edades",
+    "establishment_features" : [
+        "vistas al mar",
+        "triplanta",
+        "establecimiento confeccionado de madera"
+    ],
+    "speciality" : [
+        "cocteleria completa",
+        "comida criolla",
+        "comida italiana",
+        "comida internacional"
+    ],
+    
+    "establishment_address" : {
+        "Province" : "La Habana",
+        "municipality" : "Playa",
+        "address" : "1ra Avenida entre calle 70 y 68"
+    },
+
+    "open_hours": {
+        "sunday" : "10:00am - 4:00am",
+        "monday" : "10:00am - 4:00am",
+        "tuesday" : "10:00am - 4:00am",
+        "wednesday" : "10:00am - 4:00am",
+        "thursday" : "10:00am - 4:00am",
+        "friday" : "10:00am - 4:00am",
+        "saturday" : "10:00am - 4:00am"
+    },
+
+    "curiosity" : "los menores de edad están prohibidos a partir de las 10 pm en adelante",
+    "Menú" : {
+        "Amanezco" : {
+            "Desayunos" : {
+                "Americano": {
+                    "Price" : 1300.00
+                },
+                "Bom Apetite" : {
+                    "Price" : 2200.00
+                },
+                "Europeo" : {
+                    "Price" : 14000.00
+                },
+                "Continental" : {
+                    "Price" : 1500.00
+                }
+            },
+            "Sanwich" : {
+                "De Queso" : {
+                    "Price" : 650.00
+                },
+                "De Jamón" : {
+                    "Price" : 600.00
+                },
+                "De J.Q" : {
+                    "Price" : 850.00
+                },
+                "De Atún" : {
+                    "Price" : 900.00
+                },
+                "Bom Apetite" : {
+                    "Price" : 1350.00
+                },
+                "Don Pepito" : {
+                    "Price" : 1200.00
+                },
+                "De Pollo" : {
+                    "Price" : 1100.00
+                },
+                "De Vegetales" : {
+                    "Price" : 600.00
+                }
+            }
+        },
+        "Entremés" : {
+            "Entrantes" : {
+                "Fritura de Malanga" : {
+                    "Price" : 500.00
+                },
+                "Croquetas de Embutidos" : {
+                    "Price" : 900.00
+                },
+                "Croquetas de Pescados" : {
+                    "Price" : 800.00
+                },
+                "Croquetas de J.Queso Azul" : {
+                    "Price" : 1000.00
+                },
+                "Bolitas de Carne" : {
+                    "Price" : 900.00
+                },
+                "Bolitas de Queso" : {
+                    "Price" : 1100.00
+                },
+                "Fajitas de Pollo" : {
+                    "Price" : 1700.00
+                },
+                "Fajitas de Cerdo" : {
+                    "Price" : 1800.00
+                },
+                "San Jacobo" : {
+                    "Price" : 1600.00
+                },
+                "Tabla de Salmón Serrano" : {
+                    "Price" : 3300.00
+                },
+                "Tostón Montado de J.Q" : {
+                    "Price" : 1650.00
+                },
+                "Brusqueta de Lux" : {
+                    "Price" : 1500.00
+                },
+                "Brusqueta" : {
+                    "Price" : 700.00
+                },
+                "Emsañada Cesar" : {
+                    "Price" :  1800.00
+                },
+                "Ensalada de Lux" : {
+                    "Price" : 2400.00
+                },
+                "Tabla de Embutidos" : {
+                    "Price" : 3150.00
+                },
+                "Entremes de J.Q.CH" : {
+                    "Price" : 1400.00
+                },
+                "Tabla Especial  BOM" : {
+                    "Price" : 4200.00
+                },
+                "RAC Aceitunas" : {
+                    "Price" : 600.00
+                },
+                "Pica Pica Bom Apetite" : {
+                    "Price" : 3000.00
+                },
+                "Carpaccio De Res" : {
+                    "Price" : 3000.00
+                },
+                "Tabla de Queso" : {
+                    "Price" : 3600.00
+                },
+                "Eperlan de Pescado" : {
+                    "Price" : 2500.00
+                }
+            },
+            "Sopas y Vegetales" : {
+                "De Pollo" : {
+                    "Price" : 1100.00
+                },
+                "De Pescado" : {
+                    "Price" : 1600.00
+                },
+                "De Mariscos" : {
+                    "Price" : 2800.00
+                },
+                "Puré de Malanga" : {
+                    "Price" : 600.00
+                },
+                "Puré de Papa" : {
+                    "Price" : 500.00
+                },
+                "Vegetal Natural" : {
+                    "Price" : 350.00
+                },
+                "Vegetales Salteados" : {
+                    "Price" : 390.00
+                },
+                "Vianda Hervida" : {
+                    "Price" : 400.00
+                },
+                "Vianda Fritas" : {
+                    "Price" : 290.00
+                },
+                "Papas Fritas" : {
+                    "Price" : 400.00
+                }
+            }
+        },
+        "Agregos" :{
+            "Cocteles": {
+                "De Camaron" : {
+                    "Price" : 2100.00
+                },
+                "De Langosta" : {
+                    "Price" : 2300.00
+                },
+                "De Pescado" : {
+                    "Price" : 2100.00
+                },
+                "De Pargo" : {
+                    "Price" : 2200.00
+                }
+            },
+            "Ceviches" : {
+                "Costero" : {
+                    "Price" : 2800.00
+                },
+                "De Pulpo" : {
+                    "Price" : 2500.00
+                },
+                "De Langosta" : {
+                    "Price" : 2400.00
+                },
+                "De Camarón" : {
+                    "Price" : 2800.00
+                },
+                "De Pescado" : {
+                    "Price" : 2300.00
+                }
+            },
+            "Cremas" : {
+                "Crema de Queso" : {
+                    "Price" : 980.00
+                },
+                "Crema de Jamón" : {
+                    "Price" : 880.00 
+                },
+                "Crema Aurora" : {
+                    "Price" : 850.00
+                },
+                "Crema de Calabaza" : {
+                    "Price" : 800.00
+                }
+            },
+            "Salsas Para Pastas" : {
+                "Pomodoro" : {
+                    "Price" : 1300.00
+                },
+                " Proscuitto" : {
+                    "Price" : 1700.00
+                },
+                "Amatriciana" : {
+                    "Price" : 2100.00
+                },
+                "Putanesca" : {
+                    "Price" : 1900.00
+                },
+                "Carbonara" : {
+                    "Price" : 2550.00
+                },
+                "Alfredo" : {
+                    "Price" : 2450.00
+                },
+                "Nero Di sepia" : {
+                    "Price" : 3200.00
+                },
+                "Fruti Di Mare" : {
+                    "Price" : 2900.00
+                },
+                "4 Quesos" : {
+                    "Price" : 2900.00
+                },
+                "Ragu" : {
+                    "Price" : 2100.00
+                },
+                "Pesto" : {
+                    "Price" : 2500.00
+                },
+                "Sugo Di Iono" : {
+                    "Price" : 2500.00
+                },
+                "Alioli" : {
+                    "Price" : 1900.00
+                }}
+        },
+        "Platos Fuertes" : {
+            "Pizzas" : {
+                "Napoles" : {
+                    "Price" : 1000.00
+                },
+                "Margarita" : {
+                    "Price" : 1100.00
+                },
+                "Chorizo" : {
+                    "Price" : 1800.00
+                },
+                "Mar y Tierra" : {
+                    "Price" : 3300.00
+                },
+                "Camaron" : {
+                    "Price" : 2800.00
+                },
+                "D' Langosta" : {
+                    "Price" : 3100.00
+                },
+                "Caprichosa" : {
+                    "Price" : 2100.00
+                },
+                "D' Jamon y Bacon" : {
+                    "Price" : 2000.00
+                },
+                "4 Quesos" : {
+                    "Price" : 2700.00
+                },
+                "D' Jamon" : {
+                    "Price" : 1700.00
+                },
+                "4 Estaciones" : {
+                    "Price" : 30000.00
+                },
+                "Hawaiana" : {
+                    "Price" : 2100.00
+                },
+                "De Pepperoni" : {
+                    "Price" : 2200.00
+                },
+                "Primavera" : {
+                    "Price" : 2350.00
+                },
+                "Panna" : {
+                    "Price" : 2250.00
+                },
+                "Calzones de RV" : {
+                    "Price" : 3890.00
+                },
+                "Diabola" : {
+                    "Price" : 2150.00
+                },
+                "Atun, Ceb y Aceit" : {
+                    "Price" : 2200.00
+                }
+            },
+            "Arroces" : {
+                "Blanco" : {
+                    "Price" : 300.00
+                },
+                "Moro" : {
+                    "Price" : 350.00
+                },
+                "Pilaf" : {
+                    "Price" : 400.00
+                },
+                "Primavera" : {
+                    "Price" : 4500.00 
+                }
+            },
+            "Res" : {
+                "Tourneda de Solomillo" : {
+                    "Price" : 5200.00
+                },
+                "Solomillo" : {
+                    "Price" : 5100.00 
+                },
+                "Mora Bom" : {
+                    "Price" : 4700.00 
+                },
+                "Filete a la Dotch" : {
+                    "Price" : 4100.00 
+                },
+                "Chateaubriand" : {
+                    "Price" : 7000.00 
+                },
+                "Churasco" : {
+                    "Price" : 5000.00
+                },
+                "Migñon" : {
+                    "Price" : 5500.00
+                },
+                "Ropa Vieja" : {
+                    "Price" : 3500.00
+                },
+                "Vaca Frita" : {
+                    "Price" : 3200.00 
+                },
+                "New York" : {
+                    "Price" : 8000.00 
+                },
+                "Picadillo a la Habanera" : {
+                    "Price" : 2000
+                },
+                "Bistec" : {
+                    "Price" : 3400.00 
+                }
+            },
+            "Mariscos" : {
+                "Pulpo" : {
+                    "Pulpo al Ajillo" : {
+                        "Price" : 3900.00
+                    },
+                    "Al estilo del chef" : {
+                        "Price" : 3900.00
+                    },
+                    "Grille" : {
+                        "Price" : 3800.00 
+                    },
+                    "Enchilado" : {
+                        "Price" : 4100 
+                    }
+                },
+                "Langostas" : {
+                    "Langosta Pesto" : {
+                        "Price" : 3600.00
+                    },
+                    "Batabano" : {
+                        "Price" : 3900.00
+                    },
+                    "Grille" : {
+                        "Price" : 3100.00
+                    },
+                    "Termidor" : {
+                        "Price" : 3700.00
+                    },
+                    "Enchilado" : {
+                        "Price" : 3300.00 
+                    },
+                    "Mariscada Sote" : {
+                        "Price" : 4300.00 
+                    }
+                },
+                "Camarones" : {
+                    "Grille" : {
+                        "Price" : 3300.00 
+                    },
+                    "Al Ajillo" : {
+                        "Price" : 3300.00
+                    },
+                    "Al Pesto" : {
+                        "Price" : 3600.00 
+                    },
+                    "Rebosado" : {
+                        "Price" : 3500.00
+                    },
+                    "Enchilado" : {
+                        "Price" : 3100.00 
+                    },
+                    "Con Salsa Teriyaki" : {
+                        "Price" : 3700.00 
+                    },
+                    "Mar y Tierra" : {
+                        "Price" : 4900.00 
+                    }
+                }
+            },
+            "Risotto" : {
+                "Nero Di Seppia" : {
+                    "Price" : 3200.00
+                },
+                "De Carne" : {
+                    "Price" : 2900.00 
+                },
+                "Frutti Di Mare" : {
+                    "Price" : 3700.00 
+                },
+                "Hongo 4 Quesos" : {
+                    "Price" : 3800.00
+                },
+                "Porcini" : {
+                    "Price" : 3900.00 
+                }
+            },
+            "Cordero" : {
+                "Paletilla" : {
+                    "Price" : 3700.00 
+                },
+                "Chilindron" : {
+                    "Price" : 3100.00 
+                },
+                "Cordero Al vino Tinto" : {
+                    "Price" : 3300.00 
+                }
+            },
+            "Cerdo" : {
+                "Bistec" : {
+                    "Price" : 2000.00
+                },
+                "Masas" : {
+                    "Price" : 2100.00
+                },
+                "Filete" : {
+                    "Price" : 3400.00 
+                },
+                "Lomo ahumado" : {
+                    "Price" : 2300.00
+                },
+                "Lomo a la Miel y Mostaza" : {
+                    "Price" : 2500.00 
+                },
+                "Filete de Lomo Importado" : {
+                    "Price" : 4200.00
+                },
+                "Lomo a la Teriyaki" : {
+                    "Price" : 4300.00 
+                },
+                "Chuletas" : {
+                    "Price" : 2700.00 
+                },
+                "Involtini" : {
+                    "Price" : 3000.00
+                },
+                "Uruguayó" : {
+                    "Price" : 3400.00
+                },
+                "Chateaubriand" : {
+                    "Price" : 5000.00
+                },
+                "Tournedu" : {
+                    "Price" : 4000.00 
+                },
+                "Solomillo" : {
+                    "Price" : 4200.00
+                }
+            },
+            "Pescado" : {
+                "Filete Grille" : {
+                    "Price" : 3000.00
+                },
+                "Filete Papillote" : {
+                    "Price" : 3400.00
+                },
+                "Al Sofrito" : {
+                    "Price" : 3100
+                },
+                "Filete Canciller" : {
+                    "Price" : 4000.00
+                },
+                "Crujiente" : {
+                    "Price" : 3300.00 
+                },
+                "John Bill" : {
+                    "Price" : 4300.00
+                },
+                "Pescado de Talla" : {
+                    "Price" : 6000.00
+                }
+            },
+            "Pollo" : {
+                "Deshuesado" : {
+                    "Price" : 1700.00
+                },
+                "Al'Limon" : {
+                    "Price" : 1950.00
+                },
+                "A la Cazadora" : {
+                    "Price" : 2000.00
+                },
+                "A la Miel y Mostaza" : {
+                    "Price" : 2100.00
+                },
+                "Gordon Blue" : {
+                    "Price" : 2500.00
+                },
+                "Rebosado" : {
+                    "Price" : 2700.00
+                },
+                "Pollo Frito" : {
+                    "Price" : 1500.00
+                },
+                "Medio Pollo" : {
+                    "Price" : 2800.00
+                },
+                "Pollo Entero" : {
+                    "Price" : 3000.00
+                },
+                "Pollo en Cazuela" : {
+                    "Price" : 1980.00
+                }
+            }       
+        }
+    }
+}
+
+
+
+
+
+{
+    "name": "Bom Apetite",
+    "address": "1ra Avenida entre calle 70 y 68, Playa",
+    "schedule": {
+      "monday": {"open": "10:00", "close": "04:00"},
+      "tuesday": {"open": "10:00", "close": "04:00"},
+      "wednesday": {"open": "10:00", "close": "04:00"},
+      "thursday": {"open": "10:00", "close": "04:00"},
+      "friday": {"open": "10:00", "close": "04:00"},
+      "saturday": {"open": "10:00", "close": "04:00"},
+      "sunday": {"open": "10:00", "close": "04:00"}
+    },
+    "contacts" : {
+      "phone_number": null,
+      "mobile" : null,
+      "website": null,
+      "instagram": "@nombre_de_usuario_instagram",
+      "facebook": null
+    },
+    "type_establishment": "Restaurante",
+    "specialty": ["cubana", "italiana", "internacional"],
+    "parking": true,
+    "reservations": true,
+    "payment_methods": {
+      "cash_national": true,
+      "digital_transfer_national": true,
+      "usd_cash": true,
+      "usd_transfer": true,
+      "mlc": true
+    },
+    "delivery_areas": [
+      null
+    ],
+    "power_generator": true ,
+    "menu": {
+      "appetizer": [
+        {"name": "Nombre del entrante", "price": 100 },
+        {"name": "Nombre del entrante", "price": 300}
+      ],
+      "main_course": [
+        {"name": "Nombre del plato", "price": 2500 },
+        {"name": "Nombre del plato", "price": 3000 }
+      ],
+      "garrison": [
+        {"name": "Nombre del acompañamiento", "price": 500 },
+        {"name": "Nombre del acompañamiento", "price": 700 }
+      ],
+      "desserts": [
+        {"name": "Nombre del postre", "price": 800 },
+        {"name": "Nombre del postre", "price": 650}
+      ],
+      "drinks": [
+        {"name": "Nombre de la bebida", "price": 300 },
+        {"name": "Nombre de la bebida", "price": 400 }
+      ]
+    },
+    "service_charge_percentage": 0
+  }

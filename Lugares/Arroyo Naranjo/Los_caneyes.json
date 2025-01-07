@@ -1,0 +1,102 @@
+{
+  "name": "Los caneyes",
+  "address": "Calle Martí y Gutierrez, Reparto Electrico, Arroyo Naranjo",
+  "schedule": {
+    "monday": {"open": "12:00", "close": "23:00"},
+    "tuesday": {"open": "12:00", "close": "23:00"},
+    "wednesday":{"open": "12:00", "close": "23:00"},
+    "thursday": {"open": "12:00", "close": "23:00"},
+    "friday": {"open": "12:00", "close": "23:00"},
+    "saturday": {"open": "12:00", "close": "23:00"},
+    "sunday": {"open": "12:00", "close": "23:00"}
+	},
+	"contacts" : {
+		"phone_number": null,
+    "mobile" : null,
+    "website": null,
+    "instagram": null,
+    "facebook": null
+	},
+  "type_establishment": "Restaurante",
+  "specialty": ["cubana"],
+  "parking": true,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+	},
+  "delivery_areas": [
+		null
+	],
+  "power_generator": true ,
+	"menu": {
+		"appetizer": [
+			{"name": "Tostones", "price": 800 },
+      {"name": "Papas fritas", "price": 900 },
+      {"name": "Fajitas de pollo empanadas", "price": 1000 },
+      {"name": "Fajitas de cerdo empanadas", "price": 1000 },
+      {"name": "Eperlan de pescado", "price": 1300 },
+      {"name": "Masas de Cangrejo con tostones", "price": 1000 },
+      {"name": "Milanesa de res con papas fritas", "price": 1500 },
+      {"name": "Hamburguesa de res c/ queso gratinado y papas fritas", "price": 1500 },
+      {"name": "Hamburguesas de Salmón c/ queso gratinado y tostones", "price": 1500 }
+		],
+		"main_course": [
+			{"name": "Filete de Pescado Grille", "price": 1500 },
+      {"name": "Filete de Pescado empanado", "price": 1500 },
+      {"name": "Filete de Pescado Monte toro", "price": 1800 },
+			{"name": "Filete de Pescado Caney", "price": 1800 },
+      {"name": "Filete de Pescado \"Los Caneyes\" (filete con camarones y queso gratinado)", "price": 2500 },
+      {"name": "Masas de Cangrejo en salsa de tomate", "price": 1300 },
+      {"name": "Salmón rociado en salsa de tomate", "price": 1500 },
+      {"name": "Camarones al Ajillo", "price": 2200 },
+      {"name": "Enchilado de Camarones", "price": 2200 },
+      {"name": "Camarones Rebozados", "price": 2200 },
+      {"name":"Lomo ahumado deshuesado", "price": 1800 },
+      {"name":"Bistec de Cerdo Frito", "price": 1300 },
+      {"name":"Escalope de cerdo", "price": 1500 },
+      {"name":"Bistec de cerdo con Jamón, chorizo y Queso", "price": 1800 },
+      {"name":"Bistec Uruguayo", "price": 1800 },
+      {"name":"Boucht de cerdo", "price": 1300 },
+      {"name":"Ropa Vieja", "price": 1700 },
+      {"name":"Vaca Frita", "price": 1700 },
+      {"name":"Suprema de pollo", "price": 1300 },
+      {"name":"Fajitas salteadas", "price": 1300 },
+      {"name":"Fajitas empanadas", "price": 1400 },
+      {"name":"Suprema de pollo empanada", "price": 1400 },
+      {"name":"Suprema de pollo con jamón y queso", "price": 1800 },
+      {"name":"Gordon Blue", "price": 2300 },
+      {"name":"Suprema de pollo rellena con camarones y queso", "price": 2300 },
+      {"name":"Suprema Los Caneyes (camarones y queso gratinado)", "price": 2300 },
+      {"name": "Spaguettis Napolitano", "price": 700 },
+      {"name":"Pizza Napolitana", "price": 900 },
+      {"name":"Pizza Napolitana con queso Gouda", "price": 1300 },
+      {"name": "Ensalada Mixta de Estación", "price": 250 }
+		],
+		"garrison": [
+			{"name": "Arroz Blanco", "price": 150 },
+      {"name": "Arroz Congri", "price": 200 },
+      {"name": "Yuca con mojo", "price": 200 },
+      {"name":"Puré de malanga (se procesa al pedido)", "price": 400 }
+    ],
+    "desserts": [
+      {"name": "Tarta con Ganache de Chocolate", "price": 450 },
+      {"name": "Pote de helado Gustó (1 litro)", "price": 1000 }
+    ],
+		"drinks": [
+      {"name": "Refresco cola y limón", "price": 250 },
+      {"name": "Refresco de mate", "price": 270 },
+      {"name": "Malta", "price": 300 },
+      {"name": "Agua Mineral Embotellada", "price": 300 },
+      {"name": "Cervezas", "price": 330 },
+      {"name": "Cerveza Cristal", "price": 300 },
+      {"name": "Latas de jugo", "price": 300 },
+      {"name": "Bebida energizante", "price": 100 },
+      {"name": "Café", "price": 100 }
+    ]
+	},
+	"service_charge_percentage": 0
+}

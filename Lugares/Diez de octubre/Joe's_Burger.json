@@ -1,0 +1,69 @@
+{
+    "name": "Joe's Burger",
+    "address": "Esquina Mayia Rodriguez y Aranguren, Diez de Octubre",
+    "schedule": {
+      "monday": {"open": "08:00", "close": "22:00"},
+      "tuesday": {"open": "08:00", "close": "22:00"},
+      "wednesday": {"open": "08:00", "close": "22:00"},
+      "thursday": {"open": "08:00", "close": "22:00"},
+      "friday": {"open": "08:00", "close": "23:00"},
+      "saturday": {"open": "08:00", "close": "23:00"},
+      "sunday": {"open": "08:00", "close": "23:00"}
+    },
+    "contacts" : {
+      "phone_number": "76400715",
+      "mobile" : null,
+      "website": null,
+      "instagram": "@joes_burguer00",
+      "facebook": null
+    },
+    "type_establishment": "Café-Restaurante",
+    "specialty": ["comida chatarra"],
+    "parking": true,
+    "reservations": false,
+    "payment_methods": {
+      "cash_national": true,
+      "digital_transfer_national": true,
+      "usd_cash": false,
+      "usd_transfer": false,
+      "mlc": false
+    },
+    "delivery_areas": [
+      "Diez de Octubre"
+    ],
+    "power_generator": true ,
+    "menu": {
+    "appetizer": [
+      null
+    ],
+    "main_course": [
+      {"name": "Hamburguesa de Cerdo", "price": 500},
+      {"name": "Hamburguesa de Pollo", "price": 500},
+      {"name": "Hamburguesa de Res", "price": 700},
+      {"name": "Hamburguesa Doble", "price": 900},
+      {"name": "Bocadito de Jamón y Queso", "price": 450}
+    ],
+    "garrison": [
+      {"name": "Queso", "price": 120},
+      {"name": "Lechuga", "price": 100},
+      {"name": "Jamón", "price": 100},
+      {"name": "Chorizo", "price": 80},
+      {"name": "Bacon", "price": 150},
+      {"name": "Huevo", "price": 150},
+      {"name": "Cebolla", "price": 50},
+      {"name": "Pepinillo", "price": 50},
+      {"name": "Tomate", "price": 100}
+    ],
+    "desserts" : [
+      null
+    ],
+    "drinks": [
+      {"name": "Cerveza", "price": 350},
+      {"name": "Limonada Frappé", "price": 500},
+      {"name": "Batido de Helado", "price": 700},
+      {"name": "Malteada", "price": 500},
+      {"name": "Potes de Helado", "price": 1000}
+    ]
+  },
+  "service_charge_percentage": 0
+}

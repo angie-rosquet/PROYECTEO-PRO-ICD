@@ -1,0 +1,44 @@
+{    "name" : "Ranchon Don Mrtin",
+    "location" : "lisa",
+    "specialty" : ["Cuban"],
+    "menu" : {
+        "entree" :
+        { 
+        "item" : ["Ensalada Fria", "Coctel de Camarones", "Fritura de Malanga", "Toston con mojo", "Chicharritas", "Papa frita", "Toston Relleno"],
+        "price" : [400, 950, 470, 470, 380, 370, 700, 470],
+        "further_info" : [["ensalada"], ["shrimp"], ["malanga"], ["tostones", "banana"], ["banana"], ["potato"], ["tostones", "banana", "ropavieja"]]
+        },
+        "main_dish" : 
+        { 
+        "items" : ["Masa frita de Cerdo", "Fricase de cerdo", "Bistec de Cerdo Grille", "Bistec de Cerdo Uruguayo", "Bistec de Cerdo Empanado", "Bistec de Cerdo al graten", "Bistec de Cerdo a la reina", "Vaca Frita", "Ropa Vieja", "Pechuga", "Pechuga grille", "Pechuga empanada", "Pechuga al graten", "Pechuga a la reina", "Gordon Blue", "Filete de Pescado Grille", "Filete de Pescado Empanado", "Filete de pescado al graten", "Canciller", "Filete Don Martin", "Camaron Enchilado", "Camaron al ajillo", "Camaron Rebosado", "Langosta al ajillo", "Langosta Enchilado", "Chilindron de Cordero", "Pan con Hamburguesa", "Pan con Hamburguesa, Jamon y Queso", ["Espaguetis", ["Jamon", "Queso Gouda", "agrego de camarones", "pina"]],["Pizza", ["Jamon", "Queso Gouda", "agrego de camarones", "pina"]] ],
+        "price" : [2030, 2030, 1400, 2050, 1600, 1600, 1700, 2820, 2850, 1440, 1530, 1520, 1580, 1780, 1600, 1800, 1800, 2000, 2450, 2000, 2000, 2100, 3600, 3650, 1810, 900, 1280, [840, [250, 300, 800]], [860, [250, 300, 800]]],
+        "further_info" : [[]]
+        },
+        "Side_dish" :
+        { 
+        "items" : ["Arroz Moro", "Arroz Blanco"],
+        "prices" : [180, 100],
+        "further_info" : [["rice", "congri"], ["rice"]]
+        },  
+        "desert" :
+        { 
+        "items" : ["Flan"],
+        "prices" : ["350"],
+        "further_info" : [["flan"]]
+        },
+        
+      "alcoholic" : 
+         { 
+          "items" : [],
+          "prices" : [],
+          "further_info" : [[]]
+          },
+      "non_alcoholic" :
+          { 
+          "items" : ["Refresco de Lata", "Malta Caribia", "Refresco Manzanita", "Seven-up", "Pinita", "Agua", "Energizante", "Jugo de Caja", "Batido de Helado"],
+          "prices" : [220, 230, 290, 240, 225, 180, 245, 175, 450],
+          "further_info" : [["soda"], ["malt"], ["soda", "apple"], ["soda", "7up"], ["soda", "pineapple"], ["water"], ["energydrink"], ["juice", "artifitial"], ["milkshake", "icecream"]]  
+          }
+     }
+    }    
+

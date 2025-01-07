@@ -1,0 +1,485 @@
+{
+    "establishment": {
+      "classification": {
+        "type": ["bar-restaurant"]
+      },
+      "name": "JAMA Asian Food",
+      "type": "Japonesa, Sushi, Asiática",
+      "description": "Restaurante de comida asiática con un toque original de Japón, especializado en sushi y otras delicias asiáticas. Ubicado en el corazón de La Habana Vieja.",
+      "contact_info": {
+        "phone": {
+          "number": "+53 52970745",
+          "type": ["mobile"]
+        }
+      },
+      "opening_hours": {
+        "monday": "12:00 PM - 12:00 AM",
+        "tuesday": "12:00 PM - 12:00 AM",
+        "wednesday": "12:00 PM - 12:00 AM",
+        "thursday": "12:00 PM - 12:00 AM",
+        "friday": "12:00 PM - 12:00 AM",
+        "saturday": "12:00 PM - 12:00 AM",
+        "sunday": "12:00 PM - 12:00 AM"
+      },
+      "address": "Calle Aguiar No 251 B entre O’Reilly y Empedrado, Habana Vieja",
+      "coordinates": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "social_media": {
+        "facebook": "",
+        "instagram": ""
+      },
+      "accepted_payment_methods": ["cash", "bank_transfer"],
+      "delivery_available": true,
+      "service_fee": {
+        "name": "10% service charge",
+        "description": "Se le adiciona el 10% a su cuenta por los servicios.",
+        "applies": true
+      },
+      "features": {
+        "reservation_required": false,
+        "outdoor_seating": false,
+        "dine_in": true,
+        "takeaway": true,
+        "offers": ["Restaurante", "Bar"],
+        "local_options": ["Almuerzo", "Cena", "Postres"],
+        "services": ["Sanitario", "Tiene bar"],
+        "ambience": ["Agradable", "Informal"],
+        "usual_customers": ["Grupos"],
+        "planning": ["Se aceptan reservas"],
+        "children": false,
+        "parking": null
+      },
+      "dietary_options": ["Opciones vegetarianas", "Opciones veganas", "Opciones sin gluten"],
+      "meals": ["Comidas", "Cenas"],
+      "advantages": ["Para llevar", "Reservas", "Capacidad", "Sirve alcohol", "Bar completo", "Servicio de mesa"],
+      "highlights": ["Aperitivos", "Buenos cócteles", "Agradable", "Informal", "Recomendable para ir en grupo"],
+      "menu": {
+       "courses": [
+        {
+          "category": "Entrantes",
+          "items": [
+            {
+              "name": "Huevo de Codorniz",
+              "price": 1200
+            },
+            {
+              "name": "Tostas de Ceviche",
+              "price": 2100
+            },
+            {
+              "name": "Gyozas",
+              "price": 1300
+            },
+            {
+              "name": "Croquetas de Pescado",
+              "price": 1000
+            },
+            {
+              "name": "Rollitos de Primavera",
+              "price": 1200
+            },
+        {
+          "category": "Sopas",
+          "items": [
+            {
+              "name": "Sopa Fukushima",
+              "price": 1800
+            },
+            {
+              "name": "Sopa de Pollo Bruce Lee",
+              "price": 1700
+            },
+            {
+              "name": "Sopa de Mariscos",
+              "price": 2000
+            }
+          ]
+        },
+        {
+          "category": "Ramen",
+          "items": [
+            {
+              "name": "Ramen de Cerdo",
+              "price": 2300
+            },
+            {
+              "name": "Ramen de Mariscos",
+              "price": 2500
+            },
+            {
+                      "category": "Sushis",
+                      "items": [
+                        {
+                          "name": "Dinamita Roll (10 Piezas)",
+                          "price": 2300
+                        },
+                        {
+                          "name": "Ceviche Roll (10 Piezas)",
+                          "price": 2300
+                        },
+                        {
+                          "name": "Huevo de Codorniz (10 Piezas)",
+                          "price": 2100
+                        },
+                        {
+                          "name": "California Roll (10 Piezas)",
+                          "price": 2300
+                        },
+                        {
+                          "name": "New York Roll (10 Piezas)",
+                          "price": 2300
+                        },
+                        {
+                          "name": "Kappa Mari Roll (10 Piezas)",
+                          "price": 2000
+                        },
+                        {
+                          "name": "Tempura Roll Atún y Cebollino (10 Piezas)",
+                          "price": 2300
+                        },
+                        {
+                          "name": "Tempura Roll Pollo Caramelizado (10 Piezas)",
+                          "price": 2300
+                        },
+                        {
+                          "name": "Varadero Roll (10 Piezas)",
+                          "price": 2300
+                        },
+                        {
+                          "name": "Salmón Roll (10 Piezas)",
+                          "price": 2300
+                        },
+                        {
+                          "name": "Batei Kyojin (10 Piezas)",
+                          "price": 2300
+                        },
+                        {
+                          "name": "Tempura Roll de Langosta (10 Piezas)",
+                          "price": 2300
+                        },
+                        {
+                          "name": "Niguiri del Día (4 Piezas)",
+                          "price": 1800
+                        },
+                        {
+                          "name": "Sashimi",
+                          "price": 3000
+                        },
+                        {
+                          "name": "Cubanito Roll",
+                          "price": 1800
+                        },
+                                    {
+                                      "category": "Platos Principales",
+                                      "items": [
+                                        {
+                                          "name": "Wrap Thai Spicy",
+                                          "price": 3000
+                                        },
+                                        {
+                                          "name": "Pollo con Curry Thai",
+                                          "price": 2600
+                                        },
+                                        {
+                                          "name": "Arroz Frito de la Casa (2 PAX)",
+                                          "price": 3000
+                                        },
+                                        {
+                                          "name": "Tacos de Pork Belly 4U/N",
+                                          "price": 2800
+                                        },
+                                        {
+                                          "name": "Filete de Pescado Grille",
+                                          "price": 2800
+                                        },
+                                        {
+                                          "name": "Garbanzos del Mar",
+                                          "price": 2500
+                                        },
+                                        {
+                                          "name": "Pasta de Pollo",
+                                          "price": 2500
+                                        },
+                                        {
+                                          "name": "Pasta de Vegetales",
+                                          "price": 2200
+                                        },
+                                        {
+                                          "name": "Pasta de Mariscos",
+                                          "price": 3200
+                                        },
+                                        {
+                                          "name": "Langosta Grille",
+                                          "price": 3200
+                                        },
+                                        {
+                                          "name": "Tacos de Langostas",
+                                          "price": 3200
+                                        },
+                                        {
+                                          "name": "Tuna Tataki",
+                                          "price": 3000
+                                        },
+                                        {
+                                          "name": "Arroz Meloso de Mariscos",
+                                          "price": 3200
+                                        },
+                                        {
+                                          "name": "Arroz Meloso de Ternera",
+                                          "price": 2800
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "category": "Desserts",
+                                      "items": [
+                                        {
+                                          "name": "Postre",
+                                          "price": 800
+                                        },
+                                                {
+                                                  "category": "Gintonics de la Casa",
+                                                  "items": [
+                                                    {
+                                                      "name": "Gin Special Industriales",
+                                                      "price": 1200
+                                                    },
+                                                    {
+                                                      "name": "Gin Tonic Regular",
+                                                      "price": 900
+                                                    },
+                                                    {
+                                                      "name": "Ginebra Master, Rodaja de Limón, Curacao Azul, Agua Schweppes",
+                                                      "price": 900
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "category": "Cocteles Internacionales",
+                                                  "items": [
+                                                    {
+                                                      "name": "Bloody Mary Hot Special",
+                                                      "price": 900
+                                                    },
+                                                    {
+                                                      "name": "Habana Londres",
+                                                      "price": 1200
+                                                    },
+                                                    {
+                                                      "name": "Bloody Mary Samurai",
+                                                      "price": 1000
+                                                    },
+                                                    {
+                                                      "name": "Ron, Azúcar, Limón, Marrasquino, Ginebra Beefeater",
+                                                      "price": 1000
+                                                    },
+                                                    {
+                                                      "name": "Bloody Mary Cesar Premium",
+                                                      "price": 1000
+                                                    },
+                                                    {
+                                                      "name": "Agua Tónica, Rodaja de Limón",
+                                                      "price": 900
+                                                    },
+                                                    {
+                                                      "name": "Negroni",
+                                                      "price": 1000
+                                                    },
+                                                    {
+                                                      "name": "Red Point",
+                                                      "price": 1200
+                                                    },
+                                                    {
+                                                      "name": "Screwdriver",
+                                                      "price": 900
+                                                    },
+                                                    {
+                                                      "name": "Ginebra Tanqueray, Ají Cachucha, Gotas de Bitter Rojo",
+                                                      "price": 900
+                                                    },
+                                                    {
+                                                      "name": "Sangría",
+                                                      "price": 900
+                                                    },
+                                                    {
+                                                      "name": "Caipirinha",
+                                                      "price": 900
+                                                    },
+                                                    {
+                                                      "name": "Sweet Jabalí",
+                                                      "price": 1200
+                                                    },
+                                                    {
+                                                      "name": "Caipiroska",
+                                                      "price": 900
+                                                    },
+                                                    {
+                                                      "name": "Ginebra Gordon, Rama de Canela, Cereza, Agua Schweppes",
+                                                      "price": 900
+                                                    },
+                                                    {
+                                                      "name": "Gin Mo",
+                                                      "price": 1200
+                                                    },
+                                                    {
+                                                      "name": "Martini",
+                                                      "price": 900
+                                                    },
+                                                    {
+                                                      "name": "Ginebra Gordon, Azúcar, Agua Schweppes, Jugo de Limón, Yerba Buena, Gotas de Angostura",
+                                                      "price": 900
+                                                    },
+                                                    {
+                                                      "name": "Black Russian",
+                                                      "price": 900
+                                                    },
+                                                    {
+                                                      "name": "White Russian",
+                                                      "price": 900
+                                                    },
+                                                    {
+                                                      "name": "Ice Baby",
+                                                      "price": 1200
+                                                    },
+                                                    {
+                                                      "name": "Manhattan",
+                                                      "price": 900
+                                                    },
+                                                    {
+                                                      "name": "Ginebra Bombay Sapphire, Agua Schweppes, Vainilla en Ramas, Enebro",
+                                                      "price": 900
+                                                    },
+                                                    {
+                                                      "name": "Margaret Thatcher",
+                                                      "price": 1200
+                                                    },
+                                                    {
+                                                      "name": "Kentucky Mojito",
+                                                      "price": 900
+                                                    },
+                                                    {
+                                                      "name": "Andrey's JagerMojito",
+                                                      "price": 900
+                                                    },
+                                                    {
+                                                      "name": "Ginebra Beefeater 24, Cointreau, Zumo de Limón",
+                                                      "price": 900
+                                                    },
+                                                    {
+                                                      "name": "Jimmy Hendrick's",
+                                                      "price": 1500
+                                                    },
+                                                    {
+                                                      "name": "Piña Colada",
+                                                      "price": 900
+                                                    },
+                                                    {
+                                                      "name": "Ginebra Hendrick's, Pétalos de Rosa, Pepino, Enebro, Agua Schweppes",
+                                                      "price": 1500
+                                                    },
+                                                    {
+                                                      "name": "Cubata",
+                                                      "price": 900
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "category": "Vinos",
+                                                  "items": [
+                                                    {
+                                                      "name": "Copa de Vino Tinto",
+                                                      "price": 900
+                                                    },
+                                                    {
+                                                      "name": "Copa de Vino Blanco",
+                                                      "price": 900
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "category": "Refrescos",
+                                                  "items": [
+                                                    {
+                                                      "name": "Nacional",
+                                                      "price": 500
+                                                    },
+                                                    {
+                                                      "name": "Importado",
+                                                      "price": 600   
+                                                },
+                                                {
+                                                  "category": "Cocteles Nacionales",
+                                                  "items": [
+                                                    {
+                                                      "name": "Cuba Libre",
+                                                      "price": 900
+                                                    },
+                                                    {
+                                                      "name": "Daiquiri",
+                                                      "price": 900
+                                                    },
+                                                    {
+                                                      "name": "Daiquiri de Frutas Naturales",
+                                                      "price": 950
+                                                    },
+                                                    {
+                                                      "name": "Cubanito",
+                                                      "price": 900
+                                                    },
+                                                    {
+                                                      "name": "Ron Collins",
+                                                      "price": 900
+                                                    },
+                                                    {
+                                                      "name": "Habana Special",
+                                                      "price": 900
+                                                    },
+                                                    {
+                                                      "name": "Canchánchara",
+                                                      "price": 900
+                                                    },
+                                                    {
+                                                      "name": "Mojito de Frutas",
+                                                      "price": 950
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "category": "Aguas",
+                                                  "items": [
+                                                    {
+                                                      "name": "Nacional",
+                                                      "price": 400
+                                                    },
+                                                    {
+                                                      "name": "Importada",
+                                                      "price": 600
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "category": "Jugos",
+                                                  "items": [
+                                                    {
+                                                      "name": "Naturales",
+                                                      "price": 600
+                                                    },
+                                                    {
+                                                      "name": "Limonada",
+                                                      "price": 800
+                                                    },
+                                                    {
+                                                      "name": "Limonada Hierba Buena",
+                                                      "price": 850
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          }
+                                          
+                              
+         
+     

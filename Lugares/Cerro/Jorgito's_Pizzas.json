@@ -1,0 +1,194 @@
+{
+  "name": "Jorgito's Pizzas",
+  "address": "Pedroso entre Infanta y Cruz del Pader, Cerro",
+  "schedule": {
+    "monday": {"open": "11:00", "close": "23:00"},
+    "tuesday": {"open": "11:00", "close": "23:00"},
+    "wednesday": {"open": "11:00", "close": "23:00"},
+    "thursday": {"open": "11:00", "close": "23:00"},
+    "friday": {"open": "11:00", "close": "23:00"},
+    "saturday": {"open": "11:00", "close": "23:00"},
+    "sunday": {"open": "11:00", "close": "23:00"}
+  },
+  "contacts" : {
+    "phone_number": "78780156",
+    "mobile" : "54031349",
+    "website": null,
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["italiana"],
+  "parking": false,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": [
+    "Arroyo Naranjo",
+    "Boyeros",
+    "Centro Habana",
+    "Cerro",
+    "Cotorro",
+    "Diez de Octubre",
+    "Guanabacoa",
+    "Habana del Este",
+    "Habana Vieja",
+    "La Lisa",
+    "Marianao",
+    "Playa",
+    "Plaza de la Revolución",
+    "Regla",
+    "San Miguel del Padrón" 
+  ],
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      null
+    ],
+    "main_course": [
+      {"name": "Pizza de napolitana", "price": 850, "added":{
+        "Jamón": 180,
+        "Piña": 180,
+        "Pimiento": 250,
+        "Cebolla": 300,
+        "Chorizo": 170,
+        "Hawaiana": 250,
+        "Queso Gouda": 300,
+        "Queso Nacinal": 180,
+        "Queso Mozzarella": 240
+        }},
+      {"name": "Pizza de chorizo", "price": 1000,"added":{
+        "Jamón": 180,
+        "Piña": 180,
+        "Pimiento": 250,
+        "Cebolla": 300,
+        "Chorizo": 170,
+        "Hawaiana": 250,
+        "Queso Gouda": 300,
+        "Queso Nacinal": 180,
+        "Queso Mozzarella": 240
+        }},
+      {"name": "Pizza de jamón", "price": 1000,"added":{
+        "Jamón": 180,
+        "Piña": 180,
+        "Pimiento": 250,
+        "Cebolla": 300,
+        "Chorizo": 170,
+        "Hawaiana": 250,
+        "Queso Gouda": 300,
+        "Queso Nacinal": 180,
+        "Queso Mozzarella": 240
+        }},
+      {"name": "Pizza de hawaiana", "price": 1150,"added":{
+        "Jamón": 180,
+        "Piña": 180,
+        "Pimiento": 250,
+        "Cebolla": 300,
+        "Chorizo": 170,
+        "Hawaiana": 250,
+        "Queso Gouda": 300,
+        "Queso Nacinal": 180,
+        "Queso Mozzarella": 240
+        }},
+      {"name": "Pizza de cebolla", "price": 1000,"added":{
+        "Jamón": 180,
+        "Piña": 180,
+        "Pimiento": 250,
+        "Cebolla": 300,
+        "Chorizo": 170,
+        "Hawaiana": 250,
+        "Queso Gouda": 300,
+        "Queso Nacinal": 180,
+        "Queso Mozzarella": 240
+        }},
+      {"name": "Espaguetis", "price": 850,"added":{
+        "Jamón": 180,
+        "Piña": 180,
+        "Pimiento": 250,
+        "Cebolla": 300,
+        "Chorizo": 170,
+        "Hawaiana": 250,
+        "Queso Gouda": 300,
+        "Queso Nacinal": 180,
+        "Queso Mozzarella": 240
+        }},
+      {"name": "Espaguetis de jamón", "price": 1100,"added":{
+        "Jamón": 180,
+        "Piña": 180,
+        "Pimiento": 250,
+        "Cebolla": 300,
+        "Chorizo": 170,
+        "Hawaiana": 250,
+        "Queso Gouda": 300,
+        "Queso Nacinal": 180,
+        "Queso Mozzarella": 240
+        }},
+      {"name": "Espaguetis de chorizo", "price": 1000,"added":{
+        "Jamón": 180,
+        "Piña": 180,
+        "Pimiento": 250,
+        "Cebolla": 300,
+        "Chorizo": 170,
+        "Hawaiana": 250,
+        "Queso Gouda": 300,
+        "Queso Nacinal": 180,
+        "Queso Mozzarella": 240
+        }},
+      {"name": "Hamburguesa ", "price": 1200,"added":{
+        "Jamón": 180,
+        "Piña": 180,
+        "Pimiento": 250,
+        "Cebolla": 300,
+        "Chorizo": 170,
+        "Hawaiana": 250,
+        "Queso Gouda": 300,
+        "Queso Nacinal": 180,
+        "Queso Mozzarella": 240
+        }},
+      {"name": "Hamburguesa jamón y queso", "price": 1650,"added":{
+        "Jamón": 180,
+        "Piña": 180,
+        "Pimiento": 250,
+        "Cebolla": 300,
+        "Chorizo": 170,
+        "Hawaiana": 250,
+        "Queso Gouda": 300,
+        "Queso Nacinal": 180,
+        "Queso Mozzarella": 240
+        }},
+      {"name": "Hamburguesa onbazar", "price": 2700,"added":{
+        "Jamón": 180,
+        "Piña": 180,
+        "Pimiento": 250,
+        "Cebolla": 300,
+        "Chorizo": 170,
+        "Hawaiana": 250,
+        "Queso Gouda": 300,
+        "Queso Nacinal": 180,
+        "Queso Mozzarella": 240
+        }}
+      ],
+    "garrison": [
+      null
+    ],
+    "desserts": [
+      null
+    ],
+    "drinks": [
+      {"name": "Café expreso", "price": 180},
+      {"name": "Café cortado", "price": 220 },
+      {"name": "Capuchino", "price": 450 },
+      {"name": "Café bombón", "price": 450 },
+      {"name": "Piña colada", "price": 600 },
+      {"name": "Piña colada (alchol)", "price": 750 },
+      {"name": "Limonada frapé", "price": 400 },
+      {"name": "Malteada", "price": 500 }
+    ]
+  },
+  "service_charge_percentage": 0
+}

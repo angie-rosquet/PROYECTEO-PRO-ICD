@@ -1,0 +1,395 @@
+{
+    "Name" : "Salsa Mora",
+    "type" : "Bar/Restaurante",
+    "#" : null,
+    "web" : "no poseen una web pero poseen insta",
+    "Reference Point" : "Hotel Gran Mutuh",
+    "Status" : "mipime",
+    "events" : "realizan actividades con una empresa extranjera, dan clases de coctelería a dicha empresa.",
+    "people_trend" : "Todas las edades",
+    "establishment_features" : [
+        "vistas al mar",
+        "biplanta",
+        "establecimiento confeccionado de madera"
+    ],
+    "speciality" : [
+        "cocteleria completa",
+        "comida criolla",
+        "comida internacional"
+    ],
+    
+    "establishment_address" : {
+        "Province" : "La Habana",
+        "municipality" : "Playa",
+        "address" : "1ra Avenida entre calle 70 y 68"
+    },
+
+    "open_hours": {
+        "sunday" : "12:00m - 4:00am",
+        "monday" : "12:00m - 4:00am",
+        "tuesday" : "12:00m - 4:00am",
+        "wednesday" : "12:00m - 4:00am",
+        "thursday" : "12:00m - 4:00am",
+        "friday" : "12:00m - 4:00am",
+        "saturday" : "12:00m - 4:00am"
+    },
+
+    "curiosity" : "Poseen diversidad de carne importada que no se encuentra en la carta, para mas referencias ir a su instagram",
+    "Menu" : {
+        "Entrantes" : {
+            "Entrepanes" : {
+                "Pan de la casa" : {
+                    "Price" : 250.00
+                },
+                "Baguette J&Q" : {
+                    "Price" : 750.00
+                },
+                "Baguette Queso" : {
+                    "Price" : 650.00
+                }
+            },
+            "Pica Pica" : {
+                "Croquetas de la casa" : {
+                    "Price" : 1000.00
+                },
+                "Tostones rellenos" : {
+                    "Price" : 1050.00
+                },
+                "Tacos de la casa" : {
+                    "Price" : 1150.00
+                },
+                "Ceviche" : {
+                    "Price" : 2250.00
+                },
+                "Fajitas" : {
+                    "Price" : 2050.00
+                },
+                "Esperland" : {
+                    "Price" : 2250.00
+                },
+                "Bolitas de Queso" : {
+                    "Price" : 1450.00
+                },
+                "Garbanzos Fritos" : {
+                    "Price" : 1250.00
+                },
+                "Coctel de Camarones" : {
+                    "Price" : 2350.00
+                },
+                "Papas Fritas" : {
+                    "Price" : 1250.00
+                }
+            },
+            "Guarniciones" : {
+                "Ensalada Mixta" : {
+                    "Price" : 450.00
+                },
+                "Arroz Blanco" : {
+                    "Price" : 450.00
+                },
+                "Arroz Moro" : {
+                    "Price" : 500.00
+                },
+                "Tostones Naturales" :{
+                    "Price" : 250.00
+                }
+            }
+        },
+        "Platos Fuertes" :{
+            "Pescados y Mariscos" : {
+                "Filete de Pescado" : {
+                    "Price" : 4000.00
+                },
+                "Filete de Canciller" : {
+                    "Price" : 5000.00
+                },
+                "Parguete Asado" : {
+                    "Price_range" : "1000 * lb"
+                },
+                "Camarón al Gusto" : {
+                    "Price" : 4300.00
+                },
+                "Langosta al Gusto" : {
+                    "Price" : 4500.00
+                },
+                "Pulpo al Gusto" : {
+                    "Price" : 4500.00
+                },
+                "Langosta Termidor" : {
+                    "Price" : 5000.00
+                },
+                "Caldereta de Mariscos" : {
+                    "Price" : 6000.00
+                },
+                "Grillada del Mar" : {
+                    "Price" : 6000.00
+                }
+            },
+            "Carnes y Pollo" : {
+                "Bistec de Cerdo" : {
+                    "Price" : 3000.00
+                },
+                "Uruguayo de Cerdo" : {
+                    "Price" : 4500.00
+                },
+                "Chuleta de Cerdo" : {
+                    "Price" : 3500.00
+                },
+                "Cerdo Asado" : {
+                    "Price" : 3000.00
+                },
+                "Pollo Asado" : {
+                    "Price" : 2300.00
+                },
+                "Cordon Blue" : {
+                    "Price" : 4500.00
+                },
+                "Pechuga de Pollo" : {
+                    "Price" : 2500.00
+                },
+                "Ropa Vieja" : {
+                    "Price" : 2500.00
+                },
+                "Rib Eye" : {
+                    "Price" : 8500.00
+                },
+                "Cordero Estofado" : {
+                    "Price" : 3500.00
+                },
+                "Tomahawk" : {
+                    "Price" : 12500.00
+                }
+            },
+            "Arroces" : {
+                "Meloso de Pollo" : {
+                    "Price" : 1800.00
+                },
+                "Melosos de Mariscos" : {
+                    "Price" : 3500.00
+                }
+            },
+            "Pastas" : {
+                "Pasta Nápoles" : {
+                    "Price" : 1300.00
+                },
+                "Pasta Fruto di Mare" : {
+                    "Price" : 3000.00
+                },
+                "Pasta Carbonara" : {
+                    "Price" : 2500.00
+                }
+            }
+        },
+        "Postres":{
+            "Tarta" : {
+                "Price" : 1000.00
+            },
+            "Flan de la Casa" : {
+                "Price" : 500.00
+            }
+        },
+        "Bebidas" : {
+            "Infusiones" : {
+                "Café" : {
+                    "Price" : 250.00
+                },
+                "Café Cortado" : {
+                    "Price" : 300.00
+                },
+                "Capuccino" : {
+                    "Price" : 700.00
+                },
+                "Frappuccino" : {
+                    "Price" : 1000.00
+                }
+            },
+            "Bebidas Normales" : {
+                "Limonada" : {
+                    "Price" : 500.00
+                },
+                "Jugos Naturales" : {
+                    "Price" : 250.00
+                },
+                "Refrescos" : {
+                    "Price" : 350.00
+                },
+                "Agua Natural" : {
+                    "Price" : 250.00
+                },
+                "Energizantes" : {
+                    "Price" : 400.00
+                },
+                "Red Bull" : {
+                    "Price" : 650.00
+                }
+            },
+            "Cervezas" : {
+                "Cerveza Dispensada" : {
+                    "Price" : 350.00
+                },
+                "Cerveza Cristal" : {
+                    "Price" : 600.00
+                },
+                "Cerveza Bucanero" : {
+                    "Price" : 600.00
+                },
+                "Cerveza Corona" : {
+                    "Price" : 850.00
+                },
+                "Servicio Michelada" : {
+                    "Price" : 300.00
+                },
+                "Servicio Chelada" : {
+                    "Price" : 250.00
+                }
+            },
+            "Coctelería" : {
+                "Caipiriña" : {
+                    "Price" : 500.00
+                },
+                "Caipirisima" : {
+                    "Price" : 500.00
+                },
+                "Caipiroska" : {
+                    "Price" : 500.00
+                },
+                "Mojito" : {
+                    "Price" : 700.00
+                },
+                "Piña Colada" : {
+                    "Price" : 550.00
+                },
+                "Ron Collins" : {
+                    "Price" : 500.00
+                },
+                "Tom Collins" : {
+                    "Price" : 780.00
+                },
+                "Martini" : {
+                    "Price" : 1000.00
+                },
+                "Goin Tonic" : {
+                    "Price" : 780.00
+                },
+                "Margarita" : {
+                    "Price" : 550.00
+                },
+                "Tequila Sunrise" : {
+                    "Price" : 550.00
+                },
+                "Cuba Libre" : {
+                    "Price" : 700.00
+                },
+                "Cubata" : {
+                    "Price" : 800.00
+                },
+                "Cubata Santiago 8" : {
+                    "Price" : 900.00
+                },
+                "Cubanito" : {
+                    "Price" : 600.00
+                },
+                "Daiquirí" : {
+                    "Price" : 550.00
+                },
+                "Bloody Mary" : {
+                    "Price" : 960.00
+                },
+                "Sangría Salsa Mora" : {
+                    "Price" : 600.00
+                }
+            },
+            "Licores" : {
+                "Baileys" : {
+                    "Price" : 1000.00
+                },
+                "Jagger" : {
+                    "Price" : 750.00
+                },
+                "Campari" : {
+                    "Price" : 800.00
+                },
+                "Sambuca" : {
+                    "Price" : 700.00
+                },
+                "Grapa" : {
+                    "Price" : 550.00
+                }
+            },
+            "Rones Tragos" : {
+                "HC 7 Años" : {
+                    "Price_range" : "650.00 - 8500.00"
+                },
+                "HC Selección" : {
+                    "Price_range" : "1850.00 - 25000.00"
+                },
+                "Santiago 8 Años" : {
+                    "Price_range" : "780.00 - 10500.00"
+                },
+                "Santiago 11 Años" : {
+                    "Price_range" : "1300.00 - 18000.00"
+                },
+                "Santiago 12 Años" : {
+                    "Price_range" : "1500.00 - 19600.00"
+                },
+                "Pacto Navío" : {
+                    "Price_range" : "1850.00 - 25000.00"
+                }
+            },
+            "Vodkas Tragos" : {
+                "Giroc" : {
+                    "Price_range" : "1300.00 - 17000.00"
+                },
+                "Grey Gosse" : {
+                    "Price_range" : "1500.00 - 20000.00"
+                }
+            },
+            "Tequilas Tragos" : {
+                "Patrón Silver" : {
+                    "Price_range" : "2400.00 - 35000.00"
+                },
+                "Patrón Reposado" : {
+                    "Price_range" : "2500.00 - 37000.00"
+                },
+                "Olmeca Silver" : {
+                    "Price_range" : "600.00 - 7500.00"
+                },
+                "Olmeca Reposado" : {
+                    "Price_range" : "700.00 - 8500.00"
+                }
+            },
+            "Whisky Tragos" : {
+                "Jameson" : {
+                    "Price_range" : "700.00 - 9500.00"
+                },
+                "Ballantine's" : {
+                    "Price_range" : "900.00 - 9500.00"
+                },
+                "Chivas 12" : {
+                    "Price_range" : "1100.00 - 15000.00"
+                },
+                "JW Red Label" : {
+                    "Price_range" : "850.00 - 12000.00"
+                },
+                "JW Black Label" : {
+                    "Price_range" : "1500.00 - 20000.00"
+                },
+                "JW Blue Label" : {
+                    "Price_range" : "10000(trago)" 
+                },
+                "JW Gold Label" : {
+                    "Price_range" : "2300(trago)"
+                },
+                "JW Green Label" : {
+                    "Price_range" : "2500(trago"
+                },
+                "Buchanan's" : {
+                    "Price_range" : "2500.00 - 35000.00"
+                },
+                "Jack's Daniel" : {
+                    "Price_range" : "1200.00 - 18000.00"
+                }
+            }
+        }
+    }
+}

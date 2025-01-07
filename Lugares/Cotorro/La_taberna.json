@@ -1,0 +1,89 @@
+{
+  "name": "La Taberna",
+  "address": "avenida 101 número 3006 entre 30 y 32 magdalena cotorro",
+  "schedule": {
+    "monday": {"open": null, "close": null},
+    "tuesday": {"open": "12:00", "close": "24:00"},
+    "wednesday": {"open": "12:00", "close": "24:00"},
+    "thursday":{"open": "12:00", "close": "24:00"},
+    "friday": {"open": "12:00", "close": "24:00"},
+    "saturday": {"open": "12:00", "close": "24:00"},
+    "sunday": {"open": "12:00", "close": "24:00"}
+  },
+  "contacts": {
+    "phone_number": "76824608",
+    "mobile": null,
+    "website": null,
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["cubana"],
+  "parking": true,
+  "reservations": true,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": [
+    null
+  ],
+  "power_generator": true,
+  "menu": {
+    "entrants": [
+      {"name": "Jamon y Queso", "price": 700},
+      {"name": "Jamon, Queso y Chorizo", "price": 850},
+      {"name": "Fritura de Malanga", "price": 400},
+      {"name": "Croqueta", "price": 400},
+      {"name": "Toston", "price": 300},
+      {"name": "Toston Relleno", "price": 500},
+      {"name": "Eperlan", "price": 1300},
+      {"name": "Coctel de Camaron", "price": 900}
+    ],
+    "main_course": [
+      {"name": "Bistec de Pollo", "price": 1300},
+      {"name": "Pollo Empanado", "price": 1400},
+      {"name": "Cordon Bleu", "price": 1600},
+      {"name": "Bistec de Cerdo", "price": 1400},
+      {"name": "Baston de Cerdo", "price": 1200},
+      {"name": "Masa Frita", "price": 1300},
+      {"name": "Uruguayo", "price": 1800},
+      {"name": "Camaron al Ajillo", "price": 1600},
+      {"name": "Camaron Empanado", "price": 1700},
+      {"name": "Camaron Enchilado", "price": 1800},
+      {"name": "Tabla Taberna", "price": 1500},
+      {"name": "Tabla Tabernazo", "price": 2800},
+      {"name": "Espaguetis Napolitanos", "price": 600},
+      {"name": "Espaguetis con Jamon", "price": 700},
+      {"name": "Espaguetis con Chorizo", "price": 700},
+      {"name": "Espaguetis con Jamon y Chorizo", "price": 900},
+      {"name": "Espaguetis Mixtos", "price": 1000},
+      {"name": "Pizza Napolitana", "price": 600},
+      {"name": "Pizza con Cebolla", "price": 700},
+      {"name": "Pizza con Jamon", "price": 700},
+      {"name": "Pizza Hawaiana", "price": 850},
+      {"name": "Pizza con Chorizo", "price": 750},
+      {"name": "Pizza Mixta", "price": 950},
+      {"name": "Pizza Taberna", "price": 1500},
+      {"name": "Pizza Camaron", "price": 1500}
+    ],
+    "garrison": [
+      {"name": "Arroz Blanco", "price": 150},
+      {"name": "Arroz Moro", "price": 200},
+      {"name": "Vianda Hervida", "price": 100},
+      {"name": "Ensalada", "price": 250},
+      {"name": "Chicharrita de Boniato", "price": 300},
+      {"name": "Chicharrita de Platano", "price": 300}
+    ],
+    "desserts": [
+      null
+    ],
+    "drinks": [
+      null
+    ]
+  },
+  "service_charge_percentage": 5
+}

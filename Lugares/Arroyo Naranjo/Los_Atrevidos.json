@@ -1,0 +1,94 @@
+{
+  "name": "Pizzeria Los Atrevidos",
+  "address": "Calzada de Bejucal # 2639 e/ Estrella y Camilo Sierra, Arroyo Naranjo",
+  "schedule": {
+    "monday": {"open": "10:00", "close": "21:00"},
+    "tuesday": {"open": "10:00", "close": "21:00"},
+    "wednesday": {"open": "10:00", "close": "21:00"},
+    "thursday": {"open": "10:00", "close": "21:00"},
+    "friday": {"open": "10:00", "close": "21:00"},
+    "saturday": {"open": "10:00", "close": "21:00"},
+    "sunday": {"open": "10:00", "close": "21:00"}
+  },
+  "contacts" : {
+    "phone_number": "76470313",
+    "mobile" : "52966948",
+    "website": "https://atrevidospizzeria.com/",
+    "instagram": null,
+    "facebook": "https://www.facebook.com/pizzerialosatrevidos"
+  },
+  "type_establishment": "Cafeteria",
+  "specialty": ["Italiana"],
+  "parking": true,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": [
+    "Arroyo Naranjo",
+    "Boyeros",
+    "Cerro",
+    "Cotorro",
+    "Diez de Octubre",
+    "Guanabacoa",
+    "Habana del este",
+    "Habana Vieja",
+    "La Lisa",
+    "Marianao",
+    "Playa",
+    "Plaza de la Revolucion",
+    "Regla",
+    "San Miguel del Padron"
+  ],
+  "power_generator": true ,
+  "menu": {
+    "appetizer": [
+      null
+    ],
+    "main_course": [
+      {"name": "Pizza Napolitana", "price": 1100},
+      {"name": "Pizza d' Cebolla", "price": 1250},
+      {"name": "Pizza d' Champiñones", "price": 1300},
+      {"name": "Pizza d' Pimiento", "price": 1250},
+      {"name": "Pizza d' Jamón", "price": 1350},
+      {"name": "Pizza d' Aceitunas", "price": 1400},
+      {"name": "Pizza d' Chorizo", "price": 1350},
+      {"name": "Pizza d' Chorizo Vela", "price": 1150},
+      {"name": "Pizza Hawaiana", "price": 1400},
+      {"name": "Pizza d' Bacon", "price": 1400},
+      {"name": "Pizza d' Atún", "price": 1500},
+      {"name": "Pizza Bolonesa", "price": 1600},
+      {"name": "Pizza d' Jamón Serrano", "price": 1550},
+      {"name": "Pizza d' Camarones", "price": 1650},
+      {"name": "Pizza 4 Quesos", "price": 1500},
+      {"name": "Pizza Atrevida", "price": 1800},
+      {"name": "Pizza Jamón Pernia", "price": 1500},
+      {"name": "Lasaña", "price": 1100},
+      {"name": "Spaguetis Napolitanos", "price": 1000},
+      {"name": "Spaguetis d' Parmesano", "price": 1200},
+      {"name": "Spaguetis d' Jamón", "price": 1250},
+      {"name": "Spaguetis d' Atún", "price": 1350}, 
+      {"name": "Spaguetis d' Chorizo", "price": 1250}, 
+      {"name": "Spaguetis d' Aceituna", "price": 1300}, 
+      {"name": "Spaguetis d' Cebolla", "price": 1150}, 
+      {"name": "Spaguetis Hawaianos", "price": 1300}, 
+      {"name": "Spaguetis 4 Quesos", "price": 1400}, 
+      {"name": "Spaguetis Atrevidos", "price": 1050},
+      {"name": "Spaguetis Bolonesa", "price": 1450}
+    ],
+    "garrison": [
+      null
+    ],
+    "desserts": [
+      null
+    ],
+    "drinks": [
+      null
+    ]
+  },
+  "service_charge_percentage": 0
+}

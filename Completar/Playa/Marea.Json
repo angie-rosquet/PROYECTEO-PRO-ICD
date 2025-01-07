@@ -1,0 +1,160 @@
+{
+    "Name" : "Marea",
+    "type" : "Restaurante",
+    "#" : "72907692",
+    "web" : null,
+    "Reference Point" : "Marina Hemingway",
+    "Status" : "mipime",
+    "events" : null,
+    "people_trend" : "Todas las edades",
+    "establishment_features" : [
+        "hermosas vistas a la bahía",
+        "tiene algunas secciones q se encuentran directamente encima del agua",
+        "establecimiento con cesped sintético"
+    ],
+    "speciality" : [
+        "comida criolla",
+        "comida italiana",
+        "comida del mar"
+    ],
+    
+    "establishment_address" : {
+        "Province" : "La Habana",
+        "municipality" : "Playa",
+        "address" : "5ta AVE No.25804 / 258 y 260",
+        "coordinates" : "3GP2+4F"
+    },
+
+    "open_hours": {
+        "sunday" : "12:00m - 12:00am",
+        "monday" : "12:00m - 12:00am",
+        "tuesday" : "12:00m - 12:00am",
+        "wednesday" : "12:00m - 12:00am",
+        "thursday" : "12:00m - 12:00am",
+        "friday" : "12:00m - 12:00am",
+        "saturday" : "12:00m - 12:00am"
+    },
+
+    "curiosity" : "Poseen un columpio en el agua en el cual la gente posa para tirarse fotos, se observan hermosas escenas de fondo",
+    "Menu" : {
+        "Started Food" : {
+            "Croquetas Marea" : {
+                "Price" : 850.00
+            },
+            "Empanadas de bolon esa" : {
+                "Price" : 750.00
+            },
+            "Crujientes de pollo" : {
+                "Price" : 850.00
+            },
+            "Botanas de yuca y ropa vieja" : {
+                "Price" : 750.00
+            },
+            "Tasty de pescado" : {
+                "Price" : 900.00
+            },
+            "Frituras de Mariscos" : {
+                "Price" : 3600.00
+            },
+            "Tabla Marea" : {
+                "Price" : 4000.00 
+            },
+            "Carpaccio de res trufado" : {
+                "Price" : 2350.00
+            },
+            "Coctel de camarón" : {
+                "Price" : 1100.00
+            },
+            "Ensalada Panzanella" : {
+                "Price" : 1000.00
+            },
+            "Ensalada de Cesar" : {
+                "Price" : 1400.00
+            },
+            "Ceiche de pescado" : {
+                "Price" : 900.00
+            },
+            "Ceviche mixto" : {
+                "Price" : 1250.00
+            }
+        },
+        "Main Dishes" : {
+            "Filete de pescado estilo mediterraneo" : {
+                "Price" : 3200.00
+            },
+            "Camarón Marea" : {
+                "Price" : 2500.00
+            },
+            "Fruto del Mar" : {
+                "Price" : 3200.00
+            },
+            "Caldereta de mariscos" : {
+                "Price" : 3600.00
+            },
+            "Filet Mignon" : {
+                "Price" : 5000.00
+            },
+            "Puntas de filete de res al fungi" : {
+                "Price" : 4200.00
+            },
+            "Manjar criollo" : {
+                "Price" : 2200.00
+            },
+            "Pechuga de pollo" : {
+                "Price" : 2100.00
+            },
+            "Solomillo de cerdo" : {
+                "Price" : 4200.00
+            },
+            "Fruto del Mar a a la brasa" : {
+                "Price" : 3200.00
+            },
+            "Brocheta de res" : {
+                "Price" : 4200.00
+            },
+            "Brochetas del mar" : {
+                "Price" : 3200.00
+            },
+            "Spaghetti Napoles" : {
+                "Price" : 2000.00
+            },
+            "Spaghetti Carbonara" : {
+                "Price" : 2700.00
+            },
+            "Spaghetti Bolon esa" : {
+                "Price" : 2700.00
+            }
+        },
+        "Fittings" : {
+            "Arroz blanco" : {
+                "Price" : 400.00
+            },
+            "Arroz Primavera" : {
+                "Price" : 400.00
+            },
+            "Crema de malanga" : {
+                "Price" : 400.00
+            },
+            "Ensalada de estacion" : {
+                "Price" : 400.00
+            }
+        },
+        "Desserts" : {
+            "Coulant" : {
+                "Price" : 700.00
+            },
+            "Blondie de limon" : {
+                "Price" : 1050.00
+            },
+            "Mousse de chocolate" : {
+                "Price" : 1000.00
+            },
+            "Flan de caramelo" : {
+                "Price" : 800.00
+            },
+            "Tarta Fría" : {
+                "Price" : 1100.00
+            }
+        }
+    }
+}

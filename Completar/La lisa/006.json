@@ -1,0 +1,45 @@
+{    "name" : "Finca La Pinta",
+    "location" : "lisa",
+    "specialty" : ["Caribbean"],
+    "menu" : {
+        "entree" :
+        { 
+        "item" : ["Croquetas de la Casa", "Frituras de Malanga", "Tostones rellenos con ropa vieja", "Eperlan de Pescado", "Coctel de Camarones", "Sopa de Cebolla Francesa", "Ceviche Tropical", "Coctel de Langostas", "Garbanzos Fritos", "Ensalada de Pollo con Vegetales", "Tartar de atun rojo", "Queso Provolone al horno", "Calamares fritos rebozados", "Tabla espanola", "Crema de Queso", "Crema Aurora", "Crema de Champinones", "Crema Virginia"],
+        "price" : [600, 600, 800, 1000, 1000, 1000, 1100, 1200, 1500, 1800, 2500, 2500, 3500, 5000, 5000, 650, 650, 700, 700],
+        "further_info" : [["croquettes"], ["malanga"], ["tostones", "ropavieja"], ["eperlan", "fish"], ["shrimp"], ["soup", "onion"], ["ceviche"], ["lobster"], ["garbanzos"], ["chicken", "vegetables"], ["tuna"], ["cheese"], ["squid"], [null], ["cheese"], ["cheese"], ["cheese", "mushrooms"], ["cheese", "ham"]]
+        },
+        "main_dish" : 
+        { 
+        "items" : ["Rodaballo en salsa de hinojo", "Arroz con Mariscos", "Tesoros del Caribe", "Medallon de atun sellado con ajonjoli negro", "Filete de Salmon en salsa de limon y vinagre balsamico", "Chuletillas de cordero con salsa chimichurri", "Langosta al cafe del chef Gilberto Smith", "Delmonico Steak con mantequilla de ajo", "Tomahawk Steak", "Risotto Parmesano", "Risotto Funghi porcini", "Risotto negro con camarones", "risotto al queso azul", "Risotto de Mariscos", "Pizza de la Finca", "Pizza loncheada de Peperoni", "Espaguetis a la Carbonara", "Pasta Alla Routa", "Pasta alla routa burrata", "Masas de cerdo fritas", "Fricase de cerdo a la camagueyana", "Costillas de cerdo", "Solomillo de Cerdo en salsa", "Pechuga de Pollo gratinada con jamon y queso", "Vaca frita", "Ropa vieja a la cubana", "Estofado de ternera", "Tasajo Montevideo", "Bistec de palomilla", "Chuleta de ternera", "Costilla de res a la parrilla", "Filete de rinonada", "Rabo encendido cubano", "Churrasco con salsa chimichurri", "Tournedo de ternera", "Ribeye con salsa BBQ", "Ossobuco en salsa de Vino tinto", "T-Bone Steak a la Parrilla", "Cowboy Ribeye Steak", "Chilindron de cordero al vino", "Cordero Steak a la parrilla", "Filete de Pescado Grille", "Enchiladp de Camarones", "Camarones a la parrilla", "Camarones al ajillo", "Pulpo mulato", "Tataki de atun rojo con sesamo", "Enchilada de langosta", "Cola de langosta a la mariposa", "Pescado La Pinta", "Langosta Thermidor", "Camarones Franceses sobre linguini", "Pescado Frances sobre Linguini", "Bacalao a la gallega", "Langosta La Pinta", "Calderata de Cangrejos moros", "Cazuela de mariscos"],
+        "price" : [4000, 4200, 7000, 2500, 4000, 4000, 4200, 8500, 19200, 1500, 2200, 2500, 3500, 4000, 1600, 2000, 2000, 3000, 5000, 1800, 2000, 3000, 3500, 2000, 1500, 1700, 2000, 3500, 3500, 3500, 3800, 4500, 4500, 4500, 5000, 5000, 5000, 7000, 9000, 3500, 4000, 2000, 2000, 2000, 2200, 2500, 3000, 3000, 3200, 3500, 3500, 3500, 3500, 3500, 3500, 3500, 4000],
+        "further_info" : [[]]
+        },
+        "Side_dish" :
+        { 
+        "items" : ["Ensalada de vegetales", "ensalada De la Finca", "caprese"],
+        "prices" : [500, 1200, 2000],
+        "further_info" : [["vegetables"], ["vegetables", "cheese"], ["vegetables", "cheese"]]
+        },  
+        "desert" :
+        { 
+        "items" : ["Pastel de Hojaldre", "Roscas rellenas de Nutella", "Roscas de Frambuesas", "Pastel de Limon", "Lonjas de Caramelo", "Lonjas de fresa", "Copa de Tiramisu", "pastel de Chocolate", "Jarra Tres Leches", "cheesecake", "tartaleta de chocolate", "tartaleta de limon", "Torrejas con helado de vainilla", "tarta de frutas"],
+        "prices" : [120, 260, 260, 550, 550, 550, 600, 600, 600, 600, 600, 600],
+        "further_info" : [[null], ["donut", "nutella"], ["donut", "cranberries"], ["cake", "lemon"], ["caramel"], ["strawberry"], ["tiramisu", "delight"], ["cake", "chocolate"], ["cake", "milk"], ["cake", "cheese"], ["chocolate"], ["lemon"], ["iceream", "delight"], ["fruit", "delight"] ]
+        },
+          
+       "alcoholic" : 
+         { 
+          "items" : ["Jarra de Cerveza", "Cerveza Stella Arcoiris", "Cerveza Cristal", "Cerveza Bucanero", "Cerveza Cristal Extra", "Cerveza Corona"],
+          "prices" : [300, 750, 400, 400, 400, 750],
+          "further_info" : [["beer"], ["beer"], ["beer"], ["beer"], ["beer"], ["beer"]]
+          },
+       "non_alcoholic" :
+          { 
+          "items" : ["Expresso", "Macchiato", "Americano", "Capuccino", "Latte", "Moka", "Bombon", "Macchiato Nutella", "Moka blanco", "Macchiato de vainilla francesa", "Macchiato de caramelo", "Macchiato de avellana", "Chocolate Mexicano Frappuccino", "Frapuccino Moka Blanco y Negro", "Refresco Ciego Montero", "Malta", "coca-cola", "Fanta", "Sprite", "Pepsi cola", "Seven-up", "Bebida Energizante", "Malteada"],
+          "prices" : [250, 300, 300, 350, 350, 400, 450, 600, 600, 600, 600, 600, 800, 850, 280, 320, 450, 450, 450, 450, 450, 350, 800],
+          "further_info" : [["cofee", "hotcofee", "expresso"], ["cofee", "hotcofee", "macchiato"], ["cofee", "hotcofee", "capuccino"], ["cofee", "latte"], ["cofee", "hotcofee", "moka"], ["cofee", "hotcofee", "cafebombon"], ["cofee", "hotcofee", "macchiato"], ["cofee", "hotcofee", "moka"], ["cofee", "hotcofee", "vanilla", "macchiato"], ["cofee", "hotcofee", "macchiato", "caramel"], ["cofee", "hotcofee", "macchiato", "hazelnut"], ["cofee", "frapuccino", "moka"], ["cofee", "frapuccino", "moka"], ["soda"], ["malt"], ["cocacola"], ["fanta"], ["sprite"], ["pepsi"], ["7up"], ["energydrink"], ["malteada"]]  
+          }
+        
+     }
+    }    
+

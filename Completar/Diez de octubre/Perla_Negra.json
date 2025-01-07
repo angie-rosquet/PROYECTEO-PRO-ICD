@@ -1,0 +1,58 @@
+{
+    "name": "Perla Negra",
+    "address": "Milagros 114 e/ Heredia y Poey, Santos Suárez., Diez de Octubre",
+    "schedule": {
+      "monday": {"open": "12:00", "close": "03:00"},
+      "tuesday": {"open": "12:00", "close": "03:00"},
+      "wednesday": {"open": "12:00", "close": "03:00"},
+      "thursday":{"open": "12:00", "close": "03:00"},
+      "friday": {"open": "12:00", "close": "03:00"},
+      "saturday": {"open": "12:00", "close": "03:00"},
+      "sunday": {"open": "12:00", "close": "03:00"}
+    },
+    "contacts" : {
+      "phone_number": null,
+      "mobile" : "59333495",
+      "website": "URL del sitio web",
+      "instagram": "@nombre_de_usuario_instagram",
+      "facebook": "URL de la página de Facebook"
+    },
+    "type_establishment": "Tipo de establecimiento (ej: Restaurante, Cafetería, Bar)",
+    "specialty": ["cubana", "italiana"],
+    "parking": true,
+    "reservations": true,
+    "payment_methods": {
+      "cash_national": true,
+      "digital_transfer_national": true,
+      "usd_cash": true,
+      "usd_transfer": true,
+      "mlc": true
+    },
+    "delivery_areas": [
+      null
+    ],
+    "power_generator": true ,
+    "menu": {
+      "appetizer": [
+        {"name": "Nombre del entrante", "price": 10.00},
+        {"name": "Nombre del entrante", "price": 12.50}
+      ],
+      "main_course": [
+        {"name": "Nombre del plato", "price": 25.00},
+        {"name": "Nombre del plato", "price": 30.00}
+      ],
+      "garrison": [
+        {"name": "Nombre del acompañamiento", "price": 5.00},
+        {"name": "Nombre del acompañamiento", "price": 7.00}
+      ],
+      "desserts": [
+        {"name": "Nombre del postre", "price": 8.00},
+        {"name": "Nombre del postre", "price": 6.50}
+      ],
+      "drinks": [
+        {"name": "Nombre de la bebida", "price": 3.00},
+        {"name": "Nombre de la bebida", "price": 4.00}
+      ]
+    },
+    "service_charge_percentage": 10
+  }

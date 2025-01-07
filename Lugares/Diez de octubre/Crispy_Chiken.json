@@ -1,0 +1,71 @@
+{
+  "name": "Crispy Chicken",
+  "address": "Avenida de Acosta y Juan Delgado, Víbora, Diez de Octubre",
+  "schedule": {
+    "monday": {"open": "11:00", "close": "24:00"},
+    "tuesday": {"open": "11:00", "close": "24:00"},
+    "wednesday": {"open": "11:00", "close": "24:00"},
+    "thursday": {"open": "11:00", "close": "24:00"},
+    "friday": {"open": "11:00", "close": "24:00"},
+    "saturday": {"open": "11:00", "close": "24:00"},
+    "sunday": {"open": "11:00", "close": "24:00"}
+  },
+  "contacts" : {
+    "phone_number": null,
+    "mobile" : "63182745",
+    "website": "elyarromenu.com/b/crispy-chiken",
+    "instagram": "@crispy.chiken.monaco",
+    "facebook": null
+  },
+  "type_establishment": "Cafeteria",
+  "specialty": ["comida rapida"],
+  "parking": true,
+  "reservations": true,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": [
+    null
+  ],
+  "power_generator": true ,
+  "menu": {
+    "appetizer": [
+      {"name": "MINI HOT DOG", "price": 300 },
+      {"name": "FLAMENQUIN", "price": 1000 },
+      {"name": "SAN JACOBO", "price": 1000 },
+      {"name": "TOSTONES RELLENOS", "price": 800},
+      {"name": "ENTREMÉS DE JAMÓN Y QUESO", "price": 2000 },
+      {"name": "PICADERA DE LA CASA", "price": 3000},
+      {"name": "CHIPS DE BONIATO", "price": 700},
+      {"name": "CROQUETAS", "price": 1000}
+    ],
+    "main_course": [
+      {"name": "POLLO FRITO", "price": 1300 },
+      {"name": "POLLO CHIFLADO", "price": 1600 },
+      {"name": "POLLO CHIFLADO (SIN HUESO)", "price": 1800 },
+      {"name": "POLLO RELLENO (JAMÓN Y QUESO)", "price": 2000},
+      {"name": "NUGGETS DE POLLO", "price": 1000 },
+      {"name": "SANDWICH DE POLLO", "price": 900},
+      {"name": "MINI HOT DOGS", "price": 300}
+    ],
+    "garrison": [
+      null
+    ],
+    "desserts": [
+      null
+    ],
+    "drinks": [
+      {"name": "BATIDO DE HELADO", "price": 1000 },
+      {"name": "MALTEADA", "price": 900 },
+      {"name": "JUGO NATURAL", "price": 400 },
+      {"name": "VACA NEGRA", "price": 800 },
+      {"name": "CUBETAZO DE CERVEZAS", "price": 2400},
+      {"name": "CUBETAZO DE CERVEZAS CRISTAL", "price": 3100}
+    ]
+  },
+  "service_charge_percentage": 0
+}

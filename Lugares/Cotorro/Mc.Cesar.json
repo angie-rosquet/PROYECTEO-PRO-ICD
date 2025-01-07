@@ -1,114 +1,113 @@
 {
-    "name": "Mc.Cesar",
-    "address": "calle primer entre 220 y 221, Cotorro",
-    "schedule": {
-      "monday": {"open": null, "close": null},
-      "tuesday": {"open": "09:30", "close": "23:00"},
-      "wednesday": {"open": "09:30", "close": "23:00"},
-      "thursday": {"open": "09:30", "close": "23:00"},
-      "friday": {"open": "09:30", "close": "23:00"},
-      "saturday": {"open": "09:30", "close": "23:00"},
-      "sunday": {"open": "09:30", "close": "23:00"}
-    },
-    "phone_number": "+5359770018",
-    "website": {
-      "website": null,
-      "instagram": null,
-      "facebook": null
-    },
-    "type_establishment": "bar-restaurante",
-    "specialty": "cubana",
-    "parking": true,
-    "reservations": false,
-    "payment_methods": {
-      "cash_national": true,
-      "digital_transfer_national": true,
-      "usd_cash": true,
-      "usd_transfer": true,
-      "mlc": true
-    },
-    "free_wifi": false,
-    "delivery_areas": [
-      null
+  "name": "Mc.Cesar",
+  "address": "calle primera entre 220 y 221, Cotorro",
+  "schedule": {
+    "monday": {"open": null, "close": null},
+    "tuesday": {"open": "09:30", "close": "23:00"},
+    "wednesday": {"open": "09:30", "close": "23:00"},
+    "thursday": {"open": "09:30", "close": "23:00"},
+    "friday": {"open": "09:30", "close": "23:00"},
+    "saturday": {"open": "09:30", "close": "23:00"},
+    "sunday": {"open": "09:30", "close": "23:00"}
+  },
+  "contacts": {
+    "phone_number": null,
+    "mobile": "59770018",
+    "website": null,
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "Bar-Restaurante",
+  "specialty": ["cubana"],
+  "parking": true,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": [
+    null
+  ],
+  "power_generator": true,
+  "menu": {
+    "entrants": [
+      {"name": "Dados jamo-queso", "price": 1000 },
+      {"name": "Eperlan", "price": 1300 },
+      {"name": "Ensalada fria", "price": 300 },
+      {"name": "Tostones rellenos", "price": 600 },
+      {"name": "Tostones Criollos", "price": 350 },
+      {"name": "Croquetas de la casa", "price": 500 },
+      {"name": "Picadera Mc.Cesar", "price": 2500 }
     ],
-    "power_generator": "Sí" ,
-    "capacity": 100,
-    "menu": {
-      "entrants": [
-        {"name": "Dados jamo-queso", "price": 1000.00},
-        {"name": "Eperlan", "price": 1300.00},
-        {"name": "Ensalada fria", "price": 300.00},
-        {"name": "Tostones rellenos", "price": 600.00},
-        {"name": "Tostones Criollos", "price": 350.00},
-        {"name": "Croquetas de la casa", "price": 500.00},
-        {"name": "Picadera Mc.Cesar", "price": 2500.00}
-      ],
-      "main_course": [
-        {"name": "Hamburguesa de Cerdo", "price": 500.00},
-        {"name": "Pan de Atun", "price": 600.00},
-        {"name": "Pan de jamon-queso", "price": 500.00},
-        {"name": "Pan con pechuga", "price": 500.00},
-        {"name": "Pan con bistec", "price": 500.00},
-        {"name": "Pizza", "price": 500.00, "details": {
-            "atun" : 400,
-            "cebolla" : 250,
-            "pimiento" : 300,
-            "queso" : 300,
-            "jamon" : 200,
-            "piña" : 200,
-            "chorizo" : 200
-        }},
-        {"name": "Espaguetis", "price": 500.00,"details" :{
-            "atun" : 400,
-            "cebolla" : 250,
-            "pimiento" : 300,
-            "queso" : 300,
-            "jamon" : 200,
-            "piña" : 200,
-            "chorizo" : 200
-        }},
-        {"name": "Garbanzos fritos", "price": 1000.00},
-        {"name": "Higado de cerdo a la italiana", "price": 1000.00},
-        {"name": "Salteado de Vegetales", "price": 1500.00},
-        {"name": "Uruguayo", "price": 1500.00},
-        {"name": "Brocha Cerdo-Pollo", "price": 1700.00},
-        {"name": "Bistec Grille", "price": 1300.00},
-        {"name": "Faja de Cerdo", "price": 1400.00},
-        {"name": "Escalope", "price": 1400.00},
-        {"name": "Solomillo", "price": 2000.00},
-        {"name": "Lomo ahumado deshuesado", "price": 1300.00},
-        {"name": "Pechuga Grille", "price": 1300.00},
-        {"name": "Salteado de Pollo", "price": 1400.00},
-        {"name": "Pollo deshuesado", "price": 900.00},
-        {"name": "Goldon Blue", "price": 1500.00},
-        {"name": "Suprema Princesa", "price": 1500.00},
-        {"name": "Ropa Vieja", "price": 1800.00},
-        {"name": "Vaca Frita", "price": 1800.00},
-        {"name": "Bistec de Res", "price": 2000.00},
-        {"name": "Pescado Grille", "price": 1500.00},
-        {"name": "Pescado Mc.Cesar", "price": 2500.00},
-        {"name": "Canciller", "price": 1800.00},
-        {"name": "Pescado Empanado", "price": 1600.00},
-        {"name": "Pescado con salsa de limon", "price": 1700.00},
-        {"name": "Camaron Grille", "price": 1900.00},
-        {"name": "Camaron al ajillo", "price": 1900.00},
-        {"name": "Camaron Enchilado", "price": 2000.00}
-      ],
-      "garrison": [
-        {"name": "Arroz a la campesina", "price": 1500.00},
-        {"name": "Arroz Moro", "price": 300.00},
-        {"name": "Arroz Blanco", "price": 200.00},
-        {"name": "Arroz Frito", "price": 500.00}
-      ],
-      "desserts": [
-        {"name": "Torrejas", "price": 500.00},
-        {"name": "Ensalada Helado", "price": 500.00, "details": "5 bolas"},
-        {"name": "Bola de Helado", "price": 100.00},
-        {"name": "Batido de Helado", "price": 500.00}
-      ],
-      "drinks": [
-       null
-      ]
-    },
-    "service_charge_percentage": 0
-  }
+    "main_course": [
+      {"name": "Hamburguesa de Cerdo", "price": 500 },
+      {"name": "Pan de Atun", "price": 600 },
+      {"name": "Pan de jamon-queso", "price": 500 },
+      {"name": "Pan con pechuga", "price": 500 },
+      {"name": "Pan con bistec", "price": 500 },
+      {"name": "Pizza", "price": 500 , "details": {
+        "atun" : 400,
+        "cebolla" : 250,
+        "pimiento" : 300,
+        "queso" : 300,
+        "jamon" : 200,
+        "piña" : 200,
+        "chorizo" : 200
+      }},
+      {"name": "Espaguetis", "price": 500 ,"details" :{
+        "atun" : 400,
+        "cebolla" : 250,
+        "pimiento" : 300,
+        "queso" : 300,
+        "jamon" : 200,
+        "piña" : 200,
+        "chorizo" : 200
+      }},
+      {"name": "Garbanzos fritos", "price": 1000 },
+      {"name": "Higado de cerdo a la italiana", "price": 1000 },
+      {"name": "Salteado de Vegetales", "price": 1500 },
+      {"name": "Uruguayo", "price": 1500 },
+      {"name": "Brocha Cerdo-Pollo", "price": 1700 },
+      {"name": "Bistec Grille", "price": 1300 },
+      {"name": "Faja de Cerdo", "price": 1400 },
+      {"name": "Escalope", "price": 1400 },
+      {"name": "Solomillo", "price": 2000 },
+      {"name": "Lomo ahumado deshuesado", "price": 1300 },
+      {"name": "Pechuga Grille", "price": 1300 },
+      {"name": "Salteado de Pollo", "price": 1400 },
+      {"name": "Pollo deshuesado", "price": 900 },
+      {"name": "Cordon Bleu", "price": 1500 },
+      {"name": "Suprema Princesa", "price": 1500 },
+      {"name": "Ropa Vieja", "price": 1800 },
+      {"name": "Vaca Frita", "price": 1800 },
+      {"name": "Bistec de Res", "price": 2000 },
+      {"name": "Pescado Grille", "price": 1500 },
+      {"name": "Pescado Mc.Cesar", "price": 2500 },
+      {"name": "Canciller", "price": 1800 },
+      {"name": "Pescado Empanado", "price": 1600 },
+      {"name": "Pescado con salsa de limon", "price": 1700 },
+      {"name": "Camaron Grille", "price": 1900 },
+      {"name": "Camaron al ajillo", "price": 1900 },
+      {"name": "Camaron Enchilado", "price": 2000 }
+    ],
+    "garrison": [
+      {"name": "Arroz a la campesina", "price": 1500 },
+      {"name": "Arroz Moro", "price": 300 },
+      {"name": "Arroz Blanco", "price": 200 },
+      {"name": "Arroz Frito", "price": 500 }
+    ],
+    "desserts": [
+      {"name": "Torrejas", "price": 500 },
+      {"name": "Ensalada Helado", "price": 500 , "details": "5 bolas"},
+      {"name": "Bola de Helado", "price": 100 },
+      {"name": "Batido de Helado", "price": 500 }
+    ],
+    "drinks": [
+      null
+    ]
+  },
+  "service_charge_percentage": 0
+}

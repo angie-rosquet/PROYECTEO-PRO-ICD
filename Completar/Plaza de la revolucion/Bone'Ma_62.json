@@ -1,0 +1,131 @@
+{
+    "name": "Bone'Ma 62",
+    "address": "Centro Habana, Cuba", // Agregar dirección completa si está disponible
+    "schedule": {
+      "monday": {"open": "09:00", "close": "24:00"},
+      "tuesday": {"open": "09:00", "close": "24:00"},
+      "wednesday": {"open": "09:00", "close": "24:00"},
+      "thursday": {"open": "09:00", "close": "24:00"},
+      "friday": {"open": "09:00", "close": "24:00"},
+      "saturday": {"open": "09:00", "close": "24:00"},
+      "sunday": {"open": "09:00", "close": "24:00"}
+    },
+    "contacts": {
+      "phone_number": "78602134",
+      "mobile": "53470440",
+      "website": false, 
+      "instagram": "@bonema_62",
+      "facebook": "Bone Ma 62"
+    },
+    "type_establishment": "Bar - Restaurante",
+    "specialty": ["turca", "internacional", "cocteleria", "italiana"],
+    "parking": true, 
+    "reservations": true, 
+    "payment_methods": { 
+      "cash_national": true, 
+      "digital_transfer_national": true, 
+      "usd_cash": false, 
+      "usd_transfer": false, 
+      "mlc": false 
+    }, 
+    "delivery_areas": [], 
+    "power_generator": false, 
+    "menu": {
+      "appetizer": [
+        {"name": "papas fritas", "price": 1050},
+        {"name": "falafel", "price": 1050},
+        {"name": "sopa de lentejas", "price": 1350},
+        {"name": "ensalada mixta", "price": 950},
+        {"name": "coban salata", "price": 1200},
+        {"name": "caprese", "price": 1450},
+        {"name": "ensalada nizarda", "price": 1800}
+      ],
+      "main_course": [
+        {"name": "sándwich de vegetales", "price": 1400},
+        {"name": "sándwich de jamón y queso", "price": 1650},
+        {"name": "sándwich de res", "price": 1800},
+        {"name": "sándwich de atún", "price": 1700},
+        {"name": "sándwich de jamón serrano", "price": 2250},
+        {"name": "hamburguesa natural smash", "price": 2150},
+        {"name": "hamburguesa de falafel", "price": 1900},
+        {"name": "hamburguesa smash con aguacate", "price": 2250},
+        {"name": "hamburguesa smash con bacon y huevo frito", "price": 2500},
+        {"name": "döner kebab (pan)", "price": 1700},
+        {"name": "dürüm kebab (tortilla)", "price": 1750},
+        {"name": "döner falafel", "price": 1300},
+        {"name": "dürüm köfte", "price": 1750},
+        {"name": "plato de döner kebab", "price": 2300},
+        {"name": "iskender kebab", "price": 2400},
+        {"name": "plato de köfte de res", "price": 2500},
+        {"name": "pizza margarita", "price": 2000},
+        {"name": "pizza friarielli y salchicha italiana", "price": 3000},
+        {"name": "pizza funghi", "price": 2200},
+        {"name": "pizza vegetariana", "price": 2300},
+        {"name": "pizza 4 quesos", "price": 2600},
+        {"name": "pizza hawaiana", "price": 2600},
+        {"name": "pizza pepperoni / diabola", "price": 2700},
+        {"name": "pizza de salami", "price": 2800},
+        {"name": "pizza de jamón serrano, rúcula y parmesano", "price": 3200},
+        {"name": "pizza de atún y cebolla", "price": 2600},
+        {"name": "pasta napolitana", "price": 1900},
+        {"name": "pasta arrabiata", "price": 2000},
+        {"name": "pasta pesto", "price": 2200},
+        {"name": "pasta bolognesa", "price": 2800},
+        {"name": "pasta carbonara", "price": 2650}
+      ],
+      "garrison": [], // No hay información específica de guarniciones
+      "desserts": [
+        {"name": "flan", "price": 700},
+        {"name": "copa de helado", "price": 900},
+        {"name": "copa lolita", "price": 1050},
+        {"name": "cheesecake", "price": 1150}
+      ],
+      "drinks": {
+        "water": [
+          {"name": "agua natural", "price": 450},
+          {"name": "agua gaseada", "price": 950},
+          {"name": "agua tónica mg", "price": 700}
+        ],
+        "soft_drinks": [
+          {"name": "coca cola", "price": 800},
+          {"name": "coca cola zero", "price": 800},
+          {"name": "sprite", "price": 800},
+          {"name": "energy drink", "price": 850}
+        ],
+        "juices": [
+          {"name": "jugo de fruta nat.", "price": 600},
+          {"name": "limonada natural", "price": 500},
+          {"name": "limonada frappe", "price": 550},
+          {"name": "ayran", "price": 500}
+        ],
+        "smoothie": false,
+        "ice_cream_shake": [
+          {"name": "suero de helado", "price": 1500}
+        ],
+        "alcoholic": [
+          // ... (Todos los datos de bebidas alcohólicas del segundo JSON) ...
+        ],
+        "coffee": [
+          {"name": "té", "price": 400},
+          {"name": "café expreso", "price": 380},
+          {"name": "espresso macchiato (cortado)", "price": 400},
+          {"name": "americano", "price": 420},
+          {"name": "cappuccino", "price": 650},
+          {"name": "café con leche", "price": 700},
+          {"name": "leche con chocolate", "price": 700}
+        ]
+      }
+    },
+    "service_charge_percentage": 0, 
+    "location": { 
+      "latitude": 23.137430101331596, 
+      "longitude": -82.35973216484062 
+    },
+    "rating": 4.5, 
+    "capacity": "media", 
+    "services": { 
+      "child_care": true, 
+      "parking": true, 
+      "reserves": true 
+    } 
+  }

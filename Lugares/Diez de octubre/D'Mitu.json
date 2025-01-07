@@ -1,0 +1,87 @@
+{
+  "name": "D'Mitu",
+  "address": "Calle 1ra #64 Altos entre Gertrudis y Lagueruela, La Víbora, Diez de Octubre",
+  "schedule": {
+    "monday": {"open": null, "close": null},
+    "tuesday": {"open": "10:00", "close": "22:00"},
+    "wednesday": {"open": "10:00", "close": "22:00"},
+    "thursday": {"open": "10:00", "close": "22:00"},
+    "friday": {"open": "10:00", "close": "22:00"},
+    "saturday": {"open": "10:00", "close": "22:00"},
+    "sunday": {"open": "10:00", "close": "22:00"}
+  },
+  "contacts" : {
+    "phone_number": "76988258",
+    "mobile" : "53578505",
+    "website": "https://pizzeria-dmitu.ola.click",
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["italiana"],
+  "parking": true,
+  "reservations": true,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": [
+    "Arroyo Naranjo",
+      "Boyeros",
+      "Cerro",
+      "Cotorro",
+      "Diez de Octubre",
+      "Guanabacoa",
+      "Habana del este",
+      "Habana Vieja",
+      "La Lisa",
+      "Marianao",
+      "Playa",
+      "Plaza de la Revolucion",
+      "San Miguel del Padron"
+  ],
+  "power_generator": true ,
+  "menu": {
+    "appetizer": [
+      null
+    ],
+    "main_course": [
+      {"name": "Pizza Hawaiana", "price": 520},
+      {"name": "Pizza Chorizo", "price": 500},
+      {"name": "Pizza de Jamon", "price": 490 },
+      {"name": "Pizza Queso", "price": 380},
+      {"name": "Super Pizza Mixta", "price": 900},
+      {"name": "Super Pizza Hawaiana", "price": 800},
+      {"name": "Super Pizza de Chorizo", "price": 780},
+      {"name": "Super Pizza de Jamon", "price": 750},
+      {"name": "Super Pizza de Queso", "price": 600},
+      {"name": "Canelones", "price": 450},
+      {"name": "Lasaña", "price": 500 },
+      {"name": "Raviolis", "price": 650 },
+      {"name": "Farfalle", "price": 500 },
+      {"name": "Espaguetis", "price": 500 },
+      {"name": "Pizza Familiar mixta Con bordes jamon y queso", "price": 1200 },
+      {"name": "Pizza Familiar mixta Sin bordes jamon y queso", "price": 1000 },
+      {"name": "Pastelon", "price": 850 },
+      {"name": "Fugazzeta D'Mitu", "price": 980 },
+      {"name": "Pizza Sol", "price": 750 },
+      {"name": "Pizza D'Mitu", "price": 380 },
+      {"name": "Takazo", "price": 600 },
+      {"name": "Calzone D'Mitu", "price": 480 },
+      {"name": "Super Takaso", "price": 950 }
+    ],
+    "garrison": [
+      null
+    ],
+    "desserts": [
+      null
+    ],
+    "drinks": [
+      null
+    ]
+  },
+  "service_charge_percentage": 0
+}

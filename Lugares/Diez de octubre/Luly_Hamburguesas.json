@@ -1,0 +1,68 @@
+{
+  "name": "Luly Hamburguesas",
+  "address": "Calzada de Santa Catalina entre Calzada de Diez de Octubre y Parraga, Víbora, Diez de Octubre",
+  "schedule": {
+    "monday": {"open": "09:00", "close": "21:00"},
+    "tuesday": {"open": "09:00", "close": "21:00"},
+    "wednesday": {"open": "09:00", "close": "21:00"},
+    "thursday": {"open": "09:00", "close": "21:00"},
+    "friday": {"open": "09:00", "close": "21:00"},
+    "saturday": {"open": "09:00", "close": "21:00"},
+    "sunday": {"open": "09:00", "close": "21:00"}
+  },
+  "contacts" : {
+    "phone_number": null,
+    "mobile" : "52823877",
+    "website": null,
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "Cafetería",
+  "specialty": ["comida rapida"],
+  "parking": true,
+  "reservations": true,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": [
+    null
+  ],
+  "power_generator": true ,
+  "menu": {
+    "appetizer": [
+			null
+		],
+    "main_course": [
+      {"name": "Hamburguesa Sencilla Criolla", "price": 480 },
+      {"name": "Hamburguesa Especial", "price": 1000 },
+			{"name": "Hamburguesa Jamon y Queso", "price": 680 },
+      {"name": "Sandwich Jamon y Queso", "price": 610 },
+			{"name": "Media Noche Especial", "price": 470 },
+      {"name": "Bocadito Especial", "price": 220 }
+    ],
+    "garrison": [
+      {"name": "Jamon", "price": 60 },
+      {"name": "Queso", "price": 140 },
+			{"name": "Chorizo", "price": 80 }
+    ],
+    "desserts": [
+      {"name": "Helado Gust0 (1Lt)", "price": 900 }
+    ],
+    "drinks": [
+      {"name": "Pepsi Cola", "price": 270 },
+      {"name": "Rfresco Limon", "price": 270 },
+			{"name": "Refresco Naranja", "price": 270 },
+      {"name": "Malta", "price": 300 },
+			{"name": "Cerveza King", "price": 220 },
+      {"name": "Kermato", "price": 460 },
+			{"name": "Jugo Caja", "price": 200 },
+      {"name": "Agua Natural", "price": 190 },
+			{"name": "Cerveza Cristal", "price": 260 }
+    ]
+  },
+  "service_charge_percentage": 0
+}

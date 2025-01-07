@@ -1,0 +1,255 @@
+{
+    "establishment": {
+      "classification": {
+        "type": ["bar-restaurante"]
+      },
+      "name": "Lo de Monik",
+      "description": "Bar-restaurante con asientos al aire libre, ubicado en Compostela, esquina Chacón, Habana Vieja.",
+      "contact_info": {
+        "phone": {
+          "number": "052811595",
+          "type": ["mobile"]
+        }
+      },
+      "opening_hours": {
+        "monday": "11:00 AM - 11:00 PM",
+        "tuesday": "11:00 AM - 11:00 PM",
+        "wednesday": "11:00 AM - 11:00 PM",
+        "thursday": "11:00 AM - 11:00 PM",
+        "friday": "11:00 AM - 11:00 PM",
+        "saturday": "11:00 AM - 11:00 PM",
+        "sunday": "11:00 AM - 11:00 PM"
+      },
+      "address": "Compostela, esquina Chacón, Habana Vieja",
+      "coordinates": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "accepted_payment_methods": [],
+      "delivery_available": false,
+      "service_fee": {
+        "name": "10% service charge",
+        "description": "Se le adiciona el 10% a su cuenta por los servicios.",
+        "applies": true
+      },
+      "features": {
+        "reservation_required": true,
+        "outdoor_seating": true,
+        "dine_in": true,
+        "takeaway": true,
+        "offers": ["Restaurante", "Bar"],
+        "local_options": ["Desayunos", "Almuerzo", "Cena", "Postres"],
+        "services": ["Sanitario", "Tiene bar"],
+        "ambience": ["Agradable", "Informal"],
+        "usual_customers": ["Grupos"],
+        "planning": ["Se aceptan reservas"],
+        "children": null,
+        "pets": null,
+        "parking": null
+      },
+      "dietary_options": ["Opciones vegetarianas", "Opciones veganas", "Opciones sin gluten"],
+      "meals": ["Desayuno", "Comidas", "Cenas", "Brunch"],
+      "advantages": ["Para llevar", "Reservas", "Capacidad", "Sirve alcohol", "Bar completo", "Servicio de mesa"],
+      "highlights": ["Asientos al aire libre", "Aperitivos", "Buenos cócteles", "Agradable", "Informal", "Recomendable para ir en grupo"]
+    }
+  }
+  {
+    "menu": {
+      "courses": [
+        {
+          "category": "Entrantes / Starters",
+          "items": [
+            {
+              "name": "Yucas Bravas / Yucca With Hot Tacos Sauce",
+              "price": 600.00
+            },
+            {
+              "name": "Croquetas / Croquette",
+              "price": 560.00
+            },
+            {
+              "name": "Tamal en Cazuela",
+              "price": 1500.00
+            },
+            {
+              "name": "Tostones Rellenos de Jamón y queso",
+              "price": 1100.00
+            },
+            {
+              "name": "Ropa Vieja",
+              "price": 1200.00
+            },
+            {
+              "name": "Cerdo",
+              "price": 1300.00
+            },
+            {
+              "name": "Fituras de Malanga",
+              "price": 600.00
+            }
+          ]
+        },
+        {
+          "category": "Pasta",
+          "items": [
+            {
+              "name": "Pasta Napolitana",
+              "price": 1700.00
+            },
+            {
+              "name": "Pasta de Pollo con Salsa Alfredo",
+              "price": 2000.00
+            },
+            {
+              "name": "Pasta Frutti di Mare",
+              "price": 2300.00
+            }
+          ]
+        },
+        {
+          "category": "Tacos",
+          "items": [
+            {
+              "name": "Vegetales / Vegetables Tacos",
+              "price": 1200.00
+            },
+            {
+              "name": "Pollo / Chicken Tacos",
+              "price": 1500.00
+            },
+            {
+              "name": "Cerdo / Pork Tacos",
+              "price": 2200.00
+            },
+            {
+              "name": "Ropa Vieja / Shredded Beef Tacos",
+              "price": 2000.00
+            },
+            {
+              "name": "Camarón / Shrimps Tacos",
+              "price": 3000.00
+            },
+            {
+              "name": "Pescado / Fish Tacos",
+              "price": 2300.00
+            },
+            {
+              "name": "Punta de Filete / Beef Tacos",
+              "price": 3800.00
+            },
+            {
+              "name": "Langosta / Lobster Tacos",
+              "price": 2200.00
+            },
+            {
+              "name": "Pulpo / Octopus Tacos",
+              "price": 2500.00
+            }
+          ]
+        },
+        {
+          "category": "Principales / Mains",
+          "items": [
+            {
+              "name": "Pollo Grillado / Grilled Chicken",
+              "price": 1500.00
+            },
+            {
+              "name": "Camarón Grillado / Grilled Shrimps",
+              "price": 3000.00
+            },
+            {
+              "name": "Ropa Vieja / Shredded Beef",
+              "price": 2000.00
+            },
+            {
+              "name": "Ropa Vieja con Garbanzos / Shredded Beef With Chic",
+              "price": 2400.00
+            },
+            {
+              "name": "Pescado Empanado / Fish and Chips",
+              "price": 2500.00
+            },
+            {
+              "name": "Masas de Cerdo / Pork Masses",
+              "price": 2800.00
+            },
+            {
+              "name": "Pescado Grillado / Grilled Fish",
+              "price": 2300.00
+            },
+            {
+              "name": "Pulpo Grillado / Grilled Octopus",
+              "price": 3800.00
+            },
+            {
+              "name": "Langosta / Lobster",
+              "price": 3000.00
+            },
+            {
+              "name": "Punta de Filete a la Deutch",
+              "price": 3800.00
+            }
+          ]
+        },
+        {
+          "category": "Guarniciones / Side Dishes",
+          "items": [
+            {
+              "name": "Side Dish",
+              "price": 300.00
+            }
+          ]
+        },
+        {
+          "category": "Postres / Dessert",
+          "items": [
+            {
+              "name": "Postre de la Casa / House's Dessert",
+              "price": 600.00
+            }
+          ]{
+            "menu": {
+              "courses": [
+                {
+                  "category": "Desayuno / Breakfast",
+                  "items": [
+                    {
+                      "name": "Huevos, Tostadas, Jamón, Vegetales, Jugo, Café",
+                      "price": 1800.00
+                    }
+                  ]
+                },
+                {
+                  "category": "Sandwich",
+                  "items": [
+                    {
+                      "name": "Sandwich de Vegetales",
+                      "price": 850.00
+                    },
+                    {
+                      "name": "Sandwich de Jamón y Queso",
+                      "price": 1000.00
+                    },
+                    {
+                      "name": "Sandwich de Pollo",
+                      "price": 1500.00
+                    },
+                    {
+                      "name": "Sandwich de Atún",
+                      "price": 1000.00
+                    },
+                    {
+                      "name": "Sandwich Cubano",
+                      "price": 2000.00
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+          
+      }
+    }
+  }
+    

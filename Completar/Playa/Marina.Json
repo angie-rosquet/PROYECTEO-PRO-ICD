@@ -1,0 +1,414 @@
+{
+    "Name" : "Marina",
+    "type" : "Bar/Restaurante",
+    "#" : null,
+    "web" : "no poseen una web pero poseen insta",
+    "Reference Point" : "Hotel Gran Mutuh",
+    "Status" : "mipime",
+    "events" : "Realizan eventos especificos de la temporada, ejemplos : Navidad, Halloween",
+    "people_trend" : "Todas las edades",
+    "establishment_features" : [
+        "vistas al mar",
+        "triplanta",
+        "establecimiento confeccionado de madera"
+    ],
+    "speciality" : [
+        "cocteleria completa",
+        "comida criolla",
+        "comida italiana",
+        "comida española"
+    ],
+    
+    "establishment_address" : {
+        "Province" : "La Habana",
+        "municipality" : "Playa",
+        "address" : "1ra Avenida entre calle 70 y 68"
+    },
+
+    "open_hours": {
+        "sunday" : "12:00m - 4:00am",
+        "monday" : "12:00m - 4:00am",
+        "tuesday" : "12:00m - 4:00am",
+        "wednesday" : "12:00m - 4:00am",
+        "thursday" : "12:00m - 4:00am",
+        "friday" : "12:00m - 4:00am",
+        "saturday" : "12:00m - 4:00am"
+    },
+
+    "curiosity" :  [
+        "los menores de edad están prohibidos a partir de las 10 pm en adelante",
+        "poseen una barra centrada en el bar"
+        ],
+    "Menu" : {
+        "Entrantes" :{
+            "Pica Pica" : {
+                "Bolitas de Queso" : {
+                    "Price" : 1000.00
+                },
+                "Croquetas Marina" : {
+                    "Price" : 1200.00
+                },
+                "Brusquetas" : {
+                    "Price" : 1100.00
+                },
+                "Entremés Surtido" : {
+                    "Price" : 1900.00
+                },
+                "Papas Fritas" : {
+                    "Price" : 950.00
+                },
+                "Coctel de Camarón" : {
+                    "Price" : 3000.00
+                },
+                "Tequeños" : {
+                    "Price" : 1140.00
+                },
+                "Tacos de la Casa" : {
+                    "Price" : 1600.00
+                },
+                "Escabeche de Pescado" : {
+                    "Price" : 2800.00
+                },
+                "Queso y Frutos Secos" : {
+                    "Price" : 3000.00
+                },
+                "Tostones con Mojo" : {
+                    "Price" : 850.00
+                },
+                "Tostones Rellenos" : {
+                    "Price" : 950.00
+                },
+                "Fajitas de Pollo" : {
+                    "Price" : 1800.00
+                },
+                "Eperlán de Pescado" : {
+                    "Price" : 1800.00
+                },
+                "Frituras de Malanga" : {
+                    "Price" : 850.00
+                },
+                "Ceviche de Pescado" : {
+                    "Price" : 2300.00
+                },
+                "Nuggets" : {
+                    "Price" : 1950.00
+                }
+            }
+        },
+        "Platos Fuertes" : {
+            "Pizzas" : {
+                "Napolitana" : {
+                    "Price" : 1100.00
+                },
+                "Margarita" : {
+                    "Price" :1250.00
+                },
+                "Hawaina" : {
+                    "Price" : 1400.00
+                },
+                "Con Serrano y Aceitunas" : {
+                    "Price" : 1800.00
+                },
+                "Super Marina" : {
+                    "Price" : 2200.00
+                }        
+            },
+            "Pastas" : {
+                "Napolitano" : {
+                    "Price" : 1200.00
+                },
+                "Con Jamón" : {
+                    "Price" : 1400.00
+                },
+                "Carbonara" : {
+                    "Price" : 2000.00
+                },
+                "Amatriciana" : {
+                    "Price" : 2000.00
+                },
+                "Puttanesca" : {
+                    "Price" : 1800.00
+                },
+                "Bolognesa" : {
+                    "Price" : 2000.00
+                },
+                "Con Salmón y Salsa Blanca" : {
+                    "Price" : 2000.00
+                },
+                "Combo Marina" : {
+                    "Price" : 4500.00
+                }
+            }
+        },
+        "Agregos" :{ 
+            "Entrepanes" : {
+                "De Jamón y Queso" : {
+                    "Price" : 950.00
+                },
+                "De Atún" : {
+                    "Price" : 1000.00
+                },
+                "Hamburguesa" : {
+                    "Price" : 1900.00
+                },
+                "Cheese Burguer" : {
+                    "Price" : 2000.00
+                }
+            },
+            "Otros Agregos" : {
+                "Jamón/Chorizo" : {
+                    "Price" : 550.00
+                },
+                "Queso: Gouda/Azul" : {
+                    "Price" : 650.00
+                },
+                "Picña. Cebolla, Aceitunas, Pimiento" : {
+                    "Price" : 600.00
+                },
+                "Jamón Serrano" : 1500.00
+            }
+        },
+        "Bebidas" : {
+            "Cocteles" : {
+                "Daiquiri" : {
+                    "Price" : 900.00
+                },
+                "Daiquiri de Frutas" :{
+                    "Price" : 1000.00
+                },
+                "Cuba Libre" : {
+                    "Price" : 800.00
+                },
+                "Mojito" : {
+                    "Price" : 900.00
+                },
+                "Piña Colada" : {
+                    "Price" : 1200.00
+                },
+                "Cubata" : {
+                    "Price" : 900.00
+                },
+                "Cubanito" : {
+                    "Price" : 1200.00
+                },
+                "Caipirisima" : {
+                    "Price" : 850.00
+                },
+                "Canchanchara" : {
+                    "Price" : 850.00
+                },
+                "Sex on The Beach" : {
+                    "Price" : 950.00
+                },
+                "Havana Special" : {
+                    "Price" : 800.00
+                },
+                "Calimocho" : {
+                    "Price" : 990.00
+                },
+                "Tinto de Verano" : {
+                    "Price" : 1000.00
+                },
+                "Presidente" : {
+                    "Price" : 800.00
+                },
+                "San Francisco" : {
+                    "Price" : 950.00 
+                },
+                "Ron Collins" : {
+                    "Price" : 850.00
+                },
+                "Whisky Sour" : {
+                    "Price" : 1500.00
+                },
+                "Mary Pickford" : {
+                    "Price" : 800.00
+                },
+                "Caipiroska" : {
+                    "Price" : 950.00
+                },
+                "Bloddy Mary" : {
+                    "Price" : 950.00
+                },
+                "Screw Driver" : {
+                    "Price" : 850.00
+                },
+                "Blue Lagoon" : {
+                    "Price" : 800.00
+                },
+                "Gin Tonic" : {
+                    "Price" : 950.00
+                },
+                "Tom Collins" : {
+                    "Price" : 850.00
+                },
+                "Sangria" : {
+                    "Price" : 1500.00
+                },
+                "Caipirinha" : {
+                    "Price" : 900.00
+                },
+                "Tequila Sunrise" : {
+                    "Price" : 900.00
+                },
+                "Old Fashioned" : {
+                    "Price" : 900.00
+                },
+                "Manhattan" : {
+                    "Price" : 900.00
+                },
+                "Martini" : {
+                    "Price" : 900.00
+                },
+                "Negroni" : {
+                    "Price" : 1000.00
+                },
+                "Vodkatonic" : {
+                    "Price" : 950.00
+                },
+                "Orgasmo" : {
+                    "Price" : 1000.00
+                },
+                "Margarita" : {
+                    "Price" : 900.00 
+                },
+                "Long Island Ice Tea" : {
+                    "Price" : 1000.00
+                },
+                "God Mother" : {
+                    "Price" : 900.00
+                },
+                "God Father" : {
+                    "Price" : 1000.00
+                },
+                "Aperol Spritz" : {
+                    "Price" : 1500.00
+                },
+                "Amaretto Sour" : {
+                    "Price" : 1200.00
+                }
+            },
+            "Bebidas Normales" : {
+                "Agua Natural Nac." : {
+                    "Price" : 300.00
+                },
+                "Agua Natural Imp." : {
+                    "Price" : 400.00
+                },
+                "Agua Gaseada Nac." : {
+                    "Price" : 400.00
+                },
+                "Agua Gaseada Imp" : {
+                    "Price" : 900.00
+                },
+                "Agua Tónica Nac" : {
+                    "Price" : 500.00
+                },
+                "Agua Tónica Impo" : {
+                    "Price" : 950.00
+                },
+                "Agua T. Le Tribute" : {
+                    "Price" : 1150.00
+                },
+                "Limonada Natural" : {
+                    "Price" : 850.00
+                },
+                "Limonada Frappé" : {
+                    "Price" : 950.00
+                },
+                "Limonada Frescura" : {
+                    "Price" : 1000.00
+                },
+                "Limonada Clarete" : {
+                    "Price" : 1000.00
+                },
+                "Jugo Natural" : {
+                    "Price" : 750.00
+                },
+                "Malta" : {
+                    "Price" : 700.00
+                },
+                "Refresco Importado" : {
+                    "Price" : 500.00
+                },
+                "Kermato" : {
+                    "Price" : 900.00
+                }
+            },
+            "Cervezas" : {
+                "Heineken" : {
+                    "Price" : 900.00
+                },
+                "Corona" : {
+                    "Price" : 900.00
+                },
+                "Cristal/Bucanero" : {
+                    "Price" : 550.00
+                },
+                "Servicio Chelada" : {
+                    "Price" : 400.00
+                },
+                "Servicio Michelada" : {
+                    "Price" : 500.00
+                }
+            }
+
+        },
+        "Especial" : {
+            "Filete de Pescado" : {
+                "Grillé" : {
+                    "Price" : 2300.00
+                },
+                "A las Finas Hierbas" : {
+                    "Price" : 2500.00
+                },
+                "Princesa" : {
+                    "Price" : 2800.00
+                },
+                "Canciller" : {
+                    "Price" : 3000.00
+                }
+            },
+            "Langosta Al Gusto" : {
+                "Enchlada" : {
+                    "Price" : 4000.00
+                },
+                "Grillé" : {
+                    "Price" : 4000.00
+                },
+                "Al Ajillo" : {
+                    "Price" : 4000.00
+                },
+                "Termidor" : {
+                    "Price" : 4500.00
+                }
+            },
+            "Pulpo al Gusto" : {
+                "Enchilado" : {
+                    "Price" : 4600.00
+                },
+                "Al Ajillo" : {
+                    "Price" : 4600.00
+                },
+                "Grillé" : {
+                    "Price" : 4600.00
+                }
+            },
+            "Exclusivos!!!" : {
+                "Paella MARINA(2pax)" : {
+                    "Price" : 5500.00
+                },
+                "Mar y Tierra" : {
+                    "Price" : 5500.00
+                },
+                "Cazuela de Mariscos" : {
+                    "Price" : 5500.00
+                }
+            }
+        }
+
+    }
+
+
+
+}

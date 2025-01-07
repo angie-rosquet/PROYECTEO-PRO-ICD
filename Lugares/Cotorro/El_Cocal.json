@@ -1,0 +1,91 @@
+{
+    "name": "El Cocal",
+    "address": "Calle 65 % 38A y 42, Cotorro",
+    "schedule": {
+      "monday": {"open": "12:00", "close": "24:00"},
+      "tuesday": {"open": null, "close": null},
+      "wednesday": {"open": null, "close": null},
+      "thursday": {"open": "12:00", "close": "24:00"},
+      "friday": {"open": "12:00", "close": "24:00"},
+      "saturday": {"open": "12:00", "close": "24:00"},
+      "sunday": {"open": "12:00", "close": "24:00"}
+    },
+    "contacts": {
+      "phone_number": "76822199",
+      "mobile": "",
+      "website": null,
+      "instagram": null,
+      "facebook": null
+    },
+    "type_establishment": "Restaurante",
+    "specialty": ["cubana"],
+    "parking": true,
+    "reservations": false,
+    "payment_methods": {
+      "cash_national": true,
+      "digital_transfer_national": true,
+      "usd_cash": true,
+      "usd_transfer": true,
+      "mlc": true
+    },
+    "delivery_areas": [
+      null
+    ],
+    "power_generator": true,
+    "menu": {
+      "entrants": [
+        {"name": "Croquetas", "price": 600 },
+        {"name": "Bolitas de queso", "price": 650 },
+        {"name": "Ensalada de Atun", "price": 1000 },
+        {"name": "Toston de queso", "price": 600 },
+        {"name": "Toston de jamon y queso", "price": 600 },
+        {"name": "Toston de Atun", "price": 1000 },
+        {"name": "Crema de queso", "price": 550 },
+        {"name": "Crema Aurora", "price": 600 },
+        {"name": "Crema Virginia", "price": 650 },
+        {"name": "Crema Mixta", "price": 700 },
+        {"name": "Coctel Camaron", "price": 1500 },
+        {"name": "Eperlas", "price": 550 }
+      ],
+      "main_course": [
+        {"name": "Pizza de Queso", "price": 1200 , "added" : {
+          "queso" : 500,
+          "jamon" : 300,
+          "piña" : 150,
+          "camaron" : 1500,
+          "atun" : 1000,
+          "cebolla" : 200
+        }},
+        {"name": "Pizza de Jamon", "price": 1400 , "added" : {
+          "queso" : 500,
+          "jamon" : 300,
+          "piña" : 150,
+          "camaron" : 1500,
+          "atun" : 1000,
+          "cebolla" : 200
+        }},
+        {"name": "Pizza Hawaiiana", "price": 1500 , "details" : {
+          "queso" : 500,
+          "jamon" : 300,
+          "piña" : 150,
+          "camaron" : 1500,
+          "atun" : 1000,
+          "cebolla" : 200
+        }},
+        {"name": "Eperlan Pechuga", "price": 1600 },
+        {"name": "Eperlan Pescado", "price": 2000 }
+      ],
+      "garrison": [
+        {"name": "yuca", "price": 400 },
+        {"name": "Toston", "price": 400 }
+      ],
+      "desserts": [
+        {"name": "Flan", "price": 500},
+        {"name": "Empellas", "price": 550}
+      ],
+      "drinks": [
+        null
+      ]
+    },
+    "service_charge_percentage": 10
+}

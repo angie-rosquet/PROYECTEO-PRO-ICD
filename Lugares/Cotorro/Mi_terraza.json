@@ -1,0 +1,85 @@
+{
+  "name": "Mi terraza",
+  "address": "Calle 71 % 24 y 26, Las Brisas,  Cotorro",
+  "schedule": {
+    "monday": {"open": "11:00", "close": "23:00"},
+    "tuesday": {"open": "11:00", "close": "23:00"},
+    "wednesday": {"open": "11:00", "close": "23:00"},
+    "thursday": {"open": "11:00", "close": "23:00"},
+    "friday":{"open": "11:00", "close": "23:00"},
+    "saturday": {"open": "11:00", "close": "23:00"},
+    "sunday": {"open": "11:00", "close": "23:00"}
+  },
+  "contacts":{
+    "phone_number": "76822381",
+    "mobile" : null,
+    "website": null,
+    "instagram": "@miterraza_pizzeria",
+    "facebook": null
+  },
+  "type_establishment": "Cafeteria",
+  "specialty": ["Italiana"],
+  "parking": true,
+  "reservations": true,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": [
+    "Cotorro"
+  ],
+  "power_generator": true,
+  "menu": {
+    "entrants": [
+      {"name": "Crema de queso","price": 850 },
+      {"name": "Crema Virginia","price": 1100 }
+    ],
+    "main_course": [
+      {"name": "Sandwich de queso","price": 700 },
+      {"name": "Sandwich de jamón","price": 650 },
+      {"name": "Sandwich de jamón y queso","price": 900 },
+      {"name": "Sandwich de atún","price": 1100 },
+      {"name": "Sandwich Mi Terraza","price": 1100 },
+      {"name": "Espaguetis Napolitanos","price": 1000 },
+      {"name": "Espaguetis de jamón","price": 1250 },
+      {"name": "Espaguetis de atún","price": 1400 },
+      {"name": "Espaguetis a la Carbonara","price": 1600 },
+      {"name": "Espaguetis doble queso","price": 1500 },
+      {"name": "Canelos","price": 1500 },
+      {"name": "Pizza Napolitana","price": 1200 },
+      {"name": "Pizza Hawaiana","price": 1700 },
+      {"name": "Pizza Mi Terraza","price": 1800 }
+    ],
+    "garrison": [
+      {"name": "Doble queso (150g)","price": 500 },
+      {"name": "Jamón (60g)","price": 300 },
+      {"name": "Cebolla","price": 250 },
+      {"name": "Piña","price": 200 },
+      {"name": "Atún","price": 400 },
+      {"name": "Aceitunas","price": 400 },
+      {"name": "Chorizo","price": 200 },
+      {"name": "Bacon","price": 700 }
+    ],
+    "drinks": [
+      {"name": "Limonada Frappe","price": 350 },
+      {"name": "Malteada","price": 500 },
+      {"name": "Chelada","price": 550 },
+      {"name": "Batidos (mango, fruta bomba o guayaba)","price": 400 },
+      {"name": "Batidos de Helado (fresa, chocolate, helado con galleta, mozcatel)","price": 600 },
+      {"name": "Pica Pica Mi Terraza","price": 1700 },
+      {"name": "Tostones de jamón y queso","price": 1000 },
+      {"name": "Tostones de atún","price": 1200 },
+      {"name": "Fajitas de pollo (con mayonesa)","price": 1000 },
+      {"name": "Ensalada de pollo","price": 400 },
+      {"name": "Frituras de malanga (con miel)","price": 400 },
+      {"name": "Bolitas de queso (con miel)","price": 400 },
+      {"name": "Croquetas (con mayonesa)","price": 400 },
+      {"name": "Chicharritas","price": 300 },
+      {"name": "Papas prefritas","price": 600 }
+    ]
+  },
+  "service_charge_percentage": 0 
+}

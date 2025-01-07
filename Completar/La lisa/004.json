@@ -1,0 +1,45 @@
+{    "name" : "La Mia Pizza",
+    "location" : "lisa",
+    "specialty" : ["Italian"],
+    "menu" : {
+        "entree" :
+        { 
+        "item" : ["Entremes de Jamon y Queso", "Entremes de Jamon", "Entremes de ahumados", "Entremes de aceitunas", "Dados de Queso", "Croquetas de embutidos", "Crema de Queso", "Crema Aurora", "Crema Virginia"],
+        "price" : [1440, 500, 440, 300, 300, 220, 250, 300, 430],
+        "further_info" : [["ham", "cheese"], ["ham"], ["ahumados"], ["olives"], ["cheese"], ["croquettes"], ["cheese"], ["cheese"], ["cheese"], ["cheese", "ham"]]
+        },
+        "main_dish" : 
+        { 
+        "items" : ["Lasagna de Jamon", "Lasagna de Jamon y Chorizo", ["Espaguetis Napolitanos", ["Queso", "Jamon", "Chorizo", "Atun", "Aji pimiento", "Cebolla", "Pina", "Ahumados", "Aceitunas", "Queso azul"]], ["Espaguetis a la carbonara", ["Queso", "Jamon", "Chorizo", "Atun", "Aji pimiento", "Cebolla", "Pina", "Ahumados", "Aceitunas", "Queso azul"]], "Pizza Napolitana", "Pizza La Mia", "Pizza La Mia de Queso", "Pizza Tres Quesos", "Pizza La Mia Familiar", "Pizza La Mia Familiar de Queso", "Pizza Familiar Napolitana"],
+        "price" : [500, 610, 700, 860, 320, [700, [320, 300, 220, 280, 120, 120, 100, 300, 200, 500]], [860, [320, 300, 220, 280, 120, 120, 100, 300, 200, 500]], 700, 2500, 1900, 1700, 4800, 4000, 2500 ],
+        "further_info" : [[]]
+        },
+        "Side_dish" :
+        { 
+        "items" : [],
+        "prices" : [],
+        "further_info" : [[]]
+        },  
+        "desert" :
+        { 
+        "items" : [],
+        "prices" : [],
+        "further_info" : [[]]
+        },
+        
+       "alcoholic" : 
+         { 
+          "items" : ["Havana Club 3 anos","Havana Club 7 anos", "Pina Colada", "Cerveza", "Michelada", "Vodka", "Whisky"],
+          "prices" : [175, 225, 250, 270, 420, 340, 340], 
+          "further_info" : [["rhum", "3anos"], ["rhum", "7anos"], ["pinacolada"], ["beer"], ["michelada"], ["vodka"], ["whiskey"]]
+          },
+       "non_alcoholic" :
+          { 
+          "items" : ["Jugo de Frutas Naturales", "Batido de Frutas Naturales", "Suero de Helado", "Helado Montado", "Pina Colada", "Limonada Frappe", "Refresco", "Refresco de Pomo", "Malta", "Agua", "Agua Saborizada", "Bebida Energizante"],
+          "prices" : [200, 250, 350, 350, 250, 1500, 220, 280, 250, 160, 170, 250],
+          "further_info" : [["juice", "fruit"], ["milkshake", "fruit"], ["milkshake", "icecream"], ["icecream"], ["pinacolada"], ["lemonade"], ["soda"], ["soda"], ["malt"], ["water"], ["flavouredwater"], ["energydrink"]]  
+          }
+        
+     }
+    }    
+

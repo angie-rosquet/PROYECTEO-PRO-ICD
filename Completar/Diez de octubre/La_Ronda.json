@@ -1,0 +1,108 @@
+{
+  "name": "La Ronda",
+  "address": "Callé Guasabacoa esquina Calzada de Luyanó, Diez de Octubre",
+  "schedule": {
+    "monday": {"open": "HH:mm", "close": "HH:mm"},
+    "tuesday": {"open": "HH:mm", "close": "HH:mm"},
+    "wednesday": {"open": "HH:mm", "close": "HH:mm"},
+    "thursday": {"open": "HH:mm", "close": "HH:mm"},
+    "friday": {"open": "HH:mm", "close": "HH:mm"},
+    "saturday": {"open": "HH:mm", "close": "HH:mm"},
+    "sunday": {"open": "HH:mm", "close": "HH:mm"}
+  },
+  "contacts" : {
+    "phone_number": "76990583",
+    "mobile" : "53300641",
+    "website": null,
+    "instagram": "@restaurante.laronda",
+    "facebook": "https://m.facebook.com/restaurante.laronda/"
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["cubana"],
+  "parking": true,
+  "reservations": true,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": [
+    "Zona 1",
+    "Zona 2",
+    "Zona 3" 
+  ],
+  "power_generator": true ,
+  "menu": {
+    "appetizer": [
+      {"name": "Vianda frita", "price": 380 },
+      {"name": "Tostones Naturales", "price": 370 },
+      {"name": "Fajita Cerdo Salteada", "price": 980 },
+      {"name": "Tostones rellenos jamón y queso", "price": 620 },
+      {"name": "Fajita de cerdo empanado", "price": 1100 },
+      {"name": "Tabla RONDA", "price": 1200 },
+      {"name": "Alitas Empanadas", "price": 1100 },
+      {"name": "Croquetas de la casa", "price": 580 },
+      {"name": "Coctel de Pescado", "price": 600 },
+      {"name": "Coctel de Camarones", "price": 1500},
+      {"name": "Entremes de Jamón, Queso", "price": 1050},
+      {"name": "Huevo y Aceituna", "price": 1050},
+      {"name": "Eperlán", "price": 960},
+      {"name": "Ensalada Fría", "price": 500}
+    ],
+    "main_course": [
+      {"name": "Masa de cerdo frita", "price": 1890 },
+      {"name": "Lomo a la Barbacoa", "price": 1180 },
+      {"name": "Bistec de cerdo grille", "price": 1820 },
+      {"name": "Fricasé de cerdo", "price": 1950 },
+      {"name": "Cerdo salteado con vegetales", "price": 1300 },
+      {"name": "Cerdo Agrdulce", "price": 1440 },
+      {"name": "Bistec Uruguayo de cerdo", "price": 1450 },
+      {"name": "Lonjas de cerdo asado", "price": 1650 },
+      {"name": "Brochetes de cerdo", "price": 1350},
+      {"name": "Bistec de Cerdo Empanado", "price": 1250},
+      {"name": "Bistec de cerdo Encebollado", "price": 1160},
+      {"name": "Lomo de cerdo a la piña", "price": 1220},
+      {"name": "Filete de Pescado Empanado", "price": 2200},
+      {"name": "Pollo asado a la Criolla", "price": 1030},
+      {"name": "Pollo Frito a la Criolla", "price": 1030},
+      {"name": "Pollo a la Barbacoa", "price": 1260 },
+      {"name": "Arroz Frito sin Mariscos", "price": 690},
+      {"name": "Arroz Frito con Camarones", "price": 1450},
+      {"name": "Monte Mar (para 2 pers)", "price": 3500},
+      {"name": "Enchilado de Camarones", "price": 1850},
+      {"name": "Camarones Empanados", "price": 1500 },
+      {"name": "Camarones al Ajillo", "price": 2020},
+      {"name": "Grillada del Mar", "price": 2800},
+      {"name": "Paella Marinera para dos", "price": 2800},
+      {"name": "Filete de Pescado Grille", "price": 1090},
+      {"name": "Bistec de Res Encebolla", "price": 1060}
+    ],
+    "garrison": [
+      {"name": "Arroz Blanco", "price": 180 },
+      {"name": "Arroz Moro", "price": 290 },
+      {"name": "Vegetales Salteados", "price": 380 },
+      {"name": "Ensalada a la Estación", "price": 370}
+    ],
+    "desserts": [
+      {"name": "Helado sencillo", "price": 170 },
+      {"name": "Helado de Helado", "price": 620},
+      {"name": "Jimagua", "price": 390},
+      {"name": "Batido de Helado", "price": 420},
+      {"name": "Tres Gracia", "price": 390},
+      {"name": "Dulce de COCO con Queso", "price": 240}
+    ],
+    "drinks": [
+      {"name": "Agua de Pomitos", "price": 140},
+      {"name": "Cerveza imp", "price": 220 },
+      {"name": "Maltas imp", "price": 260 },
+      {"name": "Ref. plano chico", "price": 130 },
+      {"name": "Energizante", "price": 230 },
+      {"name": "Jugo de caja chico", "price": 200 },
+      {"name": "Refresco Pomos Gde", "price": 580 },
+      {"name": "Ref. lata", "price": 260}
+    ]
+  },
+  "service_charge_percentage": 0
+}

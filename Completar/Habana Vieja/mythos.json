@@ -1,0 +1,282 @@
+{
+    "establishment": {
+      "classification": {
+        "type": ["bar-restaurante"]
+      },
+      "name": "Mythos",
+      "type": "Bar, Café, Griega, Pub",
+      "description": "Es el único restaurante de comida griega en Cuba y cumple con lo que promete. Es bonito, agradable y la atención fue muy buena.",
+      "contact_info": {
+        "phone": {
+          "number": "+53 63691718",
+          "type": ["mobile"]
+        }
+      },
+      "opening_hours": {
+        "monday": "8:00 AM - 11:00 PM",
+        "tuesday": "8:00 AM - 11:00 PM",
+        "wednesday": "8:00 AM - 11:00 PM",
+        "thursday": "8:00 AM - 11:00 PM",
+        "friday": "8:00 AM - 11:00 PM",
+        "saturday": "8:00 AM - 11:00 PM",
+        "sunday": "8:00 AM - 11:00 PM"
+      },
+      "address": "Calle Cuba No. 211 entre Empedrado y O'Reilly, Habana Vieja",
+      "coordinates": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "social_media": {
+        "hashtag": "#LaHabana"
+      },
+      "accepted_payment_methods": [],
+      "delivery_available": false,
+      "service_fee": {
+        "name": "10% service charge",
+        "description": "Se le adiciona el 10% a su cuenta por los servicios.",
+        "applies": true
+      },
+      "features": {
+        "reservation_required": true,
+        "outdoor_seating": false,
+        "dine_in": true,
+        "takeaway": false,
+        "offers": ["Restaurante", "Bar"],
+        "local_options": ["Almuerzo", "Cena", "Postres"],
+        "services": ["Sanitario", "Tiene bar"],
+        "ambience": ["Agradable", "Informal"],
+        "usual_customers": ["Grupos"],
+        "planning": ["Se aceptan reservas"],
+        "children": null,
+        "pets": null,
+        "parking": null
+      },
+      "dietary_options": [],
+      "meals": ["Desayuno", "Comidas", "Cenas"],
+      "advantages": ["Reservas", "Capacidad", "Sirve alcohol", "Bar completo", "Servicio de mesa"],
+      "highlights": ["Aperitivos", "Agradable", "Informal", "Recomendable para ir en grupo"]
+    }
+  }
+  {
+    "menu": {
+      "courses": [
+        {
+          "category": "Mezze",
+          "items": [
+            {
+              "name": "Hummus de Garbanzo",
+              "price": 700
+            },
+            {
+              "name": "Melitzanosalata",
+              "price": 800
+            },
+            {
+              "name": "Tzatziki",
+              "price": 600
+            },
+            {
+              "name": "Papas fritas con queso feta y orégano",
+              "price": 1300
+            },
+            {
+              "name": "Tyropitakias",
+              "price": 1000
+            },
+            {
+              "name": "Aceitunas marinadas con queso feta",
+              "price": 700
+            },
+            {
+              "name": "Griego pobre",
+              "price": 750
+            },
+            {
+              "name": "Saganaki",
+              "price": 1500
+            },
+        {
+          "category": "Souvlakis",
+          "items": [
+            {
+              "name": "Souvlaki de cerdo",
+              "price": 2500
+            },
+            {
+              "name": "Souvlaki de pechuga de pollo",
+              "price": 2100
+            },
+            {
+              "name": "Souvlaki de res",
+              "price": 2800
+            },
+            {
+              "name": "Souvlaki vegano",
+              "price": 2000
+            },
+            {
+              "name": "Souvlaki de queso feta",
+              "price": 2500
+            },
+  {
+    "menu": {
+      "courses": [
+        {
+          "category": "Platos Fuertes",
+          "items": [
+            {
+              "name": "Pastitsio",
+              "price": 2300
+            },
+            {
+              "name": "Imam",
+              "price": 2000
+            },
+            {
+              "name": "Saganaki de langosta o camarón",
+              "price": 3500
+            },
+            {
+              "name": "Saganaki de frutos del mar",
+              "price": 4000
+            },
+            {
+              "name": "Risotto de yogurt griego",
+              "price": 3000
+            },
+            {
+              "name": "Risotto de pulpo",
+              "price": 3700
+            },
+            {
+              "name": "Risotto de frutos del mar",
+              "price": 4100
+            },
+            {
+              "name": "Pulpo Grille",
+              "price": 4200
+            },
+            {
+              "name": "Solomillo de cerdo en salsa de limón griega",
+              "price": 3500
+            },
+        {
+          "category": "Platos Fuertes",
+          "items": [
+            {
+              "name": "Pastitsio",
+              "price": 2300
+            },
+            {
+              "name": "Imam",
+              "price": 2000
+            },
+            {
+              "name": "Saganaki de langosta o camarón",
+              "price": 3500
+            },
+            {
+              "name": "Saganaki de frutos del mar",
+              "price": 4000
+            },
+            {
+              "name": "Risotto de yogurt griego",
+              "price": 3000
+            },
+            {
+              "name": "Risotto de pulpo",
+              "price": 3700
+            },
+            {
+              "name": "Risotto de frutos del mar",
+              "price": 4100
+            },
+            {
+              "name": "Pulpo Grille",
+              "price": 4200
+            },
+            {
+              "name": "Solomillo de cerdo en salsa de limón griega",
+              "price": 3500
+            },
+                {
+                  "category": "Pastas",
+                  "items": [
+                    {
+                      "name": "Pasta Mediterránea",
+                      "price": 3000,
+                      "description": "Pasta con queso feta, tomate natural, cebolla, pimiento, aceitunas negras"
+                    },
+                    {
+                      "name": "Pasta de Camarón al Anís",
+                      "price": 3200
+                    },
+        {
+          "category": "Postres",
+          "items": [
+            {
+              "name": "Tarta de Yogurt Griego con reducción de vino tinto",
+              "price": 1000
+            },
+        {
+          "category": "Cócteles de Autor",
+          "items": [
+            {
+              "name": "Demeter",
+              "price": 1800,
+              "description": "Ginebra, mix de pepino y jengibre, zumo de piña"
+            },
+            {
+              "name": "Afrodita",
+              "price": 2000,
+              "description": "Ginebra, mix no. 2, licor de orgeat"
+            },
+            {
+              "name": "Persefone",
+              "price": 2100,
+              "description": "Ginebra, licor de grosella, vermouth rosso, jarabe de hibiscus"
+            },
+            {
+              "name": "Hades",
+              "price": 2500,
+              "description": "Detalles no especificados"
+            },
+            {
+              "name": "Dionisio",
+              "price": 2800,
+              "description": "Ron blanco, reducción de vino tinto, mix no. 3"
+            },
+            {
+              "name": "Poseidón",
+              "price": 2500,
+              "description": "Detalles no especificados"
+            },
+            {
+              "name": "Ares",
+              "price": 2400,
+              "description": "Ron oscuro, mix no. 5, tajin, mango"
+            },
+            {
+              "name": "Apolo",
+              "price": 2300,
+              "description": "Ron blanco, Ruavieja, mix no. 7"
+            },
+        {
+          "category": "Cafés",
+          "items": [
+            {
+              "name": "Freddo Expresso",
+              "price": 450,
+              "description": "Café batido servido con hielo"
+            },
+            {
+              "name": "Freddo Capucchino",
+              "price": 650,
+              "description": "Café batido servido con leche, nata y hielo"
+            }
+          ]
+        }
+      ]
+    }
+  }
+                

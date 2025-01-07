@@ -1,0 +1,97 @@
+{
+  "name": "Don Burguer",
+  "address": "Calzada de 10 de Octubre, entre  Aranguren y Santa Isabel, La Palma, Arroyo Naranjo",
+  "schedule": {
+    "monday": {"open": "10:00", "close": "23:00"},
+    "tuesday": {"open": "10:00", "close": "23:00"},
+    "wednesday": {"open": "10:00", "close": "23:00"},
+    "thursday": {"open": "10:00", "close": "23:00"},
+    "friday": {"open": "10:00", "close": "23:00"},
+    "saturday": {"open": "10:00", "close": "23:00"},
+    "sunday": {"open": "10:00", "close": "23:00"}
+  },
+  "contacts" : {
+    "phone_number": "+53 56073379",
+    "website": null,
+    "instagram": "@donburguercuba",
+    "facebook": "Don Burguer JJ"
+  },
+  "type_establishment": "cafeteria",
+  "specialty": ["comida chatarra"],
+  "parking": true,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": [
+    null 
+  ],
+  "power_generator": true,
+  "menu": {
+    "entrants": [
+      {"name":"ENSALADA FRÍA","price":580 },
+      {"name":"ACEITUNAS (RACIÓN)","price":420 },
+      {"name":"BOLITAS DE QUESO","price":640 },
+      {"name":"FRITURAS DE MALANGA","price":510 },
+      {"name":"CROQUETAS","price":640 },
+      {"name":"PAPITAS","price":640 },
+      {"name":"FAJITAS DE POLLO","price":940 },
+      {"name":"ENTREMES SURTIDO","price":1720 },
+      {"name":"BRUSQUETAS","price":780 },
+      {"name":"BURRITOS DE JAMÓN Y QUESO","price":1260 }
+    ],
+    "main_course": [
+      {"name":"TACOS DE VEGETALES","price":620 },
+      {"name":"TACOS DE CERDO","price":1120 },
+      {"name":"TACOS DE POLLO","price":1120 },
+      {"name":"TACOS DE RES","price":1280 },
+      {"name":"HAMBURGUESA (CERDO)","price":740 },
+      {"name":"HAMBURGUESA (POLLO)","price":740 },
+      {"name":"HAMBURGUESA (RES)","price":860 },
+      {"name":"DOBLE HAMB. (CERDO)","price":1040 },
+      {"name":"DOBLE HAMB. (POLLO)","price":1040 },
+      {"name":"DOBLE HAMB. (RES)","price":1480 },
+      {"name":"DOBLE HAMBURGUESA DE CERDO(BISTEC DE CERDO Y 3 AGREGOS / JAMON VICKING, QUESO Y CHORIZO)","price":2680 },
+      {"name":"PAN C/ BISTEC DE CERDO","price":840 },
+      {"name":"PAN C/ BISTEC DE POLLO","price":810 },
+      {"name":"PAN C/ LECHÓN","price":890 },
+      {"name":"BOCADITO DE ATÚN","price":840 },
+      {"name":"SANDWICH DE JAMÓN QUESO Y CHORIZO","price":890 },
+      {"name":"SANDWICH CUBANO","price":1290 },
+      {"name":"JAMÓN VICKING","price":120 },
+      {"name":"JAMÓN PIERNA","price":190 },
+      {"name":"BACON","price":190 },
+      {"name":"QUESO","price":150 },
+      {"name":"CHORIZO","price":120 },
+      {"name":"HUEVO","price":190 },
+      {"name":"CEBOLLA","price":60 },
+      {"name":"TOMATE","price":60 },
+      {"name":"LECHUGA","price":30 },
+      {"name":"PEPINILLO ENCURTIDO","price":30 },
+      {"name":"PIÑA GLASEADA","price":80 }
+    ],
+    "desserts": [
+      {"name":"3 GRACIAS","price":740 },
+      {"name":"ENSALADA","price":1080 },
+      {"name":"SUERO DE HELADO","price":840 },
+      {"name":"CASQUITOS DE GUAYABA","price":560 },
+      {"name":"FLAN","price":560 },
+      {"name":"DULCE DE COCO","price":460 },
+      {"name":"TORREJAS","price":680 },
+      {"name":"DULCE DE FRUTA BOMBA","price":460 }
+    ],
+    "drinks": [
+      {"name":"AGUA","price":150 },
+      {"name":"REFRESCO","price":240 },
+      {"name":"BATIDO DE FRUTAS","price":390 },
+      {"name":"LIMONADA FRAPE","price":380 },
+      {"name":"LIMONADA CON HIERBA BUENA","price":460 },
+      {"name":"MALTA","price":400 }
+    ]
+  },
+  "service_charge_percentage": 5 
+}

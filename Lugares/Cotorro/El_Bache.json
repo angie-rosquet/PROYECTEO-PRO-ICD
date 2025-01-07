@@ -1,0 +1,181 @@
+{
+  "name": "El Bache",
+  "address": "Calle 30 entre 95 y 97,Las Brisas, Cotorro",
+  "schedule": {
+    "monday": {"open": "10:30", "close": "22:30"},
+    "tuesday": {"open": "10:30", "close": "22:30"},
+    "wednesday": {"open": "10:30", "close": "22:30"},
+    "thursday": {"open": "10:30", "close": "22:30"},
+    "friday": {"open": "10:30", "close": "22:30"},
+    "saturday": {"open": null, "close": null},
+    "sunday": {"open": null, "close": null}
+  },
+  "contacts" : {
+    "phone_number": null,
+    "mobile" : "54703920",
+    "website": null,
+    "instagram": "@_elbache",
+    "facebook": "https://m.facebook.com/p/El-bache-del-cotorro-100064169228995/"
+  },
+  "type_establishment": "Cafeteria",
+  "specialty": ["italiana"],
+  "parking": true,
+  "reservations": true,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": [
+    "Arroyo Naranjo",
+    "Boyeros",
+    "Centro Habana",
+    "Cerro",
+    "Cotorro",
+    "Diez de Octubre",
+    "Guanabacoa",
+    "Habana del Este",
+    "Habana Vieja",
+    "La Lisa",
+    "Marianao",
+    "Playa",
+    "Plaza de la Revolución",
+    "Regla",
+    "San Miguel del Padrón" 
+  ],
+  "power_generator": true ,
+  "menu": {
+    "appetizer": [
+      null
+    ],
+    "main_course": [
+      {"name": "Pizza Napolitana", "price": 700, "added":{
+        "Cebolla": 200,
+        "Queso": 300,
+        "Aceituna": 300,
+        "Chorizo": 200, 
+        "Jamón": 300,
+        "Queso Gouda": 650,
+        "Atún": 750
+      }},
+      {"name": "Pizza de Cebolla", "price": 900, "added":{
+        "Cebolla": 200,
+        "Queso": 300,
+        "Aceituna": 300,
+        "Chorizo": 200, 
+        "Jamón": 300,
+        "Queso Gouda": 650,
+        "Atún": 750
+      }},
+      {"name": "Pizza de Chorizo", "price": 900, "added":{
+        "Cebolla": 200,
+        "Queso": 300,
+        "Aceituna": 300,
+        "Chorizo": 200, 
+        "Jamón": 300,
+        "Queso Gouda": 650,
+        "Atún": 750
+      }},
+      {"name": "Pizza de Jamón", "price": 1000, "added":{
+        "Cebolla": 200,
+        "Queso": 300,
+        "Aceituna": 300,
+        "Chorizo": 200, 
+        "Jamón": 300,
+        "Queso Gouda": 650,
+        "Atún": 750
+      }},
+      {"name": "Pizza de Aceituna", "price": 1000, "added":{
+        "Cebolla": 200,
+        "Queso": 300,
+        "Aceituna": 300,
+        "Chorizo": 200, 
+        "Jamón": 300,
+        "Queso Gouda": 650,
+        "Atún": 750
+      }},
+      {"name": "Pizza Doble Queso", "price": 1000, "added":{
+        "Cebolla": 200,
+        "Queso": 300,
+        "Aceituna": 300,
+        "Chorizo": 200, 
+        "Jamón": 300,
+        "Queso Gouda": 650,
+        "Atún": 750
+      }},
+      {"name": "Pizza Hawaiana", "price": 1300, "added":{
+        "Cebolla": 200,
+        "Queso": 300,
+        "Aceituna": 300,
+        "Chorizo": 200, 
+        "Jamón": 300,
+        "Queso Gouda": 650,
+        "Atún": 750
+      }},
+      {"name": "Pizza Queso Gouda", "price": 1000, "added":{
+        "Cebolla": 200,
+        "Queso": 300,
+        "Aceituna": 300,
+        "Chorizo": 200, 
+        "Jamón": 300,
+        "Queso Gouda": 650,
+        "Atún": 750
+      }},
+      {"name": "Pizza de Atún", "price": 1450, "added":{
+        "Cebolla": 200,
+        "Queso": 300,
+        "Aceituna": 300,
+        "Chorizo": 200, 
+        "Jamón": 300,
+        "Queso Gouda": 650,
+        "Atún": 750
+      }},
+      {"name": "Pizza 4 estaciones", "price": 1700, "added":{
+        "Cebolla": 200,
+        "Queso": 300,
+        "Aceituna": 300,
+        "Chorizo": 200, 
+        "Jamón": 300,
+        "Queso Gouda": 650,
+        "Atún": 750
+      }},
+      {"name": "Espaguetis", "price": 700, "added":{
+        "Cebolla": 200,
+        "Queso": 300,
+        "Aceituna": 300,
+        "Chorizo": 200, 
+        "Jamón": 300,
+        "Queso Gouda": 650,
+        "Atún": 750
+      }},
+      {"name": "Espaguetis queso gouda", "price": 1000, "added":{
+        "Cebolla": 200,
+        "Queso": 300,
+        "Aceituna": 300,
+        "Chorizo": 200, 
+        "Jamón": 300,
+        "Queso Gouda": 650,
+        "Atún": 750
+      }},
+      {"name": "Lasaña de queso blanco", "price": 900 },
+      {"name": "Lasaña de queso gouda", "price": 1300 }
+    ],
+    "garrison": [
+      null
+    ],
+    "desserts": [
+      null
+    ],
+    "drinks": [
+      {"name": "Malta", "price": 280},
+      {"name": "Cerveza", "price": 250},
+      {"name": "Cerveza Cristal", "price": 300},
+      {"name": "Refresco", "price": 250},
+      {"name": "Jugos", "price": 200},
+      {"name": "Energizantes", "price": 250}
+    ]
+  },
+  "service_charge_percentage": 0
+}

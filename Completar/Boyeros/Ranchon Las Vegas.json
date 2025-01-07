@@ -1,0 +1,496 @@
+{
+    "municipality": "Boyeros",
+    "info":
+        {
+        "nameLocal": "Ranchon Las Vegas",
+        "location":
+        {
+            "address": "Calle 409 % 182 & Avenida Independencia",
+            "barrio": "Santiago de las Vegas",
+            "GPS": "22.975478,-82.384574"
+        },
+        "horarios": 
+        {
+            "monday": "",
+            "thuesday": "",
+            "wednesday": "",
+            "thursday": "",
+            "friday": "",
+            "saturday": "",
+            "sunday": ""
+        },
+        "contactUs":
+        {
+            "phone": [],
+            "web": "",
+            "social": []
+        },
+        "services":
+        {
+            "tranfer": null,
+            "delivery": null,
+            "parallevar": null,
+            "reservation": null,
+            "tipoDeMoneda": ["CUP"],
+            "parqueo": null,
+            "porCiento": null,
+            "alquiler": null,
+            "comentarios": ""
+        },
+        "ambientacion":
+        {
+            "inside": false,
+            "outside": true,
+            "bajos": true,
+            "altos": false,
+            "ac": false,
+            "entretenimiento": [],
+            "comentarios": ""
+
+        },
+        "vestimenta": ["casual"],
+        "estatal": false,
+        "tipoDeComidaEspecializada": [],
+        "menu":
+        {
+            "entrantes":
+            [
+                {
+                    "foodName": "Brusquetas de Serrano y Queso",
+                    "foodPrecio": 600
+                },
+                {
+                    "foodName": "Montaditos de Cerdo",
+                    "foodPrecio": 700
+                },
+                {
+                    "foodName": "Papas Fritas",
+                    "foodPrecio": 800
+                },
+                {
+                    "foodName": "Patacon de Cerdo",
+                    "foodPrecio": 900
+                },
+                {
+                    "foodName": "Croquetas Rancho",
+                    "foodPrecio": 1000
+                },
+                {
+                    "foodName": "Papas Fritas y Chorizos",
+                    "foodPrecio": 1000
+                },
+                {
+                    "foodName": "Tamal en Cazuela",
+                    "foodPrecio": 1000
+                },
+                {
+                    "foodName": "Tacos de Pollo",
+                    "foodPrecio": 1100
+                },
+                {
+                    "foodName": "Tacos de Cerdo",
+                    "foodPrecio": 1200
+                },
+                {
+                    "foodName": "Tabla de Queso",
+                    "foodPrecio": 1900
+                },
+                {
+                    "foodName": "Tabla de Serrano, Quesos y Frutos Secos",
+                    "foodPrecio": 2000
+                },
+                {
+                    "foodName": "La Tranka",
+                    "foodPrecio": 2500
+                },
+                {
+                    "foodName": "Hamburguesa Clasica",
+                    "foodPrecio": 800
+                },
+                {
+                    "foodName": "Bagutte Guajiro",
+                    "foodPrecio": 1300
+                },
+                {
+                    "foodName": "Sándwich Cubano",
+                    "foodPrecio": 1500
+                }
+            ],
+            "platoFuerte":
+            [
+                {
+                    "foodName": "Pollo Grille al Carbon",
+                    "foodPrecio": 1600,
+                    "description": null,
+                    "clasficacion": "carne blanca"
+                },
+                {
+                    "foodName": "Brochetas de Pollo",
+                    "foodPrecio": 1800,
+                    "description": null,
+                    "clasficacion": "carne blanca"
+                },
+                {
+                    "foodName": "Bistec de Cerdo",
+                    "foodPrecio": 1600,
+                    "description": null,
+                    "clasficacion": "carne roja"
+                },
+                {
+                    "foodName": "Cerdo Asado",
+                    "foodPrecio": 1800,
+                    "description": null,
+                    "clasficacion": "carne roja"
+                },
+                {
+                    "foodName": "Lomo Ahumado",
+                    "foodPrecio": 1900,
+                    "description": null,
+                    "clasficacion": "carne roja"
+                },
+                {
+                    "foodName": "Uruguayo",
+                    "foodPrecio": 2200,
+                    "description": null,
+                    "clasficacion": "carne roja"
+                },
+                {
+                    "foodName": "Brocheta de Cerdo",
+                    "foodPrecio": 2200,
+                    "description": null,
+                    "clasficacion": "carne roja"
+                },
+                {
+                    "foodName": "Costillas BBQ",
+                    "foodPrecio": 2500,
+                    "description": null,
+                    "clasficacion": "carne roja"
+                },
+                {
+                    "foodName": "Fricase de Cerdo",
+                    "foodPrecio": 2500,
+                    "description": null,
+                    "clasficacion": "carne roja"
+                },
+                {
+                    "foodName": "Ropa Vieja de Res",
+                    "foodPrecio": 1800,
+                    "description": null,
+                    "clasficacion": "carne roja"
+                },
+                {
+                    "foodName": "Vaca Frita",
+                    "foodPrecio": 1800,
+                    "description": null,
+                    "clasficacion": "carne roja"
+                },
+                {
+                    "foodName": "Entrecot",
+                    "foodPrecio": 5000,
+                    "description": null,
+                    "clasficacion": "carne roja"
+                },
+                {
+                    "foodName": "Steak New York",
+                    "foodPrecio": 6000,
+                    "description": null,
+                    "clasficacion": "carne roja"
+                },
+                {
+                    "foodName": "Steak Ribeye",
+                    "foodPrecio": 6500,
+                    "description": null,
+                    "clasficacion": "carne roja"
+                },
+                {
+                    "foodName": "Enchilado de Cangrejo",
+                    "foodPrecio": 2200,
+                    "description": null,
+                    "clasficacion": "marisco"
+                },
+                {
+                    "foodName": "Enchilado de Camaron",
+                    "foodPrecio": 2500,
+                    "description": null,
+                    "clasficacion": "marisco"
+                },
+                {
+                    "foodName": "Pescado 1 pax",
+                    "foodPrecio": 2500,
+                    "description": null,
+                    "clasficacion": "carne blanca"
+                },
+                {
+                    "foodName": "Super Fish + Copa de Vino",
+                    "foodPrecio": 4500,
+                    "description": null,
+                    "clasficacion": "mixto"
+                },
+                {
+                    "foodName": "Atun de Aleta Amarilla",
+                    "foodPrecio": 7000,
+                    "description": null,
+                    "clasficacion": "carne blanca"
+                },
+                {
+                    "foodName": "Arroz Blanco",
+                    "foodPrecio": 300,
+                    "description": null,
+                    "clasficacion": "guarniciones"
+                },
+                {
+                    "foodName": "Arroz Moro",
+                    "foodPrecio": 350,
+                    "description": null,
+                    "clasficacion": "guarniciones"
+                },
+                {
+                    "foodName": "Ensalada de Estacion",
+                    "foodPrecio": 350,
+                    "description": null,
+                    "clasficacion": "ensalada"
+                },
+                {
+                    "foodName": "Pure del Dia",
+                    "foodPrecio": 350,
+                    "description": null,
+                    "clasficacion": "guarniciones"
+                },
+                {
+                    "foodName": "Verduras Grilladas",
+                    "foodPrecio": 400,
+                    "description": null,
+                    "clasficacion": "guarniciones"
+                }
+            ],
+            "postre":
+            [
+                {
+                    "foodName": "Helado",
+                    "foodPrecio": 450
+                },
+                {
+                    "foodName": "Flan",
+                    "foodPrecio": 450
+                },
+                {
+                    "foodName": "Copa Lolita",
+                    "foodPrecio": 850
+                }
+            ],
+            "bebidas":
+            [
+                {
+                    "foodName": "Café",
+                    "foodPrecio": 350,
+                    "alcoholica": false,
+                    "importada": false
+                },
+                {
+                    "foodName": "Cuba Libre",
+                    "foodPrecio": 750,
+                    "alcoholica": true,
+                    "importada": false
+                },
+                {
+                    "foodName": "Caipiriña",
+                    "foodPrecio": 750,
+                    "alcoholica": true,
+                    "importada": false
+                },
+                {
+                    "foodName": "Caipiroska",
+                    "foodPrecio": 750,
+                    "alcoholica": true,
+                    "importada": false
+                },
+                {
+                    "foodName": "Caipirisima",
+                    "foodPrecio": 750,
+                    "alcoholica": true,
+                    "importada": false
+                },
+                {
+                    "foodName": "Mojito",
+                    "foodPrecio": 750,
+                    "alcoholica": true,
+                    "importada": false
+                },
+                {
+                    "foodName": "Daiquiri",
+                    "foodPrecio": 800,
+                    "alcoholica": true,
+                    "importada": false
+                },
+                {
+                    "foodName": "Piña Colada Virgen",
+                    "foodPrecio": 800,
+                    "alcoholica": false,
+                    "importada": false
+                },
+                {
+                    "foodName": "Piña Colada",
+                    "foodPrecio": 900,
+                    "alcoholica": true,
+                    "importada": false
+                },
+                {
+                    "foodName": "Bloody Mary",
+                    "foodPrecio": 900,
+                    "alcoholica": true,
+                    "importada": false
+                },
+                {
+                    "foodName": "Tinto de Verano",
+                    "foodPrecio": 900,
+                    "alcoholica": true,
+                    "importada": false
+                },
+                {
+                    "foodName": "Sangria",
+                    "foodPrecio": 900,
+                    "alcoholica": true,
+                    "importada": false
+                },
+                {
+                    "foodName": "Cubanito",
+                    "foodPrecio": 900,
+                    "alcoholica": true,
+                    "importada": false
+                },
+                {
+                    "foodName": "Margarita",
+                    "foodPrecio": 1250,
+                    "alcoholica": true,
+                    "importada": false
+                },
+                {
+                    "foodName": "Cerveza Importada",
+                    "foodPrecio": 250,
+                    "alcoholica": true,
+                    "importada": true
+                },
+                {
+                    "foodName": "Cheladas",
+                    "foodPrecio": 300,
+                    "alcoholica": true,
+                    "importada": false
+                },
+                {
+                    "foodName": "Cristal",
+                    "foodPrecio": 350,
+                    "alcoholica": true,
+                    "importada": false
+                },
+                {
+                    "foodName": "Micheladas",
+                    "foodPrecio": 400,
+                    "alcoholica": true,
+                    "importada": false
+                },
+                {
+                    "foodName": "Energizante Importado",
+                    "foodPrecio": 400,
+                    "alcoholica": false,
+                    "importada": true
+                },
+                {
+                    "foodName": "Cristal de Botella",
+                    "foodPrecio": 450,
+                    "alcoholica": true,
+                    "importada": false
+                },
+                {
+                    "foodName": "Corona",
+                    "foodPrecio": 600,
+                    "alcoholica": true,
+                    "importada": true
+                },
+                {
+                    "foodName": "Cerveza Modelo",
+                    "foodPrecio": 700,
+                    "alcoholica": true,
+                    "importada": true
+                },
+                {
+                    "foodName": "Vino Blanco",
+                    "foodPrecio": 700,
+                    "alcoholica": true,
+                    "importada": true
+                },
+                {
+                    "foodName": "Vino Tinto",
+                    "foodPrecio": 700,
+                    "alcoholica": true,
+                    "importada": true
+                },
+                {
+                    "foodName": "Agua Natural",
+                    "foodPrecio": 200,
+                    "alcoholica": false,
+                    "importada": false
+                },
+                {
+                    "foodName": "Refresco Cola",
+                    "foodPrecio": 250,
+                    "alcoholica": false,
+                    "importada": false
+                },
+                {
+                    "foodName": "Refresco Limon",
+                    "foodPrecio": 250,
+                    "alcoholica": false,
+                    "importada": false
+                },
+                {
+                    "foodName": "Refresco Naranja",
+                    "foodPrecio": 250,
+                    "alcoholica": false,
+                    "importada": false
+                },
+                {
+                    "foodName": "Piña",
+                    "foodPrecio": 250,
+                    "alcoholica": false,
+                    "importada": false
+                },
+                {
+                    "foodName": "Jugos",
+                    "foodPrecio": 250,
+                    "alcoholica": false,
+                    "importada": true
+                },
+                {
+                    "foodName": "Coca Cola",
+                    "foodPrecio": 350,
+                    "alcoholica": false,
+                    "importada": true
+                },
+                {
+                    "foodName": "Sprite",
+                    "foodPrecio": 350,
+                    "alcoholica": false,
+                    "importada": true
+                },
+                {
+                    "foodName": "Malta",
+                    "foodPrecio": 300,
+                    "alcoholica": false,
+                    "importada": false
+                },
+                {
+                    "foodName": "Malta Bucanero",
+                    "foodPrecio": 350,
+                    "alcoholica": false,
+                    "importada": false
+                },
+                {
+                    "foodName": "Pepsi Cola",
+                    "foodPrecio": 350,
+                    "alcoholica": false,
+                    "importada": true
+                }
+            ]            
+        }
+    }
+}

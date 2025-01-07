@@ -1,60 +1,90 @@
 {
-    "name": "Fiesta Criolla",
-    "address": "Calle 100 #1003 (después del puente de calabazar), Arroyo Naranjo",
-    "schedule": {
-      "monday": {"open": "12:00", "close": "24:00"},
-      "tuesday": {"open": "12:00", "close": "24:00"},
-      "wednesday": {"open": "12:00", "close": "24:00"},
-      "thursday": {"open": "12:00", "close": "24:00"},
-      "friday": {"open": "12:00", "close": "24:00"},
-      "saturday": {"open": "12:00", "close": "24:00"},
-      "sunday": {"open": "12:00", "close": "24:00"}
-    },
-    "phone_number": "+5352413555",
-    "website": {
-      "website": "URL del sitio web",
-      "instagram": "@nombre_de_usuario_instagram",
-      "facebook": "URL de la página de Facebook"
-    },
-    "type_establishment": "restaurante",
-    "specialty": "Cubana, Al Carbon",
-    "parking": true,
-    "reservations": false,
-    "payment_methods": {
-      "cash_national": true,
-      "digital_transfer_national": false,
-      "usd_cash": false,
-      "usd_transfer": false,
-      "mlc": false
-    },
-    "free_wifi": false,
-    "delivery_areas": [
+  "name": "Fiesta Criolla",
+  "address": "Calle 100 #1003 (después del puente de calabazar), Arroyo Naranjo",
+  "schedule": {
+    "monday": {"open": "12:00", "close": "24:00"},
+    "tuesday": {"open": "12:00", "close": "24:00"},
+    "wednesday": {"open": "12:00", "close": "24:00"},
+    "thursday": {"open": "12:00", "close": "24:00"},
+    "friday": {"open": "12:00", "close": "24:00"},
+    "saturday": {"open": "12:00", "close": "24:00"},
+    "sunday": {"open": "12:00", "close": "24:00"}
+  },
+  "contacts":{
+    "phone_number": null,
+    "mobile": "52413555",
+    "website": null,
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["cubana"],
+  "parking": true,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": false,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": [
+    null
+  ],
+  "power_generator": true,
+  "menu": {
+    "appetizer": [
+      {"name": "Toston criollo", "price": 500 },
+      {"name": "Toston relleno con Jamon y Queso", "price": 600 },
+      {"name": "Toston relleno con Atun", "price": 700 },
+      {"name": "Eperlan", "price": 1300 },
+      {"name": "Fajitas de pollo", "price": 1300 },
+      {"name": "Caldo de Mariscos", "price": 1000 },
+      {"name": "Camaron Rebosado", "price": 2000 },
+      {"name": "Tamal en Hojas", "price": 90 },
+      {"name": "Fritura de Malanga", "price": 500 },
+      {"name": "Platano Frito", "price": 350 },
+      {"name": "Alitas de Pollo", "price": 850 }
+    ],
+    "main_course": [
+      {"name": "Pollo Asado", "price": 1150 },
+      {"name": "Pechuga Grillé", "price": 1450 },
+      {"name": "Pechuga Gratinada Jamón y Queso", "price": 1600 },
+      {"name": "Chuleta", "price": 1350 },
+      {"name": "Pechuga Salteada con vegetales", "price": 1550 },
+      {"name": "Lomo Ahumado", "price": 1350 },
+      {"name": "Lomo deshuesado ahumado", "price": 1550 },
+      {"name": "Costillas Fritas", "price": 1400 },
+      {"name": "Masa Frita", "price": 1550 },
+      {"name": "Bistec Grillé", "price": 1450 },
+      {"name": "Bistec Gratinado de Jamón y Queso", "price": 1600 },
+      {"name": "Ropa Vieja", "price": 1500 },
+      {"name": "Suprema carnero", "price": 1800 },
+      {"name": "Fricasé de Carnero", "price": 1500 },
+      {"name": "Camarón grillé", "price": 1900 },
+      {"name": "Langosta grillé", "price": 1900 },
+      {"name": "Pulpo grillé", "price": 2000 },
+      {"name": "Pescado grillé", "price": 1300 },
+      {"name": "Rueda pescado grillé", "price": 1300 },
+      {"name": "Pescado Grillé gratinado con Jamón y Queso", "price": 1450 },
+      {"name": "Don Pedro", "price": 2300 },
+      {"name": "Masa de cangrejo", "price": 1050 },
+      {"name": "Caldero de mariscos", "price": 3500 },
+      {"name": "Mar y tierra", "price": 3950 },
+      {"name": "Paella", "price": 2300 },
+      {"name": "Mariscada", "price": 2500 },
+      {"name": "Spaguetis Napolitanos", "price": 1000 },
+      {"name": "Spaguetis con Jamón y Queso", "price": 1250 }
+    ],
+    "garrison": [
       null
     ],
-    "power_generator": "Sí" ,
-    "capacity": 100,
-    "menu": {
-      "entrants": [
-        {"name": "Nombre del entrante", "price": 10.00},
-        {"name": "Nombre del entrante", "price": 12.50}
-      ],
-      "main_course": [
-        {"name": "Nombre del plato", "price": 25.00},
-        {"name": "Nombre del plato", "price": 30.00}
-  
-      ],
-      "garrison": [
-        {"name": "Nombre del acompañamiento", "price": 5.00},
-        {"name": "Nombre del acompañamiento", "price": 7.00}
-      ],
-      "desserts": [
-        {"name": "Nombre del postre", "price": 8.00},
-        {"name": "Nombre del postre", "price": 6.50}
-      ],
-      "drinks": [
-        {"name": "Nombre de la bebida", "price": 3.00},
-        {"name": "Nombre de la bebida", "price": 4.00}
-      ]
-    },
-    "service_charge_percentage": 0
+    "desserts": [
+      {"name": "Dulce Tres Leches", "price": 350 }
+    ],
+    "drinks": [
+      null
+    ]
+  },
+  "service_charge_percentage": 0
 }

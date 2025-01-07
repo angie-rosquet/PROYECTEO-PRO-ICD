@@ -1,0 +1,48 @@
+{    "name" : "Cafe Aroma",
+    "location" : "lisa",
+    "specialty" : ["cofee"],
+    "menu" : {
+        "entree" :
+        { 
+        "item" : ["Sandwich de Jamon y Queso", "Sandwich de Jamon y Queso", "Sandwich de Jamon", "Sandwich de Queso", "Sandwich de Queso", "Sandwich de Pollo", "Sandwich de Atun", "Sandwich Hawaiano", "Sandwich Hawaiano"],
+        "price" : [320, 360, 360, 320, 360, 370, 480, 380, 430],
+        "further_info" : [["sandwich", "cheese", "ham"], ["sandwich", "gouda", "cheese", "ham"], ["sandwich", "ham"], ["sandwich", "cheese"], ["sandwich", "gouda", "cheese"], ["sandwich", "chicken"], ["sandwich","fish", "tuna"], ["sandwich", "pineapple", "cheese"], ["sandwich", "pineapple", "gouda", "cheese"] ]
+        },
+        "Side_dish" :
+        { 
+        "items" : [],
+        "prices" : [],
+        "further_info" : [[]]
+        },  
+        "main_dish" : 
+        { 
+        "items" : ["Nachos con Salsa", "Croquetas", "Picadera Aroma", "Garbanzos Fritos", "Eperlan de Pescado", "Enchilado de Cangrejo", "Fajitas de Cerdo", "Tacos de Pollo", "Tacos de Cangrejo", "Tacos de Cerdo", "Tacosd de Ropa Vieja", "Tacos de Jamon Pierna", "Tostones rellenos de Jamon y Queso", "Tostones Rellenos de Atun", "Tostones Rellenos de Ropa Vieja", ["Hamburguesa Sencilla", ["agrego de Jamon", "agrego de queso blanco", "agrego de queso gouda", "agrego de aceitunas", "agrego de pina", "agrego de atun"]] ],      
+        "price" : [200, 320, 550, 600, 700, 600, 600, 500, 600, 620, 750, 750, 380, 400, 500, [450, [220, 200, 220, 200, 170, 250]]],
+        "further_info" : [["nachos"], ["croquettes"], [], ["garbanzos"],  ["fish"], ["crab"], ["taco", "chicken"], ["taco", "crab"], ["taco","pork"], ["taco", "ropavieja"], ["taco", "ham"], ["tostones", "cheese", "ham"], ["tostones","fish", "tuna"], ["tostones", "ropavieja"], ["burger", "bread", [["ham"],["cheese"],["cheese", "gouda"], ["olives"], ["pineapple"], ["tuna"]]]   ]
+        },
+        "desert" :
+        { 
+        "items" : ["Donas", "Helado/Galletas", "Bola de Helado", "Dulce Aroma"],
+        "prices" : [200, 320, 140, 350],
+        "further_info" : [["donut"], ["icecream"], ["icecream"], ["delight"]]
+        },
+       
+       "alcoholic" : 
+         { 
+          "items" : ["Caipirinha", "Daiquiri", "Caipiroska", "Caipirisima", "Screwdriver", "Mojito", "Mojito Ruso", "Cremas de Tequila", "Pina Colada", "Martini", "Copa de Vino", "Gin & Tonic", "Sex on the Beach", "Sangria", "Margarita", "Orgasmo", "Cervezas Importadas", "Habana Club 3 anos", "Habana Club Especial", "Habana Club Reserva", "Habana Club 7 anos", "Habana Club Smoky", "Seleccion de Maestros", "Pacto Navio", "Black Tears Super Dry", "Black Tears Roble Superior", "Jameson", "Ballantines", "Chivas Regal 12", "Red Label", "Black Label", "Buchanans", "Tequila Olmeca", "Crema Baileys", "Jagermeiste", "Vodka", "Ciroc"],
+          "prices" : [250, 250, 280, 280, 280, 300, 300, 320, 350, 300, 300, 350, 320, 350, 350, 350, 230, 250, 280, 300, 350, 350, 600, 600, 250, 300, 450, 300, 500, 450, 500, 500, 500, 300, 300, 380, 250, 400],
+          "further_info" : [["caipirinha"], ["daiquiri"], ["caipirinha", "vodka"], ["caipirinha"], ["screwdriver", "vodka"], ["mojito"], ["mojito", "vodka"], ["tequila"], ["pinacolada"], ["martini"], ["wine"], ["gin"], [null], ["sangria"], ["margarita"], [null], ["beer"], ["rhum", "3anos"], ["rhum", "especial"], ["rhum", "reserva"], ["rhum", "7anos"], ["rhum", "smokey"], ["rhum", "selecciondemaestros"], ["rhum"], ["rhum"], ["rhum"], ["whiskey"], ["whiskey"], ["whiskey"], ["whiskey"], ["whiskey"], ["whiskey"], ["tequila"], [null], [null], ["vodka"], [null]]
+          },
+        "non_alcoholic" :
+          { 
+          "items" : ["Expresso", "Capuccino", "Cortadito", "Moka", "Carajillo", "Especiado", "Americano", "Bombon", "Cremoso", "Jugo Natural", "Limonada", "Batido de Chocolate", "Batido de Frutas", "Batido de Helado", "Batido de Helado Plus", "Frapuccino", "Frapuccino Moka", "Frapuccino Aroma", "Frapuccino Sorpresa", "Frapuccino Mousse", "Capricho", "Refresco Importado", "Malta", "Agua", "Jugo de Caja Pequeno", "Jugo de Caja Grande", "Pomo de Refresco", "Pina Colada"],
+          "prices" : [100, 150, 120, 180, 180, 110, 115, 110, 300, 250, 100, 180, 280, 330, 380, 550, 280, 300, 350, 380, 350, 350],
+          "further_info" : [["hotcofee", "expresso"],["hotcofee", "capuccino"], ["hotcofee"], ["hotcofee", "moka"], ["hotcofee"], ["hotcofee"],["hotcofee", "americano"], ["hotcofee", "cafebombon"], ["hotcofee"], ["juice","fruit"], ["lemonade"], ["milkshake", "nonfruit"], ["milkshake", "fruit"], ["milkshake", "icecream"], ["milkshake", "icecream"], ["frozencofee", "frapuccino"], ["frozencofee", "frapuccino"], ["frozencofee", "frapuccino"], ["frozencofee", "frapuccino"], ["frozencofee", "frapuccino"], ["frozencofee"], ["soda"], ["malt"], ["water"], ["juice", "artifitial"], ["juice", "artifitial"], ["soda"], ["pinacolada"]]  
+          }
+        
+     }
+    
+    }
+
+     
+

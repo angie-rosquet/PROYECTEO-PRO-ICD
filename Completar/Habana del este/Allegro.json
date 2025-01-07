@@ -1,0 +1,49 @@
+{
+    "Place":"Allegro",
+    "Address":"Paseo de la Villa, Villa Panamericana",
+    "Municipality":"Habana del Este",
+    "Classification":"Restaurant",
+    "Specialization":"Comida italiana",
+    "Property":"Estatal",
+    "Schedule":"12h00 - 21h00",
+    "Ratings":"4.0 (Google Maps)",
+    "Reservations":"False",
+    "Delivery":"False",
+    "Delivery area":"False",
+    "Phone":"7661010",
+    "Accounts or website":"False",
+    "Payment method":"Tarjeta o efectivo (MN)",
+    "Capacity":20,
+    "Parking":"False",
+    "Wifi":"False",
+    "Smoking area":"True",
+    "Menu card":{
+        "Starters":[
+         {"Plate":"Crema de queso",
+         "Price":313},
+         {"Plate":"Crema Aurora",
+         "Price":315},
+         {"Plate":"Crema Virginia",
+         "Price":329}
+        ],
+        "Main course":[
+         {"Plate":"Spaghettis napolitanos",
+         "Price":410},
+         {"Plate":"Spaghettis de jamon",
+         "Price":570},
+         {"Plate":"Lazagna de jamon",
+         "Price":550},
+         {"Plate":"Pizza napolitana",
+         "Price":390},
+         {"Plate":"Pizza de jamon",
+         "Price":540},
+         {"Plate":"Pizza de chorizo",
+         "Price":588},
+         {"Plate":"Pizza de bacon",
+         "Price":735}
+        ],
+        "Siders":"Null",
+        "Drinks":"Null",
+        "Desserts":"Null"
+    }
+}

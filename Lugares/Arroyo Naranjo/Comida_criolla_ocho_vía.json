@@ -1,0 +1,75 @@
+{
+    "name": "Comida Criolla Ocho Vías",
+    "address": "Avenida 1er Anillo 3km despues de San Agustin, Arroyo Naranjo",
+    "schedule": {
+      "monday": {"open": "11:00", "close": "23:00"},
+      "tuesday": {"open": "11:00", "close": "23:00"},
+      "wednesday": {"open": "11:00", "close": "23:00"},
+      "thursday": {"open": "11:00", "close": "23:00"},
+      "friday": {"open": "11:00", "close": "23:00"},
+      "saturday": {"open": "11:00", "close": "23:00"},
+      "sunday": {"open": "11:00", "close": "23:00"}
+    },
+    "contacts" : {
+      "phone_number": "+5359107933",
+      "mobile" : "",
+      "website": null,
+      "instagram": null,
+      "facebook": null
+    },
+    "type_establishment": "restaurante",
+    "specialty": ["cubana"],
+    "parking": true,
+    "reservations": true,
+    "payment_methods": {
+      "cash_national": true,
+      "digital_transfer_national": true,
+      "usd_cash": true,
+      "usd_transfer": true,
+      "mlc": true
+    },
+    "delivery_areas": [
+        null 
+    ],
+    "power_generator": true ,
+    "menu": {
+      "appetizer": [
+        {"name": "Croquetas de queso", "price": 500 },
+        {"name": "Tostones Rellenos", "price": 800 },
+        {"name": "Tostones Tradicionales", "price": 250 },
+        {"name": "Papas Fritas", "price": 800 },
+        {"name": "Platanos Fritos", "price": 200 }
+      ],
+      "main_course": [
+        {"name": "Bistec de Higado(460 gramos)", "price": 1600 },
+        {"name": "Higado Italiana(460 gramos)", "price": 1600 },
+        {"name": "Bistec de Cerdo(460 gramos)", "price": 2200 },
+        {"name": "Chuleta de Cerdo(460 gramos)", "price": 2200 },
+        {"name": "Fricase de Cerdo(430 gramos)", "price": 2500 },
+        {"name": "Masa Frita(430 gramos)", "price": 2200 },
+        {"name": "Fricase de Carnero(960 gramos)", "price": 2200 },
+        {"name": "Bistec Uruguayo)", "price": 2800 },
+        {"name": "Pescado Entero a la Marinera", "price": 2200 },
+        {"name": "Ropa Vieja(460 gramos)", "price": 2700 },
+        {"name": "Camaron Enchilado", "price": 2700 },
+        {"name": "Langosta Grille(690 gramos)", "price": 2700 },
+        {"name": "Langosta Enchilada(690 gramos)", "price": 2800 },
+        {"name": "Pescado Empanado", "price": 2500 },
+        {"name": "Enchilado de Cangrejo", "price": 1800 },
+        {"name": "Bistec de Pollo", "price": 2000 },
+        {"name": "Pechuga de Pollo", "price": 2500 },
+        {"name": "Costilla Frita o Fricase", "price": 2200 }
+      ],
+      "garrison": [
+        {"name": "Arroz Moro", "price": 200 },
+        {"name": "Ensalada Mixta", "price": 300 }
+      ],
+      "desserts": [
+        null
+      ],
+      "drinks": [
+        null
+      ]
+    },
+    "service_charge_percentage": 0 
+}

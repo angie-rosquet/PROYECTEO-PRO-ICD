@@ -1,0 +1,306 @@
+{
+  "name": "Ole Ole",
+  "address": "71 esquina 46 y 48, Loteria, Cotorro",
+  "schedule": {
+    "monday": {"open": "09:00", "close": "24:00"},
+    "tuesday": {"open": "09:00", "close": "24:00"},
+    "wednesday": {"open": "09:00", "close": "24:00"},
+    "thursday": {"open": "09:00", "close": "24:00"},
+    "friday": {"open": null, "close": null},
+    "saturday": {"open": "18:00", "close": "24:00"},
+    "sunday": {"open": "09:00", "close": "24:00"}
+  },
+  "contacts":{
+    "phone_number": null,
+    "mobile": "58447932",
+    "website": null,
+    "instagram": "@oleole_Oficial",
+    "facebook": "oleole_Oficial"
+  },
+  "type_establishment": "Bar-Restaurante",
+  "specialty": ["cubana"],
+  "parking": true,
+  "reservations": true,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": [
+    null 
+  ],
+  "power_generator": true,
+  "menu": {
+    "entrants": [
+    {"name": "Tacos de Res", "price": 750 },
+    {"name": "Tacos de cerdo", "price": 750 },
+    {"name": "Frituras de malanga", "price": 450 },
+    {"name": "Chicharritas", "price": 320 },        
+    {"name": "Picadera", "price": 1500 , "details": {
+    "jamón": "60 gramos",
+    "queso": "60 gramos",
+    "chorizo": "60 gramos",
+    "tostones rellenos": "3 unidades",
+    "aceitunas": "25 gramos",
+    "croquetas": "5 unidades",
+    "frituras de malanga": "5 unidades"
+    }},
+    {"name": "Brocheta Olé", "price": 1200 },
+    {"name": "Croquetas Olé Olé", "price": 500 , "details":"10 unidades"},
+    {"name": "Tostones Tradicionales", "price": 450 , "details":"10 unidades"},
+    {"name": "Ensalada Mixta", "price": 350 },
+    {"name": "Tostones Atun", "price": 1000 },
+    {"name": "Eperlán", "price": 1000 , "details":{
+      "pescado" : "115 gramos"
+    }},
+    {"name": "Coctel de Camarones", "price": 1350 , "details":{
+      "camaron" : "100 gramos"
+    }},
+    {"name": "Baston de Pollo", "price": 900 },
+    {"name": "Entremés", "price": 1000 , "details": {
+      "jamón": "80 gramos",
+      "queso": "60 gramos",
+      "chorizo": "80 gramos",
+      "aceitunas": "25 gramos"
+    }},
+    {"name": "Picadera Premium", "price": 1800 , "details": {
+      "jamón": null,
+      "queso": null,
+      "chorizo": null,
+      "tostones rellenos": null,
+      "aceitunas": null,
+      "croquetas": null,
+      "frituras de malanga": null
+    }}
+    ],
+    "main_course": [
+    {"name": "Pizza Napolitana Gouda", "price": 1100 , "added": {
+      "queso": 100
+    }},
+    {"name": "Pizza Jamón Gouda", "price": 1280 , "added": {
+      "jamon": 60
+    }},
+    {"name": "Pizza Chorizos Gouda", "price": 1260 , "added": {
+      "chorizo": 60
+    }},
+    {"name": "Pizza Doble Queso Gouda", "price": 1420 , "added": {
+      "queso": 150
+    }},
+    {"name": "Pizza Camarones Gouda", "price": 1800 , "added": {
+      "camarones": 100
+    }},
+    {"name": "Pizza Hawaiana Gouda", "price": 1400 , "added": {
+      "piña": 80, 
+      "jamon": 60
+    }},
+    {"name": "Pizza Habanera Gouda", "price": 1790 , "added": {
+      "carne_de_res": 75
+    }},
+    {"name": "Pizza al Tonno Gouda", "price": 1400 , "added": {
+      "atun": 100, 
+      "cebolla": 60
+    }},
+    {"name": "Pizza Jamón Piña Gouda", "price": 1500 },
+    {"name": "Pizza Napolitana", "price": 700 , "added": {
+      "queso": 100
+    }},
+    {"name": "Pizza Jamón", "price": 900 , "added": {
+      "jamon": 60
+    }},
+    {"name": "Pizza Chorizos", "price": 900 , "added": {
+      "chorizo": 60
+    }},
+    {"name": "Pizza Doble Queso", "price": 850 , "added": {
+      "queso": 150
+    }},
+    {"name": "Pizza Camarones", "price": 1600 , "added": {
+      "camarones": 100
+    }},
+    {"name": "Pizza Hawaiana", "price": 1000 , "added": {
+      "piña": 80, 
+      "jamon": 60
+    }},
+    {"name": "Pizza Habanera", "price": 1400 , "added": {
+      "carne_de_res": 75
+    }},
+    {"name": "Pizza al Tonno", "price": 1280 , "added": {
+      "atun": 100, 
+      "cebolla": 60
+    }},
+    {"name": "Pizza Jamón Piña", "price": 1300 },
+    {"name": "Espaguetis Napolitanos Queso Gouda", "price": 720 , "added": {
+      "espaguetis": 350, 
+      "queso": 45
+    }},
+    {"name": "Espaguetis Jamón Queso Gouda", "price": 900 , "added": {
+      "espaguetis": 350, 
+      "jamon": 60, 
+      "queso": 45
+    }},
+    {"name": "Espaguetis Al Pomodoro Queso Gouda", "price": 750 , "added": {
+      "espaguetis": 350, 
+      "tomate_natural": 100, 
+      "queso": 45
+    }},
+    {"name": "Espaguetis A la Amatriciana Queso Gouda", "price": 1250 , "added": {
+      "espaguetis": 350, 
+      "bacon": 100, 
+      "queso": 45
+    }},
+    {"name": "Espaguetis Doble Queso Gouda", "price": 1000 , "added": {
+      "espaguetis": 350, 
+      "queso": 90
+    }},
+    {"name": "Espaguetis De Camarón Queso Gouda", "price": 1430 , "added": {
+      "espaguetis": 350, 
+      "camaron": 100, 
+      "queso": 45
+    }},
+    {"name": "Espaguetis A la Arabiata Queso Gouda", "price": 770 , "added": {
+      "espaguetis": 350, 
+      "ajo": 45, 
+      "picante": 45, 
+      "tomate_natural": 45, 
+      "queso": 45
+    }},
+    {"name": " Espaguetis Napolitanos", "price": 600 , "added": {
+      "espaguetis": 350, 
+      "queso": 45
+    }},
+    {"name": "Espaguetis Jamón", "price": 800 , "added": {
+      "espaguetis": 350, 
+      "jamon": 60, 
+      "queso": 45
+    }},
+    {"name": "Espaguetis Al Pomodoro", "price": 650 , "added": {
+      "espaguetis": 350, 
+      "tomate_natural": 100, 
+      "queso": 45
+    }},
+    {"name": "Espaguetis A la Amatriciana", "price": 1100 , "added": {
+      "espaguetis": 350, 
+      "bacon": 100, 
+      "queso": 45
+    }},
+    {"name": "Espaguetis Doble Queso", "price": 800 , "added": {
+      "espaguetis": 350, 
+      "queso": 90
+    }},
+    {"name": "Espaguetis De Camarón", "price": 1380 , "added": {
+      "espaguetis": 350, 
+      "camaron": 100, 
+      "queso": 45
+    }},
+    {"name": "Espaguetis A la Arabiata", "price": 670 , "added": {
+      "espaguetis": 350, 
+      "ajo": 45, 
+      "picante": 45, 
+      "tomate_natural": 45, 
+      "queso": 45
+    }},
+    {"name": "Filete de Pescado a la Grille", "price": 1300 },
+    {"name": "Filete de Pescado Encebollado", "price": 1500 },
+    {"name": "Pescado Frito al Plato", "price": 1200 },
+    {"name": "Filete de Pescado a la Vizcaína", "price": 1700 },
+    {"name": "Rueda de Pescado Marlin", "price": 1650 },
+    {"name": "Lomo de Pescado a la Grille", "price": 1600 },
+    {"name": "Lomo de Pescado Encebollado", "price": 1700 },
+    {"name": "Lomo de Pescado a la Vizcaína", "price": 1750 },
+    {"name": "Langosta a la Grille", "price": 2000 },
+    {"name": "Langosta Enchilada", "price": 2200 },
+    {"name": "Langosta al Ajillo", "price": 2470 },
+    {"name": "Mariscada", "price": 4500 },
+    {"name": "Camarón Enchilado", "price": 2200 },
+    {"name": "Camarón al Ajillo", "price": 2200 },
+    {"name": "Camarón a la Grille", "price": 1800 },
+    {"name": "Bistec de Ceda Grille","price": 1600 },
+    {"name": "Bistec de Ceda Encebollada","price": 1600 },
+    {"name": "Masa de Ceda Frita","price": 2300 },
+    {"name": "Escalope de Ceda a la Milanesa","price": 2300 },
+    {"name": "Solomillo Cerdo","price": 2900 },
+    {"name": "Castilla de Cerdo Ahumada","price": 3000 },
+    {"name": "Chuleta Cerdo Grille","price": 2200 },
+    {"name": "Loma Cerdo Grille","price": 2100 },
+    {"name": "Pollo Frita","price": 1000 },
+    {"name": "Bistec de Pollo Grille","price": 900 },
+    {"name": "Bistec de Pollo Encebollado","price": 950 },
+    {"name": "Suprema Pollo Milanesa","price": 2200 },
+    {"name": "Pachuga Grille","price": 1200 }
+    ],      
+    "garrison": [
+      {"name": "Arroz Blanco", "price": 120 , "details":"180 gramos"},
+      {"name": "Arroz Moro", "price": 220 , "details":"180 gramos"}
+    ],
+    "desserts": [
+      null
+    ],
+    "drinks": [
+      {"name": "Cerveza Bucanero Max", "price": 300 },
+      {"name": "Cerveza Bucanero Roja", "price": 300 },
+      {"name": "Cerveza Cristal Extra", "price": 280 },
+      {"name": "Cerveza Caiman", "price": 210 },
+      {"name": "Cerveza Sureña", "price": 210 },
+      {"name": "Cerveza Tangua", "price": 210 },
+      {"name": "Cerveza Gierwalk", "price": 210 },
+      {"name": "Cerveza Holandia", "price": 210 },
+      {"name": "Cerveza Cristal Bot", "price": 300 },
+      {"name": "Cerveza Cristal Verde", "price": 300 },
+      {"name": "Energizante Chacal", "price": 280 },
+      {"name": "Energizante Tigon", "price": 210 },
+      {"name": "Refrescos", "price": 220 },
+      {"name": "Malta Licre", "price": 300 },
+      {"name": "Malta Hiper", "price": 280 },
+      {"name": "Agua Chiquita", "price": 280 },
+      {"name": "Jugo Cajita", "price": 180 },
+      {"name": "Caipiriña", "price": 450 },
+      {"name": "Caipiroska", "price": 700 },
+      {"name": "Caipirisima", "price": 500 },
+      {"name": "Cubata", "price": 500 },
+      {"name": "Cuba Libre", "price": 700 },
+      {"name": "Tequila Sunrise", "price": 450 },
+      {"name": "Sex on the beach", "price": 500 },
+      {"name": "Cubanito", "price": 500 },
+      {"name": "Bloody Mary", "price": 450 },
+      {"name": "Ron Collins", "price": 500 },
+      {"name": "Margarita", "price": 550 },
+      {"name": "Screw Driver", "price": 750 },
+      {"name": "Sangria", "price": 1000 },
+      {"name": "Long Island", "price": 1000 },
+      {"name": "Blu Island", "price": 550 },
+      {"name": "Tom Collins", "price": 500 },
+      {"name": "Piña Colada", "price": 650 },
+      {"name": "Daiquiri", "price": 450 },
+      {"name": "Tequila Olmeca Bla", "price": 655 },
+      {"name": "Tequila Olmeca Reposado", "price": 700 },
+      {"name": "Tequila Olmeca Dark Chocolate", "price": 460 },
+      {"name": "Tequila Rosa", "price": 415 },
+      {"name": "Ginebra Beefeater", "price": 340 },
+      {"name": "The Famous Grose", "price": 545 },
+      {"name": "Crema Bayles", "price": 570 },
+      {"name": "Crema Pattys Os", "price": 315 },
+      {"name": "Vino Tinto", "price": 560 },
+      {"name": "Vodka Absolut", "price": 400 },
+      {"name": "Vodka AMG", "price": 270 },
+      {"name": "Vodka Veldevere", "price": 270 },
+      {"name": "Santiago Extra Seco", "price": 350 },
+      {"name": "H.C Cuban Smoky", "price": 550 },
+      {"name": "Ron Santiago 11 años", "price": 800 },
+      {"name": "Habana Club 7 años Añejo", "price": 410 },
+      {"name": "Santiago añejo tradición", "price": 360 },
+      {"name": "Whisky Red Label", "price": 725 },
+      {"name": "Whisky Jameson", "price": 580 },        
+      {"name": "Whisky Black Label", "price": 1365 },
+      {"name": "Whisky Vat 69", "price": 435 },
+      {"name": "Whisky Clan Campbell", "price": 590 },
+      {"name": "Whisky Ballantine", "price": 460 },
+      {"name": "Whisky Grants", "price": 600 },
+      {"name": "Brandy Napoleón", "price": 200 },
+      {"name": "Brandy Lecuivier", "price": 220 },
+      {"name": "Limonada Frape", "price": 400 },
+      {"name": "Copas Vino", "price": 600 }
+      ]
+    },
+    "service_charge_percentage": 0 
+}

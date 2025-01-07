@@ -1,0 +1,66 @@
+{
+  "name": "El Batazo",
+  "address": "Primelles 356 entre Santa Teresa y Daois, Cerro",
+  "schedule": {
+    "monday": {"open": "11:00", "close": "22:00"},
+    "tuesday": {"open": "11:00", "close": "22:00"},
+    "wednesday": {"open": "11:00", "close": "22:00"},
+    "thursday": {"open": "11:00", "close": "22:00"},
+    "friday": {"open": "11:00", "close": "22:00"},
+    "saturday": {"open": "11:00", "close": "22:00"},
+    "sunday": {"open": null, "close": null}
+  },
+  "contacts" : {
+    "phone_number": null,
+    "mobile" : "58050408",
+    "website": null,
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "Bar-Restaurante",
+  "specialty": ["italiana"],
+  "parking": false,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": [
+		null
+	],
+  "power_generator": true ,
+  "menu": {
+    "appetizer": [
+			null
+		],
+    "main_course": [
+			{"name": "Pizza de queso", "price": 750},
+			{"name": "Pizza de chorizo", "price": 930},
+			{"name": "Pizza de jamón", "price": 930},
+			{"name": "Pizza de hawaiana", "price": 1130},
+			{"name": "Pizza de cebolla", "price": 950},
+			{"name": "Pizza de ají", "price": 950},
+			{"name": "Pizza de atún", "price": 1250},
+			{"name": "Pizza de aceitunas", "price": 950},
+			{"name": "Pizza de peperoni", "price": 1050},
+			{"name": "Espaguetis", "price": 600},
+			{"name": "Espaguetis de jamón", "price": 780},
+			{"name": "Hamburguesa strike", "price": 550},
+			{"name": "Hamburguesa doble play", "price": 1000},
+			{"name": "Hamburguesa homerun", "price": 1300}
+		],
+    "garrison": [
+			null
+		],
+    "desserts": [
+			null
+		],
+    "drinks": [
+			null
+		]
+  },
+  "service_charge_percentage": 0
+}

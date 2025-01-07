@@ -1,0 +1,86 @@
+{
+    "name": "Doña Almira",
+    "address": "Calle Finlay No.979 % Avenida de Los Pinos y Fernandez de Castro, Arroyo Naranjo",
+    "schedule": {
+      "monday": {"open": null, "close": null},
+      "tuesday": {"open": null, "close": null},
+      "wednesday": {"open": null, "close": null},
+      "thursday": {"open": "12:00", "close": "23:00"},
+      "friday": {"open": "12:00", "close": "23:00"},
+      "saturday": {"open": "12:00", "close": "23:00"},
+      "sunday": {"open": "12:00", "close": "23:00"}
+    },
+    "contacts" : {
+      "phone_number": "76472432",
+      "mobile" : "52928671",
+      "website": null,
+      "instagram": null,
+      "facebook": null
+    },
+    "type_establishment": "Restaurante",
+    "specialty": ["cubana"],
+    "parking": false,
+    "reservations": true,
+    "payment_methods": {
+      "cash_national": true,
+      "digital_transfer_national": true,
+      "usd_cash": true,
+      "usd_transfer": true,
+      "mlc": true
+    },
+    "delivery_areas": [
+      null
+    ],
+    "power_generator": false,
+    "menu": {
+      "appetizer": [
+        {"name": "Tostones rellenos", "price": 850 },
+        {"name": "Tamal en cazuela", "price": 785 },
+        {"name": "Vegetales rellenos", "price": 895 },
+        {"name": "Ración de chicharrones", "price": 300 },
+        {"name": "Aderezo Doña Almira", "price": 385 },
+        {"name": "Salsa Agridulce", "price": 395 },
+        {"name": "Ensalada de Chorizo", "price": 1225 },
+        {"name": "Ceviche de pescado", "price": 685 }
+      ],
+      "main_course": [
+        {"name": "Migñon de Pescado Grillé", "price": 1370 },
+        {"name": "Migñon de Pescado a las Finas Hierbas", "price": 1410 },
+        {"name": "Migñon de Pescado Doña Almira", "price": 1650 },
+        {"name": "Migñon de Pescado Gratinado", "price": 1585 },
+        {"name": "Migñon de Pescado con Queso y Bacon", "price": 1720 },
+        {"name": "Bistec Americano", "price": 2430 },
+        {"name": "Nasobuco", "price": 1860 },
+        {"name": "Bistec de Hígado", "price": 1290 },
+        {"name": "Hígado a la Italiana", "price": 1380 },
+        {"name": "Lomo Rostizado", "price": 2150 },
+        {"name": "Pollo Doña Almira", "price": 1340 },
+        {"name": "Pollo Barbacoa", "price": 1195 },
+        {"name": "Pollo Salsa Agridulce", "price": 1295 },
+        {"name": "Pollo Grillé", "price": 1195 },
+        {"name": "Pollo en Fricasé", "price": 1200 },
+        {"name": "Pollo a la Pasa", "price": 1220 },
+        {"name": "Pollo Grillé con Camarones", "price": 1375 },
+        {"name": "Cerdo Enrrollado Asado", "price": 1545 },
+        {"name": "Cerdo Enrollado Salsa Agridulce", "price": 1570 },
+        {"name": "Cerdo Enrollado Glaseado", "price": 1550 },
+        {"name": "Fricasé de Cerdo", "price": 1520 },
+        {"name": "Picada a La Habanera", "price": 1290 },
+        {"name": "Ropa Vieja", "price": 1305 },
+        {"name": "Vaca Frita", "price": 1260 }
+      ],
+      "garrison": [
+        {"name": "Arroz Congris", "price": 120 },
+        {"name": "Ensalada Estación", "price": 285 }
+      ],
+      "desserts": [
+        {"name": "Musse Variados", "price": 570 },
+        {"name": "Café Cubano", "price": 150 },
+        {"name": "Café Cortado", "price": 180 }
+      ],
+      "drinks": [
+        null
+      ]
+    },
+    "service_charge_percentage": 0 
+  }

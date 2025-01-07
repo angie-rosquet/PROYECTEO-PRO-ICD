@@ -1,0 +1,142 @@
+{
+    "Name" : "La Cueva del Zorro",
+    "type" : "Bar",
+    "#" : "72710222",
+    "web" : "https://www.facebook.com/lacuevadelzorrobar",
+    "Reference Point" : "Callejón de Fúster",
+    "Status" : "mipime",
+    "events" : "Realizan eventos tipicos de temporadas y se adaptan a las temáticas",
+    "people_trend" : "Jóvenes y Mayoría de edad",
+    "establishment_features" : [
+        "Ambiente muy natural con muchas plantas",
+        "Biplanta",
+        "Contiene secciones confeccionadas de madera y otras con estructura de ladrillos"
+    ],
+    "speciality" : [
+        "cocteleria completa"
+    ],
+    
+    "establishment_address" : {
+        "Province" : "La Habana",
+        "municipality" : "Playa",
+        "address" : "Calle 226 Entre 3B y 3C",
+        "coordinates" : "3GQ8+PJ"
+    },
+
+    "open_hours": {
+        "sunday" : "12:00m - 11:30pm",
+        "monday" : "12:00m - 11:30pm",
+        "tuesday" : "12:00m - 11:30pm",
+        "wednesday" : "12:00m - 11:30pm",
+        "thursday" : "12:00m - 11:30pm",
+        "friday" : "12:00m - 11:30pm",
+        "saturday" : "12:00m - 11:30pm"
+    },
+
+    "curiosity" : null,    
+    "Menu" : { 
+        "Beberages" : {
+            "Café" : {
+                "Café Fuerte" : {
+                    "Price" : 250.00
+                }
+            },
+            "Bebidas" : {
+                "Cerveza Nacional" :{
+                    "Price" : 550.00
+                },
+                "Cerveza importada" : {
+                    "Price" : 400.00
+                },
+                "Refrescos importados" : {
+                    "Price" : 400.00
+                },
+                "Malta" : {
+                    "Price" : 550.00
+                },
+                "Malteada" : {
+                    "Price" : 700.00
+                }
+            },
+            "Coctelería" : {
+                "Mojito" : {
+                    "Price" : 600.00
+                },
+                "Daiquirí" : {
+                    "Price" : 700.00
+                },
+                "Cuba Libre" : {
+                    "Price" : 550.00
+                },
+                "Caipirinha" : {
+                    "Price" : 600.00
+                },
+                "Caipiroska" : {
+                    "Price" : 600.00
+                },
+                "Caipirisima" : {
+                    "Price" : 600.00
+                },
+                "Sangría" : {
+                    "Price" : 1000.00
+                },
+                "Screwdriver" : {
+                    "Price" : 800.00
+                },
+                "Piña Colada" : {
+                    "Price" : 950.00
+                },
+                "Chelada" : {
+                    "Price" : 450.00
+                },
+                "Michelada" : {
+                    "Price" : 500.00
+                },
+                "Gin Tonic" : {
+                    "Price" : 800.00
+                }
+            },
+            "Tragos" : {
+                "Ron Habana Club Especial" : {
+                    "Price" : 450.00
+                },
+                "Ron Habana Club 7 Años" : {
+                    "Price" : 650.00
+                },
+                "Ron Havana Club Seleccion de Maestros" : {
+                    "Price" : 1250.00
+                },
+                "Ron Havana Club Pacto Navío" : {
+                    "Price" : 1200.00
+                },
+                "Vodka Absolut" : {
+                    "Price" : 500.00
+                },
+                "Tequila Olmeca Blanco" : {
+                    "Price" : 700.00
+                },
+                "Tequila Olmeca Reposado" : {
+                    "Price" : 750.00
+                },
+                "Whisky Ballantine´s" : {
+                    "Price" : 850.00
+                },
+                "Whisky Jameson" : {
+                    "Price" : 700.00
+                },
+                "Whisky Johnnie Walker Red Label" : {
+                    "Price" : 900.00
+                },
+                "Vinos por copa" : {
+                    "Price" : 800.00
+                },
+                "Rua Vieja" : {
+                    "Price" : 600.00
+                },
+                "Jaguer" : {
+                    "Price" : 700.00
+                }
+            }
+        }   
+    }
+}

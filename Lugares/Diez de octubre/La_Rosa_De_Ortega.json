@@ -1,0 +1,97 @@
+{
+  "name": "La Rosa De Ortega",
+  "address": "Patrocinio #252 esq. a Juan Bruno Zayas, Diez de Octubre",
+  "schedule": {
+    "monday": {"open": "07:30", "close": "23:00"},
+    "tuesday": {"open": "07:30", "close": "23:00"},
+    "wednesday": {"open": "07:30", "close": "23:00"},
+    "thursday": {"open": "07:30", "close": "23:00"},
+    "friday": {"open": "07:30", "close": "23:00"},
+    "saturday": {"open": "07:30", "close": "23:00"},
+    "sunday": {"open": "07:30", "close": "23:00"}
+  },
+  "contacts" : {
+    "phone_number": "76414329",
+    "mobile" : "52464574",
+    "website": null,
+    "instagram": "@la_rosa_de_ortega",
+    "facebook": "https://www.facebook.com/profile.php?id=100063861950954"
+  },
+  "type_establishment": "Cafetería-Restaurante",
+  "specialty": ["internacional"],
+  "parking": true,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": [
+    null
+  ],
+  "power_generator": true ,
+  "menu": {
+    "appetizer": [
+      {"name": "Coctel de Camarones en lecho de vegetales", "price": 1650 },
+      {"name": "Carpaccio", "price": 3000 },
+      {"name": "Tabla de Jamón Serrano y Queso", "price": 3125 },
+      {"name": "Croquetas de la casa", "price": 825 },
+      {"name": "Brusquetas", "price": 875 },
+      {"name": "Napoleón de Berenjenas", "price": 750 },
+      {"name": "Seviche de Pescado en vinagreta de cachucha y culantro", "price": 2000 },
+      {"name": "Eperlàn", "price": 1125 },
+      {"name": "Tamales criollos", "price": 350 },
+      {"name": "Cesta de Pan", "price": 875 },
+      {"name": "Ensalada Caprese", "price": 1125 }
+    ],
+    "main_course": [
+      {"name": "Pechuga de pollo a la Parmesana", "price": 2750 },
+      {"name": "Pechuga de pollo embardada", "price": 3000 },
+      {"name": "Vaca Frita", "price": 2125 },
+      {"name": "Ropa Vieja", "price": 2125 },
+      {"name": "Solomillo de Res en Salsa Demiglas", "price": 3750 },
+      {"name": "Cerdo Asado", "price": 2375 },
+      {"name": "Tacos de Pollo en Salsa Barbecue", "price": 1500 },
+      {"name": "Montadito de Tamal", "price": 1125 },
+      {"name": "Camarones enchilados", "price": 2800 },
+      {"name": "Camarones al ajillo", "price": 2950 },
+      {"name": "Filete de pescado grille", "price": 2500 },
+      {"name": "Filete de Pescado en Salsa Verde", "price": 2750 },
+      {"name": "Filete de Pescado John-Bill", "price": 3125 },
+      {"name": "Grillada del Mar", "price": 5250 },
+      {"name": "Carbonara", "price": 2050 },
+      {"name": "Tomate y Albahaca", "price": 1200 },
+      {"name": "Frutti di Mare", "price": 3000 },
+      {"name": "Al Pesto", "price": 1500 },
+      {"name": "Amatriciana", "price": 1875 },
+      {"name": "Sandwich de Queso", "price": 1450 },
+      {"name": "Sandwich de Jamón y Queso", "price": 1750 },
+      {"name": "Sandwich Cubano", "price": 2075 },
+      {"name": "Sandwich de Atún", "price": 1500 },
+      {"name": "Sandwich de Pechuga de Pollo", "price": 2000 },
+      {"name": "Ensalada Catalana", "price": 1500 },
+      {"name": "Ensalada Silvestre", "price": 1625 },
+      {"name": "Paella del mar", "price": 2500 },
+      {"name": "Paella de la Tierra", "price": 2125 },
+      {"name": "Paella Mar y Tierra", "price": 2675 },
+      {"name": "Risotto al Pesto", "price": 1625 },
+      {"name": "Risotto de Mariscos", "price": 2750 }
+    ],
+    "garrison": [
+      {"name": "Arroz", "price": 250 },
+      {"name": "Arroz moro", "price": 375 },
+      {"name": "Vegetales Salteados en aceite de Oliva", "price": 575 },
+      {"name": "Ensalada de vegetales frescos", "price": 625 }
+    ],
+    "desserts": [
+      {"name": "Copa de Helado", "price": 925 },
+      {"name": "Tarta Fría de Chocolate", "price": 875 }
+    ],
+    "drinks": [
+      null
+    ]
+  },
+  "service_charge_percentage": 0
+}

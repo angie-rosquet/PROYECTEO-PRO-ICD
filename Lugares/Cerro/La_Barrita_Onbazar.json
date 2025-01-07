@@ -1,0 +1,156 @@
+{
+  "name": "La Barrita Onbazar",
+  "address": "Amenida entre Cruz del Pader e Infanta, Cerro",
+  "schedule": {
+    "monday": {"open": "09:00", "close": "23:00"},
+    "tuesday": {"open": "09:00", "close": "23:00"},
+    "wednesday": {"open": "09:00", "close": "23:00"},
+    "thursday": {"open": "09:00", "close": "23:00"},
+    "friday": {"open": "09:00", "close": "01:00"},
+    "saturday": {"open": "09:00", "close": "01:00"},
+    "sunday": {"open": "09:00", "close": "01:00"}
+  },
+  "contacts" : {
+    "phone_number": null,
+    "mobile" : "54494741",
+    "website": "labarrita.onbazar.net",
+    "instagram": "@la_barrita_onbazar",
+    "facebook": null
+  },
+  "type_establishment": "Bar-Restaurante",
+  "specialty": ["italiana"],
+  "parking": true,
+  "reservations": true,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": [
+    "Arroyo Naranjo",
+    "Boyeros",
+    "Centro Habana",
+    "Cerro",
+    "Cotorro",
+    "Diez de Octubre",
+    "Guanabacoa",
+    "Habana del Este",
+    "Habana Vieja",
+    "La Lisa",
+    "Marianao",
+    "Playa",
+    "Plaza de la Revolución",
+    "Regla",
+    "San Miguel del Padrón" 
+  ],
+  "power_generator": true ,
+  "menu": {
+    "appetizer": [
+      {"name":"Tostones rellenos", "price": 1300},
+      {"name":"Jamón ,queso y aceitunas" , "price": 750},
+      {"name":"Mixta" , "price": 1600 },
+      {"name": "Brochetas", "price": 2000},
+      {"name": "Croquetas", "price": 650 },
+      {"name": "Pollo frito", "price": 1500},
+      {"name": "Pollo chiflado", "price": 1650 }
+    ],
+    "main_course": [
+      {"name": "Pizza de napolitana", "price": 850, "added":{
+        "Jamón": 150,
+        "Cebolla": 150,
+        "Chorizo": 150,
+        "Hawaiana": 250,
+        "Doble Queso": 250
+    }},
+      {"name": "Pizza de chorizo", "price": 1000, "added": {
+        "Jamón": 150,
+        "Cebolla": 150,
+        "Chorizo": 150,
+        "Hawaiana": 250,
+        "Doble Queso": 250
+    }},
+      {"name": "Pizza de jamón", "price": 1000, "added":{
+        "Jamón": 150,
+        "Cebolla": 150,
+        "Chorizo": 150,
+        "Hawaiana": 250,
+        "Doble Queso": 250
+    }},
+      {"name": "Pizza de hawaiana", "price": 1150, "added":{
+        "Jamón": 150,
+        "Cebolla": 150,
+        "Chorizo": 150,
+        "Hawaiana": 250,
+        "Doble Queso": 250
+    }},
+      {"name": "Pizza de cebolla", "price": 1000, "added":{
+        "Jamón": 150,
+        "Cebolla": 150,
+        "Chorizo": 150,
+        "Hawaiana": 250,
+        "Doble Queso": 250
+    }},
+      {"name": "Espaguetis", "price": 850, "added":{
+        "Jamón": 150,
+        "Cebolla": 150,
+        "Chorizo": 150,
+        "Hawaiana": 250,
+        "Doble Queso": 250
+    }},
+      {"name": "Espaguetis de jamón", "price": 1100, "added":{
+        "Jamón": 150,
+        "Cebolla": 150,
+        "Chorizo": 150,
+        "Hawaiana": 250,
+        "Doble Queso": 250
+    }},
+      {"name": "Espaguetis de chorizo", "price": 1000, "added":{
+        "Jamón": 150,
+        "Cebolla": 150,
+        "Chorizo": 150,
+        "Hawaiana": 250,
+        "Doble Queso": 250
+    }},
+      {"name": "Hamburguesa", "price": 1200, "added":{
+        "Jamón": 150,
+        "Cebolla": 150,
+        "Chorizo": 150,
+        "Hawaiana": 250,
+        "Doble Queso": 250
+    }},
+      {"name": "Hamburguesa jamón y queso", "price": 1650, "added":{
+        "Jamón": 150,
+        "Cebolla": 150,
+        "Chorizo": 150,
+        "Hawaiana": 250,
+        "Doble Queso": 250
+    }},
+      {"name": "Hamburguesa onbazar", "price": 2700, "added":{
+        "Jamón": 150,
+        "Cebolla": 150,
+        "Chorizo": 150,
+        "Hawaiana": 250,
+        "Doble Queso": 250
+    }}
+    ],
+    "garrison": [
+      null
+    ],
+    "desserts": [
+      null
+    ],
+    "drinks": [
+      {"name": "Café expreso", "price": 180 },
+      {"name": "Café cortado", "price": 220 },
+      {"name": "Capuchino", "price": 450 },
+      {"name": "Café bombón", "price": 450 },
+      {"name": "Piña colada", "price": 600 },
+      {"name": "Piña colada (alchol)", "price": 750 },
+      {"name": "Limonada frapé", "price": 400 },
+      {"name": "Malteada", "price": 500 }
+    ]
+  },
+  "service_charge_percentage": 0
+}

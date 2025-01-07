@@ -1,0 +1,45 @@
+{    "name" : "La Novia",
+    "location" : "lisa",
+    "specialty" : ["Caribbean"],
+    "menu" : {
+        "entree" :
+        { 
+        "item" : ["Croquetas de la Casa", "Frituras de Malanga", "Bolitas de yuca y queso", "Fajitas de cerdo", "Fajitas de pollo", "Picadera Mixta", "Chips de Vianda", "Milanesa de Pollo", "Sandwich de Jamon", "Sandwich de Jamon y Queso", "Sandwich Cubano con cerdo asado", "Ensaladita de aceitunas, queso y peperoni"],
+        "price" : [600, 400, 350, 1000, 1000, 2200, 200, 1200, 580, 730, 1300, 1100],
+        "further_info" : [["croquettes"], ["malanga"], ["yuca", "cheese"], ["fajitas", "pork"], ["fajitas", "chicken"], [null], ["malanga", "sweetpotato"], ["milanesa", "chicken"], ["sandwich", "ham"], ["sandwich", "ham", "cheese"], ["sandwich", "pork"], ["olives", "peperoni"]       ]
+        },
+        "main_dish" : 
+        { 
+        "items" : ["Tacos de cerdo", "Tacos de pollo", "Tacos de jamon y queso", "Tacos marineros", "Tacos de ropa vieja", "Masas fritas de cerdo", "Pollo frito", "Pollo asado", ["Pizza Napolitana", ["Vegetales", "Jamon", "Queso", "Cebolla", "Cerdo asado", "Chorizo", "Pina glaseada", "Pimiento", "Huevos", "Peperoni", "Masa de Cangrejo"]], ["Pizza de Peperoni", ["Vegetales", "Jamon", "Queso", "Cebolla", "Cerdo asado", "Chorizo", "Pina glaseada", "Pimiento", "Huevos", "Peperoni", "Masa de Cangrejo"]], ["Espaguetis Napolitanos", ["Vegetales", "Jamon", "Queso", "Cebolla", "Cerdo asado", "Chorizo", "Pina glaseada", "Pimiento", "Huevos", "Peperoni", "Masa de Cangrejo"]], "Bistec de Cerdo", "Bistec de Pechuga", "Chuleta de Cerdo", "Ropa Vieja", "Brochetas de Cerdo", "Completa de enchilado de Cangrejo", "Cerdo asado"],
+        "price" : [1100, 1100, 1100, 1100, 1300, 1700, 1300, 1300, [280, [180, 250, 300, 120, 400, 200, 150, 150, 120, 300]], [400, [180, 250, 300, 120, 400, 200, 150, 150, 120, 300]], [700, [180, 250, 300, 120, 400, 200, 150, 150, 120, 300]], 1200, 1600, 1600, 1900, 1800, 1500, 1500],
+        "further_info" : [["taco", "pork"], ["taco", "chicken"], ["taco", "ham", "cheese"], ["taco", "fish"], ["taco", "ropavieja"], ["pork"], ["chicken"], ["pizza", [["vegetables"], ["ham"], ["cheese"], ["onion"], ["pork"], ["chorizo"], ["pineapple"], ["pepper"], ["egg"], ["peperoni"], ["crab"]]], ["pizza", "peperoni", [["vegetables"], ["ham"], ["cheese"], ["onion"], ["pork"], ["chorizo"], ["pineapple"], ["pepper"], ["egg"], ["peperoni"], ["crab"]]], ["spaguetti", [["vegetables"], ["ham"], ["cheese"], ["onion"], ["pork"], ["chorizo"], ["pineapple"], ["pepper"], ["egg"], ["peperoni"], ["crab"]]], ["steak", "pork"], ["steak", "chicken", "breast"], ["pork"], ["ropavieja"], ["pork"], ["crab"], ["pork"]]
+        }, 
+        "Side_dish" :
+        { 
+        "items" : ["Tostones criollos", "Tostones Rellenos", "Racion de Arroz Moro", "Racion de Ensalada"],
+        "prices" : [300, 850, 300, 300],
+        "further_info" : [["tostones"], ["tostones", "ropavieja"], ["rice", "congri"], ["salad", "vegetables"]]
+        },  
+        "desert" :
+        { 
+        "items" : ["Copa de Helado", "Flan"],
+        "prices" : [550, 270],
+        "further_info" : [["icecream"], ["flan"]]
+        },
+        
+      "alcoholic" : 
+         { 
+          "items" : ["Jarra de Cerveza dispensada", "cerveza importada", "cerveza nacional", "Michelada mexicana", "Michelada", "Sangria", "Cuba Libre", "Caipiroska", "Caipirinha", "Pina Colada"],
+          "prices" : [300, 250, 290, 250, 230, 550, 250, 300, 300, 550], 
+          "further_info" : [["beer"], ["beer"], ["beer"], ["michelada"], ["michelada"], ["sangria", "wine"], ["rhum", "cola"], ["caipirinha", "vodka"], ["caipirinha"], ["pinacolada"]]
+          },
+      "non_alcoholic" :
+          { 
+          "items" : ["Agua", "Limonada Frappe", "Limonada Natural", "Jugos Naturales", "Batido de Frutas", "Batido de Helado", "Malta importada", "Refresco importado", "Energizante", "Cafe expresso", "Cafe frapuccino", "Pina Colada"],
+          "prices" : [150, 340, 340, 160, 350, 700, 290, 260, 260, 100, 450, 550],
+          "further_info" : [["water"], ["lemonade"], ["lemonade"], ["juice", "fruit"], ["milkshake", "fruit"], ["milkshake", "icecream"], ["malt"], ["soda"], ["energydrink"], ["cofee", "hotcofee", "expresso"], ["cofee", "frapuccino"], ["pinacolada"]]  
+          }
+      
+     }
+    }    
+

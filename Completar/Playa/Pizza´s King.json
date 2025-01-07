@@ -1,0 +1,226 @@
+{
+    "Name" : "Pizza´s King",
+    "type" : "Restaurante",
+    "#" : "+5352284877",
+    "web" : null,
+    "Reference Point" : null,
+    "Status" : "mipime",
+    "events" : "Realizan eventos típicos de la temporada, disfraces, etc",
+    "people_trend" : "Todas las edades",
+    "establishment_features" : [
+        "tiene varias secciones para distribuir la clientela",
+        "una sola planta"
+    ],
+    "speciality" : [
+        "comida criolla",
+        "comida italiana"
+    ],
+    
+    "establishment_address" : {
+        "Province" : "La Habana",
+        "municipality" : "Playa",
+        "address" : "1ra Avenida entre calle 70 y 68"
+    },
+
+    "open_hours": {
+        "sunday" : "12:00m - 12:00am",
+        "monday" : "12:00m - 12:00am",
+        "tuesday" : "12:00m - 12:00am",
+        "wednesday" : "12:00m - 12:00am",
+        "thursday" : "12:00m - 12:00am",
+        "friday" : "12:00m - 12:00am",
+        "saturday" : "12:00m - 12:00am"
+    },
+
+    "curiosity" : "Poseen un pequeño parque disponible para la recreacion de los menores",
+    "Menú" : {
+        "Started Food" : {
+            "Frituras de malanga" : {
+                "Price" : 600.00
+            },
+            "Croquetas de la abuela" : {
+                "Price" : 800.00
+            },
+            "Bolitas de Queso Aromatizadas" : {
+                "Price" : 800.00
+            },
+            "Cocktail de Langosta" : {
+                "Price" : 1000.00
+            },
+            "Cocktail de Camarón" : {
+                "Price" : 1000.00
+            },
+            "Garbanzos fritos con crujiente de bacon" : {
+                "Price" : 1000.00
+            },
+            "Tostones rellenos" : {
+                "Jamón y Queso" : {
+                    "Price" : 800.00
+                },
+                "Vaca Frita" : {
+                    "Price" : 1000.00
+                }
+            },
+            "Papas a la fancesa" : {
+                "Price" : 800.00
+            },
+            "Tacos al Pastor" : {
+                "Price" : 1500.00
+            },
+            "Tacos de Pollo" : {
+                "Price" : 1300.00
+            },
+            "Tacos de Lomo de Res" : {
+                "Price" : 1500.00
+            },
+            "Tabla de Jamón Ibérico" : {
+                "Price" : 1800.00
+            },
+            "Picadera King" : {
+                "Price" : 4500.00
+            }
+        },
+        "Main Dishes" : {
+            "Pastas y Pizzas" : {
+                "Pastas Largas Napoles" : {
+                    "Price" : 1000.00
+                },
+                "Pastas Largas a la Carbonara" : {
+                    "Price" : 1000.00
+                },
+                "Pastas Largas con Crema Blanca Albahaca" : {
+                    "Price" : 1200.00
+                },
+                "Pizza Napole Artesanal" : {
+                    "Price" : 1000.00
+                },
+                "Pizza Cubana Artesanal" : {
+                    "Price" : 1500.00
+                }
+            },
+            "Pollo" : {
+                "Bistec de pollo grille" : {
+                    "Price" : 1800.00
+                },
+                "Fajitas de pollo empanadas" : {
+                    "Price" : 2000.00
+                },
+                "Suprema de Pollo" : {
+                    "Price" : 2300.00
+                },
+                "Pollo al Gordon Blue" : {
+                    "Price" : 2500.00
+                },
+                "Bistec de pollo a la Milanesa" : {
+                    "Price" : 2000.00
+                },
+                "Fajitas de pollo salteadas con pimiento y cebolla" : {
+                    "Price" : 2000.00
+                }
+            },
+            "Res" : {
+                "Bistec de Palomilla" : {
+                    "Price" : 2300.00
+                },
+                "Faldas salteadas con pimiento y cebolla" : {
+                    "Price" : 2300.00
+                },
+                "Vaca fita al limón" : {
+                    "Price" : 2000.00
+                },
+                "Cocido de ropa vieja" : {
+                    "Price" : 2000.00
+                },
+                "Lomo alto de res" : {
+                    "Price" : 4000.00
+                },
+                "Churrasco arrachera" : {
+                    "Price" : 4000.00
+                }
+            },
+            "Peces y Mariscos" : {
+                "Langosta chinches grille" : {
+                    "Price" : 2500.00
+                },
+                "Enchilado de Langosta" : {
+                    "Price" : 2500.00
+                },
+                "Langosta a la mantequilla de ajo" : {
+                    "Price" : 2500.00
+                },
+                "Camaron grille" : {
+                    "Price" : 2500.00
+                },
+                "Enchilado de camarón" : {
+                    "Price" : 2500.00
+                },
+                "Pescado frito del Litoral" : {
+                    "Price" : 2500.00
+                },
+                "Filete de pargo al tomate" : {
+                    "Price" : 2000.00
+                },
+                "Filete de castero costeño" : {
+                    "Price" : 3000.00
+                },
+                "Pulpo grille en salsa verde" : {
+                    "Price" : 2500.00
+                },
+                "Pulpo vulgaris a la diabla" : {
+                    "Price" : 2500.00
+                },
+                "Pulpo en salsa de ajo" : {
+                    "Price" : 2500.00
+                }
+            },
+            "Cerdo" : {
+                "Bistec de cerdo grille" : {
+                    "Price" : 2000.00
+                },
+                "Masas fritas criollas" : {
+                    "Price" : 2000.00
+                },
+                "Fajitas de cerdo salteadas con vegetales" : {
+                    "Price" : 2000.00
+                },
+                "Fricase de cerdo" : {
+                    "Price" : 2000.00
+                },
+                "Costilla de cerdo a la barbacoa" : {
+                    "Price" : 2300.00
+                },
+                "Bistec uruguayo" : {
+                    "Price" : 2500.00
+                },
+                "Chuleton habanero" : {
+                    "Price" : 3500.00
+                },
+                "Pinchos de Cerdo" : {
+                    "Price" : 2000.00
+                }
+            }
+        },
+        "Fittings" : {
+            "Arroz blanco" : {
+                "Price" : 300.00
+            },
+            "Arroz moro" : {
+                "Price" : 350.00
+            },
+            "Arroz pilaf" : {
+                "Price" : 350.00
+            },
+            "Ensalada Tropical de Estación" : {
+                "Price" : 400.00
+            }
+        },
+        "Desserts" : {
+            "Copa de helado" : {
+                "Price" : 350.00
+            },
+            "Flan de la abuela" : {
+                "Price" : 350.00
+            }
+        }
+    }
+}

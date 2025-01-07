@@ -1,0 +1,168 @@
+{
+    "Name" : "Tocororo",
+    "type" : "Restaurante",
+    "#" : null,
+    "web" : "https://www.palmares-cuba.com/es/facility/restaurante-tocororo-la-habana/details",
+    "Reference Point" : "La Casa del Habamo",
+    "Status" : "estatal",
+    "events" : "presentacion musical en vivo de destacados artistas cubanos",
+    "people_trend" : "Todas las edades",
+    "establishment_features" : [
+        "decoración con vitrales",
+        "techos a relieve",
+        "lámparas estilo Art Noveau"
+    ],
+    "speciality" : [
+        "comida criolla",
+        "comida internacional"
+    ],
+    
+    "establishment_address" : {
+        "Province" : "La Habana",
+        "municipality" : "Playa",
+        "address" : "calle 18 entre 5ta y 3ra Avenida"
+    },
+
+    "open_hours" : {
+        "sunday" : "12:00m - 11:00pm",
+        "monday" : "12:00m - 11:00pm",
+        "tuesday" : "12:00m - 11:00pm",
+        "wednesday" : "12:00m - 11:00pm",
+        "thursday" : "12:00m - 11:00pm",
+        "friday" : "12:00m - 11:00pm",
+        "saturday" : "12:00m - 11:00pm"
+    },
+
+    "curiosity" : "Ha sido avalado por premios internacionales",
+    "Menu" : {
+        "Started Food" : { 
+            "Sopas y Cremas" : {
+                "Sopón Campesino" : {
+                    "Price" : 80.00
+                },
+                "Frijoles negros a la criolla" : {
+                    "Price" : 180.00
+                },
+                "Caldo Marinero" : {
+                    "Price" : 195.00
+                }
+            },
+            "Ensaladas" : {
+                "Ensalada de hortalizas del día, con el aderezo de su preferencia" : {
+                    "Price" : 120.00
+                }
+            }
+        },
+        "Guarniciones" : {
+            "Hortalizas Salteadas" : {
+                "Price" : 100.00
+            },
+            "Arroz Blanco" : {
+                "Price" : 110.00
+            },
+            "Arroz Moro" : {
+                "Price" : 200.00
+            },
+            "Vianda Hervida, aderezada con mojo criollo" : {
+                "Price" : 100.00
+            },
+            "Vianda frita" : {
+                "Price" : 100.00
+            },
+            "Papas fritas" : {
+                "Price" : 150.00
+            }
+        },
+        "Main Dishes" : {
+            "Pastas" : {
+                "Espaguetis Napolitano" : {
+                    "Price" : 550.00
+                },
+                "Espaguetis Primavera" : {
+                    "Price" : 625.00
+                },
+                "Espaguetis al olio" : {
+                    "Price" : 550.00
+                },
+                "Espaguetis guarnecido con Jamón" : {
+                    "Price" : 685.00
+                },
+                "Espaguetis Marinero" : {
+                    "Price" : 850.00
+                }
+            },
+            "Carnes y Mariscos" : {
+                "Pesca especial del día con salsa de limón" : {
+                    "Price" : 1000.00
+                },
+                "Delicias del caribe" : {
+                    "Price" : 1775.00
+                },
+                "Langosta grillé, abrillantada con mantequilla y olivo" : {
+                    "Price" : 1250.00
+                },
+                "Langosta enchilada" : {
+                    "Price" : 1700.00
+                },
+                "Mejillones a la diabla" : {
+                    "Price" : 1250.00
+                },
+                "Pollo al horno al estilo del chef" : {
+                    "Price" : 820.00
+                },
+                "Suprema de pollo perfumada al olivo" : {
+                    "Price" : 850.00
+                },
+                "Higado grillé con aderezo primavera" : {
+                    "Price" : 985.00
+                },
+                "Lonjas de Cerdo asado con mojo criollo" : {
+                    "Price" : 1500.00
+                },
+                "Costilla de cerdo asado a lo cubano" : {
+                    "Price" : 1425.00
+                },
+                "Ternera guisada a la campesina" : {
+                    "Price" : 1550.00
+                }
+            }
+        },
+        "Desserts" : {
+            "Deliciosa torta de la casa" : {
+                "Price" : 285.00
+            },
+            "Arroz con leche a la canela" : {
+                "Price" : 200.00
+            },
+            "Dulces con Almibar guarnecido con queso" : {
+                "Price" : 200.00
+            },
+            "Helado Tocororo" : {
+                "Price" : 180.00
+            }
+        },
+        "Beberages" : {
+            "Café expreso" : {
+                "Price" : 90.00
+            },
+            "Café Cortaito" : {
+                "Price" : 100.00
+            },
+            "Café Rocío de Gallo" : {
+                "Price" : 150.00
+            },
+            "Café Carajillo" : {
+                "Price" : 150.00
+            },
+            "Café Americano" : {
+                "Price" : 100.00
+            },
+            "Infusión de Manzanilla" : {
+                "Price" : 100.00
+            },
+            "Infusión de Menta poleo" : {
+                "Price" : 100.00
+            } 
+        }
+    }
+}

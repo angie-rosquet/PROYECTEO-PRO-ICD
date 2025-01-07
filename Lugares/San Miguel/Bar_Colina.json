@@ -1,0 +1,75 @@
+{
+  "name": "Bar Colina",
+  "address": "esquina b y calzada de guines reparto merceditas, San Miguel del Padron",
+  "schedule": {
+    "monday": {"open": "11:00", "close": "11:00"},
+    "tuesday": {"open": "11:00", "close": "11:00"},
+    "wednesday": {"open": "11:00", "close": "11:00"},
+    "thursday": {"open": "11:00", "close": "11:00"},
+    "friday": {"open": "11:00", "close": "11:00"},
+    "saturday": {"open": "11:00", "close": "11:00"},
+    "sunday": {"open": "11:00", "close": "11:00"}
+  },
+  "contacts" : {
+    "phone_number": "",
+    "mobile" : "",
+    "website": null,
+    "instagram": "@colina_bar_oficial",
+    "facebook": null
+  },
+  "type_establishment": "Bar",
+  "specialty": ["italiana"],
+  "parking": true,
+  "reservations": true,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": [
+    null
+  ],
+  "power_generator": true ,
+  "menu": {
+    "appetizer": [
+      {"name": "entremes de jamón y queso", "price": 600 },
+      {"name": "croquetas", "price": 400},
+      {"name": "frituras de malanga", "price": 550 },
+      {"name": "tostones", "price": 400},
+      {"name": "tostones rellenos", "price": 600 },
+      {"name": "chicharrita", "price": 300}
+    ],
+    "main_course": [
+      {"name": "Espaguetis napolitanos", "price": 550, "added": {
+        "queso" : 200,
+        "chorizo" : 300,
+        "jamon" : 300,
+        "piña" : 150
+      }},
+      {"name": "pizza napolitana grande", "price": 650, "added": {
+        "queso" : 200,
+        "chorizo" : 300,
+        "jamon" : 300,
+        "piña" : 150
+      }},
+      {"name": "pizza napolitana", "price": 220, "added": {
+        "queso" : 200,
+        "chorizo" : 300,
+        "jamon" : 300,
+        "piña" : 150
+      }}
+    ],
+    "garrison": [
+      null
+    ],
+    "desserts": [
+      null
+    ],
+    "drinks": [
+      null
+    ]
+  },
+  "service_charge_percentage": 0
+}

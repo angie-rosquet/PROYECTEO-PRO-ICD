@@ -1,0 +1,212 @@
+{
+    "municipality": "Boyeros",
+    "info":
+        {
+        "nameLocal": "El Sauce",
+        "location":
+        {
+            "address": "Calle 403 % 180 & 184",
+            "barrio": "Santiago de las Vegas",
+            "GPS": "22.972472,-82.382986"
+        },
+        "horarios": 
+        {
+            "monday": "",
+            "thuesday": "",
+            "wednesday": "",
+            "thursday": "",
+            "friday": "",
+            "saturday": "",
+            "sunday": ""
+        },
+        "contactUs":
+        {
+            "phone": [76833543],
+            "web": "",
+            "social": []
+        },
+        "services":
+        {
+            "tranfer": null,
+            "delivery": true,
+            "parallevar": true,
+            "reservation": true,
+            "tipoDeMoneda": ["CUP"],
+            "parqueo": false,
+            "porCiento": false,
+            "alquiler": false,
+            "comentarios": ""
+        },
+        "ambientacion":
+        {
+            "inside": true,
+            "outside": false,
+            "bajos": true,
+            "altos": false,
+            "ac": false,
+            "entretenimiento": [],
+            "comentarios": ""
+
+        },
+        "vestimenta": ["casual"],
+        "estatal": false,
+        "tipoDeComidaEspecializada": ["pizza"],
+        "menu":
+        {
+            "entrantes":
+            [
+                {
+                    "foodName": "Hamburguesa Simple",
+                    "foodPrecio": 400
+                },
+                {
+                    "foodName": "Hamburguesa con Jamon",
+                    "foodPrecio": 500
+                },
+                {
+                    "foodName": "Hamburguesa con Queso",
+                    "foodPrecio": 550
+                },
+                {
+                    "foodName": "Hamburguesa con Bacon",
+                    "foodPrecio": 550
+                },
+                {
+                    "foodName": "Hamburguesa con Jamon y Queso",
+                    "foodPrecio": 600
+                },
+                {
+                    "foodName": "Hamburguesa Sauce",
+                    "foodPrecio": 850
+                },
+                {
+                    "foodName": "Bocadito de Jamon",
+                    "foodPrecio": 200
+                },
+                {
+                    "foodName": "Bocadito de Queso",
+                    "foodPrecio": 250
+                },
+                {
+                    "foodName": "Bocadito de Jamon y Queso",
+                    "foodPrecio": 300
+                }
+            ],
+            "platoFuerte":
+            [
+                {
+                    "foodName": "Pizza Napole",
+                    "foodPrecio": 500,
+                    "description": null,
+                    "clasficacion": "pizza"
+                },
+                {
+                    "foodName": "Pizza de Jamon",
+                    "foodPrecio": 700,
+                    "description": null,
+                    "clasficacion": "pizza"
+                },
+                {
+                    "foodName": "Pizza de Chorizo",
+                    "foodPrecio": 700,
+                    "description": null,
+                    "clasficacion": "pizza"
+                },
+                {
+                    "foodName": "Pizza de Cebolla",
+                    "foodPrecio": 600,
+                    "description": null,
+                    "clasficacion": "pizza"
+                },
+                {
+                    "foodName": "Pizza de Pimiento",
+                    "foodPrecio": 600,
+                    "description": null,
+                    "clasficacion": "pizza"
+                },
+                {
+                    "foodName": "Pizza Hawaiana",
+                    "foodPrecio": 750,
+                    "description": null,
+                    "clasficacion": "pizza"
+                },
+                {
+                    "foodName": "Pizza de Bacon",
+                    "foodPrecio": 750,
+                    "description": null,
+                    "clasficacion": "pizza"
+                },
+                {
+                    "foodName": "Pizza de Atun",
+                    "foodPrecio": 800,
+                    "description": null,
+                    "clasficacion": "pizza"
+                },
+                {
+                    "foodName": "Pizza de Aceitunas",
+                    "foodPrecio": 700,
+                    "description": null,
+                    "clasficacion": "pizza"
+                },
+                {
+                    "foodName": "Pizza Sauce",
+                    "foodPrecio": 900,
+                    "description": null,
+                    "clasficacion": "pizza"
+                },
+                {
+                    "foodName": "Lasagna de Jamon",
+                    "foodPrecio": 900,
+                    "description": null,
+                    "clasficacion": "pasta"
+                },
+                {
+                    "foodName": "Canelon",
+                    "foodPrecio": 700,
+                    "description": null,
+                    "clasficacion": "pasta"
+                }
+            ],
+            "postre":[],
+            "bebidas":
+            [
+                {
+                    "foodName": "Refresco",
+                    "foodPrecio": 220,
+                    "alcoholica": false,
+                    "importada": false
+                },
+                {
+                    "foodName": "Malta",
+                    "foodPrecio": 250,
+                    "alcoholica": false,
+                    "importada": false
+                },
+                {
+                    "foodName": "Cerveza",
+                    "foodPrecio": 280,
+                    "alcoholica": true,
+                    "importada": false
+                },
+                {
+                    "foodName": "Suero de Helado",
+                    "foodPrecio": 550,
+                    "alcoholica": false,
+                    "importada": false
+                },
+                {
+                    "foodName": "Café Expreso",
+                    "foodPrecio": 100,
+                    "alcoholica": false,
+                    "importada": false
+                },
+                {
+                    "foodName": "Cortadito",
+                    "foodPrecio": 150,
+                    "alcoholica": false,
+                    "importada": false
+                }
+            ]            
+        }
+    }
+}

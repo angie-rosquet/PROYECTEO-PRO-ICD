@@ -1,0 +1,87 @@
+{
+  "name": "San Rafael 1051",
+  "address": "San Rafael % Infanta y San Francisco, Centro Habana",
+  "schedule": {
+    "monday": {"open": "12:00","close": "24:00"},
+    "tuesday": {"open": "12:00","close": "24:00"},
+    "wednesday": {"open": "12:00","close": "24:00"},
+    "thursday": {"open": "12:00","close": "24:00"},
+    "friday": {"open": "12:00","close": "24:00"},
+    "saturday": {"open": "12:00","close": "24:00"},
+    "sunday": {"open": "12:00","close": "24:00"}
+  },
+  "contacts" : {
+    "phone_number": null,
+    "mobile" : "58058576",
+    "website": "https://sanrafael1051.carrta.app",
+    "instagram": "@san_rafael1051",
+    "facebook": "URL de la página de Facebook"
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["americana", "internacional"],
+  "parking": false,
+  "reservations": true,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": [
+    null
+  ],
+  "power_generator": true ,
+  "menu": {
+    "appetizers":[
+      {"name": "croquetas de la casa","price": 850},
+      {"name": "tabla de serrano y queso","price": 1450},
+  		{"name": "nuggets de pollo","price": 950},
+			{"name": "tacos","price": 1150},
+			{"name": "brusquetas mixtas","price": 850},
+			{"name": "ensalada de atun","price": 1100},
+			{"name": "ensalada de pollo","price": 1100},
+			{"name": "ensalada del mar","price": 1300}
+    ],
+    "main_courses":[
+			{"name": "entrepan clasico","price": 1300},
+			{"name": "entrepan cubano","price": 1500},
+			{"name": "entrepan marinero","price": 1300},
+			{"name": "entrepan iberico","price": 1500},
+			{"name": "entrepan vaquero","price": 1300},
+			{"name": "entrepan de crispy chicken","price": 1500},
+			{"name": "hamburguesa black panther","price": 2400},
+			{"name": "hamburguesa megaburger","price": 2750},
+			{"name": "hamburguesa hawaiana","price": 1650},
+			{"name": "hamburguesa 1051","price": 2000},
+			{"name": "hamburguesa parrillera","price": 1920},
+			{"name": "hamburguesa sweet burger","price": 1100},
+			{"name": "hamburguesa deluxe","price": 1550},
+			{"name": "hamburguesa cheese burger","price": 1790},
+			{"name": "hamburguesa cubana","price": 2140}
+		],
+    "garrison": [
+			null
+		],
+    "desserts": [
+			null
+		],
+    "drinks" :[
+			{"name": "agua natural","price": 300},
+			{"name": "refresco importado","price": 380},
+			{"name": "jugo natural","price": 390},
+			{"name": "batido de fruta","price": 530},
+			{"name": "caipiriña","price": 580},
+			{"name": "caipiroska","price": 580},
+			{"name": "gin tonic","price": 650},
+			{"name": "sangria","price": 650},
+			{"name": "mojito","price": 580},
+			{"name": "cuba libre","price": 580},
+			{"name": "vodka tonic","price": 650},
+			{"name": "cerveza","price": 450},
+  		{"name": "cerveza cristal, heineken, corona","price": 650},
+			{"name": "servicio michelada","price": 250}
+		]
+	},
+  "service_charge_percentage": 0
+}

@@ -1,0 +1,472 @@
+{
+    "establishment": {
+      "classification": {
+        "type": ["Restaurante"]
+      },
+      "name": "Brutal Habana",
+      "type": "Hamburguesería",
+      "description": "Brutal Habana es un lugar agradable en familia, perfecto para disfrutar con niños. Ubicado en Infanta esquina Calle Universidad, Cerro, La Habana, ofrece una experiencia gastronómica única.",
+      "contact_info": {
+        "phone": {
+          "number": "050989151",
+          "type": "mobile"
+        },
+        "email": null,
+        "website": null 
+      },
+      "opening_hours": {
+        "monday": {
+          "open": "12:00",
+          "close": "00:00"
+        },
+        "tuesday": {
+          "open": "12:00",
+          "close": "00:00"
+        },
+        "wednesday": {
+          "open": "12:00",
+          "close": "00:00"
+        },
+        "thursday": {
+          "open": "12:00",
+          "close": "00:00"
+        },
+        "friday": {
+          "open": "12:00",
+          "close": "00:00"
+        },
+        "saturday": {
+          "open": "12:00",
+          "close": "00:00"
+        },
+        "sunday": {
+          "open": "12:00",
+          "close": "00:00"
+        }
+      },
+      "address": "Infanta esquina Calle Universidad, Cerro, La Habana",
+      "municipality": "Cerro",
+      "province": "La Habana",
+      "coordinates": {
+        "latitude": null
+        "longitude": null
+      },
+      "social_media": {
+        "facebook": null,
+        "instagram": "https://www.instagram.com/brutal_habana?igsh=aGtpOXVkdnlpaTA="
+      },
+      "accepted_payment_methods": ["Efectivo", "Transferencia"],
+      "delivery_available": null,
+      "service_fee": {
+        "name": "Servicio 10%",
+        "description": "Se cobra un 10% adicional por el servicio.",
+        "applies": true
+      },
+      "features": {
+        "reservation_required": false,
+        "outdoor_seating": true,
+        "dine_in": true,
+        "takeaway": true,
+        "offers": ["Comida Americana"],
+        "local_options": [],
+        "services": ["Sanitario"],
+        "ambience": ["Agradable", "Familiar"],
+        "usual_customers": ["Familias"],
+        "planning": [],
+        "children": true,
+        "pets": null,
+        "parking": null
+      },
+      "dietary_options": [],
+      "meals": ["Almuerzo", "Cena"],
+      "advantages": ["Perfecto para familias"],
+      "highlights": ["Ambiente acogedor"]
+    },
+        "menu": {
+          "categories": [
+            {
+              "category": "Menú Infantil",
+              "items": [
+                {
+                  "name": "Brutal Junior",
+                  "price": 550.00,
+                  "essential_ingredients": ["mini hamburguesa", "queso cheddar", "papas fritas"],
+                  "allergy_info": ["gluten", "lactosa"]
+                },
+                {
+                  "name": "Combo Brutal Junior",
+                  "price": 2550.00,
+                  "essential_ingredients": ["4 mini hamburguesas", "queso cheddar fundido", "papas fritas"],
+                  "allergy_info": ["gluten", "lactosa"]
+                }
+              ]
+            },
+            {
+              "category": "Bebidas",
+              "items": [
+                {
+                  "name": "Batido de Helado",
+                  "price": 1000.00,
+                  "essential_ingredients": ["helado", "leche"],
+                  "allergy_info": ["lactosa"]
+                },
+                {
+                  "name": "Batido de Helado con Gomitas",
+                  "price": 1400.00,
+                  "essential_ingredients": ["helado", "leche", "gomitas"],
+                  "allergy_info": ["lactosa"]
+                },
+                {
+                  "name": "Batido de Helado BRUTAL",
+                  "price": 2000.00,
+                  "essential_ingredients": ["helado", "leche", "4 agregos a petición"],
+                  "allergy_info": ["lactosa"]
+                }
+              ]
+            },
+            {
+              "category": "Más para Picar",
+              "items": [
+                {
+                  "name": "Papas Fritas (Medias) 100g",
+                  "price": 300.00,
+                  "essential_ingredients": ["papas", "aceite"],
+                  "allergy_info": []
+                },
+                {
+                  "name": "Papas Fritas (Normal) 200g",
+                  "price": 600.00,
+                  "essential_ingredients": ["papas", "aceite"],
+                  "allergy_info": []
+                },
+                {
+                  "name": "SalchiPapas",
+                  "price": 500.00,
+                  "essential_ingredients": ["papas", "salchichas"],
+                  "allergy_info": ["gluten"]
+                },
+                {
+                  "name": "SalchiPapas BRUTAL",
+                  "price": 1400.00,
+                  "essential_ingredients": ["papas", "salchichas", "varios agregos"],
+                  "allergy_info": ["gluten"]
+                },
+                {
+                  "name": "Croquetas de Pollo x 5",
+                  "price": 175.00,
+                  "essential_ingredients": ["pollo", "harina"],
+                  "allergy_info": ["gluten"]
+                },
+                {
+                  "name": "Croquetas de Pollo x 10",
+                  "price": 350.00,
+                  "essential_ingredients": ["pollo", "harina"],
+                  "allergy_info": ["gluten"]
+                }
+              ]
+            },
+            {
+              "category": "Vegetales y Encurtidos",
+              "items": [
+                {
+                  "name": "Cebolla",
+                  "price": 100,
+                  "essential_ingredients": ["cebolla"],
+                  "allergy_info": []
+                },
+                {
+                  "name": "Pepinillo",
+                  "price": 5100,
+                  "essential_ingredients": ["pepinillo"],
+                  "allergy_info": []
+                },
+                {
+                  "name": "Pimiento",
+                  "price": 5100,
+                  "essential_ingredients": ["pimiento"],
+                  "allergy_info": []
+                },
+                {
+                  "name": "Tomate",
+                  "price": 100,
+                  "essential_ingredients": ["tomate"],
+                  "allergy_info": []
+                },
+                {
+                  "name": "Aceituna",
+                  "price": 100,
+                  "essential_ingredients": ["aceituna"],
+                  "allergy_info": []
+                },
+                {
+                  "name": "Lechuga",
+                  "price": 50,
+                  "essential_ingredients": ["lechuga"],
+                  "allergy_info": []
+                }
+              ]
+            },
+            {
+              "category": "Empaques",
+              "items": [
+                {
+                  "name": "Pozuelo, Tenedor",
+                  "price": 120,
+                  "essential_ingredients": ["empaques"],
+                  "allergy_info": []
+                },
+                {
+                  "name": "Termopack",
+                  "price": 100,
+                  "essential_ingredients": ["empaques"],
+                  "allergy_info": []
+                }
+              ]
+            },
+            {
+              "category": "Panes",
+              "items": [
+                {
+                  "name": "Baguette",
+                  "price": 5150,
+                  "essential_ingredients": ["harina", "levadura"],
+                  "allergy_info": ["gluten"]
+                },
+                {
+                  "name": "Suave",
+                  "price": 120,
+                  "essential_ingredients": ["harina", "levadura"],
+                  "allergy_info": ["gluten"]
+                },
+                {
+                  "name": "Croissant",
+                  "price": 450,
+                  "essential_ingredients": ["harina", "mantequilla"],
+                  "allergy_info": ["gluten", "lactosa"]
+                },
+                {
+                  "name": "Pan de Hamburguesa",
+                  "price": 150,
+                  "essential_ingredients": ["harina", "levadura"],
+                  "allergy_info": ["gluten"]
+                }
+              ]
+            },
+            {
+              "category": "Menú Brutal",
+              "items": [
+                {
+                  "name": "Hamburguesa Brutal",
+                  "price": 3200,
+                  "essential_ingredients": ["pan de hamburguesa", "lechuga", "queso gouda", "jamón ahumado", "bacon"],
+                  "allergy_info": ["gluten", "lactosa"]
+                },
+                {
+                  "name": "Baguette Brutal",
+                  "price": 2000,
+                  "essential_ingredients": ["baguette", "jamón ahumado", "jamón serrano", "chorizo ibérico", "queso gouda", "masas de cerdo"],
+                  "allergy_info": ["gluten", "lactosa"]
+                },
+                {
+                  "name": "SalchiPapas Brutal",
+                  "price": 1400,
+                  "essential_ingredients": ["papas fritas", "salchichas"],
+                  "allergy_info": ["gluten"]
+                },
+                {
+                  "name": "Papas Fritas Brutal",
+                  "price": 1100,
+                  "essential_ingredients": ["papas fritas"],
+                  "allergy_info": []
+                }
+              ]
+            },
+            {
+              "category": "Especiales",
+              "items": [
+                {
+                  "name": "Agrego de Nutella",
+                  "price": 50,
+                  "essential_ingredients": ["Nutella"],
+                  "allergy_info": ["frutos secos"]
+                },
+                {
+                  "name": "Agrego de Gomita",
+                  "price": 400,
+                  "essential_ingredients": ["gomitas"],
+                  "allergy_info": []
+                },
+                {
+                  "name": "Papas Fritas Medias",
+                  "price": 300,
+                  "essential_ingredients": ["papas fritas"],
+                  "allergy_info": []
+                },
+                {
+                  "name": "Papas Fritas Normales",
+                  "price": 600,
+                  "essential_ingredients": ["papas fritas"],
+                  "allergy_info": []
+                },
+                {
+                  "name": "SalchiPapas",
+                  "price": 500,
+                  "essential_ingredients": ["papas fritas", "salchichas"],
+                  "allergy_info": ["gluten"]
+                },
+                {
+                  "name": "Fajitas de Pechuga con Papas Fritas",
+                  "price": 1500,
+                  "essential_ingredients": ["pechuga de pollo", "papas fritas"],
+                  "allergy_info": []
+                },
+                {
+                  "name": "Croquetas de Pollo (5 unidades)",
+                  "price": 175,
+                  "essential_ingredients": ["pollo", "harina"],
+                  "allergy_info": ["gluten"]
+                },
+                {
+                  "name": "Croquetas de Pollo (10 unidades)",
+                  "price": 350,
+                  "essential_ingredients": ["pollo", "harina"],
+                  "allergy_info": ["gluten"]
+                }
+              ]
+            },
+            {
+                "menu": {
+                  "categories": [
+                    {
+                      "category": "Conservas",
+                      "items": [
+                        {
+                          "name": "Jamón Barra York",
+                          "price": 240,
+                          "essential_ingredients": ["jamón barra York"],
+                          "allergy_info": []
+                        },
+                        {
+                          "name": "Bacon",
+                          "price": 260,
+                          "essential_ingredients": ["bacon"],
+                          "allergy_info": []
+                        },
+                        {
+                          "name": "Jamón Ahumado 1964",
+                          "price": 350,
+                          "essential_ingredients": ["jamón ahumado"],
+                          "allergy_info": []
+                        },
+                        {
+                          "name": "Chorizo Ibérico",
+                          "price": 350,
+                          "essential_ingredients": ["chorizo ibérico"],
+                          "allergy_info": []
+                        },
+                        {
+                          "name": "Salchichón Natural",
+                          "price": 370,
+                          "essential_ingredients": ["salchichón"],
+                          "allergy_info": []
+                        },
+                        {
+                          "name": "Jamón Serrano",
+                          "price": 500,
+                          "essential_ingredients": ["jamón serrano"],
+                          "allergy_info": []
+                        },
+                        {
+                          "name": "Jamón Pastrami de Ternera",
+                          "price": 500,
+                          "essential_ingredients": ["pastrami de ternera"],
+                          "allergy_info": []
+                        },
+                        {
+                          "name": "Jamón de Pechuga de Pollo",
+                          "price": 500,
+                          "essential_ingredients": ["jamón de pechuga de pollo"],
+                          "allergy_info": []
+                        },
+                        {
+                          "name": "Lomo de Cerdo Disco",
+                          "price": 500,
+                          "essential_ingredients": ["lomo de cerdo"],
+                          "allergy_info": []
+                        },
+                        {
+                          "name": "Pasta de Atún",
+                          "price": 820,
+                          "essential_ingredients": ["atún", "cebolla", "mayonesa"],
+                          "allergy_info": ["pescado"]
+                        }
+                      ]
+                    },
+                    {
+                      "category": "Hamburguesas Simples",
+                      "items": [
+                        {
+                          "name": "Hamburguesa Sencilla",
+                          "price": 1100,
+                          "essential_ingredients": ["pan de hamburguesa", "carne", "vegetales"],
+                          "allergy_info": ["gluten"]
+                        }
+                      ]
+                    },
+                    {
+                      "category": "Quesos",
+                      "items": [
+                        {
+                          "name": "Queso Blanco",
+                          "price": 135,
+                          "essential_ingredients": ["queso blanco"],
+                          "allergy_info": ["lactosa"]
+                        },
+                        {
+                          "name": "Queso Cheddar",
+                          "price": 190,
+                          "essential_ingredients": ["queso cheddar"],
+                          "allergy_info": ["lactosa"]
+                        },
+                        {
+                          "name": "Queso Cheddar Fundido",
+                          "price": 210,
+                          "essential_ingredients": ["queso cheddar fundido"],
+                          "allergy_info": ["lactosa"]
+                        },
+                        {
+                          "name": "Queso Curado con Trufas",
+                          "price": 240,
+                          "essential_ingredients": ["queso curado", "trufas"],
+                          "allergy_info": ["lactosa"]
+                        },
+                        {
+                          "name": "Queso Azul Gorgonzola",
+                          "price": 300,
+                          "essential_ingredients": ["queso azul gorgonzola"],
+                          "allergy_info": ["lactosa"]
+                        },
+                        {
+                          "name": "Queso Gouda",
+                          "price": 350,
+                          "essential_ingredients": ["queso gouda"],
+                          "allergy_info": ["lactosa"]
+                        },
+                        {
+                          "name": "Queso Cheddar",
+                          "price": 350,
+                          "essential_ingredients": ["queso cheddar"],
+                          "allergy_info": ["lactosa"]
+                        },
+                        {
+                          "name": "Queso Blanco Lombardo",
+                          "price": 650,
+                          "essential_ingredients": ["queso blanco lombardo"],
+                          "allergy_info": ["lactosa"]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+              

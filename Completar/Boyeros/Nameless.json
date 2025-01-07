@@ -1,0 +1,196 @@
+{
+    "municipality": "Boyeros",
+    "info":
+        {
+        "nameLocal": "Nameless",
+        "location":
+        {
+            "address": "Avenida Independencia % 407A & 409",
+            "barrio": "Santiago de las Vegas",
+            "GPS": "22.968986,-82.385378"
+        },
+        "horarios": 
+        {
+            "monday": "",
+            "thuesday": "",
+            "wednesday": "",
+            "thursday": "",
+            "friday": "",
+            "saturday": "",
+            "sunday": ""
+        },
+        "contactUs":
+        {
+            "phone": [],
+            "web": "",
+            "social": []
+        },
+        "services":
+        {
+            "tranfer": null,
+            "delivery": null,
+            "parallevar": null,
+            "reservation": null,
+            "tipoDeMoneda": ["CUP"],
+            "parqueo": null,
+            "porCiento": null,
+            "alquiler": null,
+            "comentarios": ""
+        },
+        "ambientacion":
+        {
+            "inside": true,
+            "outside": false,
+            "bajos": true,
+            "altos": false,
+            "ac": false,
+            "entretenimiento": [],
+            "comentarios": ""
+
+        },
+        "vestimenta": ["casual"],
+        "estatal": false,
+        "tipoDeComidaEspecializada": [],
+        "menu":
+        {
+            "entrantes":[],
+            "platoFuerte":
+            [
+                {
+                    "foodName": "Arroz Frito",
+                    "foodPrecio": 700,
+                    "description": "",
+                    "clasificacion": "guarnicion"
+                },
+                {
+                    "foodName": "Pollo Frito",
+                    "foodPrecio": 1000,
+                    "description": "",
+                    "clasificacion": "carne blanca"
+                },
+                {
+                    "foodName": "Chuleta de Cerdo Natural",
+                    "foodPrecio": 1000,
+                    "description": "",
+                    "clasificacion": "carne roja"
+                },
+                {
+                    "foodName": "Lomo de cerdo natural",
+                    "foodPrecio": 1000,
+                    "description": "",
+                    "clasificacion": "carne roja"
+                },
+                {
+                    "foodName": "Bistec de cerdo",
+                    "foodPrecio": 1000,
+                    "description": "",
+                    "clasificacion": "carne roja"
+                },
+                {
+                    "foodName": "Bistec de res",
+                    "foodPrecio": 1300,
+                    "description": "",
+                    "clasificacion": "carne roja"
+                },
+                {
+                    "foodName": "Uruguayo de res",
+                    "foodPrecio": 1700,
+                    "description": "",
+                    "clasificacion": "carne roja"
+                },
+                {
+                    "foodName": "Canciller",
+                    "foodPrecio": 1700,
+                    "description": "",
+                    "clasificacion": "carne roja"
+                },
+                {
+                    "foodName": "Pechuga",
+                    "foodPrecio": 1200,
+                    "description": "",
+                    "clasificacion": "carne blanca"
+                },
+                {
+                    "foodName": "Fricase de res",
+                    "foodPrecio": 1000,
+                    "description": "",
+                    "clasificacion": "carne roja"
+                },
+                {
+                    "foodName": "Gordem Blue",
+                    "foodPrecio": 1700,
+                    "description": "",
+                    "clasificacion": "carne blanca"
+                },
+                {
+                    "foodName": "Picadera mixta",
+                    "foodPrecio": 1600,
+                    "description": "",
+                    "clasificacion": "mixto"
+                },
+                {
+                    "foodName": "Costilla de cerdo ahumada",
+                    "foodPrecio": 1000,
+                    "description": "",
+                    "clasificacion": "carne roja"
+                },
+                {
+                    "foodName": "Costilla de cerdo a la barbacoa ",
+                    "foodPrecio": 1200,
+                    "description": "",
+                    "clasificacion": "carne roja"
+                },
+                {
+                    "foodName": "Pizza Napolitana",
+                    "foodPrecio": 600,
+                    "description": "",
+                    "clasificacion": "pizza"
+                },
+                {
+                    "foodName": "Pizza de Jamon",
+                    "foodPrecio": 700,
+                    "description": "",
+                    "clasificacion": "pizza"
+                },
+                {
+                    "foodName": "Pizza de aceitunas",
+                    "foodPrecio": 900,
+                    "description": "",
+                    "clasificacion": "pizza"
+                },
+                {
+                    "foodName": "Pizza de cebolla",
+                    "foodPrecio": 700,
+                    "description": "",
+                    "clasificacion": "pizza"
+                },
+                {
+                    "foodName": "Pizza Marinera",
+                    "foodPrecio": 1500,
+                    "description": "",
+                    "clasificacion": "pizza"
+                },
+                {
+                    "foodName": "Pizza Doble Via",
+                    "foodPrecio": 1500,
+                    "description": "",
+                    "clasificacion": "pizza"
+                },
+                {
+                    "foodName": "Pizza Hawaiana",
+                    "foodPrecio": 850,
+                    "description": "",
+                    "clasificacion": "pizza"
+                },
+                {
+                    "foodName": "Pizza de Chorizo",
+                    "foodPrecio": 900,
+                    "description": "",
+                    "clasificacion": "pizza"
+                }
+            ],
+            "postre":[],
+            "bebidas":[]
+        }
+    }
+}

@@ -1,0 +1,380 @@
+{
+    "establishment": {
+      "classification": {
+        "type": ["bar-restaurante"]
+      },
+      "name": "ChaChaChá",
+      "type": "Internacional, Fusión, Cubana",
+      "description": "Bar Restaurante en La Habana Vieja con una propuesta culinaria que fusiona la comida cubana tradicional.",
+      "contact_info": {
+        "phone": {
+          "number": "078672450",
+          "type": ["mobile"]
+        }
+      },
+      "opening_hours": {
+        "monday": "12:00 PM - 12:00 AM",
+        "tuesday": "12:00 PM - 12:00 AM",
+        "wednesday": "12:00 PM - 12:00 AM",
+        "thursday": "12:00 PM - 12:00 AM",
+        "friday": "12:00 PM - 12:00 AM",
+        "saturday": "12:00 PM - 12:00 AM",
+        "sunday": "12:00 PM - 12:00 AM"
+      },
+      "address": "Monserrate # 159 e/ Tejadillo y Chacón, Habana Vieja",
+      "coordinates": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "social_media": {
+        "hashtag": "#LaHabana"
+      },
+      "accepted_payment_methods": [],
+      "delivery_available": false,
+      "service_fee": {
+        "name": "10% service charge",
+        "description": "Se le adiciona el 10% a su cuenta por los servicios.",
+        "applies": true
+      },
+      "features": {
+        "reservation_required": false,
+        "outdoor_seating": false,
+        "dine_in": true,
+        "takeaway": true,
+        "offers": ["Restaurante", "Bar"],
+        "local_options": ["Almuerzo", "Cena", "Postres"],
+        "services": ["Sanitario", "Tiene bar", "Música en directo"],
+        "ambience": ["Agradable", "Informal"],
+        "usual_customers": ["Grupos"],
+        "planning": ["Se aceptan reservas"],
+        "children": null,
+        "pets": null,
+        "parking": ["Hay suficiente espacio", "Estacionamiento gratuito", "Estacionamiento pagado en la calle"]
+      },
+      "dietary_options": ["Opciones vegetarianas", "Opciones veganas"],
+      "meals": ["Comidas", "Cenas"],
+      "advantages": ["Reservas", "Capacidad", "Aparcamiento en la calle", "Sirve alcohol", "Bar completo", "Servicio de mesa", "Para llevar"],
+      "highlights": ["Aperitivos", "Buenos cócteles", "Agradable", "Informal", "Recomendable para ir en grupo"],
+    "menu": {
+      "courses": [
+        {
+          "category": "Entrantes",
+          "items": [
+            {
+              "name": "Ceviche de la Casa",
+              "price": 3050
+            },
+            {
+              "name": "Carpaccio de Pulpo con Vinagreta de Cítricos",
+              "price": 3850
+            },
+            {
+              "name": "Tiradito de Pez con Chicharrita",
+              "price": 3050
+            },
+            {
+              "name": "Carpaccio de Res con Rúcula y Aceite de Trufa",
+              "price": 4450
+            },
+            {
+              "name": "Carpaccio de Atún Rojo",
+              "price": 4100
+            },
+            {
+              "name": "Pan y Mantequilla",
+              "price": 1150
+            },
+            {
+              "name": "Croquetas Braseadas de Pollo",
+              "price": 2250
+            },
+            {
+              "name": "Crema de Calabaza, Betabel y Parmesano",
+              "price": 1800
+            },
+            {
+              "name": "Tacos ChaChaChá",
+              "price": 2700
+            },
+            {
+              "name": "Empanadillas de Carne BBQ",
+              "price": 2250
+            },
+            {
+              "name": "Tabla de Jamón Serrano, Salami y Quesos",
+              "price": 5700
+            },
+            {
+              "name": "Sashimi Ahumado",
+              "price": 4100
+            },
+            {
+              "name": "Tartar de Res",
+              "price": 4450
+            },
+            {
+              "name": "Tartar de Atún",
+              "price": 4100
+            },
+                    {
+                      "category": "Ensaladas",
+                      "items": [
+                        {
+                          "name": "Jorrin",
+                          "price": 3050
+                        },
+                        {
+                          "name": "César con Pollo y Bacon",
+                          "price": 3850
+                        },
+                        {
+                          "name": "ChaChaChá",
+                          "price": 3850
+                        },
+                        {
+                          "name": "Mixta de Salmón",
+                          "price": 3850
+                        },
+                        {
+                          "name": "Griega",
+                          "price": 3400
+                        },
+                    {
+                      "category": "Pastas",
+                      "items": [
+                        {
+                          "name": "Salsa Boloñesa",
+                          "price": 3850
+                        },
+                        {
+                          "name": "Camarón, Curry y Pimienta Rosa",
+                          "price": 4100
+                        },
+                        {
+                          "name": "Salsa Alfredo",
+                          "price": 3850
+                        },
+                        {
+                          "name": "Salsa Funghi con Pollo y Trufa",
+                          "price": 4450
+                        },
+                        {
+                          "name": "Salsa Carbonara Trufada",
+                          "price": 4150
+                        },
+                        {
+                          "name": "Salsa Bisque al Fruti D'Mare",
+                          "price": 4900
+                        },
+                    {
+                      "category": "Risottos",
+                      "items": [
+                        {
+                          "name": "Nero di Sepia",
+                          "price": 4900
+                        },
+                        {
+                          "name": "Funghi - Porcini y Trufa",
+                          "price": 4560
+                        },
+                        {
+                          "name": "Del Mar",
+                          "price": 4560
+                        },
+                        {
+                          "name": "Carbonara Trufado",
+                          "price": 4180
+                        },
+                        {
+                          "name": "Sémola y Trufa",
+                          "price": 4180
+                        },
+                        {
+                          "category": "De Nuestra Tierra",
+                          "items": [
+                            {
+                              "name": "Masas de Cerdo Confitadas",
+                              "price": 3800
+                            },
+                            {
+                              "name": "Lechón Cubano",
+                              "price": 4560
+                            },
+                            {
+                              "name": "Ropa Vieja de la Abuela",
+                              "price": 4180
+                            },
+                            {
+                              "name": "Picadillo a la Habanera",
+                              "price": 4180
+                            },
+                            {
+                              "name": "Solomillo de Cerdo Español",
+                              "price": 5320
+                            },
+                            {
+                              "name": "Puntas de Filete Estilo ChaChaChá",
+                              "price": 7600
+                            },
+                            {
+                              "name": "Arroz Thai de Pollo, Curry de Coco y Pasas",
+                              "price": 4180
+                            },
+                            {
+                              "name": "Solomillo Argentino (280g)",
+                              "price": 11150
+                            },
+                            {
+                              "name": "Entrecote de Ternera (350g)",
+                              "price": 10640
+                            },
+                            {
+                              "name": "Puntas de Cerdo BBQ",
+                              "price": 5320
+                            },
+                            {
+                          "category": "De Nuestro Mar",
+                          "items": [
+                            {
+                              "name": "Filete de Pescado al Horno con Finas Hierbas",
+                              "price": 4180
+                            },
+                            {
+                              "name": "Langosta Caribeña",
+                              "price": 6460
+                            },
+                            {
+                              "name": "Zarzuela de Mariscos",
+                              "price": 10500
+                            },
+                            {
+                              "name": "Camarones al Gusto",
+                              "price": 6460
+                            },
+                            {
+                              "name": "Pulpo Nórdico",
+                              "price": 9500
+                            },
+                            {
+                              "name": "Calamar Patagónico",
+                              "price": 6460
+                            },
+                        {
+                          "category": "Guarniciones",
+                          "items": [
+                            {
+                              "name": "Vianda Frita",
+                              "price": 760
+                            },
+                            {
+                              "name": "Puré de Temporada",
+                              "price": 1140
+                            },
+                            {
+                              "name": "Ensalada de Estación",
+                              "price": 1520
+                            },
+                            {
+                              "name": "Arroz Blanco",
+                              "price": 760
+                            },
+                            {
+                              "name": "Frijoles Negros",
+                              "price": 1140
+                            },
+                        {
+                          "category": "Sugerencias del Chef",
+                          "items": [
+                            {
+                              "name": "Cóctel de Langosta",
+                              "price": 2660
+                            },
+                            {
+                              "name": "Patacón ChaChaChá",
+                              "price": 2700
+                            },
+                            {
+                              "name": "Quesadilla Cuatro Quesos",
+                              "price": 3420
+                            },
+                            {
+                              "name": "Papa Rellena de Camarón y Queso",
+                              "price": 2700
+                            },
+                            {
+                              "name": "Frituritas de Malanga",
+                              "price": 2250
+                            },
+                            {
+                              "name": "Tamal en Cazuela",
+                              "price": 1900                                                                                              
+              },
+                    {
+                      "category": "Postres",
+                      "items": [
+                        {
+                          "name": "Brownie",
+                          "price": 3000
+                        },
+                        {
+                          "name": "Esfera de Frutas",
+                          "price": 3000
+                        },
+                        {
+                          "name": "Bizcocho",
+                          "price": 2900
+                        },
+                        {
+                          "name": "Arroz con Leche de la Abuela",
+                          "price": 2500
+                        },
+                        {
+                          "name": "Flan Tía Lola",
+                          "price": 2700
+                        },
+                        {
+                          "name": "Copa de Helado",
+                          "price": 2200
+                        },
+                        {
+                          "name": "Carajillo",
+                          "price": 1050
+                        },
+                        {
+                          "name": "Bombón",
+                          "price": 1200
+                        },
+                    {
+                      "category": "Nuestros Cafés",
+                      "items": [
+                        {
+                          "name": "Expresso",
+                          "price": 520
+                        },
+                        {
+                          "name": "Nespresso",
+                          "price": 960
+                        },
+                        {
+                          "name": "Cortado",
+                          "price": 875
+                        },
+                        {
+                          "name": "Frappuccino",
+                          "price": 2200
+                        },
+                        {
+                          "name": "Té / Infusiones",
+                          "price": 620
+                        }
+                      ]
+                    }
+                  ],
+                  "service_fee": {
+                    "name": "10% por impuestos locales",
+                    "description": "10% por impuestos locales se adiciona a su cuenta."
+                  }
+                }
+              },
+                                                                      
+    

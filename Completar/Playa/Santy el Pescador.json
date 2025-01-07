@@ -1,0 +1,224 @@
+{
+    "Name" : "Santy el Pescador",
+    "type" : "Restaurante",
+    "#" : "72724998",
+    "web" : null,
+    "Reference Point" : "Río Jaimanitas",
+    "Status" : "mipime",
+    "events" : null,
+    "people_trend" : "Todas las edades",
+    "establishment_features" : [
+        "Hermosas vistas al rio con sus pequeñas embarcaciones",
+        "Biplanta",
+        "establecimiento confeccionado de madera"
+    ],
+    "speciality" : [
+        "comida japonesa",
+        "comida del mar"
+    ],
+    
+    "establishment_address" : {
+        "Province" : "La Habana",
+        "municipality" : "Playa",
+        "address" : "3c23 e/ 3raC y 240 A"
+    },
+
+    "open_hours": {
+        "sunday" : "12:00m - 12:00am",
+        "monday" : "12:00m - 12:00am",
+        "tuesday" : "12:00m - 12:00am",
+        "wednesday" : "12:00m - 12:00am",
+        "thursday" : "12:00m - 12:00am",
+        "friday" : "12:00m - 12:00am",
+        "saturday" : "12:00m - 12:00am"
+    },
+
+    "curiosity" : "uno de los unicos restaurantes en la cápital con especialidad en comida japonesa",
+    "Menú" : {
+        "Started Food" : {
+            "Cevice Negro" : {
+                "Price" : 4200.00
+            },
+            "Ceviche" : {
+                "Price" : 3800.00
+            },
+            "Sushi" : {
+                "Price" : 3500.00
+            },
+            "Sashimi" : {
+                "Price" : 3300.00
+            },
+            "Tataki" : {
+                "Price" : 3500.00
+            },
+            "Tartar" : {
+                "Price" : 3800
+            },
+            "Ahumado" : {
+                "Seco" : {
+                    "Price" : 3500.00
+                },
+                "Jugoso" : {
+                    "Price" : 3500.00
+                }
+            },
+            "Hueva(Empanada)" : {
+                "Price" : 3500.00
+            },
+            "Eperlan" : {
+                "Langosta" :{
+                    "Price" : 4300.00
+                },
+                "Pescado" : {
+                    "Price" : 3300.00
+                }
+            },
+            "Carpaccio" : {
+                "Pulpo" : {
+                    "Price" : 3500.00
+                },
+                "Pescado" : {
+                    "Price" : 3300.00
+                },
+                "Langosta" : {
+                    "Price" : 3500.00
+                }
+            }
+        },
+        "Fittings" : {
+            "Arroz/Vegetales" :{
+                "Price" : 1000.00
+            },
+            "Descorche" : {
+                "Price" : 1000.00
+            },
+            "Agrego Pan" : {
+                "Price" : 800.00
+            },
+            "Tartas" : {
+                "Price" : 1150.00
+            }
+        },
+        "Main Dishes" : {
+            "Pastas" : {
+                "Natural" : {
+                    "Price" : 2000.00
+                },
+                "Oleo" : {
+                    "Price" : 1500.00
+                },
+                "Vegetal" : {
+                    "Price" : 2500.00
+                },
+                "Pescado" : {
+                    "Price" : 3800.00
+                },
+                "Pulpo" : {
+                    "Price" : 4000.00
+                },
+                "Camarón" : {
+                    "Price" : 3500.00
+                },
+                "Calamar" : {
+                    "Price" : 4500.00
+                },
+                "Langostino" : {
+                    "Price" : 4000.00
+                },
+                "Langosta" : {
+                    "Price" : 4200.00
+                },
+                "Almejas" : {
+                    "Price" : 5200.00
+                },
+                "Mixta" : {
+                    "Price" : 4500.00
+                }
+            },
+            "Sopa Vegetales" : {
+                "Price" : 2200.00
+            },
+            "Sopa Pescado" : {
+                "Price" : 3300.00
+            },
+            "Sopa Mariscos" : {
+                "Price" : 4200.00
+            },
+            "Caldereta" : {
+                "Price" : 4500.00
+            },
+            "Almejas Vino" : {
+                "Price" : 3000.00
+            },
+            "Arroz Caldoso" : {
+                "Price" : 4500.00
+            },
+            "Filete Pescado" : {
+                "Price" : 3800.00
+            },
+            "Pescado Entero" : {
+                "Price" : 5000.00
+            },
+            "Pulpo" : {
+                "Enchilado" : {
+                    "Price" : 4200.00 
+                },
+                "Ajo.Vinagreta" : {
+                    "Price" : 4000.00
+                },
+                "Gallego" : {
+                    "Price" : 4000.00
+                }
+            },
+            "Calamar" : {
+                "Ajo" : {
+                    "Price" : 5000.00
+                },
+                "Enchilado" : {
+                    "Price" : 5000.00
+                }
+            },
+            "Camarón" : {
+                "Enchilado" : {
+                    "Price" : 3500.00
+                },
+                "Ajo.Mediterráneo" : {
+                    "Price" : 3200.00
+                },
+                "Empanado" : {
+                    "Price" : 3200.00
+                }
+            },
+            "Langosta Entera" : {
+                "Price" : 9000.00
+            },
+            "Cola Langosta Enchilada" : {
+                "Price" : 5700.00
+            },
+            "Cola Langosta Ajo" : {
+                "Price" : 5500.00
+            },
+            "Cola Langostinos" : {
+                "Price" : 3200.00
+            },
+            "Langostinos" : {
+                "Price" : 6500.00
+            },
+            "Mixto Mariscos" : {
+                "Price" : 9000.00
+            },
+            "Pintas" : {
+                "Price" : 9600.00
+            },
+            "Mejillones Ajo" : {
+                "Price" : 3500.00
+            },
+            "Mejillones Mediterraneo" : {
+                "Price" : 3500.00
+            },
+            "Pecho Cangrejo Enchilo" : {
+                "Price" : 3000.00
+            }
+        }
+    }
+}
