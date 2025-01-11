@@ -1,0 +1,95 @@
+{
+  "name": "Pizzas Vip",
+  "address": "Calle E Guiral % Barreto Este y El Vira Saladriga, Guanabacoa",
+  "schedule": {
+    "monday": {"open": "10:00", "close": "22:00"},
+    "tuesday": {"open": "10:00", "close": "22:00"},
+    "wednesday": {"open": "10:00", "close": "22:00"},
+    "thursday": {"open": "10:00", "close": "22:00"},
+    "friday": {"open": "10:00", "close": "22:00"},
+    "saturday": {"open": "10:00", "close": "22:00"},
+    "sunday": {"open": "10:00", "close": "22:00"}
+  },
+  "contacts": {
+    "phone_number": null,
+    "mobile": "52844312",
+    "website": null,
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["mexicana", "pizzas", "pastas", "criolla"],
+  "parking": false,
+  "reservations": false,
+  "paid_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": false,
+  "power_generator": false,
+  "menu": {
+    "aperitivo": [
+      {"name": "Croquetas de la Casa", "price": 400},
+      {"name": "Fritura de Malanga", "price": 300},
+      {"name": "Bolita de Queso", "price": 650},
+      {"name": "Fajita de Pechuga", "price": 1100},
+      {"name": "Ensalada Fría", "price": 370},
+      {"name": "Papa Frita", "price": 580},
+      {"name": "Fajita de Cerdo", "price": 1200},
+      {"name": "Crema de Queso", "price": 500},
+      {"name": "Crema Virginia", "price": 550},
+      {"name": "Crema Aurora", "price": 520},
+      {"name": "Crema Mixta", "price": 600},
+      {"name": "Tacos de Jamón", "price": 1030},
+      {"name": "Tacos de Res", "price": 1350},
+      {"name": "Tacos de Cangrejo", "price": 1380}
+    ],
+    "main_course": [],
+    "pizzas": [
+      {"name": "Pizza de Queso", "price": 800},
+      {"name": "Pizza de Cebolla", "price": 1000},
+      {"name": "Pizza de Pimiento", "price": 1000},
+      {"name": "Pizza de Jamón", "price": 1100},
+      {"name": "Pizza de Chorizo", "price": 1050},
+      {"name": "Pizza de Hawaiana", "price": 1260},
+      {"name": "Pizza de Bacón", "price": 1240},
+      {"name": "Pizza Doble Queso", "price": 1250},
+      {"name": "Pizza de Camarón", "price": 1700},
+      {"name": "Pizza de Res", "price": 1300},
+      {"name": "Pizza de Atún con Cebolla", "price": 1450},
+      {"name": "Pizza de Jamón Serrano", "price": 1570},
+      {"name": "Pizza de Aceituna", "price": 1200}
+    ],
+    "pasta": [
+      {"name": "Espaguetis Napolitano", "price": 720},
+      {"name": "Espaguetis Boloñesa", "price": 1350},
+      {"name": "Espaguetis Carbonara", "price": 1350},
+      {"name": "Espaguetis Alfredo", "price": 1150},
+      {"name": "Espaguetis de Atún", "price": 1270},
+      {"name": "Espaguetis Pollo", "price": 1120},
+      {"name": "Espaguetis de Camarones", "price": 1400},
+      {"name": "Espaguetis Chorizo", "price": 1150},
+      {"name": "Espaguetis Negro Di Mare", "price": 1500}
+    ],
+    "desserts": [],
+    "drinks": [
+      {"name": "Henike", "price": 360},
+      {"name": "Cerveza Importada", "price": 250},
+      {"name": "Cerveza de Lata Cristal", "price": 300},
+      {"name": "Cerveza de Botella", "price": 300},
+      {"name": "Pomitos de Agua", "price": 150},
+      {"name": "Refresco de Pomito", "price": 180},
+      {"name": "Refresco de Lata", "price": 220},
+      {"name": "Malta", "price": 300},
+      {"name": "Jugos de Lata", "price": 280},
+      {"name": "Jugos de Cajita", "price": 180},
+      {"name": "Tigón", "price": 300},
+      {"name": "Refresco Importado", "price": 280},
+      {"name": "Malta Importada", "price": 270}
+    ]
+  },
+  "service_charge_percentage": 0
+}

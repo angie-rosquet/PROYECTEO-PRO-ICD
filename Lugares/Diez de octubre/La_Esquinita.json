@@ -1,0 +1,94 @@
+{
+  "name": "La Esquinita",
+  "address": "Juan Lefont entre Libertad y Johnson, Santos Suárez, Diez de Octubre",
+  "schedule": {
+    "monday": {"open": "09:00", "close": "21:00"},
+    "tuesday": {"open": "09:00", "close": "21:00"},
+    "wednesday": {"open": "09:00", "close": "21:00"},
+    "thursday": {"open": "09:00", "close": "21:00"},
+    "friday": {"open": "10:00", "close": "23:00"},
+    "saturday": {"open": "10:00", "close": "23:00"},
+    "sunday": {"open": "10:00", "close": "23:00"}
+  },
+  "contacts" : {
+    "phone_number": "76404105",
+    "mobile" : "59104644",
+    "website": null,
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "Bar-Cafeteria",
+  "specialty": ["italiana", "internacional"],
+  "parking": true,
+  "reservations": true,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": false,
+  "power_generator": true ,
+  "menu": {
+    "appetizer": [
+      {"name": "Croquetas", "price": 300 },
+      {"name": "Tostones Rellenos", "price": 450 },
+      {"name": "Frituras de Malanga", "price": 500 },
+      {"name": "Papas Fritas", "price": 500 },
+      {"name": "Picadera", "price": 1500 }
+    ],
+    "main_course": [
+      {"name": "Arroz Frito", "price": 700 },
+      {"name": "Bistec de Cerdo", "price": 1200 },
+      {"name": "Fajitas de Pollo", "price": 1200 },
+      {"name": "Pechuga de Pollo Grillé", "price": 1200 },
+      {"name": "Chop Suey de Cerdo", "price": 1200 },
+      {"name": "Cordon Bleu", "price": 1300 },
+      {"name": "Bistec Uruguayo", "price": 1500 },
+      {"name": "Bistec Encebollado de Res", "price": 1700 },
+      {"name": "Pizza Pequeña de Queso Blanco", "price": 200},
+      {"name": "Pizza Pequeña Queso Blanco Hawaiana", "price": 400},
+      {"name": "Pizza Pequeña Queso Gouda", "price": 300},
+      {"name": "Pizza Pequeña Queso Gouda Hawaiana", "price": 450},
+      {"name": "Pizza Grande de Queso Blanco", "price": 400},
+      {"name": "Pizza Grande de Queso Blanco Hawaiana", "price": 550},
+      {"name":"Pizza Grande de Queso Gouda", "price": 650},
+      {"name":"Pizza Grande de Queso Gouda Hawaiana", "price": 800},
+      {"name":"Pizza Pequeña Especial \"La esquinita\"", "price": 600},
+      {"name": "Pizza Grande Especial \"La esquinita\"", "price": 1200},
+      {"name": "Pizza Familiar \"La esquinita\"", "price": 3000},
+      {"name": "Espagueti (Blanco)", "price": 350 },
+      {"name": "Espagueti (Gouda)", "price": 450 },
+      {"name": "Espagueti (Blanco y Jamón)", "price": 450 },
+      {"name": "Espagueti (Gouda y Jamón)", "price": 600 },
+      {"name": "Espagueti (Blanco y Chorizo)", "price": 450 },
+      {"name": "Espagueti (Gouda y Chorizo)", "price": 600},
+      {"name": "Espagueti (Blanco y Cebolla)", "price": 450},
+      {"name":"Espagueti (Gouda y Cebolla)", "price": 600},
+      {"name":"Hamburguesa Sencilla", "price": 450},
+      {"name":"Hamburguesa (Jamón)", "price": 550},
+      {"name":"Hamburguesa (Gouda)", "price": 550},
+      {"name": "Hamburguesa (Jamón y Gouda)", "price": 650},
+      {"name":"Hamburguesa Especial \"La Esquinita\"", "price": 750}
+    ],
+    "garrison": [
+      {"name": "Doble Queso Blanco", "price": 100 },
+      {"name": "Doble Queso Gouda", "price": 250 },
+      {"name": "Jamón", "price": 100 },
+      {"name": "Chorizo", "price": 100 },
+      {"name": "Cebolla", "price": 100 },
+      {"name": "Pimiento", "price": 100 },
+      {"name":"Piña", "price": 100},
+      {"name": "Aceituna", "price": 150 },
+      {"name":"Atún", "price": 300}
+    ],
+    "desserts": [
+      null
+    ],
+    "drinks": [
+      null
+    ]
+  },
+  "service_charge_percentage": 0 
+}

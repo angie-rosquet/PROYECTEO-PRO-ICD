@@ -1,0 +1,63 @@
+{
+  "name": "Salchipizza",
+  "address": "Calle Infanta % Calle Valle y Zapata, Centro Habana",
+  "schedule": {
+    "monday": {"open": "00:00", "close": "00:00"},
+    "tuesday": {"open": "13:00", "close": "23:00"},
+    "wednesday": {"open": "13:00", "close": "23:00"},
+    "thursday": {"open": "13:00", "close": "23:00"},
+    "friday": {"open": "13:00", "close": "23:00"},
+    "saturday": {"open": "13:00", "close": "23:00"},
+    "sunday": {"open": "00:00", "close": "00:00"}
+  },
+  "contacts": {
+    "phone_number": null,
+    "mobile": null,
+    "website": null,
+    "instagram": "@salchipizza",
+    "facebook": "https://www.facebook.com/Salchipizza/"
+  },
+  "type_establishment": "restaurante",
+  "specialty": ["cubana"],
+  "parking": false,
+  "reservations": true,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": false,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      {"name": "tabla de panes artesanales", "price": 1500},
+      {"name": "terrina de pescado", "price": 2700},
+      {"name": "tinaja de carbón con crema Parmentier de verduras de estacion", "price": 2500},
+      {"name": "ensalada de cerdo guayaba y fruta bomba", "price": 2000}
+    ],
+    "main_course": [
+      {"name": "carretón de boniato, rueda de quimbombó y látigo de carnero ahumado", "price": 3000},
+      {"name": "volcán de maíz, lava de pescado ardiente y cenizas de pulpo", "price": 3500},
+      {"name": "masa de cerdo con verduras al gratin", "price": 2300},
+      {"name": "lasaña de carne a la boloñesa", "price": 1600},
+      {"name": "señorita de cerdo con verduras al gratin", "price": 3000}
+    ],
+    "garrison": [
+      null
+    ],
+    "desserts": [
+      {"name": "recuerdos de la infancia", "price": 2000}
+    ],
+    "drinks": [
+      {"name": "agua", "price": 200},
+      {"name": "copa de vino", "price": 750},
+      {"name": "copa de champagne", "price": 800},
+      {"name": "cerveza nacional", "price": 350},
+      {"name": "cerveza importada", "price": 400},
+      {"name": "cafe", "price": 150}
+    ]
+  },
+  "service_charge_percentage": 0
+}

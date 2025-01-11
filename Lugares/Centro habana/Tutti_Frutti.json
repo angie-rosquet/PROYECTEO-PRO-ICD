@@ -1,0 +1,72 @@
+{
+  "name": "Tutti Frutti",
+  "address": "San Lazaro entre San Fransico y Espada, Centro Habana",
+  "schedule": {
+    "monday": {"open": "08:00", "close": "20:00"},
+    "tuesday": {"open": "08:00", "close": "20:00"},
+    "wednesday": {"open": "08:00", "close": "20:00"},
+    "thursday": {"open": "08:00", "close": "20:00"},
+    "friday": {"open": "08:00", "close": "20:00"},
+    "saturday": {"open": "08:00", "close": "20:00"},
+    "sunday": {"open": "08:00", "close": "20:00"}
+  },
+  "contacts": {
+    "phone_number": null,
+    "mobile": null,
+    "website": null,
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["Desayunos"],
+  "parking": false,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": false,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      null
+    ],
+    "main_course": [
+      null
+    ],
+    "garrison": [
+      {"name": "Huevo", "price": 250},
+      {"name": "Atún", "price": 800},
+      {"name": "Jamón", "price": 300},
+      {"name": "Pollo", "price": 500},
+      {"name": "Cebolla", "price": 200}
+    ],
+    "desserts": [
+      {"name": "Copa de frutas", "price": 400},
+      {"name": "Tutti Frutti", "price": 500},
+      {"name": "Frutas dulces", "price": 300}
+    ],
+    "drinks": [
+      {"name": "Jugo Natural", "price": 400},
+      {"name": "Batidos", "price": 600},
+      {"name": "Champola", "price": 600},
+      {"name": "Smoothies", "price": 800},
+      {"name": "Leche", "price": 400},
+      {"name": "Café", "price": 900},
+      {"name": "Mojito", "price": 700},
+      {"name": "Mojito Tutti Frutti", "price": 800},
+      {"name": "Daiquirí", "price": 700},
+      {"name": "Daiquirí Tutti Frutti", "price": 800},
+      {"name": "Santiago", "price": 900},
+      {"name": "Cuba Libre", "price": 700},
+      {"name": "Piña Colada", "price": 900},
+      {"name": "Canchánchara", "price": 800},
+      {"name": "Caribbean", "price": 900},
+      {"name": "Emma", "price": 900}
+    ]  
+  },
+  "service_charge_percentage": 0
+}

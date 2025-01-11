@@ -1,0 +1,79 @@
+{
+  "name": "Café Versalles",
+  "address": "4MGV+4M6, Martí, Guanabacoa",
+  "schedule": {
+    "monday": {"open": "09:00", "close": "24:00"},
+    "tuesday": {"open": "09:00", "close": "24:00"},
+    "wednesday": {"open": "09:00", "close": "24:00"},
+    "thursday": {"open": "09:00", "close": "24:00"},
+    "friday": {"open": "09:00", "close": "24:00"},
+    "saturday": {"open": "09:00", "close": "24:00"},
+    "sunday": {"open": "09:00", "close": "24:00"}
+  },
+  "contacts": {
+    "phone_number": null,
+    "mobile": null,
+    "website": null,
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["cocteles", "cubana", "café", "italiana"],
+  "parking": false,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": false,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      {"name": "Ensalada Fría De Jamón", "price": 500},
+      {"name": "Ensalada Fría De Atún", "price": 700},
+      {"name": "Croquetas De La Casa", "price": 500},
+      {"name": "Eperlan De Pescado", "price": 1600},
+      {"name": "Fajitas De Pollo Empanado", "price": 1500},
+      {"name": "Maripositas Chinas", "price": 700},
+      {"name": "Ceviche De Pescado", "price": 1000},
+      {"name": "Cesta Bananera", "price": 850},
+      {"name": "Cóctel De Camarón", "price": 1200}
+    ],
+    "main_course": [
+      {"name": "Pollo grille", "price": 1400},
+      {"name": "Pollo cantones", "price": 2200},
+      {"name": "Cordon bleu", "price": 2500},
+      {"name": "Medio pollo al carbón con BBQ", "price": 2500},
+      {"name": "Pescado versalles", "price": 2800},
+      {"name": "Canciller", "price": 2800},
+      {"name": "Montetoro", "price": 2200},
+      {"name": "Filete grille", "price": 1600},
+      {"name": "Camarón al gusto", "price": 2500},
+      {"name": "Chuleta de cerdo al carbón con bbq 1 libra", "price": 3600},
+      {"name": "Solomillo de cerdo al carbón con bbq 1 libra", "price": 3000},
+      {"name": "Uruguayo de cerdo", "price": 2500},
+      {"name": "Masa de cerdo frita 300 gr", "price": 2800},
+      {"name": "Bistec de cerdo encebollado", "price": 1600}
+    ],
+    "garrison": [
+      null
+    ],
+    "desserts": [
+      null
+    ],
+    "drinks": [
+      {"name": "Ron selección de maestros", "price": 900},
+      {"name": "Ron añejo especial", "price": 350},
+      {"name": "Ron Santiago", "price": 500},
+      {"name": "Tequila reposado", "price": 600},
+      {"name": "Whisky chivas regal", "price": 1000},
+      {"name": "Limonada frappe", "price": 250},
+      {"name": "Cerveza cristal", "price": 350},
+      {"name": "Piña colada", "price": 550}
+    ]
+  },
+  "service_charge_percentage": 0
+}

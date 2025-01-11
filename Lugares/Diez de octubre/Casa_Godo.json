@@ -1,0 +1,71 @@
+{
+  "name": "Casa Godo",
+  "address": "Ave. Mayía Rodríguez # 358 e/ San Mariano y Vista Alegre, El Mónaco, Diez de Octubre",
+  "schedule": {
+    "monday": {"open": "12:00", "close": "23:00"},
+    "tuesday": {"open": "12:00", "close": "23:00"},
+    "wednesday": {"open": "12:00", "close": "23:00"},
+    "thursday": {"open": "12:00", "close": "23:00"},
+    "friday": {"open": "12:00", "close": "23:00"},
+    "saturday": {"open": "12:00", "close": "23:00"},
+    "sunday": {"open": "12:00", "close": "23:00"}
+  },
+  "contacts" : {
+    "phone_number": "76034192",
+    "mobile" : "53311292",
+    "website": null,
+    "instagram": "@casa_godo._.oficial",
+    "facebook": null
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["cubana", "internacional"],
+  "parking": false,
+  "reservations": true,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": false,
+  "power_generator": false ,
+  "menu": {
+    "appetizer": [
+      {"name": "Croquetas de Pescado", "price": 650},
+      {"name": "Coctel de Camarón", "price": 1000},
+      {"name": "Entremes de Jamón, Queso y Aceitunas", "price": 850},
+      {"name": "Tostones rellenos con Cerdo", "price": 650},
+      {"name": "Garbanzo Frito", "price": 700}
+    ],
+    "main_course": [
+      {"name": "Churrasco de Cerdo", "price": 3200},
+      {"name": "Chilindrón de Cordero", "price": 2000},
+      {"name": "Langosta grille o Enchilada", "price": 3000},
+      {"name": "Masas de Cerdo", "price": 2000},
+      {"name": "Bistec de Cerdo", "price": 2000},
+      {"name": "Lonjas de Cerdo", "price": 1800},
+      {"name": "Loma Ahumado", "price": 1800},
+      {"name": "Filete de Pescado", "price": 2200},
+      {"name": "Filete de Pescado con Vegetales Salteados", "price": 2300},
+      {"name": "Filete de Pescado con Camarones", "price": 2900},
+      {"name": "Camaron Salteado o Enchilado", "price": 2600},
+      {"name": "Pechuga de Pollo", "price": 1800},
+      {"name": "Pollo Deshuesado", "price": 950},
+      {"name": "Pulpo Salteado al ajo", "price": 3100}
+    ],
+    "garrison": [
+      {"name": "Arroz Frito sin camarón", "price": 850},
+      {"name": "Arroz Frito con Camarón", "price": 1200},
+      {"name": "Ensalada de Vegetales", "price": 250},
+      {"name": "Ración de Moro", "price": 200}
+    ],
+    "desserts": [
+      {"name": "Torta", "price": 550}
+    ],
+    "drinks": [
+      null
+    ]
+  },
+  "service_charge_percentage": 10
+}

@@ -1,0 +1,72 @@
+{
+  "name": "Tong Do Laug",
+  "address": "Cuchillo entre San Nicolás y Rayo, Centro Habana",
+  "schedule": {
+    "monday": {"open": "10:00", "close": "21:00"},
+    "tuesday": {"open": "10:00", "close": "21:00"},
+    "wednesday": {"open": "10:00", "close": "21:00"},
+    "thursday": {"open": "10:00", "close": "21:00"},
+    "friday": {"open": "10:00", "close": "21:00"},
+    "saturday": {"open": "10:00", "close": "21:00"},
+    "sunday": {"open": "10:00", "close": "21:00"}
+  },
+  "contacts": {
+    "phone_number": null,
+    "mobile": "55100355",
+    "website": null,
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["China"],
+  "parking": false,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": false,
+    "usd_cash": true,
+    "usd_transfer": false,
+    "mlc": true
+  },
+  "delivery_areas": false,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      null
+    ],
+    "main_course": [
+      {"name": "Jiaozi Ravioles", "price": 1350},
+      {"name": "Bao", "price": 700},
+      {"name": "Mia Especial Tallarines", "price": 1100},
+      {"name": "Arroz Frito Especial", "price": 1100},
+      {"name": "Siumi", "price": 1200},
+      {"name": "Chunkun Rollitos de Primavera", "price": 1050},
+      {"name": "Sopa China", "price": 990},
+      {"name": "Lomo Ahumado", "price": 2000},
+      {"name": "Mariscos", "price": 2500},
+      {"name": "Mar y Tierra", "price": 3850},
+      {"name": "Camarones", "price": 3600},
+      {"name": "Pescado", "price": 1650},
+      {"name": "Fajitas de Pechuga", "price": 2200}
+    ],
+    "garrison": [
+      null
+    ],
+    "desserts": [
+      null
+    ],
+    "drinks": [
+      {"name": "Cerveza", "price": 300},
+      {"name": "Cerveza Nacional", "price": 500},
+      {"name": "Refresco", "price": 300},
+      {"name": "Jugo", "price": 330},
+      {"name": "Frapeado", "price": 330},
+      {"name": "Cocteles", "price": 660},
+      {"name": "Café", "price": 390},
+      {"name": "Té", "price": 170},
+      {"name": "Agua", "price": 220},
+      {"name": "Agua calinete", "price": 220}
+    ]
+  },
+  "service_charge_percentage": 0
+}

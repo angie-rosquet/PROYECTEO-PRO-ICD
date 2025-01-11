@@ -1,0 +1,77 @@
+{
+  "name": "Ivonne Café",
+  "address": "San Lazaro entre Espada y Hospital, Centro Habana",
+  "schedule": {
+    "monday": {"open": "09:00", "close": "22:00"},
+    "tuesday": {"open": "09:00", "close": "22:00"},
+    "wednesday": {"open": "09:00", "close": "22:00"},
+    "thursday": {"open": "09:00", "close": "22:00"},
+    "friday": {"open": "09:00", "close": "22:00"},
+    "saturday": {"open": "09:00", "close": "22:00"},
+    "sunday": {"open": "09:00", "close": "22:00"}
+  },
+  "contacts": {
+    "phone_number": null,
+    "mobile": null,
+    "website": null,
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "Bar-Restaurante",
+  "specialty": ["italiana", "internacional", "cafe"],
+  "parking": false,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": false,
+  "power_generator": true,
+  "menu": {
+    "appetizer": [
+      null
+    ],
+    "main_course": [
+      {"name": "Pizza queso blanco", "price": 350},
+      {"name": "Pizza Grande queso blanco", "price": 500},
+      {"name": "Pizza Pequeña Gouda", "price": 600},
+      {"name": "Pizza Grande Gouda", "price": 850},
+      {"name": "Espagueti Blanco", "price": 700},
+      {"name": "Espagueti Gouda", "price": 850}
+    ],
+    "garrison": [
+      {"name": "Cebolla", "price": 200},
+      {"name": "Jamón", "price": 200},
+      {"name": "Aceituna", "price": 200}
+    ],
+    "desserts": [
+      {"name": "Tartaleta", "price": 350},
+      {"name": "Donut", "price": 170},
+      {"name": "Coffee cake", "price": 160},
+      {"name": "Empanada", "price": 250},
+      {"name": "Cangrejitos", "price": 250},
+      {"name": "Rollitos", "price": 200},
+      {"name": "Pasteles", "price": 100},
+      {"name": "Cakes", "price": 4500}
+    ],
+    "drinks": [
+      {"name": "Expreso", "price": 100},
+      {"name": "Cortado", "price": 150},
+      {"name": "Con leche", "price": 100},
+      {"name": "Americano", "price": 100},
+      {"name": "Capuchino", "price": 300},
+      {"name": "Bombon", "price": 300},
+      {"name": "Frapuccino", "price": 750},
+      {"name": "Aguas", "price": 250},
+      {"name": "Refrescos", "price": 250},
+      {"name": "Cervezas", "price": 300},
+      {"name": "Limonada Frappe", "price": 850},
+      {"name": "Batido Helado", "price": 850},
+      {"name": "Batido Fruta", "price": 550}
+    ]
+  },
+  "service_charge_percentage": 0
+}

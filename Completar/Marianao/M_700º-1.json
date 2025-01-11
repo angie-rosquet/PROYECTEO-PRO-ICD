@@ -1,0 +1,311 @@
+{
+    "Name": "700º",
+    "Type": "Restaurante",
+    "Phone_Number": "54063906",
+    "Web_Page": "700gradoshabana",
+    "Ownership": "Particular",
+    "Operating_Hours": {
+        "Monday":   ["11:00-03:00"],
+        "Tuesday":  ["11:00-03:00"],
+        "Wednesday": ["11:00-03:00"],
+        "Thursday": ["11:00-03:00"],
+        "Friday":   ["11:00-03:00"],
+        "Saturday": ["11:00-03:00"],
+        "Sunday":   ["11:00-03:00"]
+    },
+    "Location": {
+        "District": "Marianao",
+        "Address": "avenida 41 esquina 86",
+        "Coordinates": "3HQH+47X"
+    },
+    "Cuisine": "Variada",
+    "Menu": {
+        "Breakfast": {
+            "Egg": {
+                "": {
+                    "Price": null
+                }
+            },
+            "Tortilla": {
+                "": {
+                    "Price": null
+                }
+            },
+            "Hambuerguer": {
+                "": {
+                    "Price": null
+                }
+            },
+            "Sandwich": {
+                "": {
+                    "Price": null
+                }
+            },
+            "Bread": {
+                "": {
+                    "Price": null
+                }
+            },
+            "Other":{
+                "":{
+                    "Price": null
+                }
+            }
+        },
+        "Appetizers": {
+            "tostones rellenos jamon y queso": {
+                "Price": 890
+            },
+            "croquetas de la casa": {
+                "Price": 890
+            },
+            "finger de pollo empanizado": {
+                "Price": 890
+            },
+            "tacos de pollo": {
+                "Price": 990
+            },
+            "tacos de cerdo": {
+                "Price": 1100
+            },
+            "frituras de malanga": {
+                "Price": 790
+            },
+            "emtremes de aceituna": {
+                "Price": 1130
+            },
+            "papas fritas": {
+                "Price": 890
+            },
+            "eperlan de pescado": {
+                "Price": 1380
+            },
+            "coctel de langosta ": {
+                "Price": 1600
+            },
+            "coctel de camaron": {
+                "Price": 1600
+            }
+
+        },
+        "Main_Courses": {
+            "Pasta": {
+                "espaguetis napolitano": {
+                    "Price": 1100
+                },
+                "espaguetis con camaron": {
+                    "Price": 2500
+                },
+                "espaguetis de langosta": {
+                    "Price": 2500
+                },
+                "espaguetis marineros": {
+                    "Price": 1100
+                }
+            },
+            "Pizza": {
+                "napolitana": {
+                    "Price": 1200
+                },
+                "hawaiana": {
+                    "Price": 1450
+                }
+            },
+            "Pork": {
+                "lonjas de cerdo al carbon": {
+                    "Price": 1850
+                },
+                "saltimboca de cerdo": {
+                    "Price": 1750
+                },
+                "bistec de cerdo": {
+                    "Price": 1650
+                },
+                "fajitas de cerdo salteadas": {
+                    "Price": 1650
+                },
+                "solomillo de cerdo":{
+                    "Price": 2900
+                },
+                "masas de cerdo en salsa teriyaki":{
+                    "Price": 2200
+                },
+                "fricase de cerdo":{
+                    "Price": 2200
+                }
+            },
+            "Chicken": {
+                "pechuga de pollo": {
+                    "Price": 1650
+                }
+            },
+            "Beef": {
+                "bistec uruguayo": {
+                    "Price": 1850
+                },
+                "ropa vieja de res":{
+                    "Price": 2200
+                }
+            },
+            "Sea": {
+                "filete de pescado": {
+                    "Price": 1850
+                },
+                "camaron al gusto": {
+                    "Price": 2800
+                },
+                "enchilado de langosta": {
+                    "Price": 2800
+                },
+                "paella de marisco":{
+                    "Price": 3550
+                },
+                "cazuela de marisco":{
+                    "Price": 3600
+                }
+            },
+            "Other":{
+                "Mar y tierra campesina":{
+                    "Price": 3550
+                },
+                "filete john bill":{
+                    "Price": 3550
+                }
+            }
+        },
+        "Extras": {
+            "arroz moro": {
+                "Price": 100
+            },
+            "vianda frita": {
+                "Price": 100
+            },
+            "platano maduro frito": {
+                "Price": 100
+            },
+            "ensalada estacion": {
+                "Price": 100
+            },
+            "platano chatinos": {
+                "Price": 100
+            },
+            "arroz blanco": {
+                "Price": 100
+            }
+        },
+        "Desserts": {
+            "": {
+                "Price": null
+            }
+        },
+        "Beverages": {
+            "agua natural": {
+                "Price": 290
+            },
+            "refresco internacional": {
+                "Price": 380
+            },
+            "malta internacional": {
+                "Price": 440
+            },
+            "energizante": {
+                "Price": 550
+            },
+            "red bull": {
+                "Price": 830
+            },
+            "cerveza internacional": {
+                "Price": 350
+            },
+            "dispensada cristal":{
+                "Price":350
+            },
+            "cerveza bucanero": {
+                "Price": 550
+            },
+            "cerveza cristal": {
+                "Price": 550
+            },
+            "cerveza corona": {
+                "Price": 750
+            },
+            "cerveza sol": {
+                "Price": 750
+            },
+            "cerveza heineken": {
+                "Price": 750
+            },
+            "servicio michelada": {
+                "Price": 490
+            },
+            "servicio de chelada": {
+                "Price": 300
+            },
+            "caipiroska": {
+                "Price": 380
+            },
+            "caipirisima": {
+                "Price": 380
+            },
+            "mojito": {
+                "Price": 450
+            },
+            "caipirina": {
+                "Price": 380
+            },
+            "sangría": {
+                "Price": 400
+            },
+            "vodca tonic": {
+                "Price": 480
+            },
+            "gin tonic": {
+                "Price": 550
+            },
+            "cuba libre": {
+                "Price": 480
+            },
+            "cubata especial": {
+                "Price": 490
+            },
+            "daiquirí": {
+                "Price": 380
+            },
+            "piña colada": {
+                "Price": 450
+            },
+            "vino tinto": {
+                "Price":  400
+            },
+            "limonada frescura": {
+                "Price": 250
+            },
+            "limonada natural": {
+                "Price": 250
+            },
+        "most_sold": {
+            "Dish": ["Pizza"],
+            "Drink": ["Cerveza"]
+            },
+        "least_sold": {
+            "Dish": ["Pescado"],
+            "Drink": ["Licores"]
+            }
+        }
+    },
+    "Other Info": {
+        "Entertainment": ["Musica grabada"],
+        "Facilities": ["Servicio a domicilio"],
+        "Payments_Options": {
+            "Cash": "Si",
+            "Credit_Card": "Si",
+            "Mobile_Payment": "Si"
+        },
+        "Accepted_Currencies": {
+            "National_Currency": "Si",
+            "US_Dollars": "No",
+            "Euros": "No",
+            "Others": "No"
+        }
+    }
+}

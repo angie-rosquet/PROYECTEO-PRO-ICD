@@ -1,0 +1,89 @@
+{
+  "name": "Don Cuenca",
+  "address": "General Lee entre Destrampre y Figueroa, Santo Suarez, Diez de Octubre",
+  "schedule": {
+    "monday": {"open": "12:00", "close": "22:00"},
+    "tuesday": {"open": "12:00", "close": "22:00"},
+    "wednesday": {"open": "12:00", "close": "22:00"},
+    "thursday": {"open": "12:00", "close": "22:00"},
+    "friday": {"open": "12:00", "close": "22:00"},
+    "saturday": {"open": "12:00", "close": "22:00"},
+    "sunday": {"open": "12:00", "close": "22:00"}
+  },
+  "contacts" : {
+    "phone_number": "76402249",
+    "mobile" : "55373569",
+    "website": null,
+    "instagram": "@don-cuenca",
+    "facebook": null
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["internacional", "criolla"],
+  "parking": false,
+  "reservations": true,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": false,
+  "power_generator": true ,
+  "menu": {
+    "appetizer": [
+      {"name": "frituras de malanga", "price": 500},
+      {"name": "tostones rellenos de jamon y queso", "price": 550},
+      {"name": "garbanzos fritos", "price": 850},
+      {"name": "eperlan", "price": 1450},
+      {"name": "coctel de camarones", "price": 1600}
+    ],
+    "main_course": [
+      {"name": "bistec de cerdo grille", "price": 1550},
+      {"name": "bistec uruguayo", "price": 2100},
+      {"name": "lomo cerdo ahumado", "price": 1700},
+      {"name": "lomo cerdo hawaiano", "price": 1900},
+      {"name": "pechuga grille", "price": 1659},
+      {"name": "pechuga salteada con aji y cebolla", "price": 1750},
+      {"name": "pechuga hawaiana", "price": 2100},
+      {"name": "cordon blue", "price": 2400},
+      {"name": "chilindron de cordero", "price": 1800},
+      {"name": "ropa vieja", "price": 1900},
+      {"name": "vaca frita", "price": 1900},
+      {"name": "solomillo de cerdo", "price": 2950},
+      {"name": "filete de pescado joinville", "price": 3000},
+      {"name": "enchilado de mariscos", "price": 3100},
+      {"name": "caldereta de mariscos", "price": 3600},
+      {"name": "canelon de jamon", "price": 1100},
+      {"name": "canelon de chorizo", "price": 1250},
+      {"name": "canelon de atun", "price": 1600},
+      {"name": "lasana de jamon", "price": 1350},
+      {"name": "lasana de chorizo", "price": 1550},
+      {"name": "lasana de atun", "price": 1900},
+      {"name": "espaguetis don cuenca", "price": 1650},
+      {"name": "espaguetis de mariscos", "price": 2450},
+      {"name": "espaguetis frutos del mar", "price": 2900}
+    ],
+    "garrison": [
+      null
+    ],
+    "desserts": [
+      {"name": "tarta de la casa", "price": 450},
+      {"name": "flan de la casa", "price": 450},
+      {"name": "crema de arroz con leche", "price": 350},
+      {"name": "helado", "price": 450}
+    ],
+    "drinks": [
+      {"name": "jugo natural", "price": 250},
+      {"name": "suero de helado", "price": 450},
+      {"name": "refresco", "price": 300},
+      {"name": "malta importada", "price": 330},
+      {"name": "energizante", "price": 300},
+      {"name": "cafe", "price": 100},
+      {"name": "cerveza nacional", "price": 400},
+      {"name": "cerveza importada", "price": 350},
+      {"name": "cafe", "price": 100}
+    ]
+  },
+  "service_charge_percentage": 10
+}

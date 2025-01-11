@@ -1,0 +1,69 @@
+{
+  "name": "Mundo Pizza",
+  "address": "San Nicolas % San Miguel y NeptunoCentro Habana",
+  "schedule": {
+    "monday": {"open": "12:00", "close": "22:00"},
+    "tuesday": {"open": "12:00", "close": "22:00"},
+    "wednesday": {"open": "12:00", "close": "22:00"},
+    "thursday": {"open": "12:00", "close": "22:00"},
+    "friday": {"open": "12:00", "close": "22:00"},
+    "saturday": {"open": "12:00", "close": "22:00"},
+    "sunday": {"open": "12:00", "close": "22:00"}
+  },
+  "contacts": {
+    "phone_number": null,
+    "mobile": "53372715",
+    "website": "",
+    "instagram": "@mundopizza_habana",
+    "facebook": "https://www.facebook.com/pg/Mundo-Pizza-150317132061745/about/?entry_point=page_nav_about_item&tab=page_info"
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["Italiana"],
+  "parking": true,
+  "reservations": true,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": true,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      {"name": "Croquetas Caseras", "price": 590},
+      {"name": "Tostones Criollos", "price": 540},
+      {"name": "Focaccia", "price": 560}
+    ],
+    "main_course": [
+      {"name": "Pizza Metro Criolla", "price": 2800},
+      {"name": "Pizza Metro Casa", "price": 3700},
+      {"name": "Pizza Metro Gouda", "price": 5100},
+      {"name": "Pizza Metro Elección", "price": 5150},
+      {"name": "Pizza 1/2 Metro Mix", "price": 2500},
+      {"name": "Pizza 1/2 Metro Elección", "price": 2700},
+      {"name": "Pizza Rossa", "price": 590},
+      {"name": "Spaghetti", "price": 950},
+      {"name": "Lasaña", "price": 1250},
+      {"name": "Spaghetti al Pesto", "price": 1050},
+      {"name": "Spaghetti del Día", "price": 1600}
+    ],
+    "garrison": [
+      null
+    ],
+    "desserts": [
+      {"name": "Postre del Día", "price": 650},
+      {"name": "Pizza a Chocolate", "price": 815},
+      {"name": "Helado 3 Gracias", "price": 500}
+    ],
+    "drinks": [
+      {"name": "Refresco", "price": 250},
+      {"name": "Energizante", "price": 390},
+      {"name": "Malta", "price": 300},
+      {"name": "Jugo Cajita", "price": 250},
+      {"name": "Cerveza", "price": 300}
+    ]
+  },
+  "service_charge_percentage": 0
+}

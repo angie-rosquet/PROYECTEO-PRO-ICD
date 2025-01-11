@@ -1,0 +1,93 @@
+{
+	"name": "Abuelo D'Oro",
+  "address": "Calzada Aldabo % 12 y 13, Aldabo, Boyeros",
+	"schedule": {
+		"monday": {"open": "12:00", "close": "24:00"},
+    "tuesday": {"open": "12:00", "close": "24:00"},
+    "wednesday": {"open": "12:00", "close": "24:00"},
+    "thursday": {"open": "12:00", "close": "24:00"},
+    "friday": {"open": "12:00", "close": "24:00"},
+    "saturday": {"open": "12:00", "close": "24:00"},
+    "sunday": {"open": "12:00", "close": "24:00"}
+  },
+  "contacts" : {
+    "phone_number": "76472100",
+    "mobile" : null,
+    "website": "https://es.restaurantguru.com/El-abuelo-de-oro-Havana",
+    "instagram": "@abuelo_de_oro_cuba",
+    "facebook": "https://www.facebook.com/AbueloDOro?utm_source=restaurantguru&utm_medium=referral"
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["Cubana","Internacional","Italiana"],
+  "parking": true,
+  "reservations": true,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": true,
+  "power_generator": true ,
+  "menu": {
+    "appetizer": [
+			{"name":"Croquetas","price":500 },
+			{"name":"Empanadas","price":500 },
+			{"name":"Frituras","price":500 },
+			{"name":"Tostones rellenos","price":1000 },
+			{"name":"Papas bravas","price":500 },
+			{"name":"Papas doradas","price":450 },
+			{"name":"Ceviche","price":2000 },
+			{"name":"Coctel de langosta","price":2000 },
+			{"name":"Coctel de camarones","price":2000 },
+			{"name":"Tabla surtida","price":3000 }
+    ],
+    "main_course": [
+			{"name":"Pizza napolitana","price":1000 },
+			{"name":"Pizza jamón","price":1300 },
+			{"name":"Pizza hawaiana","price":1400 },
+			{"name":"Pizza cebolla","price":1100 },
+			{"name":"Pizza pimiento","price":1100 },
+			{"name":"Pizza pepperoni","price":1500 },
+			{"name":"Espaguetis napolitanos","price":1200 },
+			{"name":"Espaguetis jamón","price":1500 },
+			{"name":"Vaca frita","price":3000 },
+			{"name":"Ropa vieja","price":3000 },
+			{"name":"Bistec res cazuela","price":3500 },
+			{"name":"Picadillo habanera","price":2900 },
+			{"name":"Bistec encebollado","price":2500 },
+			{"name":"Cerdo salteado","price":2800 },
+			{"name":"Medalla con jamón y queso","price":3800 },
+			{"name":"Medalla con ropa vieja y queso","price":3800 },
+			{"name":"Chuletilla","price":3000 },
+			{"name":"Pechuga grillé","price":3000 },
+			{"name":"Pechuga salteada","price":3500 },
+			{"name":"Pollo frito","price":2500 },
+			{"name":"Filete pescado grillé","price":3000 },
+			{"name":"Filete pescado montado","price":4000 },
+			{"name":"Gratín del mar","price":4000 },
+			{"name":"Langosta en sus variedades","price":4800 },
+			{"name":"Camarón variado","price":4800 },
+			{"name":"1kg cerdo asado","price":15000 },
+			{"name":"Chuletón cerdo","price":6500 },
+			{"name":"Chuleta cerdo","price":3000 },
+			{"name":"Mar y tierra","price":19000 },
+			{"name":"Tacos ropa vieja","price":1500 },
+      {"name":"Tacos vaca frita","price":1450 },
+      {"name":"Tacos cerdo","price":1200 },
+      {"name":"Sandwich jamón y queso","price":1500 },
+      {"name":"Sandwich pechuga y queso","price":1800 }
+    ],
+    "garrison": [
+			null
+		],
+    "desserts": [
+			null
+		],
+    "drinks": [
+			null
+		]
+  },
+  "service_charge_percentage": 0
+}

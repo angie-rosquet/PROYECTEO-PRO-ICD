@@ -28,21 +28,7 @@
     "usd_transfer": true,
     "mlc": true
   },
-  "delivery_areas": [
-    "Arroyo Naranjo",
-      "Boyeros",
-      "Cerro",
-      "Cotorro",
-      "Diez de Octubre",
-      "Guanabacoa",
-      "Habana del este",
-      "Habana Vieja",
-      "La Lisa",
-      "Marianao",
-      "Playa",
-      "Plaza de la Revolucion",
-      "San Miguel del Padron"
-  ],
+  "delivery_areas": true,
   "power_generator": true ,
   "menu": {
     "appetizer": [

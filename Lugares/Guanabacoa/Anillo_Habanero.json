@@ -1,0 +1,86 @@
+{
+  "name": "Anillo Habanero",
+  "address": "Primer Anillo de La Habana,Calle Peñalver, Guanabacoa",
+  "schedule": {
+      "monday": { "open": "10:00", "close": "23:00" },
+      "tuesday": { "open": "10:00", "close": "23:00" },
+      "wednesday": { "open": "10:00", "close": "23:00" },
+      "thursday": { "open": "10:00", "close": "23:00" },
+      "friday": { "open": "10:00", "close": "23:00" },
+      "saturday": { "open": "10:00", "close": "23:00" },
+      "sunday": { "open": "10:00", "close": "23:00" }
+  },
+  "contacts": {
+      "phone_number": null,
+      "mobile": "52042710",
+      "website": "https://anillohabanero.com/",
+      "instagram": null,
+      "facebook": null
+  },
+  "type_establecimiento": "Restaurante",
+  "especialidad": ["cubana", "italiana", "cócteles"],
+  "parking": true,
+  "reservations": true,
+  "paid_methods": {
+      "cash_national": true,
+      "digital_transfer_national": true,
+      "usd_cash": false,
+      "usd_transfer": false,
+      "mlc": false
+  },
+  "delivery_areas": false,
+  "power_generator": false,
+  "menu": {
+      "appetizer": [
+          { "name": "Picadera Anillo", "price": 3000 },
+          { "name": "Tacos de vegetales", "price": 600 },
+          { "name": "Croquetas Habaneras", "price": 400 },
+          { "name": "Nachos, Salsa Rosa y Guacamole", "price": 400 },
+          { "name": "Brochetas", "price": 1300 },
+          { "name": "Cóctel de camarones", "price": 2000 },
+          { "name": "Frituras", "price": 300 },
+          { "name": "Tostones rellenos", "price": 550 },
+          { "name": "Tacos de Pollo", "price": 800 }
+      ],
+      "main_course": [
+          { "name": "Lomo ahumado", "price": 2000 },
+          { "name": "Chuletas de cerdo", "price": 3000 },
+          { "name": "Ropa vieja", "price": 3000 },
+          { "name": "Vaca Frita", "price": 3000 },
+          { "name": "Camarones enchilados", "price": 3500 },
+          { "name": "Camarones al ajillo", "price": 3500 }
+      ],
+      "garrison": [
+        null
+      ],
+      "desserts": [
+          { "name": "Tarta de Vainilla", "price": 750 },
+          { "name": "Cheesecake de Limón", "price": 750 },
+          { "name": "Coctel de Frutas Importadas", "price": 350 }
+      ],
+      "drinks": [
+          { "name": "Michelada", "price": 600 },
+          { "name": "Margarita", "price": 800 },
+          { "name": "Caipiroska", "price": 800 },
+          { "name": "Cócteles Analcohólicos", "price": 500 },
+          { "name": "Caipirisima", "price": 800 },
+          { "name": "Vodka Tonic", "price": 900 },
+          { "name": "Screwdriver", "price": 800 },
+          { "name": "Gin Tonic", "price": 900 },
+          { "name": "Agua Marina", "price": 800 },
+          { "name": "Cancha", "price": 800 },
+          { "name": "Tinto de Verano", "price": 800 },
+          { "name": "Limonada Frappé", "price": 250 },
+          { "name": "Daiquirí", "price": 800 },
+          { "name": "Chelada", "price": 450 },
+          { "name": "Piña Colada", "price": 1000 },
+          { "name": "Sangría", "price": 1000 },
+          { "name": "Cerveza Nacional", "price": 350 },
+          { "name": "Cerveza importada", "price": 300 },
+          { "name": "Trago Jonny Walker", "price": 500 },
+          { "name": "William Lawsons", "price": 350 },
+          { "name": "Lyubov Vodka", "price": 200 }
+      ]
+  },
+  "service_charge_percentage": 0
+}

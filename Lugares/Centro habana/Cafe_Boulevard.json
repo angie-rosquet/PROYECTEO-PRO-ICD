@@ -1,0 +1,66 @@
+{
+  "name": "Cafe Bulevar",
+  "address": "Calle San Rafael % Galiano y Aguila, Centro Habana",
+  "schedule": {
+    "monday": {"open": "11:00", "close": "23:00"},
+    "tuesday": {"open": "11:00", "close": "23:00"},
+    "wednesday": {"open": "11:00", "close": "23:00"},
+    "thursday": {"open": "11:00", "close": "23:00"},
+    "friday": {"open": "11:00", "close": "23:00"},
+    "saturday": {"open": "11:00", "close": "23:00"},
+    "sunday": {"open": "11:00", "close": "23:00"}
+  },
+  "contacts" : {
+    "phone_number": null,
+    "mobile" : null,
+    "website": null,
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "Bar-Restaurante",
+  "specialty": [],
+  "parking": false,
+  "reservations": true,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": false,
+  "power_generator": false ,
+  "menu": {
+    "appetizer": [
+      {"name": "ensalada de estacion", "price": 200 },
+      {"name": "papas fritas", "price": 150}
+    ],
+    "main_course": [
+      {"nombre": "caldosa boulevard", "precio": 200},
+      {"nombre": "arroz con subproductos", "precio": 300},
+      {"nombre": "fajitas de cerdo", "precio": 1350},
+      {"nombre": "fajitas de pollo", "precio": 1300},
+      {"nombre": "filete de merluza", "precio": 550}
+    ],
+    "garrison": [
+      null
+    ],
+    "desserts": [
+      null
+    ],
+    "drinks": [
+      {"nombre": "jugo de fruta", "precio": 100},
+      {"nombre": "cerveza importada", "precio": 180},
+      {"nombre": "vino tinto cabernet", "precio": 1340},
+      {"nombre": "copa de vino blanco (125ml)", "precio": 145},
+      {"nombre": "licor paso pondal (30ml)", "precio": 75},
+      {"nombre": "licor fenet blanca (30ml)", "precio": 75},
+      {"nombre": "grappa carolina bianca (30ml)", "precio": 75},
+      {"nombre": "ron legendario añejo (45ml)", "precio": 90},
+      {"nombre": "ron legendario dorado (45ml)", "precio": 100},
+      {"nombre": "trago legendario ronse (45ml)", "precio": 75},
+      {"nombre": "licor de cafe (30ml)", "precio": 75}
+    ]
+  },
+  "service_charge_percentage": 0
+}

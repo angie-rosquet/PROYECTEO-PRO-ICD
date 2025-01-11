@@ -1,0 +1,78 @@
+{
+  "name": "Pedro's Bar",
+  "address": "207 Blvd. de San Rafael, Centro Habana",
+  "schedule": {
+    "monday": {"open": "14:00", "close": "02:00"},
+    "tuesday": {"open": "14:00", "close": "02:00"},
+    "wednesday": {"open": "14:00", "close": "02:00"},
+    "thursday": {"open": "14:00", "close": "02:00"},
+    "friday": {"open": "14:00", "close": "02:00"},
+    "saturday": {"open": "14:00", "close": "02:00"},
+    "sunday": {"open": "14:00", "close": "02:00"}
+  },
+  "contacts": {
+    "phone_number": null,
+    "mobile": "5510666",
+    "website": null,
+    "instagram": "@pedrosbar_boulevard",
+    "facebook": "https://www.facebook.com/profile.php/?id=100070236661259"
+  },
+  "type_establishment": "Bar - Restaurante",
+  "specialty": ["Coctelería", "Italiana"],
+  "parking": false,
+  "reservations": true,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": false,
+  "power_generator": true,
+  "menu": {
+    "appetizer": [
+      {"name": "Papas Fritas", "price": 1150},
+      {"name": "Frituras de Malanga", "price": 800},
+      {"name": "Croquetas", "price": 1050},
+      {"name": "Dados de Queso", "price": 1350},
+      {"name": "Fajitas de Pollo", "price": 1450},
+      {"name": "Tabla Mixta", "price": 4600}
+    ],
+    "main_course": [
+      {"name": "Pizza de Queso", "price": 1200},
+      {"name": "Pizza Hawaiana", "price": 1500},
+      {"name": "Pizza de Vegetales", "price": 1500},
+      {"name": "Sandwich de Jamón y Queso", "price": 1200},
+      {"name": "Sandwich de Pechuga", "price": 1550},
+      {"name": "Sandwich de Atún", "price": 1500},
+      {"name": "Sandwich de Lechón", "price": 1550}
+    ],
+    "garrison": [
+      null
+    ],
+    "desserts": [
+      null
+    ],
+    "drinks": [
+      {"name": "Agua Natural", "price": 250},
+      {"name": "Refresco", "price": 500},
+      {"name": "Energizante", "price": 500},
+      {"name": "Canchanchara", "price": 1150},
+      {"name": "Mojito", "price": 1100},
+      {"name": "Caipis", "price": 1100},
+      {"name": "Daiquiri", "price": 1100},
+      {"name": "Gin Tonic", "price": 1450},
+      {"name": "Margarita", "price": 1050},
+      {"name": "Cubata", "price": 1050},
+      {"name": "Sangría", "price": 1350},
+      {"name": "Piña Colada", "price": 1100},
+      {"name": "Jarra de Cerveza", "price": 350},
+      {"name": "Cerveza", "price": 600},
+      {"name": "Vasos de Cerveza", "price": 200},
+      {"name": "Servicio de Michelada", "price": 300},
+      {"name": "Servicio de Chelada", "price": 400}
+    ]
+  },
+  "service_charge_percentage": 0
+}

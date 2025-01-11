@@ -28,12 +28,7 @@
     "usd_transfer": true,
     "mlc": true
   },
-  "delivery_areas": [
-    "Cerro",
-    "Diez de Octubre",
-    "San Miguel del Padron",
-    "Regla"
-  ],
+  "delivery_areas": true,
   "power_generator": true ,
   "menu": {
 		"appetizer": [

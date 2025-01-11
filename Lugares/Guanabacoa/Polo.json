@@ -1,0 +1,94 @@
+{
+  "name": "Polo",
+  "address": "Calle Cruz Verde % Independencia y Barreto Este, Guanabacoa",
+  "schedule": {
+    "monday": {"open": "12:00", "close": "00:00"},
+    "tuesday": {"open": "12:00", "close": "00:00"},
+    "wednesday": {"open": "12:00", "close": "00:00"},
+    "thursday": {"open": "12:00", "close": "00:00"},
+    "friday": {"open": "12:00", "close": "00:00"},
+    "saturday": {"open": "12:00", "close": "00:00"},
+    "sunday": {"open": "12:00", "close": "00:00"}
+  },
+  "contacts": {
+    "phone_number": "77974262",
+    "mobile": "52411618",
+    "website": null,
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["italliana", "criolla"],
+  "parking": false,
+  "reservations": true,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": false,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      {"name": "Toston Relleno de jamón y queso", "price": 450},
+      {"name": "Toston Relleno de atún y queso", "price": 600},
+      {"name": "Fajitas de pechuga", "price": 850},
+      {"name": "Ensaladas frías de jamón", "price": 500},
+      {"name": "Ensalada fría de atún", "price": 650},
+      {"name": "Eperlano de Pescado", "price": 1100},
+      {"name": "Croquetas de la Casa", "price": 450},
+      {"name": "Frituras Malanga", "price": 450},
+      {"name": "Coctel camarones", "price": 1300},
+      {"name": "Papas Fritas", "price": 550}
+    ],
+    "main_course": [
+      {"name": "Arroz blanco", "price": 120},
+      {"name": "Arroz moro y cristiano", "price": 180},
+      {"name": "Arroz pilaf", "price": 200},
+      {"name": "Arroz salteado con vegetales", "price": 250},
+      {"name": "Bistec de cerdo grille encebollado", "price": 1900},
+      {"name": "Uruguallo de cerdo", "price": 2400},
+      {"name": "Bistec princesa", "price": 2500},
+      {"name": "Pechuga grille", "price": 1850},
+      {"name": "Pechuga gratinada", "price": 2200},
+      {"name": "Cordon bleu de pechuga", "price": 2500},
+      {"name": "Bistec de res encebollado", "price": 2000},
+      {"name": "Uruguallo de res", "price": 2500},
+      {"name": "Ropa vieja de res", "price": 2300},
+      {"name": "Filete de pescado grille", "price": 2200},
+      {"name": "Filete Montero", "price": 2800},
+      {"name": "Filete Canciller", "price": 2900},
+      {"name": "Filete gratinado", "price": 2600},
+      {"name": "Camaron enchilado", "price": 2700},
+      {"name": "Camaron al ajillo", "price": 2600},
+      {"name": "Camaron empanizado", "price": 2700},
+      {"name": "Arroz Frito con camarones", "price": 1500},
+      {"name": "Filete Mediterraneo", "price": 3500},
+      {"name": "Lomo Ahumado", "price": 2400},
+      {"name": "Mar y Tierra", "price": 4500},
+      {"name": "Masa de Vida", "price": 4100}
+    ],
+    "garrison": [
+      null
+    ],
+    "desserts": [
+      null
+    ],
+    "drinks": [
+      {"name": "Cerveza Nacional", "price": 350},
+      {"name": "Cerveza importada", "price": 250},
+      {"name": "Energizante", "price": 300},
+      {"name": "Agua Natural 500ml", "price": 200},
+      {"name": "Refresco nacional", "price": 250},
+      {"name": "Refrescos importados", "price": 280},
+      {"name": "Malta Nacional", "price": 250},
+      {"name": "Malta Importada", "price": 280},
+      {"name": "Jugo de caja", "price": 200},
+      {"name": "Jugo de Lata", "price": 280},
+      {"name": "Cafe expreso", "price": 250}
+    ]
+  },
+  "service_charge_percentage": 0
+}

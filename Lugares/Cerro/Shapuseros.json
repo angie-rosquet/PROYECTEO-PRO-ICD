@@ -1,0 +1,60 @@
+{
+  "name": "Shapuseros",
+  "address": "Calzada de Ayestarán entre San Pedro y Ayuntamineto, Cerro",
+  "schedule": {
+    "monday": {"open": "09:00", "close": "21:00"},
+    "tuesday": {"open": "09:00", "close": "21:00"},
+    "wednesday": {"open": "09:00", "close": "21:00"},
+    "thursday": {"open": "09:00", "close": "21:00"},
+    "friday": {"open": "09:00", "close": "21:00"},
+    "saturday": {"open": "09:00", "close": "21:00"},
+    "sunday": {"open": "09:00", "close": "21:00"}
+  },
+  "contacts" : {
+    "phone_number": null,
+    "mobile": null,
+    "website": null,
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["comida rapida"],
+  "parking": false,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": false,
+  "power_generator": true,
+  "menu": {
+    "appetizer": [
+      null
+    ],
+    "main_course": [
+        {"name": "hamburguesa de pollo", "price": 500 },
+        {"name": "hamburguesa de cerdo", "price": 550},
+        {"name": "hamburguesa de res", "price": 600 },
+        {"name": "hamburguesa Shapusero", "price": 1200}
+    ],
+    "garrison": [
+        {"name": "queso", "price": 150},
+        {"name": "jamon", "price": 120},
+         {"name": "chorizo", "price": 150},
+         {"name": "bacon", "price": 155},
+         {"name": "huevo", "price": 150},
+         {"name": "cebolla", "price": 50},
+         {"name": "salsa BBQ", "price": 30}
+    ],
+    "desserts": [
+      null
+    ],
+    "drinks": [
+      null
+    ]
+  },
+   "service_charge_percentage": 0
+}

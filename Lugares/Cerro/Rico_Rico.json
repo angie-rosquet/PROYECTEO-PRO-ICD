@@ -1,0 +1,81 @@
+{
+  "name": "Rico Rico",
+  "address": "Calle Ayestarán entre Perfecto Lacoste y Aranguren, Cerro",
+  "schedule": {
+    "monday": {"open": "09:00", "close": "23:00"},
+    "tuesday": {"open": "09:00", "close": "23:00"},
+    "wednesday": {"open": "09:00", "close": "23:00"},
+    "thursday": {"open": "09:00", "close": "23:00"},
+    "friday": {"open": "09:00", "close": "23:00"},
+    "saturday": {"open": "09:00", "close": "23:00"},
+    "sunday": {"open": "09:00", "close": "23:00"}
+  },
+  "contacts" : {
+    "phone_number": "78701632",
+    "mobile" : null,
+    "website": null,
+    "instagram": "@ricoricopizzeria",
+    "facebook": "https://www.facebook.com/RicoRicopizzeria/menu/"
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["italiana"],
+  "parking": true,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": false,
+  "power_generator": true ,
+  "menu": {
+    "appetizer": [
+      { "name": "Ensalada fria de atun (pequeña)", "price": 645 },
+      { "name": "Ensalada fria de atun (mediana)", "price": 1200 },
+      { "name": "Ensalada fria de atun (grande)", "price": 2205 },
+      { "name": "Ensalada fria de jamon y queso (pequeña)", "price": 495 },
+      { "name": "Pizzeta de Napole", "price": 230 },
+      { "name": "Pizzeta de Chorizo", "price": 325 },
+      { "name": "Bastones de Queso", "price": 780 },
+      { "name": "Empanadas Gallegas", "price": 380 },
+      { "name": "Tequeños", "price": 350 }
+    ],
+    "main_course": [
+      { "name": "Pizza Napoles", "price": 920 },
+      { "name": "Pasta Napoles", "price": 920 },
+      { "name": "Pasta Carbonara", "price": 1000 },
+      { "name": "Calzone Napoles", "price": 1090 },
+      { "name": "Megacalzone", "price": 1440 },
+      { "name": "Lasaña Boloñesa", "price": 1550 },
+      { "name": "Lasaña de Jamon", "price": 1490 }
+    ],
+    "garrison": [
+      { "name": "Aceitunas", "price": 220 },
+      { "name": "Piña", "price": 220 },
+      { "name": "Cebolla", "price": 400 },
+      { "name": "Atun", "price": 550 },
+      { "name": "Chorizo", "price": 2390 },
+      { "name": "Bacon", "price": 360 },
+      { "name": "Jamon", "price": 320 },
+      { "name": "Jamon serrano", "price": 480 },
+      { "name": "Parmesano", "price": 350 },
+      { "name": "Gouda", "price": 360 },
+      { "name": "Lomo ahumado", "price": 380 },
+      { "name": "Queso azul", "price": 300 }
+    ],
+    "desserts": [
+      { "name": "Pastelito de ojaldre de guayaba o coco", "price": 260 },
+      { "name": "Pastelito de ojaldre de jamon y queso", "price": 280 },
+      { "name": "Flan", "price": 590 }
+    ],
+    "drinks": [
+      { "name": "Frappi Rico", "price": 180 },
+      { "name": "Mega Bati Bati", "price": 990 },
+      { "name": "Super Bati Bati", "price": 785 },
+      { "name": "Bati Frutas", "price": 675 }
+    ]
+  },
+  "service_charge_percentage": 0
+}

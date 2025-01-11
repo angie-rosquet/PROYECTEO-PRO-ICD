@@ -1,0 +1,82 @@
+{
+  "name": "Ruta 66",
+  "address": "Calle 11 % Avenida Primera y Avenida Tercera, Guanabacoa",
+  "schedule": {
+    "monday": { "open": null, "close": null },
+    "tuesday": { "open": "12:00", "close": "21:30" },
+    "wednesday": { "open": "12:00", "close": "21:30" },
+    "thursday": { "open": "12:00", "close": "21:30" },
+    "friday": { "open": "12:00", "close": "21:30" },
+    "saturday": { "open": "12:00", "close": "21:30" },
+    "sunday": { "open": "12:00", "close": "21:30" }
+  },
+  "contacts": {
+    "phone_number": null,
+    "mobile": "52833863",
+    "website": null,
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establecimiento": "Restaurante",
+  "especialidad": ["criolla", "hamburguesas", "pizzas", "pastas"],
+  "parking": false,
+  "reservations": false,
+  "paid_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": false,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      { "name": "Tostones rellenos de jamón y queso", "price": 1090 },
+      { "name": "Tostones rellenos de bolognesa", "price": 950 },
+      { "name": "Tostones rellenos de vegetales salteados y queso", "price": 910 },
+      { "name": "Garbanzos fritos", "price": 1900 },
+      { "name": "Ceviche de pescado", "price": 1500 },
+      { "name": "Frituras de malanga", "price": 595 },
+      { "name": "Croquetas", "price": 490 },
+      { "name": "Brosquetas", "price": 420 },
+      { "name": "Tamal", "price": 400 }
+    ],
+    "main_course": [
+      { "name": "Lomo ahumado (con gratinado de queso)", "price": 1850 },
+      { "name": "Lomo ahumado (con salsa de piña)", "price": 2000 },
+      { "name": "Enchilado de camarones", "price": 3300 },
+      { "name": "Camarones al ajillo", "price": 2950 },
+      { "name": "Camarones en salsa de frutas", "price": 2800 },
+      { "name": "Enchilado de pulpo", "price": 2690 },
+      { "name": "Pulpo al ajillo", "price": 2470 },
+      { "name": "Filete de pescado Route 66", "price": 3550 },
+      { "name": "Monte toro a la francesa", "price": 2400 },
+      { "name": "Filete de pescado en salsa de frutas", "price": 2250 },
+      { "name": "Filete de pescado a la plancha", "price": 1800 },
+      { "name": "Arroz frito especial Route 66", "price": 2065 },
+      { "name": "Arroz frito", "price": 1280 },
+      { "name": "Arroz blanco", "price": 200 },
+      { "name": "Puré de malanga", "price": 335 },
+      { "name": "Ensalada mixta de estación", "price": 425 },
+      { "name": "Super Route 66 (Cerdo)", "price": 1965 },
+      { "name": "Castrol (Cerdo)", "price": 1255 },
+      { "name": "Texaco (Cerdo)", "price": 940 }
+    ],
+    "garrison": [
+      null
+    ],
+    "desserts": [
+      null
+    ],
+    "drinks": [
+      { "name": "Cerveza importada", "price": 210 },
+      { "name": "Vino tinto", "price": 2200 },
+      { "name": "Refrescos importados", "price": 240 },
+      { "name": "Malta importada", "price": 250 },
+      { "name": "Agua Mineral", "price": 190 },
+      { "name": "Jugos importados", "price": 210 }
+    ]
+  },
+  "service_charge_percentage": 0
+}

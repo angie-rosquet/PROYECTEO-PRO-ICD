@@ -1,0 +1,60 @@
+{
+  "name": "El Faro",
+  "address": "Maximo Gomez % Pepe Antonio y E Guiral, Guanabacoa",
+  "schedule": {
+    "monday": { "open": "09:00", "close": "23:00" },
+    "tuesday": { "open": "09:00", "close": "23:00" },
+    "wednesday": { "open": "09:00", "close": "23:00" },
+    "thursday": { "open": "09:00", "close": "23:00" },
+    "friday": { "open": "09:00", "close": "23:00" },
+    "saturday": { "open": "09:00", "close": "23:00" },
+    "sunday": { "open": "09:00", "close": "23:00" }
+  },
+  "contacts": {
+    "phone_number": null,
+    "mobile": null,
+    "website": null,
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["Criolla", "Pizzas"],
+  "parking": true,
+  "reservations": true,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": false,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      { "name": "ENCHILADO DE CANGREJO", "price": 750 },
+      { "name": "CROQUETA DE LA CASA", "price": 180 },
+      { "name": "ENSALADA FRÍA DE JAMÓN", "price": 700 },
+      { "name": "ENSALADA FRÍA DE ATÚN", "price": 1200 },
+      { "name": "Picadera Tropical", "price": 850 },
+      { "name": "Plato a lo Cubano", "price": 800 }
+    ],
+    "main_course": [
+      { "name": "PAN CON HAMBURGUESA", "price": 500 },
+      { "name": "HAMBURGUESA FARO", "price": 900 },
+      { "name": "Costillas de Cerdo", "price": 1200 },
+      { "name": "Ruedas de pescado Grille", "price": 1400 },
+      { "name": "Pollo Grille", "price": 950 }
+    ],
+    "garrison": [
+      null
+    ],
+    "desserts": [
+      null
+    ],
+    "drinks": [
+      null
+    ]
+  },
+  "service_charge_percentage": 0
+}

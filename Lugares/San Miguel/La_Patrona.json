@@ -1,0 +1,83 @@
+{
+  "name": "La Patrona",
+  "address": "Calzada de Guines en San Francisco de Paula, San Miguel del Padron",
+  "schedule": {
+    "monday": {"open": null, "close": null},
+    "tuesday": {"open": "08:00", "close": "24:00"},
+    "wednesday": {"open": "08:00", "close": "24:00"},
+    "thursday": {"open": "08:00", "close": "24:00"},
+    "friday": {"open": "08:00", "close": "24:00"},
+    "saturday": {"open": "08:00", "close": "24:00"},
+    "sunday": {"open": "08:00", "close": "24:00"}
+  },
+  "contacts" : {
+    "phone_number": null,
+    "mobile" : null,
+    "website": null,
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "Cafetería",
+  "specialty": ["cubana", "italiana"],
+  "parking": true,
+  "reservations": true,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": true,
+  "power_generator": true ,
+  "menu": {
+    "appetizer": [
+      null
+    ],
+    "main_course": [
+      {"nombre": "hamburguesa clasica", "precio": 500},
+      {"nombre": "hamburguesa sencilla", "precio": 700},
+      {"nombre": "hamburguesa grosera", "precio": 1200},
+      {"nombre": "hamburguesa patrona", "precio": 1000},
+      {"nombre": "bistec uruguayo", "precio": 2600},
+      {"nombre": "ropa vieja", "precio": 1400},
+      {"nombre": "escalope de cerdo", "precio": 1800},
+      {"nombre": "bistec de cerdo", "precio": 1600},
+      {"nombre": "arroz frito", "precio": 1000},
+      {"nombre": "lasaña", "precio": 1250},
+      {"nombre": "canelones", "precio": 1100},
+      {"nombre": "espaguetti carbonara", "precio": 1500},
+      {"nombre": "pizza La Patrona", "precio": 1800}
+    ],
+    "garrison": [
+      {"nombre": "jamón serrano", "precio": 800},
+      {"nombre": "jamón", "precio": 400},
+      {"nombre": "chorizo", "precio": 400},
+      {"name": "bacon", "price": 400 },
+      {"name": "pepperoni", "price": 400 },
+      {"name": "queso parmesano", "price": 400 },
+      {"name": "queso blanco", "price": 300 },
+      {"nombre": "queso gouda", "precio": 400},
+      {"nombre": "cebolla", "precio": 300},
+      {"nombre": "piña", "precio": 300},
+      {"name": "aceitunas", "price": 300 },
+      {"name": "atún", "price": 500 }
+    ],
+    "desserts": [
+      {"nombre": "flan", "precio": 200},
+      {"nombre": "copa lolita", "precio": 400},
+      {"nombre": "cesta helado", "precio": 500},
+      {"nombre": "tres gracias", "precio": 300}
+    ],
+    "drinks": [
+      {"nombre": "café express", "precio": 150},
+      {"nombre": "cafe con crema", "precio": 180},
+      {"nombre": "cafe La Patrona", "precio": 250},
+      {"nombre": "frapuchino", "precio": 250},
+      {"nombre": "jugos", "precio": 100},
+      {"nombre": "suero helado", "precio": 350},
+      {"nombre": "batidos", "precio": 300}
+    ]
+  },
+  "service_charge_percentage": 0
+}

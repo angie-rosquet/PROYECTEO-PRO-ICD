@@ -1,0 +1,78 @@
+{
+  "name": "El Pecado",
+  "address": "calle Matos #152 % Fernanda y Central, La Fernanda, San Miguel del Padron",
+  "schedule": {
+    "monday": {"open": "11:00", "close": "23:00"},
+    "tuesday": {"open": "11:00", "close": "23:00"},
+    "wednesday": {"open": "11:00", "close": "23:00"},
+    "thursday": {"open": "11:00", "close": "23:00"},
+    "friday": {"open": "11:00", "close": "23:00"},
+    "saturday": {"open": "11:00", "close": "23:00"},
+    "sunday": {"open": "11:00", "close": "23:00"}
+  },
+  "contacts" : {
+    "phone_number": "76795921",
+    "mobile" : "52828577",
+    "website": null,
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "Bar-Restaurante",
+  "specialty": ["internacional"],
+  "parking": false,
+  "reservations": true,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": true,
+  "power_generator": true ,
+  "menu": {
+    "appetizer": [
+      {"name": "Aceitunas", "price": 350.0},
+      {"name": "Entremes de jamon y queso", "price": 300.0},
+      {"name": "Bolitas de queso", "price": 350.0},
+      {"name": "Papitas fritas", "price": 350.0},
+      {"name": "Croquetas", "price": 340.0},
+      {"name": "Fajitas de pollo", "price": 500.0},
+      {"name": "Eperelan de pescado", "price": 600.0},
+      {"name": "Coctel de camaron", "price": 570.0},
+      {"name": "Tostones de jamon y queso", "price": 380.0},
+      {"name": "Tostones de atun", "price": 450.0},
+      {"name": "Picadera Pecado", "price": 1200.0}
+    ],
+    "main_course": [
+      {"name": "Cerdo grille", "price": 650.0},
+      {"name": "Masas ritas", "price": 750.0},
+      {"name": "Solomillo de cerdo", "price": 720.0},
+      {"name": "Costillas en salsa BBQ", "price": 600.0},
+      {"name": "Bistec Uruguayo de cerdo", "price": 850.0},
+      {"name": "Pechuga empanada", "price": 700.0},
+      {"name": "Pechuga grille", "price": 650.0},
+      {"name": "Pechuga princesa", "price": 800.0},
+      {"name": "Pechuga Gordon blue", "price": 850.0},
+      {"name": "Filete de pescado", "price": 730.0},
+      {"name": "Pescado canciller", "price": 950.0},
+      {"name": "Pescado Jhonbill", "price": 1200.0},
+      {"name": "Pescado empanado", "price": 780.0},
+      {"name": "Ropa vieja", "price": 650.0},
+      {"name": "Vaca frita", "price": 720.0},
+      {"name": "Filete de res encebollado", "price": 750.0},
+      {"name": "Uruguayo de res", "price": 730.0},
+      {"name": "Camarones", "price": 750.0}
+    ],
+    "garrison": [
+      null
+    ],
+    "desserts": [
+      null
+    ],
+    "drinks": [
+      null
+    ]
+  },
+  "service_charge_percentage": 0
+}

@@ -1,0 +1,64 @@
+{
+  "name": "El pórtico",
+  "address": "Calle Dragones y Avenida Zanja, Centro Habana",
+  "schedule": {
+    "monday": {"open": null, "close": null},
+    "tuesday": {"open": "00:00", "close": "24:00"},
+    "wednesday": {"open": "00:00", "close": "24:00"},
+    "thursday": {"open": "00:00", "close": "24:00"},
+    "friday": {"open": "00:00", "close": "24:00"},
+    "saturday": {"open": "00:00", "close": "24:00"},
+    "sunday": {"open": "00:00", "close": "24:00"}
+  },
+  "contacts": {
+    "phone_number": null,
+    "mobile": null,
+    "website": "elportico.club",
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "bar - restaurante",
+  "specialty": ["cubana"],
+  "parking": false,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": false,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      {"name": "pollo chiflado", "price": 400},
+      {"name": "chuleton", "price": 950},
+      {"name": "papas fritas", "price": 350},
+      {"name": "croquetas", "price": 350},
+      {"name": "tostones", "price": 250}
+    ],
+    "main_course": [
+      null
+    ],
+    "garrison": [
+      null
+    ],
+    "desserts": [
+      null
+    ],
+    "drinks":[
+      {"name": "cerveza dispensada (jarra)", "price": 300},
+      {"name": "cerveza dispensada (termo)", "price": 2000},
+      {"name": "cerveza parranda", "price": 400},
+      {"name": "cerveza hollandia", "price": 200},
+      {"name": "cerveza cacique", "price": 240},
+      {"name": "cerveza unlaguer", "price": 200},
+      {"name": "cerveza La Fria", "price": 180},
+      {"name": "cerveza almara", "price": 180},
+      {"name": "cerveza bucanero", "price": 240},
+      {"name": "cerveza cristal", "price": 250}
+    ]
+  },
+  "service_charge_percentage": 0
+}

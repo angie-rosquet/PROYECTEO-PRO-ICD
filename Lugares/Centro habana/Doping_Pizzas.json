@@ -1,0 +1,74 @@
+{
+  "name": "Doping pizza",
+  "address": "Centro Habana",
+  "schedule": {
+    "monday": {"open": "12:00", "close": "24:00"},
+    "tuesday": {"open": "12:00", "close": "24:00"},
+    "wednesday": {"open": "12:00", "close": "24:00"},
+    "thursday": {"open": "12:00", "close": "24:00"},
+    "friday": {"open": "12:00", "close": "24:00"},
+    "saturday": {"open": "12:00", "close": "24:00"},
+    "sunday": {"open": "12:00", "close": "24:00"}
+  },
+  "contacts": {
+    "phone_number": null,
+    "mobile": "51260311",
+    "website": null,
+    "instagram": "@dopingpizzas",
+    "facebook": null
+  },
+  "type_establishment": "restaurante",
+  "specialty": ["italiana"],
+  "parking": false,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": false,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      {"name": "ensalada fria natural", "price": 500},
+      {"name": "ensalada fria de jamon", "price": 600},
+      {"name": "ensalada fria de atun", "price": 700}
+    ],
+    "main_course": [
+      {"name": "pizza napolitana", "price": 1000},
+      {"name": "pizza de jamon", "price": 1100},
+      {"name": "pizza hawaiana", "price": 1300},
+      {"name": "pizza de atun", "price": 1300},
+      {"name": "pizza de chorizo", "price": 1400},
+      {"name": "pizza de bacon", "price": 1400},
+      {"name": "pizza doping extreme", "price": 1500},
+      {"name": "spaghetti napoles", "price": 900}
+    ],
+    "garrison": [
+      {"name": "queso", "price": 450},
+      {"name": "jamon", "price": 350},
+      {"name": "chorizo", "price": 350},
+      {"name": "atun", "price": 400},
+      {"name": "cebolla", "price": 200},
+      {"name": "pimiento", "price": 200},
+      {"name": "aceituna", "price": 300},
+      {"name": "bacon", "price": 400}
+    ],
+    "desserts": [
+      {"name": "paletica de helado clasica", "price": 150}
+    ],
+    "drinks": [
+      {"name": "agua", "price": 150},
+      {"name": "refresco", "price": 250},
+      {"name": "malta", "price": 300},
+      {"name": "malteada", "price": 650},
+      {"name": "jugos", "price": 300},
+      {"name": "batido de helado (12oz)", "price": 550},
+      {"name": "batido de helado (16oz)", "price": 750},
+      {"name": "cerveza", "price": 300}
+      ]
+  },
+  "service_charge_percentage": 0
+}

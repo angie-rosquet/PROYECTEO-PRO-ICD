@@ -1,0 +1,74 @@
+{
+  "name": "2KFE",
+  "address": "Calle Pereiraentre % Martí y Maceo, Regla",
+  "schedule": {
+    "monday": {"open": "10:00", "close": "20:00"},
+    "tuesday": {"open": "10:00", "close": "20:00"},
+    "wednesday": {"open": "10:00", "close": "20:00"},
+    "thursday": {"open": "10:00", "close": "20:00"},
+    "friday": {"open": "10:00", "close": "20:00"},
+    "saturday": {"open": "10:00", "close": "20:00"},
+    "sunday": {"open": "10:00", "close": "20:00"}
+  },
+  "contacts" : {
+    "phone_number": null,
+    "mobile" : null,
+    "website": null,
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "Cafetería",
+  "specialty": ["Cafe","Internacional","Cubana"],
+  "parking": false,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": false,
+  "power_generator": true ,
+  "menu": {
+    "appetizer": [
+      {"name": "Croquetas", "price": 300},
+      {"name": "Viandas fritas", "price": 100},
+      {"name": "Brusquetas", "price": 250},
+      {"name": "Entremes surtido", "price": 800},
+      {"name": "Mini Gordon Bleu", "price": 800},
+      {"name": "Plato combinado", "price": 1200}
+    ],
+    "main_course": [
+      {"name": "Tacos Carnitas", "price": 850},
+      {"name": "Tacos Res", "price": 900},
+      {"name": "Tacos Pollo", "price": 600},
+      {"name": "Tacos Vegetariano", "price": 400},
+      {"name": "Tacos Vegetales salteados en mantequilla y limón", "price": 0},
+      {"name": "Tacos Jamón y Queso", "price": 650}
+    ],
+    "garrison": [
+      null
+    ],
+    "desserts": [
+      null
+    ],
+    "drinks": [
+      {"name": "Espresso", "price": 100},
+      {"name": "Americano", "price": 100},
+      {"name": "Cortadito", "price": 150},
+      {"name": "Con Leche", "price": 200},
+      {"name": "Espresso Macchiato", "price": 180},
+      {"name": "Caramel Macchiato", "price": 250},
+      {"name": "Cappuccino", "price": 220},
+      {"name": "Frappuccino", "price": 500},
+      {"name": "Irlandés", "price": 250},
+      {"name": "Caribeño", "price": 180},
+      {"name": "Alma mía", "price": 180},
+      {"name": "Minty Coffee", "price": 250},
+      {"name": "2KF", "price": 250},
+      {"name": "Lujo", "price": 600}
+    ]
+  },
+  "service_charge_percentage": 0
+}

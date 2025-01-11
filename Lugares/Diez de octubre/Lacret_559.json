@@ -28,12 +28,7 @@
     "usd_transfer": true,
     "mlc": true
   },
-  "delivery_areas": [
-    "Arroyo Naranjo",
-    "Cerro",
-    "Diez de Octubre",
-    "Plaza de la Revolucion"
-  ],
+  "delivery_areas": true,
   "power_generator": true ,
   "menu": {
     "appetizer":[

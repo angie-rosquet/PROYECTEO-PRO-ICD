@@ -11,8 +11,8 @@
     "sunday": {"open": "HH:mm", "close": "HH:mm"}
   },
   "contacts" : {
-    "phone_number": "",
-    "mobile" : "",
+    "phone_number": null,
+    "mobile" : null,
     "website": "URL del sitio web",
     "instagram": "@nombre_de_usuario_instagram",
     "facebook": "URL de la página de Facebook"
@@ -28,11 +28,7 @@
     "usd_transfer": true,
     "mlc": true
   },
-  "delivery_areas": [
-    "Zona 1",
-    "Zona 2",
-    "Zona 3" 
-  ],
+  "delivery_areas": true,
   "power_generator": true ,
   "menu": {
     "appetizer": [

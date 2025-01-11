@@ -1,0 +1,67 @@
+{
+  "name": "La Casona del Cerro",
+  "address": "Calzada del Cerro entre Alzobispo y Peñón, Cerro",
+  "schedule": {
+    "monday": {"open": "10:00", "close": "22:00"},
+    "tuesday": {"open": "10:00", "close": "22:00"},
+    "wednesday": {"open": "10:00", "close": "22:00"},
+    "thursday": {"open": "10:00", "close": "22:00"},
+    "friday": {"open": "10:00", "close": "22:00"},
+    "saturday": {"open": "10:00", "close": "22:00"},
+    "sunday": {"open": "10:00", "close": "14:00"}
+  },
+  "contacts" : {
+    "phone_number": null,
+    "mobile" : null,
+    "website": null,
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["cubana"],
+  "parking": false,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": false,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      null
+    ],
+    "main_course": [
+      {"name": "pizza napolitana c/queso gouda", "price": 450},
+      {"name": "pizza doble queso", "price": 650},
+      {"name": "pizza de jamon y queso gouda", "price": 500},
+      {"name": "pizza mixta c/queso gouda", "price": 550},
+      {"name": "pizza familiar c/queso gouda", "price": 900},
+      {"name": "pizza familiar doble queso", "price": 1200},
+      {"name": "pizza familiar de jamon y queso gouda", "price": 1000},
+      {"name": "pizza familiar mixta c/queso gouda", "price": 1050},
+      {"name": "spaghetti c/queso gouda", "price": 450},
+      {"name": "spaghetti c/ jamon y queso gouda", "price": 500},
+      {"name": "spaghetti doble queso gouda", "price": 650},
+      {"name": "spaghetti mixto", "price": 550},
+      {"name": "pollo asado", "price": 1100},
+      {"name": "masa frita", "price": 900},
+      {"name": "bistec de cerdo", "price": 850},
+      {"name": "fricasé de cerdo", "price": 850},
+      {"name": "chuleta", "price": 1000}
+    ],
+    "garrison": [
+      null
+    ],
+    "desserts": [
+      {"name": "Flan", "price": 350}
+    ],
+    "drinks": [
+      null
+    ]
+  },
+  "service_charge_percentage": 0
+}

@@ -1,0 +1,76 @@
+{
+  "name": "Don Timbon",
+  "address": "Dirección completa del restaurante",
+  "schedule": {
+    "monday": {"open": "09:00", "close": "22:00"},
+    "tuesday": {"open": "09:00", "close": "22:00"},
+    "wednesday": {"open": "09:00", "close": "22:00"},
+    "thursday": {"open": "09:00", "close": "22:00"},
+    "friday":{"open": "09:00", "close": "22:00"},
+    "saturday": {"open": "09:00", "close": "22:00"},
+    "sunday": {"open": "09:00", "close": "22:00"}
+  },
+  "contacts" : {
+    "phone_number": null,
+    "mobile" : null,
+    "website": null, 
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "Cafetería",
+  "specialty": ["comida rapida"],
+  "parking": true,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": false,
+  "power_generator": true ,
+  "menu": {
+    "appetizer": [
+      null
+    ],
+    "main_course": [
+      {"name": "hamburguesa sencilla", "price": 350, "added":{
+        "jamón": 80,
+        "chorizo": 100,
+        "atún": 100
+      }},
+      {"name": "pan con bistec", "price": 550, "added":{
+        "jamón": 80,
+        "chorizo": 100,
+        "atún": 100
+      }},
+      {"name": "arroz salteado", "price": 500 },
+      {"name": "lasaña", "price": 550, "added":{
+        "jamón": 80,
+        "chorizo": 100,
+        "atún": 100
+      }},
+      {"name": "espaguetti", "price": 300, "added":{
+        "jamón": 80,
+        "chorizo": 100,
+        "atún": 100
+      }},
+      {"name": "pizza napolitana", "price": 160, "added":{
+        "jamón": 80,
+        "chorizo": 100,
+        "atún": 100
+      }}
+    ],
+    "garrison": [
+      null
+    ],
+    "desserts": [
+      null
+    ],
+    "drinks": [
+      null
+    ]
+  },
+  "service_charge_percentage": 0
+}

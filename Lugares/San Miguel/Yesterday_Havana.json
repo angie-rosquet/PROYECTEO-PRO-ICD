@@ -1,0 +1,99 @@
+{
+  "name": "Yesterday Havana",
+  "address": "Rita % Blanchi y Calzada de Guines, San Miguel del Padron",
+  "schedule": {
+    "monday": {"open": "HH:mm", "close": "HH:mm"},
+    "tuesday": {"open": "HH:mm", "close": "HH:mm"},
+    "wednesday": {"open": "HH:mm", "close": "HH:mm"},
+    "thursday": {"open": "HH:mm", "close": "HH:mm"},
+    "friday": {"open": "HH:mm", "close": "HH:mm"},
+    "saturday": {"open": "HH:mm", "close": "HH:mm"},
+    "sunday": {"open": "HH:mm", "close": "HH:mm"}
+  },
+  "contacts" : {
+    "phone_number": "76930649",
+    "mobile" : null,
+    "website": null,
+    "instagram": null,
+    "facebook": "https://www.facebook.com/profile.php/?id=100083738108481"
+  },
+  "type_establishment": "Bar-Restaurante-Dulceria",
+  "specialty": ["mixta"],
+  "parking": false,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": true,
+  "power_generator": true ,
+  "menu": {
+    "appetizer": [
+      {"nombre": "Picadera Yesterday", "precio": 3000},
+      {"nombre": "Papas fritas", "precio": 600},
+      {"nombre": "Tacos de cerdo", "precio": 800},
+      {"nombre": "Tacos de pollo", "precio": 800},
+      {"nombre": "Ceviche", "precio": 800},
+      {"nombre": "Eperlan", "precio": 900},
+      {"nombre": "Cóctel de camarones", "precio": 1000},
+      {"nombre": "Entremes de jamón, queso y chorizo", "precio": 800},
+      {"nombre": "Ensalada fría", "precio": 650},
+      {"nombre": "Tostón al ajo", "precio": 600},
+      {"nombre": "Frituras de malanga", "precio": 500},
+      {"nombre": "Croquetas de la casa", "precio": 500},
+      {"nombre": "Fajitas de pollo", "precio": 950},
+      {"nombre": "Fajitas de cerdo", "precio": 950},
+      {"nombre": "Brochetas mixtas", "precio": 2500},
+      {"nombre": "Garbanzos fritos", "precio": 2000},
+      {"nombre": "Fabada", "precio": 2000},
+      {"nombre": "Cema del día", "precio": 1000}
+    ],
+    "main_course": [
+      {"nombre": "Mariscada Yesterday", "precio": 7000},
+      {"nombre": "Calamar al gusto", "precio": 3000},
+      {"nombre": "Langosta al gusto", "precio": 3000},
+      {"nombre": "3 delicias", "precio": 3000},
+      {"nombre": "Camarones al ajo", "precio": 2000},
+      {"nombre": "Camarones grille", "precio": 2000},
+      {"nombre": "Enchilado de camarones", "precio": 2000},
+      {"nombre": "Camaron empanado", "precio": 2500},
+      {"nombre": "Filete de pescado", "precio": 1800},
+      {"nombre": "Filete de pescado Jhombill", "precio": 2200},
+      {"nombre": "Rueda de pescado frito", "precio": 2500},
+      {"nombre": "Bistec de cerdo", "precio": 1800},
+      {"nombre": "Cerdo encebollado", "precio": 2000},
+      {"nombre": "Pechuga de pollo grille", "precio": 1800},
+      {"nombre": "Mar y tierra", "precio": 5500},
+      {"nombre": "Mar y tierra res", "precio": 5500},
+      {"nombre": "Cordero al vino", "precio": 3000},
+      {"nombre": "Costillas de cerdo", "precio": 3000},
+      {"nombre": "Cerdo desmechado", "precio": 3000},
+      {"nombre": "Masas fritas", "precio": 3000},
+      {"nombre": "Lonjas de cerdo", "precio": 3000},
+      {"nombre": "Lonjas ahumadas", "precio": 3000},
+      {"nombre": "Uruguayo", "precio": 2500},
+      {"nombre": "Canciller", "precio": 2500},
+      {"nombre": "Corden bleu", "precio": 2500},
+      {"nombre": "Solomillo de cerdo", "precio": 4000},
+      {"nombre": "Arroz a la marinera", "precio": 3500},
+      {"nombre": "Arroz campesino", "precio": 3000},
+      {"nombre": "Arroz frito (camaron)", "precio": 2000},
+      {"nombre": "Arroz frito (langosta)", "precio": 2500},
+      {"nombre": "Ropa vieja", "precio": 2500},
+      {"nombre": "Bistec de res", "precio": 2500}
+    ],
+    "garrison": [
+      null
+    ],
+    "desserts": [
+      null
+    ],
+    "drinks": [
+      null
+    ]
+  },
+  "service_charge_percentage": 0
+}

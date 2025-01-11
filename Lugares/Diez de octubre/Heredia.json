@@ -1,0 +1,77 @@
+{
+  "name": "Heredia",
+  "address": "Calle Heredia % Avenida Acosta y O'Farril, Diez de Octubre",
+  "schedule": {
+    "monday": {"open": "10:00", "close": "22:00"},
+    "tuesday": {"open": "10:00", "close": "22:00"},
+    "wednesday": {"open": "10:00", "close": "22:00"},
+    "thursday": {"open": "10:00", "close": "22:00"},
+    "friday": {"open": "10:00", "close": "22:00"},
+    "saturday": {"open": "10:00", "close": "22:00"},
+    "sunday": {"open": "10:00", "close": "22:00"}
+  },
+  "contacts" : {
+    "phone_number": "76400222",
+    "mobile" : null,
+    "website": null,
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["italiana"],
+  "parking": false,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": false,
+  "power_generator": false ,
+  "menu": {
+    "appetizer": [
+      null
+    ],
+    "main_course": [
+      {"name": "Nombre del plato", "price": 2500 },
+      {"name": "Nombre del plato", "price": 3000 }
+    ],
+    "garrison": [
+      {"name": "Pizza Napolitana", "price": 950 },
+      {"name": "Pizza de Jamon", "price": 980 },
+      {"name": "Pizza de Chorizo", "price": 980 },
+      {"name": "Pizza Boloñesa", "price": 980 },
+      {"name": "Pizza de Cebolla", "price": 980 },
+      {"name": "Pizza de Pimiento", "price": 980 },
+      {"name": "Pizza Hawaiana", "price": 1000 },
+      {"name": "Pizza con aceituna", "price": 1000 },
+      {"name": "Pizza con atun", "price": 1000 },
+      {"name": "Espaguetis Napolitano", "price": 600 },
+      {"name": "Espaguetis de Jamon", "price": 650 },
+      {"name": "Espaguetis con Chorizo", "price": 650 },
+      {"name": "Espaguetis Boloñesa", "price": 670 },
+      {"name": "Espaguetis con Atun", "price": 800 },
+      {"name": "Lasaña de Jamon", "price": 750 },
+      {"name": "Lasaña de Chorizo", "price": 850 },
+      {"name": "Lasaña Boloñesa", "price": 950 },
+      {"name": "Emparedado de Atun con Cebolla", "price": 400 },
+      {"name": "Hamburguesa", "price": 350 },
+      {"name": "Emapredado de Heredia", "price": 350 },
+      {"name": "Emparedado Cubano", "price": 350 }
+    ],
+    "desserts": [
+      null
+    ],
+    "drinks": [
+      {"name": "Limonada", "price": 100 },
+      {"name": "Jugo de mango", "price": 120 },
+      {"name": "Jugo de Tamarindo", "price": 120 },
+      {"name": "Jugo de guayaba", "price": 120 },
+      {"name": "Coctel de frutas", "price": 150 },
+      {"name": "Batido de Helado", "price": 350 }
+    ]
+  },
+  "service_charge_percentage": 0
+}

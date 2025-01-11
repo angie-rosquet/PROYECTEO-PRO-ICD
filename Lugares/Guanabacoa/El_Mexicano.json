@@ -1,0 +1,66 @@
+{
+  "name": "El Mexicano",
+  "address": "Avenida Quinta % E V Valenzuela y Cruz Verde, Guanabacoa",
+  "schedule": {
+    "monday": { "open": "10:00", "close": "22:00" },
+    "tuesday": { "open": "10:00", "close": "22:00" },
+    "wednesday": { "open": "10:00", "close": "22:00" },
+    "thursday": { "open": "10:00", "close": "22:00" },
+    "friday": { "open": "10:00", "close": "22:00" },
+    "saturday": { "open": "10:00", "close": "22:00" },
+    "sunday": { "open": "10:00", "close": "22:00" }
+  },
+  "contacts": {
+    "phone_number": "72635413",
+    "mobile": null,
+    "website": null,
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["pizzas", "pastas"],
+  "parking": false,
+  "reservations": false,
+  "paid_methods": {
+    "cash_national": true,
+    "digital_transfer_national": false,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": false,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      null
+    ],
+    "main_course": [
+      { "name": "Sandwich de Jamón y Queso", "price": 350 },
+      { "name": "Sandwich de Queso Jamón Especial", "price": 600 }
+    ],
+    "garrison": [
+      null
+    ],
+    "desserts": [
+      null
+    ],
+    "drinks": [
+      { "name": "Cerveza", "price": 200 },
+      { "name": "Holandia", "price": 200 },
+      { "name": "Cristal Lata", "price": 250 },
+      { "name": "Cristal Botella", "price": 200 },
+      { "name": "Shaka", "price": 350 },
+      { "name": "Tigon", "price": 300 },
+      { "name": "Malta 1 Hyper", "price": 270 },
+      { "name": "Pepsi", "price": 270 },
+      { "name": "Mirinda", "price": 280 },
+      { "name": "Perla negra", "price": 270 },
+      { "name": "Ironbeer", "price": 240 },
+      { "name": "Orange", "price": 220 },
+      { "name": "Cola Polo", "price": 220 },
+      { "name": "Limon", "price": 220 },
+      { "name": "Coca Cola", "price": 280 }
+    ]
+  },
+  "service_charge_percentage": 0
+}

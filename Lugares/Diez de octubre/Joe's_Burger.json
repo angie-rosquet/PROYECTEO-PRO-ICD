@@ -33,9 +33,7 @@
     ],
     "power_generator": true ,
     "menu": {
-    "appetizer": [
-      null
-    ],
+    "appetizer": false,
     "main_course": [
       {"name": "Hamburguesa de Cerdo", "price": 500},
       {"name": "Hamburguesa de Pollo", "price": 500},

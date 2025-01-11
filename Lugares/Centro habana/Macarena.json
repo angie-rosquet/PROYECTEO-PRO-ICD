@@ -28,9 +28,7 @@
     "usd_transfer": false, 
     "mlc": false 
   },
-  "delivery_areas": [
-    null
-  ], 
+  "delivery_areas": false, 
   "power_generator": false, 
   "menu": {
     "appetizer": [

@@ -2,13 +2,13 @@
     "name": "El Rápido",
     "address": "Cruz del Pader entre Pedrosa y Amenidares, Cerro",
     "schedule": {
-      "monday": {"open": "07:00", "close": "19:30"},
-      "tuesday": {"open": "07:00", "close": "19:30"},
-      "wednesday": {"open": "07:00", "close": "19:30"},
-      "thursday": {"open": "07:00", "close": "19:30"},
-      "friday": {"open": "07:00", "close": "19:30"},
-      "saturday": {"open": "07:00", "close": "19:30"},
-      "sunday": {"open": "07:00", "close": "19:30"}
+      "monday": {"open": "07:30", "close": "19:30"},
+      "tuesday": {"open": "07:30", "close": "19:30"},
+      "wednesday": {"open": "07:30", "close": "19:30"},
+      "thursday": {"open": "07:30", "close": "19:30"},
+      "friday": {"open": "07:30", "close": "19:30"},
+      "saturday": {"open": "07:30", "close": "19:30"},
+      "sunday": {"open": "07:30", "close": "19:30"}
     },
     "contacts" : {
       "phone_number": null,
@@ -28,9 +28,7 @@
       "usd_transfer": false,
       "mlc": false
     },
-    "delivery_areas": [
-      null
-    ],
+    "delivery_areas": false,
     "power_generator": false ,
     "menu": {
       "appetizer": [

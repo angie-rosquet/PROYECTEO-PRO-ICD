@@ -1,0 +1,60 @@
+{
+  "name": "Hamburgo",
+  "address": "Carlos III % Arbol Seco y Retiro, Centro Habana",
+  "schedule": {
+    "monday": {"open": "09:00", "close": "19:00"},
+    "tuesday": {"open": "09:00", "close": "19:00"},
+    "wednesday": {"open": "09:00", "close": "19:00"},
+    "thursday": {"open": "09:00", "close": "19:00"},
+    "friday": {"open": "09:00", "close": "19:00"},
+    "saturday": {"open": "09:00", "close": "19:00"},
+    "sunday": {"open": "09:00", "close": "19:00"}
+  },
+  "contacts": {
+    "phone_number": null,
+    "mobile": null,
+    "website": null,
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "restaurante",
+  "specialty": ["americana"],
+  "parking": true,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": false,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": [],
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      null
+    ],
+    "main_course": [
+      {"name": "hamburguesa de cerdo (220g)", "price": 275},
+      {"name": "hamburguesa de res (220g)", "price": 275},
+      {"name": "hamburguesa vegetal con aderezos (235g)", "price": 300},
+      {"name": "super hamburguesa (435g)", "price": 550}
+    ],
+    "garrison": [
+      {"name": "queso gouda (50g)", "price": 150},
+      {"name": "jamon bravo (50g)", "price": 120},
+      {"name": "jamon serrano (50g)", "price": 250},
+      {"name": "aceitunas (50g)", "price": 120},
+      {"name": "vegetales encurtidos (50g)", "price": 80},
+      {"name": "papas fritas (50g)", "price": 75},
+      {"name": "papas fritas (100g)", "price": 150}
+    ],
+    "desserts": [
+      null
+    ],
+    "drinks": [
+      null
+    ]
+  },
+  "service_charge_percentage": 0
+}

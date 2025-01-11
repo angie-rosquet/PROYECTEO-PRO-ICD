@@ -1,0 +1,98 @@
+{
+  "name": "The Place",
+  "address": "calle 100, pasando Aldabo, Boyeros",
+  "schedule": {
+    "monday": {"open": "08:00", "close": "03:00"},
+    "tuesday": {"open": "08:00", "close": "03:00"},
+    "wednesday": {"open": "08:00", "close": "03:00"},
+    "thursday": {"open": "08:00", "close": "03:00"},
+    "friday": {"open": "08:00", "close": "03:00"},
+    "saturday": {"open": "08:00", "close": "03:00"},
+    "sunday": {"open": "08:00", "close": "03:00"}
+  },
+  "contacts" : {
+    "phone_number": null,
+    "mobile" : "58382601",
+    "website": null,
+    "instagram": null,
+    "facebook": "https://www.facebook.com/ThePlaceCuba/"
+  },
+  "type_establishment": "Restaurante",
+  "specialty": [],
+  "parking": true,
+  "reservations": true,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": false,
+  "power_generator": true ,
+  "menu": {
+    "appetizer": [
+      {"name":"Croquetas","price":600.00},
+      {"name":"Eperlan","price":900.00},
+      {"name":"Tostones","price":500.00},
+      {"name":"Frituras malanga","price":500.00},
+      {"name":"Garbanzos fritos","price":1950.00},
+      {"name":"Sopón imperial","price":1300.00},
+      {"name":"Picadera The Place","price":2300.00},
+      {"name":"Papas fritas","price":800.00}
+    ],
+    "main_course": [
+      {"name":"Pechuga pollo grillé","price":1400.00},
+      {"name":"Pollo frito","price":1200.00},
+      {"name":"Bistec cerdo grillé","price":1600.00},
+      {"name":"Bistec uruguayo","price":1800.00},
+      {"name":"Costilla cerdo","price":1700.00},
+      {"name":"Masa cerdo frita","price":1700.00},
+      {"name":"Chilindrón cordero","price":1950.00},
+      {"name":"Ropa vieja","price":1500.00},
+      {"name":"Bistec res","price":1800.00},
+      {"name":"Chuleta cerdo","price":1750.00},
+      {"name":"Chuletón","price":3000.00},
+      {"name":"Pescado","price":1500.00},
+      {"name":"Canciller","price":1800.00},
+      {"name":"Langosta en sus variedades","price":1950.00},
+      {"name":"Camarón","price":1500.00},
+      {"name":"Pizza napolitana","price":800.00},
+      {"name":"Espaguetis napolitanos","price":800.00}
+    ],
+    "garrison": [
+      null
+    ],
+    "desserts": [
+      null
+    ],
+    "drinks": [
+      {"name":"Jarra cerveza Cristal","price":300.00},
+      {"name":"Termo cerveza Cristal","price":2000.00},
+      {"name":"Cerveza Cristal","price":300.00},
+      {"name":"Cerveza importada","price":250.00},
+      {"name":"Malta Bucanero","price":300.00},
+      {"name":"Lata refresco","price":290.00},
+      {"name":"Caja jugos","price":260.00},
+      {"name":"Pomo agua","price":200.00},
+      {"name":"Energizante","price":330.00},
+      {"name":"Caipiroska","price":500.00},
+      {"name":"Caipirísima","price":500.00},
+      {"name":"Mojito","price":520.00},
+      {"name":"Gin tonic","price":500.00},
+      {"name":"Sangría","price":600.00},
+      {"name":"Michelada","price":900.00},
+      {"name":"Chelada","price":500.00},
+      {"name":"Limonada frappé","price":600.00},
+      {"name":"Margarita","price":550.00},
+      {"name":"Red Label","price":550.00},
+      {"name":"Old Pard","price":950.00},
+      {"name":"Jamerson","price":600.00},
+      {"name":"Tequila","price":450.00},
+      {"name":"Tequila reposado","price":500.00},
+      {"name":"Selección maestro","price":1150.00},
+      {"name":"Pacto navio","price":1150.00}
+    ]
+  },
+  "service_charge_percentage": 0
+}

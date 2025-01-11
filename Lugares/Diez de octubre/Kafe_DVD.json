@@ -1,0 +1,83 @@
+{
+  "name": "Kafe DVD",
+  "address": "San Francisco entre 10 de Octubre y Delicias, Diez de Octubre",
+  "schedule": {
+    "monday": {"open": "00:00", "close": "24:00"},
+    "tuesday": {"open": "00:00", "close": "24:00"},
+    "wednesday": {"open": "00:00", "close": "24:00"},
+    "thursday": {"open": "00:00", "close": "24:00"},
+    "friday": {"open": "00:00", "close": "24:00"},
+    "saturday": {"open": "00:00", "close": "24:00"},
+    "sunday": {"open": "00:00", "close": "24:00"}
+  },
+  "contacts" : {
+    "phone_number": null,
+    "mobile" : null,
+    "website": null,
+    "instagram": null,
+    "facebook": "https://www.facebook.com/kfedvd/?locale=zh_HK"
+  },
+  "type_establishment": "Cafetería",
+  "specialty": ["criolla"],
+  "parking": false,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": false,
+  "power_generator": false ,
+  "menu": {
+    "appetizer": [
+      {"name": "alitas de pollo", "price": 1300 },
+      {"name": "tacos", "price": 600},
+      {"name": "croquetas", "price": 400 },
+      {"name": "fajitas de pollo", "price": 900},
+      {"name": "tostones al ajillo", "price": 350 },
+      {"name": "tostones", "price": 300},
+      {"name": "chicharritas", "price": 150 },
+      {"name": "fritura de malanga", "price": 400},
+      {"name": "chorizo", "price": 100 },
+      {"name": "jamon", "price": 100},
+      {"name": "queso", "price": 200 },
+      {"name": "cebolla", "price": 100},
+      {"name": "pimiento", "price": 100 },
+      {"name": "aceituna", "price": 200}
+    ],
+    "main_course": [
+      {"name": "pan con perro", "price": 300 },
+      {"name": "pan con tortilla", "price": 250 },
+      {"name": "pan hamburguesa", "price": 400 },
+      {"name": "pan hamburguesa mariquitas", "price": 500 },
+      {"name": "fricase de cerdo", "price": 1300 },
+      {"name": "masa de cerdo", "price": 1200 },
+      {"name": "chuleta de cerdo", "price": 1500 },
+      {"name": "bistec de cerdo", "price": 1000 },
+      {"name": "bistec de pollo", "price": 950 },
+      {"name": "higado con su salsa", "price": 770 },
+      {"name": "higado a la italiana", "price": 730 },
+      {"name": "higado encebollado", "price": 650 },
+      {"name": "arroz frito", "price": 700 },
+      {"name": "pastas napolitana", "price": 700 },
+      {"name": "pizza grande", "price": 300 },
+      {"name": "pizza chiquita", "price": 200 }
+    ],
+    "garrison": [
+      null
+    ],
+    "desserts": [
+      null
+    ],
+    "drinks": [
+      {"name": "cerveza", "price": 200 },
+      {"name": "enrgizante", "price": 300 },
+      {"name": "jugo lata", "price": 300 },
+      {"name": "refresco pepsi", "price": 250 },
+      {"name": "refresco", "price": 220 }
+    ]
+  },
+  "service_charge_percentage": 10
+}

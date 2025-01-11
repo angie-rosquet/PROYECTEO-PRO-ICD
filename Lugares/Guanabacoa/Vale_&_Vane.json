@@ -1,0 +1,79 @@
+{
+  "name": "Vale & Vane",
+  "address": "Calle Corrales % Santa Maria y Apodaca, Guanabacoa",
+  "schedule": {
+    "monday": { "open": null, "close": null },
+    "tuesday": { "open": "09:00", "close": "21:00" },
+    "wednesday": { "open": "09:00", "close": "21:00" },
+    "thursday": { "open": "09:00", "close": "21:00" },
+    "friday": { "open": "09:00", "close": "21:00" },
+    "saturday": { "open": "09:00", "close": "21:00" },
+    "sunday": { "open": "09:00", "close": "21:00" }
+  },
+  "contacts": {
+    "phone_number": "77947261",
+    "mobile": null,
+    "website": null,
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establecimiento": "Restaurante",
+  "especialidad": ["italiana", "cubana"],
+  "parking": false,
+  "reservations": false,
+  "paid_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": true,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      null
+    ],
+    "main_course": [
+      { "name": "Chuleta de Cerdo", "price": 1100 },
+      { "name": "Bistec Cerdo Grille", "price": 1200 },
+      { "name": "Masa de Cerdo Frita", "price": 1300 },
+      { "name": "Bistec Encebollado", "price": 1450 },
+      { "name": "Costilla Cerdo", "price": 1650 },
+      { "name": "Lomo Ahumado", "price": 1400 },
+      { "name": "Uruguayo", "price": 1600 },
+      { "name": "Bistec princesa", "price": 1720 },
+      { "name": "Garbanzo Frito", "price": 1300 },
+      { "name": "Pollo Frito", "price": 1000 },
+      { "name": "Suprema Grille", "price": 1400 },
+      { "name": "Bistec Princesa", "price": 1920 },
+      { "name": "Suprema Encebollada", "price": 1650 },
+      { "name": "Filete Pescado Grille", "price": 1800 },
+      { "name": "Camarón Grille", "price": 1800 },
+      { "name": "Enchilado Camarón", "price": 1850 },
+      { "name": "Mar y Tierra", "price": 2500 },
+      { "name": "Vaca Frita", "price": 1600 },
+      { "name": "Ropa Vieja", "price": 1600 }
+    ],
+    "garrison": [
+      null
+    ],
+    "desserts": [
+      null
+    ],
+    "drinks": [
+      { "name": "Cerveza Cristal (lata)", "price": 280 },
+      { "name": "Cerveza Cristal (botella)", "price": 380 },
+      { "name": "Cerveza Hollandia", "price": 250 },
+      { "name": "Cerveza Wild Hill", "price": 250 },
+      { "name": "Tigon", "price": 280 },
+      { "name": "Agua Natural", "price": 180 },
+      { "name": "Refresco lata", "price": 250 },
+      { "name": "Malta Hyper Malta", "price": 270 },
+      { "name": "Malta Bucanero", "price": 300 },
+      { "name": "Jugo Natural (cajita)", "price": 200 },
+      { "name": "Jugo Natural (lata)", "price": 270 }
+    ]
+  },
+  "service_charge_percentage": 0
+}

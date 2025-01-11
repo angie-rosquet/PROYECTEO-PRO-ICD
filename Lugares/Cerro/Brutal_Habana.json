@@ -1,0 +1,97 @@
+{
+  "name": "Brutal Habana",
+  "address": "Infanta esquina Calle Universidad, Cerro",
+  "schedule": {
+    "monday": {"open": "12:00", "close": "24:00"},
+    "tuesday": {"open": "12:00", "close": "24:00"},
+    "wednesday": {"open": "12:00", "close": "24:00"},
+    "thursday": {"open": "12:00", "close": "24:00"},
+    "friday": {"open": "12:00", "close": "24:00"},
+    "saturday": {"open": "12:00", "close": "24:00"},
+    "sunday": {"open": "12:00", "close": "24:00"}
+  },
+  "contacts" : {
+    "phone_number": null,
+    "mobile" : "50989151",
+    "website": null,
+    "instagram": "@brutal_habana",
+    "facebook": null
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["comida rapida"],
+  "parking": false,
+  "reservations": true,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": false,
+  "power_generator": true ,
+  "menu": {
+    "appetizer": [
+      {"name": "Papas Fritas (Medias) 100g", "price": 300 },
+      {"name": "Papas Fritas (Normal) 200g", "price": 600},
+      {"name": "SalchiPapas", "price": 500 },
+      {"name": "SalchiPapas BRUTAL", "price": 1400},
+      {"name": "Croquetas de Pollo x 5", "price": 175 },
+      {"name": "Croquetas de Pollo x 10", "price": 350}
+    ],
+    "main_course": [
+      {"name": "Brutal Junior", "price": 550 },
+      {"name": "Combo Brutal Junior", "price": 2550 },
+      {"name": "Hamburguesa Brutal", "price": 3200 },
+      {"name": "Baguette Brutal", "price": 2000 },
+      {"name": "Hamburguesa Sencilla", "price": 1100 },
+      {"name": "Fajitas de Pechuga con Papas Fritas", "price": 1500 },
+      {"name": "Nombre del plato", "price": 2500 },
+      {"name": "Nombre del plato", "price": 3000 },
+      {"name": "Nombre del plato", "price": 2500 },
+      {"name": "Nombre del plato", "price": 3000 },
+      {"name": "Nombre del plato", "price": 2500 },
+      {"name": "Nombre del plato", "price": 3000 }
+    ],
+    "garrison": [
+      {"name": "Cebolla", "price": 100 },
+      {"name": "Pepinillo", "price": 5100 },
+      {"name": "Pimiento", "price": 5100 },
+      {"name": "Tomate", "price": 100 },
+      {"name": "Aceituna", "price": 100 },
+      {"name": "Lechuga", "price": 50 },
+      {"name": "Baguette", "price": 5150 },
+      {"name": "Pan Suave", "price": 120 },
+      {"name": "Croissant", "price": 450 },
+      {"name": "Pan de Hamburguesa", "price": 150 },
+      {"name": "Agrego de Nutella", "price": 50 },
+      {"name": "Agrego de Gomita", "price": 400 },
+      {"name": "Jamón Barra York", "price": 240 },
+      {"name": "Bacon", "price": 260 },
+      {"name": "Jamón Ahumado 1964", "price": 350 },
+      {"name": "Chorizo Ibérico", "price": 350 },
+      {"name": "Salchichón Natural", "price": 370 },
+      {"name": "Jamón Serrano", "price": 500 },
+      {"name": "Jamón Pastrami de Ternera", "price": 500 },
+      {"name": "Jamón de Pechuga de Pollo", "price": 500 },
+      {"name": "Lomo de Cerdo Disco", "price": 500 },
+      {"name": "Pasta de Atún", "price": 820 },
+      {"name": "Queso Blanco", "price": 135 },
+      {"name": "Queso Cheddar", "price": 190 },
+      {"name": "Queso Cheddar Fundido", "price": 210 },
+      {"name": "Queso Curado con Trufas", "price": 240 },
+      {"name": "Queso Azul Gorgonzola", "price": 300 },
+      {"name": "Queso Gouda", "price": 350 },
+      {"name": "Queso Blanco Lombardo", "price": 650 }
+    ],
+    "desserts": [
+      null
+    ],
+    "drinks": [
+      {"name": "Batido de Helado", "price": 1000 },
+      {"name": "Batido de Helado con Gomitas", "price": 1400 },
+      {"name": "Batido de Helado BRUTAL", "price": 2000 }
+    ]
+  },
+  "service_charge_percentage": 10
+}

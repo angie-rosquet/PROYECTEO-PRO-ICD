@@ -28,9 +28,7 @@
     "usd_transfer": false,
     "mlc": false
   },
-  "delivery_areas": [
-    "Boyeros"
-  ],
+  "delivery_areas": true,
   "power_generator": true,
   "menu": {
     "appetizer": [

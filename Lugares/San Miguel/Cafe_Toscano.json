@@ -1,0 +1,61 @@
+{
+  "name": "Café Toscano",
+  "address": "Calzada de Guines #10425 % 104 y 112, San Miguel del Padrón",
+  "schedule": {
+    "monday": {"open": "08:00", "close": "22:00"},
+    "tuesday": {"open": "08:00", "close": "22:00"},
+    "wednesday": {"open": "08:00", "close": "22:00"},
+    "thursday": {"open": "08:00", "close": "22:00"},
+    "friday": {"open": "08:00", "close": "22:00"},
+    "saturday": {"open": "08:00", "close": "22:00"},
+    "sunday": {"open": "08:00", "close": "22:00"}
+  },
+  "contacts" : {
+    "phone_number": null,
+    "mobile" : "50800611",
+    "website": null,
+    "instagram": "@toscanocafeteria",
+    "facebook": null
+  },
+  "type_establishment": "Cafetería",
+  "specialty": ["criolla", "italiana"],
+  "parking": true,
+  "reservations": true,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": true,
+  "power_generator": true ,
+  "menu": {
+    "appetizer": [
+      {"name": "tostones rellenos", "price": 250},
+      {"name": "tostones", "price": 150},
+      {"name": "platano", "price": 100}
+    ],
+    "main_course": [
+      {"name": "hamburguesa sencilla", "price": 300},
+      {"name": "hamburguesa con queso", "price": 380},
+      {"name": "hamburguesa doble con queso", "price": 550},
+      {"name": "pollo chiflado", "price": 400},
+      {"name": "pollo especial", "price": 1000},
+      {"name": "espaguetti", "price": 330},
+      {"name": "espaguetti con queso gouda", "price": 400},
+      {"name": "pizza napolitana", "price": 170},
+      {"name": "pizza doble de queso", "price": 250},
+      {"name": "pizza hawaiana", "price": 290},
+      {"name": "pizza gouda", "price": 250},
+      {"name": "pizza cubana", "price": 320},
+      {"name": "pizza grande napolitana", "price": 550},
+      {"name": "pizza grande doble de queso", "price": 790},
+      {"name": "pizza grande gouda", "price": 940}
+    ],
+    "garrison": [],
+    "desserts": [],
+    "drinks": []
+  },
+  "service_charge_percentage": 0
+}

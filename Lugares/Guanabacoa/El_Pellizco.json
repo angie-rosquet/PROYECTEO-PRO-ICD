@@ -1,0 +1,73 @@
+{
+  "name": "El Pellizco",
+  "address": "3Q5F+6C6, Guanabacoa",
+  "schedule": {
+    "monday": { "open": "11:00", "close": "24:00" },
+    "tuesday": { "open": "11:00", "close": "24:00" },
+    "wednesday": { "open": "11:00", "close": "24:00" },
+    "thursday": { "open": "11:00", "close": "24:00" },
+    "friday": { "open": "11:00", "close": "24:00" },
+    "saturday": { "open": "11:00", "close": "24:00" },
+    "sunday": { "open": "11:00", "close": "24:00" }
+  },
+  "contacts": {
+    "phone_number": null,
+    "mobile": null,
+    "website": null,
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establecimiento": "Restaurante",
+  "especialidad": ["criolla"],
+  "parking": false,
+  "reservations": false,
+  "paid_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": false,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      { "name": "Ración de Chicharrón", "price": 150 },
+      { "name": "Ración de Empella", "price": 100 },
+      { "name": "Caldoza de la Casa", "price": 250 },
+      { "name": "Ración de Tostones", "price": 80 },
+      { "name": "Ración de Mariquitas", "price": 80 },
+      { "name": "Plátano maduro frito", "price": 80 }
+    ],
+    "main_course": [
+      { "name": "Bistec de Hígado", "price": 400 },
+      { "name": "Hígado a la Italiana", "price": 450 },
+      { "name": "Bistec de Cerdo", "price": 600 },
+      { "name": "Masa de Cerdo", "price": 650 },
+      { "name": "Chuleta de Cerdo", "price": 650 },
+      { "name": "Lomo Ahumado", "price": 650 },
+      { "name": "Lonjas de Cerdo Asada", "price": 600 },
+      { "name": "Pollo Asado", "price": 450 },
+      { "name": "Costilla Asada", "price": 650 },
+      { "name": "Ropa Vieja de Cerdo", "price": 650 },
+      { "name": "Fricase de Costilla", "price": 650 },
+      { "name": "Pizza Napolitana", "price": 200 }
+    ],
+    "garrison": [
+      null
+    ],
+    "desserts": [
+      null
+    ],
+    "drinks": [
+      { "name": "Cerveza Nacional", "price": 220 },
+      { "name": "Cerveza Importada", "price": 220 },
+      { "name": "Jugo de Caja", "price": 150 },
+      { "name": "Jugo de Botella", "price": 120 },
+      { "name": "Malta", "price": 150 },
+      { "name": "Agua Natural", "price": 100 },
+      { "name": "Energizante", "price": 220 }
+    ]
+  },
+  "service_charge_percentage": 0
+}

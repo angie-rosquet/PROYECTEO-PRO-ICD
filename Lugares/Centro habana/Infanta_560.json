@@ -1,0 +1,65 @@
+{
+  "name": "Infanta 560",
+  "address": "Calle Infanta % San Rafael y San Martin, Centro Habana",
+  "schedule": {
+    "monday": {"open": "08:00", "close": "22:00"},
+    "tuesday": {"open": "08:00", "close": "22:00"},
+    "wednesday": {"open": "08:00", "close": "22:00"},
+    "thursday": {"open": "08:00", "close": "22:00"},
+    "friday": {"open": "08:00", "close": "22:00"},
+    "saturday": {"open": "08:00", "close": "22:00"},
+    "sunday": {"open": "08:00", "close": "22:00"}
+  },
+  "contacts": {
+    "phone_number": null,
+    "mobile": null,
+    "website": null,
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["Italiana"],
+  "parking": false,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": false,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      {"name": "Picadera (300g)", "price": 550}
+    ],
+    "main_course": [
+      {"name": "Pizza Napolitana (250g)", "price": 200},
+      {"name": "Pizza Hawaiana (300g)", "price": 300},
+      {"name": "Pizza Queso Gouda (250g)", "price": 320},
+      {"name": "Pizza Familiar Napolitana (500g)", "price": 380},
+      {"name": "Pizza Familiar Hawaiana (600g)", "price": 700},
+      {"name": "Pizza Familiar Queso Gouda (500g)", "price": 700},
+      {"name": "Fajas de Pollo (300g)", "price": 600},
+      {"name": "Spaghetti (470g)", "price": 300},
+      {"name": "Spaghetti Queso Gouda (470g)", "price": 420}
+    ],
+    "garrison": [
+      {"name": "Jamon", "price": 80},
+      {"name": "Piña", "price": 80},
+      {"name": "Pimiento", "price": 80},
+      {"name": "Queso", "price": 80},
+      {"name": "Queso Gouda", "price": 100},
+      {"name": "Cebolla", "price": 80}
+    ],
+    "desserts": [
+      null
+    ],
+    "drinks": [
+      null
+    ]
+  },
+  "service_charge_percentage": 0
+}
+    

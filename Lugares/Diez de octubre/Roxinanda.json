@@ -1,0 +1,62 @@
+{
+  "name": "Roxinanda",
+  "address": "esquina de Santa Catalina y calzada de 10 de Octubre, Diez de Octubre",
+  "schedule": {
+    "monday": {"open": "00:00", "close": "24:00"},
+    "tuesday": {"open": "00:00", "close": "24:00"},
+    "wednesday": {"open": "00:00", "close": "24:00"},
+    "thursday": {"open": "00:00", "close": "24:00"},
+    "friday": {"open": "00:00", "close": "24:00"},
+    "saturday": {"open": "00:00", "close": "24:00"},
+    "sunday": {"open": "00:00", "close": "24:00"}
+  },
+  "contacts" : {
+    "phone_number": null,
+    "mobile" : null,
+    "website": null,
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "Tipo de establecimiento (ej: Restaurante, Cafetería, Bar)",
+  "specialty": [],
+  "parking": false,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": false,
+  "power_generator": false ,
+  "menu": {
+    "appetizer": [
+      null
+    ],
+    "main_course": [
+      {"name": "Hamburguesa cerdo", "price": 640.0},
+      {"name": "Hamburguesa pollo", "price": 650.0},
+      {"name": "Hamburguesa res", "price": 690.0},
+      {"name": "Sandwich", "price": 350.0},
+      {"name": "Sandwich especial", "price": 450.0}
+    ],
+    "garrison": [
+      null
+    ],
+    "desserts": [
+      null
+    ],
+    "drinks": [
+      {"name": "Refresco", "price": 270.0},
+      {"name": "Pepsi", "price": 320.0},
+      {"name": "Jugo lata", "price": 280.0},
+      {"name": "Kermato", "price": 480.0},
+      {"name": "Tigon", "price": null},
+      {"name": "Cristal", "price": 3000.0},
+      {"name": "Hollandia", "price": 300.0},
+      {"name": "Stella", "price": 400.0}
+    ]
+  },
+  "service_charge_percentage": 10
+}

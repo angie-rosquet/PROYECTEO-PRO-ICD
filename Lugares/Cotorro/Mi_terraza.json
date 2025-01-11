@@ -28,9 +28,7 @@
     "usd_transfer": true,
     "mlc": true
   },
-  "delivery_areas": [
-    "Cotorro"
-  ],
+  "delivery_areas": true,
   "power_generator": true,
   "menu": {
     "entrants": [

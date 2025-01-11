@@ -1,0 +1,67 @@
+{
+  "name": "Bueníssimo heladería",
+  "address": "Dirección completa del restaurante",
+  "schedule": {
+    "monday": {"open": "09:00", "close": "23:00"},
+    "tuesday": {"open": "09:00", "close": "23:00"},
+    "wednesday": {"open": "09:00", "close": "23:00"},
+    "thursday": {"open": "09:00", "close": "23:00"},
+    "friday": {"open": "09:00", "close": "24:00"},
+    "saturday": {"open": "09:00", "close": "24:00"},
+    "sunday": {"open": "09:00", "close": "24:00"}
+  },
+  "contacts" : {
+    "phone_number": null,
+    "mobile" : "54047156",
+    "website": "https://buennissimo.com/",
+    "instagram": "@buenissimo.heladeria",
+    "facebook": null
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["cubana", "italiana"],
+  "parking": true,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": false,
+  "power_generator": true ,
+  "menu": {
+    "appetizer": [
+      null
+    ],
+    "main_course": [
+      null
+    ],
+    "garrison": [
+      null
+    ],
+    "desserts": [
+      {"nombre": "cono (1bola 95gr)", "precio": 280},
+      {"nombre": "cono doble", "precio": 560},
+      {"nombre": "cono maxi", "precio": 850},
+      {"nombre": "copeta 1 bola", "precio": 300},
+      {"nombre": "copeta 2 sabores", "precio": 630},
+      {"nombre": "copeta 3 sabores", "precio": 920},
+      {"nombre": "copeta 4 sabores", "precio": 1200},
+      {"nombre": "tulipan", "precio": 1300},
+      {"nombre": "tulipan max", "precio": 1500},
+      {"nombre": "copa buenissimo", "precio": 1500},
+      {"nombre": "copa family", "precio": 2100},
+      {"nombre": "copa firenze", "precio": 1200},
+      {"nombre": "copa habana", "precio": 620},
+      {"nombre": "copa roma", "precio": 950},
+      {"nombre": "1/2 kg de helado", "precio": 1800},
+      {"nombre": "1 kg de helado", "precio": 3600}
+    ],
+    "drinks": [
+      {"name": "Batido", "price": 900 },
+      {"name": "Batido Maxi", "price": 1000 }
+    ]
+  },
+  "service_charge_percentage": 0
+}

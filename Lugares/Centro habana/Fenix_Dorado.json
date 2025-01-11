@@ -1,0 +1,122 @@
+{
+  "name": "Fénix Dorado",
+  "address": "Cuchillo entre San Nicolás y Rayo, Centro Habana",
+  "schedule": {
+    "monday": {"open": "11:00", "close": "23:00"},
+    "tuesday": {"open": "11:00", "close": "23:00"},
+    "wednesday": {"open": "11:00", "close": "23:00"},
+    "thursday": {"open": "11:00", "close": "23:00"},
+    "friday": {"open": "11:00", "close": "23:00"},
+    "saturday": {"open": "11:00", "close": "23:00"},
+    "sunday": {"open": "11:00", "close": "23:00"}
+  },
+  "contacts": {
+    "phone_number": null,
+    "mobile": null,
+    "website": null,
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["China"],
+  "parking": false,
+  "reservations": false,
+  "payment_methods": {
+		"cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+	},
+  "delivery_areas": false,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      {"name": "Picadera Fénix", "price": 1785},
+      {"name": "Entremés jamón y aceite", "price": 535},
+      {"name": "Entremés jamón y queso", "price": 835},
+      {"name": "Entremés aceitunas", "price": 555},
+      {"name": "Coctel camarones", "price": 1200},
+      {"name": "Ensalada fría jamón", "price": 595},
+      {"name": "Ensalada fría atún", "price": 850},
+      {"name": "Vianda c/mojo", "price": 315},
+      {"name": "Tostones nat. ajillo", "price": 495},
+      {"name": "Tost. rellenos jamoniquesos", "price": 695},
+      {"name": "Tost. rellenos c/camarón", "price": 835},
+      {"name": "Mariposas chinas", "price": 375},
+      {"name": "Ensalada mixta", "price": 360},
+      {"name": "Sopa Fénix", "price": 895},
+      {"name": "Fritura malanga", "price": 510}
+    ],
+    "main_course": [
+      {"name": "Bistec cerdo grille", "price": 1625},
+      {"name": "Bistec cerdo encebollado", "price": 1885},
+      {"name": "Ropa vieja", "price": 2535},
+      {"name": "Camarón grille", "price": 2785},
+      {"name": "Camarón al ajillo", "price": 2950},
+      {"name": "Camarón enchilado", "price": 3120},
+      {"name": "Filete pescado grille", "price": 2675},
+      {"name": "Filete sensación", "price": 3000},
+      {"name": "Filete terraza", "price": 3940},
+      {"name": "Chop suey camarón", "price": 2970},
+      {"name": "Chop suey pollo", "price": 1995},
+      {"name": "Chop suey cerdo", "price": 2205},
+      {"name": "Pollo grille", "price": 3975},
+      {"name": "Plancha de mar", "price": 5255},
+      {"name": "Masas cerdo ftas (1.5b)", "price": 4550},
+      {"name": "Brochetas cerdo (1.56)", "price": 4650},
+      {"name": "Plancha mar y tierra", "price": 5255},
+      {"name": "Corona fenix", "price": 5965},
+      {"name": "Zarzuela de mariscos", "price": 5455},
+      {"name": "Mucho cerdo (3 lb)", "price": 8550},
+      {"name": "Pizza c/queso gouda", "price": 1120},
+      {"name": "Pizza c/queso blanco", "price": 695},
+      {"name": "Pizza Haw. queso blanco", "price": 1145},
+      {"name": "Pizza Haw. queso gouda", "price": 1570},
+      {"name": "Espag. nap. c/queso gouda", "price": 995},
+      {"name": "Espag. nap. c/queso bco", "price": 645}
+    ],
+    "garrison": [
+      {"name": "Pimiento", "price": 200},
+      {"name": "Cebolla", "price": 200},
+      {"name": "Piña", "price": 200},
+      {"name": "Jamón", "price": 250},
+      {"name": "Chorizo", "price": 300},
+      {"name": "Queso bco", "price": 295},
+      {"name": "Queso gouda", "price": 520},
+      {"name": "Arroz frito Fénix", "price": 1120},
+      {"name": "Arroz frito Fénix especial", "price": 1540},
+      {"name": "Arroz frito Fénix esp. familiar", "price": 2810},
+      {"name": "Paella Fénix", "price": 2920},
+      {"name": "Arroz moro", "price": 335},
+      {"name": "Arroz blanco", "price": 265}
+    ],
+    "desserts": [
+			null
+		],
+    "drinks": [
+      {"name": "Cerveza Corona", "price": 480},
+      {"name": "Cerveza Nacional", "price": 360},
+      {"name": "Cerveza Importada", "price": 280},
+      {"name": "Refresco Nacional", "price": 310},
+      {"name": "Refresco Importado", "price": 350},
+      {"name": "Malta", "price": 340},
+      {"name": "Energizante", "price": 500},
+      {"name": "Nectar frutas", "price": 340},
+      {"name": "Aquia Nat, importada 500ml", "price": 250},
+      {"name": "Ama Nat. Nacional 500ml", "price": 210},
+      {"name": "Café expreso", "price": 220},
+      {"name": "Café americano", "price": 220},
+      {"name": "Café carajillo", "price": 320},
+      {"name": "Vino (bot)", "price": 2500},
+      {"name": "Copa heilada", "price": 500},
+      {"name": "Malteada", "price": 600},
+      {"name": "Batido helado", "price": 540}
+    ],
+    "plus": [
+      {"name": "Cajas pipizzasas", "price": 100},
+      {"name": "Termos", "price": 100}
+    ]
+  },
+  "service_charge_percentage": 0
+}

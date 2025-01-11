@@ -1,0 +1,89 @@
+{
+  "name": "Restaurante El Pavo",
+  "address": "Calle San Luis % Via Blanca y 6ta, Guanabacoa",
+  "schedule": {
+    "monday": { "open": "12:00", "close": "23:00" },
+    "tuesday": { "open": "12:00", "close": "23:00" },
+    "wednesday": { "open": "12:00", "close": "23:00" },
+    "thursday": { "open": "12:00", "close": "23:00" },
+    "friday": { "open": "12:00", "close": "23:00" },
+    "saturday": { "open": "12:00", "close": "23:00" },
+    "sunday": { "open": "12:00", "close": "23:00" }
+  },
+  "contacts": {
+    "phone_number": "77976432",
+    "mobile": "58222469",
+    "website": null,
+    "instagram": "@RestauranteElPavo",
+    "facebook": null
+  },
+  "type_establecimiento": "Restaurante",
+  "especialidad": ["criolla", "italiana"],
+  "parking": true,
+  "reservations": true,
+  "paid_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": true,
+  "power_generator": true,
+  "menu": {
+    "appetizer": [
+      { "name": "Ensalada Fría de Jamón", "price": 450.00 },
+      { "name": "Ensalada Fría de Atún", "price": 500.00 },
+      { "name": "Croquetas", "price": 200.00 },
+      { "name": "Fajitas", "price": 500.00 },
+      { "name": "Tostón relleno de Jamón", "price": 450.00 },
+      { "name": "Tostón relleno de Atún", "price": 450.00 },
+      { "name": "Costillas", "price": 800.00 },
+      { "name": "Cóctel de Camarón", "price": 700.00 },
+      { "name": "Garbanzo Frito", "price": 400.00 },
+      { "name": "Eperlan", "price": 600.00 },
+      { "name": "Entremés", "price": 800.00 }
+    ],
+    "main_course": [
+      { "name": "Pollo Grille", "price": 1100.00 },
+      { "name": "Masa de Cerdo", "price": 1600.00 },
+      { "name": "Cerdo a la Milanesa", "price": 1400.00 },
+      { "name": "Bistec de Cerdo", "price": 1300.00 },
+      { "name": "Bistec de Res", "price": 1300.00 },
+      { "name": "Ropa Vieja", "price": 1600.00 },
+      { "name": "Camarones Enchilados", "price": 1300.00 },
+      { "name": "Camarones al Ajillo", "price": 1300.00 },
+      { "name": "Camarones Grille", "price": 1200.00 },
+      { "name": "Camarones Rebosados", "price": 1300.00 },
+      { "name": "Enchilado de Langosta", "price": 1400.00 },
+      { "name": "Langosta Grille", "price": 1300.00 },
+      { "name": "Pescado Grille", "price": 1400.00 },
+      {"name": "Marinada al Pavo","price": 2500.00}
+    ],
+    "garrison": [
+      { "name": "Pizza Napolitana", "price": 600.00 },
+      { "name": "Pizza de Vegetales", "price": 650.00 },
+      { "name": "Pizza de Jamón", "price": 800.00 },
+      { "name": "Pizza de Chorizo", "price": 800.00 },
+      { "name": "Pizza Hawaiana", "price": 850.00 },
+      { "name": "Pizza de Carne", "price": 800.00 },
+      { "name": "Pizza de Camarones", "price": 1000.00 },
+      { "name": "Pizza Especial 'El Pavo'", "price": 1500.00 }
+    ],
+    "desserts": [
+      { "name": "Flan de Leche", "price": 180.00 }
+    ],
+    "drinks": [
+      { "name": "Cerveza Nacional", "price": 250.00 },
+      { "name": "Cerveza Corona", "price": 300.00 },
+      { "name": "Agua Natural", "price": 180.00 },
+      { "name": "Agua Gaseada", "price": 180.00 },
+      { "name": "Refresco Nacional", "price": 225.00 },
+      { "name": "Refresco Importado", "price": 260.00 },
+      { "name": "Malta Importada", "price": 225.00 },
+      { "name": "Malta HyperMalt", "price": 260.00 },
+      { "name": "Jugo (Cajita)", "price": 180.00 }
+    ]
+  },
+  "service_charge_percentage": 0
+}
