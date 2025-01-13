@@ -29,8 +29,28 @@ def df_datos(array):
     array_df = pd.DataFrame(array)
     return array_df
 
+def datos_restaurante_municipio(lugar):
+    ruta = f"Lugar/{lugar}"
+    restaurantes = []
+    for archivo in os.listdir(ruta):
+        if archivo.endswith('.json'):
+            with open(os.path.join(ruta, archivo), 'r', encoding='UTF-8') as f:
+                restaurante = json.load(f)
+                restaurantes.append(restaurante)
+    return restaurantes
 
-datos = datos_restaurantes(ruta)
-df_datos = df_datos(datos)
+def salarios_cuba(ruta):
+    salarios = None
+    for archivo in os.listdir(ruta):
+        if archivo == "salarios_cuba.json":
+            with open(os.path.join(ruta, archivo), 'r') as f:
+                salarios = json.load(f)
+            break 
+    return salarios
 
-print(len(df_datos))
+def precio_comida()
+
+
+
+
+def horas(salario, precio_comida):
