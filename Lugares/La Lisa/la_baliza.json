@@ -1,0 +1,57 @@
+{
+  "name": "La Baliza",
+  "address": "La Lisa",
+  "schedule": {
+    "monday": {"open": "00:00", "close": "00:00"},
+    "tuesday": {"open": "10:00", "close": "21:30"},
+    "wednesday": {"open": "10:00", "close": "21:30"},
+    "thursday": {"open": "10:00", "close": "21:30"},
+    "friday": {"open": "10:00", "close": "21:30"},
+    "saturday": {"open": "10:00", "close": "21:30"},
+    "sunday": {"open": "10:00", "close": "21:30"}
+  },
+  "contacts": {
+    "phone_number": "78322553",
+    "mobile": "53005060",
+    "website": null,
+    "instagram": null,
+    "facebook": "La Baliza"
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["Americana", "Italiana"],
+  "parking": true,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": true,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [],
+    "main_course": [
+      {"name": "Sandwich de jamon y queso", "price": 500},
+      {"name": "Hamburguesa", "price": 490},
+      {"name": "Super hamburguesa", "price": 950},
+      {"name": "Pizza con queso gouda (small)", "price": 450},
+      {"name": "Pizza con queso gouda (large)", "price": 700},
+      {"name": "Pizza de queso blanco (small)", "price": 350},
+      {"name": "Pizza de queso blanco (large)", "price": 520}
+    ],
+    "garrison": [
+      {"name": "Queso", "price": 200},
+      {"name": "Jamon", "price": 150}
+    ],
+    "desserts": [],
+    "drinks": [
+      {"name": "Agua mineral natural", "price": 150},
+      {"name": "Refresco importado", "price": 230},
+      {"name": "Batido de Mamey", "price": 230},
+      {"name": "Cerveza importada", "price": 250}
+    ]
+  },
+  "service_charge_percentage": 0
+}

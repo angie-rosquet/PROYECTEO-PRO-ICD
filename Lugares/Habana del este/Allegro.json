@@ -1,0 +1,53 @@
+{
+  "name": "Allegro",
+  "address": "Paseo de la Villa, Villa Panamericana",
+  "schedule": {
+    "monday": {"open": "12:00", "close": "21:00"},
+    "tuesday": {"open": "12:00", "close": "21:00"},
+    "wednesday": {"open": "12:00", "close": "21:00"},
+    "thursday": {"open": "12:00", "close": "21:00"},
+    "friday": {"open": "12:00", "close": "21:00"},
+    "saturday": {"open": "12:00", "close": "21:00"},
+    "sunday": {"open": "12:00", "close": "21:00"}
+  },
+  "contacts": {
+    "phone_number": "7661010",
+    "mobile": null,
+    "website": null,
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "Restaurant",
+  "specialty": ["Comida italiana"],
+  "parking": false,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": false,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": false,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      {"name": "Crema de queso", "price": 313},
+      {"name": "Crema Aurora", "price": 315},
+      {"name": "Crema Virginia", "price": 329}
+    ],
+    "main_course": [
+      {"name": "Spaghettis napolitanos", "price": 410},
+      {"name": "Spaghettis de jamon", "price": 570},
+      {"name": "Lazagna de jamon", "price": 550},
+      {"name": "Pizza napolitana", "price": 390},
+      {"name": "Pizza de jamon", "price": 540},
+      {"name": "Pizza de chorizo", "price": 588},
+      {"name": "Pizza de bacon", "price": 735}
+    ],
+    "garrison": null,
+    "drinks": null,
+    "desserts": null
+  },
+  "service_charge_percentage": 0
+}

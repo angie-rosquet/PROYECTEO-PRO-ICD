@@ -1,0 +1,81 @@
+{
+  "name": "Otra manera",
+  "address": "Distrito Playa",
+  "schedule": {
+    "monday": {"open": "00:00", "close": "00:00"},
+    "tuesday": {"open": "12:30", "close": "23:00"},
+    "wednesday": {"open": "12:30", "close": "23:00"},
+    "thursday": {"open": "12:30", "close": "23:00"},
+    "friday": {"open": "12:30", "close": "23:00"},
+    "saturday": {"open": "12:30", "close": "23:00"},
+    "sunday": {"open": "00:00", "close": "00:00"}
+  },
+  "contacts": {
+    "phone_number": "72038315",
+    "mobile": null,
+    "website": null,
+    "instagram": "@otramanera.lahabana",
+    "facebook": "Otramaneralahabana"
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["Caribeña", "Internacional", "Española", "Cubana"],
+  "parking": true,
+  "reservations": true,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": false,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      {"name": "Ceviche del día", "price": 2400},
+      {"name": "Boniato marinado y frito con ali-oli de cachucha", "price": 2050},
+      {"name": "Falafel con salsa tzatziki", "price": 1900},
+      {"name": "Croquetas de chuleton de cerdo al carbón", "price": 2050},
+      {"name": "Nachos mexicanos con picadillo de cerdo picante", "price": 2400},
+      {"name": "Tacos de lechón asado", "price": 2400},
+      {"name": "Huevos de codorniz trufados al horno, con papas y chorizo frito", "price": 2050},
+      {"name": "Mini hamburguesas de cordero con queso de cabra", "price": 3200},
+      {"name": "Wok de pulpo", "price": 3200},
+      {"name": "Ensalada de aguacate asado, tomate, pepino y remolacha crujiente", "price": 2050},
+      {"name": "Tartar de mozzarella fresca, aguacate y tomate", "price": 2050},
+      {"name": "Ensalada verde con queso de cabra y reducción de frutas", "price": 1900},
+      {"name": "Ensalada verde con pollo marinado en nuestra salsa de piña y cilantro", "price": 2050}
+    ],
+    "main_course": [
+      {"name": "Pescado del día a la plancha con mole verde y boniatos asados", "price": 3400},
+      {"name": "Dados de pescado blanco, cocinado en salsa de curry amarillo con leche de coco y arroz blanco", "price": 3400},
+      {"name": "Costillar deshuesado de cerdo cocinado en baja temperatura y matajibaro", "price": 3400},
+      {"name": "Costillas asadas en salsa barbacoa, pastel de yuca y verduritas", "price": 4050},
+      {"name": "Langosta al horno con mantequilla, limón y mole negro", "price": 5100},
+      {"name": "Risotto de zanahoria con mozzarella y hierbas aromáticas", "price": 4050},
+      {"name": "Arroz de marisco", "price": 4500},
+      {"name": "New York steak con papas asadas y salsa chimichurri", "price": 4000},
+      {"name": "Albóndiga de res rellena de setas y papas asadas", "price": 4500},
+      {"name": "Cordero en salsa de chocolate con verduras grilladas", "price": 4050},
+      {"name": "Canelón de pollo asado con setas", "price": 3500},
+      {"name": "Canelón de cangrejo XL con doble salsa", "price": 3400},
+      {"name": "Wok de atún, vegetales y salsa teriyaki", "price": 2400},
+      {"name": "Wok de tallarines con cerdo, vegetales, piña y teriyaki", "price": 2400}
+    ],
+    "garrison": [
+      {"name": "Arroz blanco", "price": 700},
+      {"name": "Matajibaro", "price": 700},
+      {"name": "Vegetales salteados", "price": 700},
+      {"name": "Cesta de pan", "price": 700}
+    ],
+    "desserts": [
+      {"name": "Biscocho breton, crema de limón y toffee", "price": 1700},
+      {"name": "Coulant de chocolate con helado", "price": 2100},
+      {"name": "Baba al ron con helado", "price": 1700},
+      {"name": "Arroz con leche", "price": 1800},
+      {"name": "Helado", "price": 1350}
+    ],
+    "drinks": null
+  },
+  "service_charge_percentage": 0
+}

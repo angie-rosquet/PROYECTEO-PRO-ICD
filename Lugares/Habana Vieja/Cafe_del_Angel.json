@@ -1,0 +1,75 @@
+{
+  "name": "Café Del Ángel",
+  "address": "Chacón #201 esquina Compostela, Habana Vieja",
+  "schedule": {
+    "monday": {"open": "08:00", "close": "22:00"},
+    "tuesday": {"open": "08:00", "close": "22:00"},
+    "wednesday": {"open": "08:00", "close": "22:00"},
+    "thursday": {"open": "08:00", "close": "22:00"},
+    "friday": {"open": "08:00", "close": "22:00"},
+    "saturday": {"open": "08:00", "close": "22:00"},
+    "sunday": {"open": "08:00", "close": "22:00"}
+  },
+  "contacts": {
+    "phone_number": "078015162",
+    "mobile": null,
+    "website": "URL del sitio web",
+    "instagram": "@nombre_de_usuario_instagram",
+    "facebook": "URL de la página de Facebook"
+  },
+  "type_establishment": "Bar-restaurante",
+  "specialty": ["Comidas", "Cenas", "Brunch"],
+  "parking": null,
+  "reservations": true,
+  "paid_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": false,
+  "power_generator": true,
+  "menu": {
+    "aperitivo": [
+      {"name": "Croquetas Serrano", "price": 1480},
+      {"name": "Rillete de Cerdo", "price": 1500},
+      {"name": "Tacos de Cerdo", "price": 2200},
+      {"name": "Mixto de Brusquetas", "price": 2200},
+      {"name": "Tacos de Camarones", "price": 2380},
+      {"name": "Empanadillas de Queso", "price": 1400},
+      {"name": "Tabla Charcuteria", "price": 4000}
+    ],
+    "main_course": [
+      {"name": "Solomillo de Cerdo", "price": 4200},
+      {"name": "Pescado a la Siciliana", "price": 3580},
+      {"name": "Ropa Vieja", "price": 3580},
+      {"name": "Costillas de Cerdo", "price": 4950},
+      {"name": "Hamburguesa de Res", "price": 3200},
+      {"name": "Langosta Caribeña", "price": 5400},
+      {"name": "Pollo Mediterráneo", "price": 2340}
+    ],
+    "guarnición": [
+      {"name": "Ensalada Del Ángel", "price": 2340},
+      {"name": "Baguette de Jamón & Queso", "price": 1600}
+    ],
+    "desserts": [
+      {"name": "Mousse de Chocolate", "price": 1925},
+      {"name": "Esfera de Maracuyá", "price": 1925},
+      {"name": "Arroz con Leche", "price": 1500},
+      {"name": "Dados de Guayaba", "price": 1500}
+    ],
+    "drinks": [
+      {"name": "Del Ángel", "price": 2500},
+      {"name": "Croissant Madame", "price": 2500},
+      {"name": "Omelette al Queso", "price": 1630},
+      {"name": "Americano", "price": 2400},
+      {"name": "Pancakes", "price": 1700},
+      {"name": "Continental", "price": 1600},
+      {"name": "Bagel Nórdico", "price": 2450},
+      {"name": "Yogurt Parfait", "price": 1360},
+      {"name": "Bagel Catalán", "price": 2450}
+    ]
+  },
+  "service_charge_percentage": 10
+}

@@ -1,0 +1,70 @@
+{
+  "name": "FoodTruck Pelegrin",
+  "address": "Playa, La Habana",
+  "schedule": {
+    "monday": {"open": "08:00", "close": "21:00"},
+    "tuesday": {"open": "08:00", "close": "21:00"},
+    "wednesday": {"open": "08:00", "close": "21:00"},
+    "thursday": {"open": "08:00", "close": "21:00"},
+    "friday": {"open": "08:00", "close": "21:00"},
+    "saturday": {"open": "08:00", "close": "21:00"},
+    "sunday": {"open": "08:00", "close": "21:00"}
+  },
+  "contacts": {
+    "phone_number": null,
+    "mobile": "52819512",
+    "website": null,
+    "instagram": "@food_truck_pelegrin",
+    "facebook": null
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["cubana", "internacional"],
+  "parking": true,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": false,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      {"name": "bolitas de queso", "price": 850},
+      {"name": "papas fritas", "price": 600},
+      {"name": "croquetas", "price": 700},
+      {"name": "sándwich jamon y queso", "price": 750},
+      {"name": "sandwich atun", "price": 850},
+      {"name": "sándwich cubano", "price": 1200},
+      {"name": "sándwich pelegrin", "price": 1300},
+      {"name": "sandwich pechuga", "price": 2500},
+      {"name": "perro caliente", "price": 750},
+      {"name": "palomitas", "price": 850}
+    ],
+    "main_course": [],
+    "garrison": [],
+    "desserts": [],
+    "drinks": {
+      "water": false,
+      "soft_drinks": false,
+      "juices": [
+        {"name": "jugos", "price": 270}
+      ],
+      "smoothie": [],
+      "ice_cream_shake": [],
+      "alcoholic": [],
+      "coffee": [
+        {"name": "expresso", "price": 150},
+        {"name": "cortado", "price": 250},
+        {"name": "capuchino", "price": 400},
+        {"name": "café bombon", "price": 450},
+        {"name": "frapuchino", "price": 550},
+        {"name": "carajillo", "price": 350},
+        {"name": "leche fría", "price": 370}
+      ]
+    }
+  },
+  "service_charge_percentage": 0
+}

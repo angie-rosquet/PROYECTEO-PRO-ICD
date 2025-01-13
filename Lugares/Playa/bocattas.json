@@ -1,0 +1,130 @@
+{
+  "name": "Bocattas",
+  "address": "Playa, La Habana",
+  "schedule": {
+    "monday": {"open": "00:00", "close": "23:59"},
+    "tuesday": {"open": "00:00", "close": "23:59"},
+    "wednesday": {"open": "00:00", "close": "23:59"},
+    "thursday": {"open": "00:00", "close": "23:59"},
+    "friday": {"open": "00:00", "close": "23:59"},
+    "saturday": {"open": "00:00", "close": "23:59"},
+    "sunday": {"open": "00:00", "close": "23:59"}
+  },
+  "contacts": {
+    "phone_number": null,
+    "mobile": "53190043",
+    "website": "https://linktr.ee/cafe_bocattas",
+    "instagram": "@cafe_bocattas",
+    "facebook": "Café Bocattas"
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["Cubana", "Internacional"],
+  "parking": true,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": true,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      {"name": "Tacos de hab c", "price": 800},
+      {"name": "Tacos de hamburguesa", "price": 950},
+      {"name": "Tacos de cerdo", "price": 900},
+      {"name": "Brusquetas", "price": 500},
+      {"name": "Chorizo parrillero", "price": 2000},
+      {"name": "Croquetas de pollo", "price": 650},
+      {"name": "Desayuno", "price": 980},
+      {"name": "Ensalada fría", "price": 540},
+      {"name": "Croquetas de jamón serrano", "price": 750},
+      {"name": "Huevos rotos", "price": 1050}
+    ],
+    "main_course": [
+      {"name": "Bistec con baguette", "price": 1700},
+      {"name": "Bistec con pan suave", "price": 1500},
+      {"name": "Hamburguesa de res", "price": 1000},
+      {"name": "Hamburguesa de cerdo", "price": 780},
+      {"name": "Pan con lechón", "price": 840},
+      {"name": "Pan redondo suave", "price": 160},
+      {"name": "Pan baguette", "price": 240},
+      {"name": "Pan suave", "price": 160},
+      {"name": "Tostadas", "price": 240},
+      {"name": "Smashburger bocattas de res", "price": 1500},
+      {"name": "Smashburger bocattas de cerdo", "price": 1500},
+      {"name": "Pasta napolitana", "price": 900},
+      {"name": "Pasta boloñesa", "price": 2000},
+      {"name": "Pasta con bacon", "price": 1500},
+      {"name": "Pasta con jamon pierna especial", "price": 1800},
+      {"name": "Pasta con jamon barra", "price": 1100}
+    ],
+    "garrison": [
+      {"name": "Queso gouda 100g", "price": 430},
+      {"name": "Jamón barra", "price": 300},
+      {"name": "Jamón serrano", "price": 570},
+      {"name": "Jamón pierna especial", "price": 650},
+      {"name": "Queso gouda", "price": 380},
+      {"name": "Queso azul", "price": 500},
+      {"name": "Chorizo español", "price": 400},
+      {"name": "Bacon", "price": 500},
+      {"name": "Huevo", "price": 150},
+      {"name": "Mantequilla", "price": 75},
+      {"name": "Agrego de cerdo", "price": 400},
+      {"name": "Atún", "price": 500},
+      {"name": "Vianda frita", "price": 170},
+      {"name": "Mayonesa", "price": 50},
+      {"name": "Tomate", "price": 100},
+      {"name": "Cebolla", "price": 70},
+      {"name": "Pepinillo", "price": 35},
+      {"name": "Pico de gallo", "price": 70},
+      {"name": "Lechuga", "price": 35},
+      {"name": "Piña", "price": 35}
+    ],
+    "desserts": [
+      {"name": "Dulces finos", "price": 1000},
+      {"name": "Bola de helado", "price": 150},
+      {"name": "Copa golosa", "price": 800}
+    ],
+    "drinks": {
+      "water": [
+        {"name": "Agua natural 500 ml", "price": 200}
+      ],
+      "soft_drinks": [
+        {"name": "Refresco importado y nacional", "price": 260},
+        {"name": "Malta", "price": 300},
+        {"name": "Energizantes", "price": 400}
+      ],
+      "juices": [
+        {"name": "Limonada frappe", "price": 600},
+        {"name": "Jugos naturales", "price": 250}
+      ],
+      "smoothie": [
+        {"name": "Batido de fruta", "price": 350}
+      ],
+      "ice_cream_shake": [
+        {"name": "Suero bocatta", "price": 800},
+        {"name": "Suero de helado", "price": 650}
+      ],
+      "alcoholic": [
+        {"name": "Cerveza importada", "price": 280},
+        {"name": "Cerveza nacional", "price": 400},
+        {"name": "Michelada con cerv import", "price": 660},
+        {"name": "Michelada con cerv nacional", "price": 750},
+        {"name": "Chelada", "price": 180},
+        {"name": "Preparado de michelada", "price": 340}
+      ],
+      "coffee": [
+        {"name": "Expresso", "price": 130},
+        {"name": "Capuchino", "price": 225},
+        {"name": "Cortado", "price": 150},
+        {"name": "Americano", "price": 210},
+        {"name": "Frappuccino", "price": 600},
+        {"name": "Café con leche", "price": 275}
+      ]
+    }
+  },
+  "service_charge_percentage": 0
+}

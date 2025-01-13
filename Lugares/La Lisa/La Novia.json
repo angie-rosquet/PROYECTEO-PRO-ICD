@@ -1,0 +1,113 @@
+{
+  "name": "La Novia",
+  "address": "#33013, Calle 51 entre 330 y 332, La Novia del Mediodia",
+  "schedule": {
+    "monday": {"open": "", "close": ""},
+    "tuesday": {"open": "", "close": ""},
+    "wednesday": {"open": "", "close": ""},
+    "thursday": {"open": "", "close": ""},
+    "friday": {"open": "", "close": ""},
+    "saturday": {"open": "", "close": ""},
+    "sunday": {"open": "", "close": ""}
+  },
+  "contacts": {
+    "phone_number": "55861545",
+    "mobile": null,
+    "website": null,
+    "instagram": "@restaurante_lanovia",
+    "facebook": "Restaurante La Novia"
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["Cocina criolla e italiana"],
+  "parking": false,
+  "reservations": true,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": false,
+    "usd_cash": true,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": false,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      {"name": "Croquetas de la casa", "price": 600},
+      {"name": "Frituras de malanga", "price": 400},
+      {"name": "Bolitas de yuca y queso", "price": 350},
+      {"name": "Fajitas de cerdo", "price": 1000},
+      {"name": "Fajitas de pollo", "price": 1000},
+      {"name": "Picadera Mixta", "price": 2200},
+      {"name": "Chips de vianda", "price": 200},
+      {"name": "Milanesa de pollo", "price": 1200},
+      {"name": "Tacos de cerdo", "price": 1100},
+      {"name": "Tacos de pollo", "price": 1100},
+      {"name": "Tacos de jamon y queso", "price": 1100},
+      {"name": "Tacos marineros", "price": 1100},
+      {"name": "Tacos de Ropa Vieja", "price": 1300},
+      {"name": "Tostones criollos", "price": 300},
+      {"name": "Tostones rellenos", "price": 850},
+      {"name": "Sandwich de jamon", "price": 580},
+      {"name": "Sandwich de jamon y queso", "price": 730},
+      {"name": "Sandwich cubano con cerdo asado", "price": 1300},
+      {"name": "Ensaladita de aceitunas, queso y pepperoni", "price": 1100}
+    ],
+    "main_course": [
+      {"name": "Pizza Napolitana", "price": 280},
+      {"name": "Pizza de pepperoni", "price": 400},
+      {"name": "Espaghettis napolitanos", "price": 700},
+      {"name": "Masas de cerdo fritas", "price": 1700},
+      {"name": "Pollo frito", "price": 1300},
+      {"name": "Pollo asado", "price": 1300},
+      {"name": "Bistec de cerdo", "price": 1200},
+      {"name": "Bistec de pechuga", "price": 1600},
+      {"name": "Chuleta de cerdo", "price": 1600},
+      {"name": "Ropa Vieja", "price": 1900},
+      {"name": "Brochetas de cerdo", "price": 1800},
+      {"name": "Completa de enchilado de cangrejo", "price": 1500},
+      {"name": "Cerdo asado", "price": 1500}
+    ],
+    "garrison": [
+      {"name": "Vegetales", "price": 180},
+      {"name": "Jamon", "price": 250},
+      {"name": "Queso", "price": 300},
+      {"name": "Cebolla", "price": 120},
+      {"name": "Cerdo asado", "price": 400},
+      {"name": "Chorizo", "price": 200},
+      {"name": "Pina glaseada", "price": 150},
+      {"name": "Pimientos", "price": 150},
+      {"name": "Huevos", "price": 150},
+      {"name": "Pepperoni", "price": 120},
+      {"name": "Masa de cangrejo", "price": 300}
+    ],
+    "desserts": [
+      {"name": "Copa de helado", "price": 550},
+      {"name": "Flan", "price": 270}
+    ],
+    "drinks": [
+      {"name": "Michelada mexicana", "price": 250},
+      {"name": "Michelada", "price": 230},
+      {"name": "Chelada", "price": 200},
+      {"name": "Sangria", "price": 550},
+      {"name": "Cuba Libre", "price": 250},
+      {"name": "Caipiroska", "price": 300},
+      {"name": "Caipirinha", "price": 300},
+      {"name": "Pina Colada", "price": 550},
+      {"name": "Jarra de cerveza dispensada", "price": 300},
+      {"name": "Agua natural", "price": 150},
+      {"name": "Limonada frappe", "price": 340},
+      {"name": "Limonada natural", "price": 340},
+      {"name": "Jugos naturales", "price": 160},
+      {"name": "Batido de frutas", "price": 350},
+      {"name": "Batido de helado", "price": 700},
+      {"name": "Malta importada", "price": 290},
+      {"name": "Refresco importado", "price": 260},
+      {"name": "Energizante", "price": 260},
+      {"name": "Cerveza importada", "price": 250},
+      {"name": "Cerveza nacional", "price": 290},
+      {"name": "Cafe Expresso", "price": 100},
+      {"name": "Cafe Frappuccino", "price": 450}
+    ]
+  },
+  "service_charge_percentage": 0
+}

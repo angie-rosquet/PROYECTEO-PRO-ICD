@@ -1,0 +1,92 @@
+{
+  "name": "Fonda La Paila",
+  "address": "Calle M e/ 25 y 27, Vedado, Plaza, La Habana",
+  "schedule": {
+    "monday": {"open": "12:00", "close": "24:00"},
+    "tuesday": {"open": "12:00", "close": "24:00"},
+    "wednesday": {"open": "12:00", "close": "24:00"},
+    "thursday": {"open": "12:00", "close": "24:00"},
+    "friday": {"open": "12:00", "close": "24:00"},
+    "saturday": {"open": "12:00", "close": "24:00"},
+    "sunday": {"open": "12:00", "close": "24:00"}
+  },
+  "contacts": {
+    "phone_number": "+5353388837",
+    "mobile": null,
+    "website": "https://fondalapaila.com/",
+    "instagram": "https://www.instagram.com/lapaila_25ym/",
+    "facebook": "https://www.facebook.com/lapaila25ym"
+  },
+  "type_establishment": "Restaurant",
+  "specialty": ["Cuban"],
+  "parking": true,
+  "reservations": true,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": true,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      {"name": "Cesta de Pan", "price": 600},
+      {"name": "Frituras de Malanga", "price": 1000},
+      {"name": "Croquetas de la Casa", "price": 1350},
+      {"name": "Pan con Lechón", "price": 1850},
+      {"name": "Tacos Guajiros", "price": 2200},
+      {"name": "Tacos de Camarón", "price": 2200},
+      {"name": "Tostones 25 y M", "price": 1850},
+      {"name": "Bastones Fritos", "price": 2500},
+      {"name": "Cóctel de Langosta", "price": 2000},
+      {"name": "Cóctel de Camarón", "price": 1900},
+      {"name": "Ceviche Criollo", "price": 2000},
+      {"name": "Charcutería Criolla", "price": 3000},
+      {"name": "Tabla La Paila", "price": 4500},
+      {"name": "Papas Prefritas con Chorizo y Queso", "price": 1500},
+      {"name": "Bastones Fritos de Pescado", "price": 3000},
+      {"name": "Tabla de Jamón Serrano", "price": 3500},
+      {"name": "Tabla de Salmón", "price": 3000}
+    ],
+    "main_course": [
+      {"name": "Arroz con Pollo a la Cubana", "price": 3000},
+      {"name": "Pollo Campestre", "price": 2300},
+      {"name": "Pechuga Grillé", "price": 2500},
+      {"name": "Pechuga Salteada", "price": 2500},
+      {"name": "Ropa Vieja Criolla", "price": 3000},
+      {"name": "Vaca Frita", "price": 3000},
+      {"name": "Masas a la Paila", "price": 3000},
+      {"name": "Chuleta a la Parrilla", "price": 3000},
+      {"name": "Costillas BBQ", "price": 3500},
+      {"name": "Brocheta Criolla", "price": 3000},
+      {"name": "Lonjas de Cerdo", "price": 2850},
+      {"name": "Lomo de Cerdo Mechado", "price": 3300},
+      {"name": "Pescado al Carbón", "price": 3000},
+      {"name": "Pescado Sauté Papillote", "price": 3600},
+      {"name": "Camarón a su Elección", "price": 3500},
+      {"name": "Langosta al Carbón", "price": 3600},
+      {"name": "Langosta Enchilada", "price": 3800},
+      {"name": "Langosta Termidor", "price": 4000},
+      {"name": "Grillada Mixta", "price": 6500},
+      {"name": "Pulpo a su Elección", "price": 4200},
+      {"name": "Grillada del Mar", "price": 5900},
+      {"name": "Grillada de la Tierra", "price": 5800},
+      {"name": "Pasta Frutti di Mare", "price": 3500},
+      {"name": "Lechón Ahumado", "price": 3300}
+    ],
+    "garrison": [],
+    "desserts": [
+      {"name": "helados de crema de fresa", "price": 550},
+      {"name": "tarta de chocolate", "price": 650},
+      {"name": "postre de paila", "price": 750},
+      {"name": "cheescake de fruta", "price": 950},
+      {"name": "flan de la casa", "price": 500},
+      {"name": "copa lolita", "price": 750},
+      {"name": "torrejas de la casa con helado", "price": 500}
+    ],
+    "drinks": []
+  },
+  "service_charge_percentage": 0
+}

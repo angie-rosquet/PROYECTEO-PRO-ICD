@@ -1,0 +1,100 @@
+{
+  "name": "Qbanas 60",
+  "address": "Playa",
+  "schedule": {
+    "monday": {"open": "00:00", "close": "24:00"},
+    "tuesday": {"open": "00:00", "close": "24:00"},
+    "wednesday": {"open": "00:00", "close": "24:00"},
+    "thursday": {"open": "00:00", "close": "24:00"},
+    "friday": {"open": "00:00", "close": "24:00"},
+    "saturday": {"open": "00:00", "close": "24:00"},
+    "sunday": {"open": "00:00", "close": "24:00"}
+  },
+  "contacts": {
+    "phone_number": null,
+    "mobile": null,
+    "website": "https://qbanas60.com",
+    "instagram": "@qbanas.60",
+    "facebook": null
+  },
+  "type_establishment": "bar - restaurante",
+  "specialty": ["americana"],
+  "parking": true,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": false,
+  "power_generator": true,
+  "menu": {
+    "appetizer": [
+      {"name": "bolitas de queso", "price": 800},
+      {"name": "croquetas de pollo", "price": 650},
+      {"name": "frituras de malanga", "price": 500},
+      {"name": "papas fritas", "price": 500},
+      {"name": "papas fritas con bacon y queso", "price": 950}
+    ],
+    "main_course": [
+      {"name": "hamburguesa de cerdo", "price": 1400},
+      {"name": "pizza cubana", "price": 400},
+      {"name": "pizza trufada con tomate asado", "price": 1500},
+      {"name": "pollo chiflado", "price": 1200},
+      {"name": "sandwich de queso", "price": 600},
+      {"name": "huevos rotos", "price": 1500},
+      {"name": "hamburguesa americana", "price": 1700}
+    ],
+    "garrison": [
+      {"name": "cheddar", "price": 300},
+      {"name": "bacon", "price": 500},
+      {"name": "huevo", "price": 300},
+      {"name": "gouda", "price": 300},
+      {"name": "cebolla", "price": 250}
+    ],
+    "desserts": [],
+    "drinks": {
+      "alcoholic": [
+        {"name": "daiquiri", "price": 900},
+        {"name": "old fashion", "price": 1800},
+        {"name": "sangria", "price": 1000},
+        {"name": "servicio de michelada", "price": 600},
+        {"name": "servicio de chelada", "price": 350},
+        {"name": "pina colada", "price": 1000},
+        {"name": "cervezas nacionales", "price": 250},
+        {"name": "cerveza tagu", "price": 250},
+        {"name": "cervezas importadas", "price": 220},
+        {"name": "cervezas importadas", "price": 22000},
+        {"name": "margarita", "price": 900},
+        {"name": "aperol spritz", "price": 1500},
+        {"name": "7años", "price": 500},
+        {"name": "especial", "price": 400},
+        {"name": "red label", "price": 600},
+        {"name": "tequila olmeca", "price": 700},
+        {"name": "tequila don julio", "price": 1500},
+        {"name": "heineken", "price": 400},
+        {"name": "daiquiri de arandano o fresa", "price": 1200},
+        {"name": "mojito", "price": 700},
+        {"name": "gin tonic", "price": 1500},
+        {"name": "caipis", "price": 800},
+        {"name": "cubata", "price": 700}
+      ],
+      "coffee": [
+        {"name": "expresso", "price": 200},
+        {"name": "cortadito", "price": 300},
+        {"name": "capuchino", "price": 350},
+        {"name": "bombon", "price": 500},
+        {"name": "frapuccino", "price": 1200}
+      ]
+    },
+    "special_offers": [
+      {"name": "habanos esplendido", "price": 2000},
+      {"name": "habanos trinidad", "price": 3100},
+      {"name": "ron premium y habanos", "price": 4000},
+      {"name": "6 heineken", "price": 2100}
+    ]
+  },
+  "service_charge_percentage": 0
+}

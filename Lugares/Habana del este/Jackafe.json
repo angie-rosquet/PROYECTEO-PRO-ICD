@@ -1,0 +1,111 @@
+{
+  "name": "Jackafe",
+  "address": "Calle 164B, #3B01, Esquina 3ra B, Mercado de los Rusos, zona 1, Alamar",
+  "schedule": {
+    "monday": {"open": "12:00", "close": "09:00"},
+    "tuesday": {"open": "12:00", "close": "09:00"},
+    "wednesday": {"open": "12:00", "close": "09:00"},
+    "thursday": {"open": "12:00", "close": "09:00"},
+    "friday": {"open": "12:00", "close": "09:00"},
+    "saturday": {"open": "12:00", "close": "09:00"},
+    "sunday": {"open": "12:00", "close": "09:00"}
+  },
+  "contacts": {
+    "phone_number": "77636363",
+    "mobile": null,
+    "website": "JacKafe (Facebook)",
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "Bar-Restaurant",
+  "specialty": ["Comida mixta"],
+  "parking": true,
+  "reservations": true,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": false,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": "Habana del Este, Guanabacoa",
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      {"name": "Croquetas", "price": 360},
+      {"name": "Bolitas de queso", "price": 280},
+      {"name": "Tostones rellenos de chorizo", "price": 940},
+      {"name": "Tostones rellenos de atun", "price": 840},
+      {"name": "Tostones rellenos de jamon", "price": 680},
+      {"name": "Coctel de pescado", "price": 760},
+      {"name": "Coctel de camaron", "price": 780},
+      {"name": "Coctelde langosta", "price": 980},
+      {"name": "Trio de cocteles", "price": 2280},
+      {"name": "Ceviche", "price": 1190},
+      {"name": "Eperlan", "price": 1720},
+      {"name": "Garbanzos fritos", "price": 1680},
+      {"name": "Entremes de la casa", "price": 1920},
+      {"name": "Entremes de jamon serrano", "price": 1350},
+      {"name": "Tabla de quesos", "price": 1820}
+    ],
+    "main_course": [
+      {"name": "Crema de queso", "price": 590},
+      {"name": "Lazana bolonesa", "price": 1690},
+      {"name": "Espaghetti napolitano queso gouda", "price": 840},
+      {"name": "Espaghetti napolitano queso mozarella", "price": 610},
+      {"name": "Espaghetti al aglio y olio", "price": 1240},
+      {"name": "Pizza napolitana queso gouda", "price": 760},
+      {"name": "Pizza napolitana queso mozarella", "price": 610},
+      {"name": "Bistec de cerdo grille", "price": 1620},
+      {"name": "Bistec de cerdo Princesa", "price": 2240},
+      {"name": "Bistec Uruguayo", "price": 2380},
+      {"name": "Cordero al vino tinto", "price": 2730},
+      {"name": "Estofado de res", "price": 3320},
+      {"name": "Filete de pescado grille", "price": 1590},
+      {"name": "Filete de pescado Princesa", "price": 2140},
+      {"name": "Canciller", "price": 2320},
+      {"name": "Pulpo enchilado", "price": 1330},
+      {"name": "Pulpo al ajillo", "price": 1850},
+      {"name": "Langosta grille", "price": 2190},
+      {"name": "Langosta enchilada", "price": 2310},
+      {"name": "Langosta Termidor", "price": 2520}
+    ],
+    "additionals": [
+      {"name": "Champinon", "price": 140},
+      {"name": "Atun", "price": 510},
+      {"name": "Aceitunas", "price": 450},
+      {"name": "Jamon", "price": 250},
+      {"name": "Jamon Serrano", "price": 650},
+      {"name": "Chorizo", "price": 480},
+      {"name": "Queso Gouda", "price": 420},
+      {"name": "Queso Mimolett", "price": 480},
+      {"name": "Queso Azul", "price": 380},
+      {"name": "Pina", "price": 170},
+      {"name": "Salsa de tomate", "price": 150}
+    ],
+    "garrison": [
+      {"name": "Arroz blanco", "price": 180},
+      {"name": "Arroz moro", "price": 250},
+      {"name": "Arroz frito Jackafe", "price": 1480},
+      {"name": "Ensalada de estacion", "price": 250},
+      {"name": "Viandas fritas", "price": 250}
+    ],
+    "drinks": [
+      {"name": "Cerveza importada", "price": 280},
+      {"name": "Cerveza michelada", "price": 100},
+      {"name": "Refresco importado", "price": 330},
+      {"name": "Jugo de caja", "price": 850},
+      {"name": "Energizante", "price": 370},
+      {"name": "Agua natural importada", "price": 260},
+      {"name": "Agua tonica", "price": 720},
+      {"name": "Cafe Expreso", "price": 180},
+      {"name": "Cafe Americano", "price": 180},
+      {"name": "Cafe Cortado", "price": 250},
+      {"name": "Cafe Capuchino", "price": 300},
+      {"name": "Cafe con Ashe", "price": 395},
+      {"name": "Te", "price": 80}
+    ],
+    "desserts": null
+  },
+  "service_charge_percentage": 0
+}

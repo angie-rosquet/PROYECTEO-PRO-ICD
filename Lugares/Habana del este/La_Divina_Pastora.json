@@ -1,0 +1,60 @@
+{
+  "name": "La Divina Pastora",
+  "address": "Complejo Morro Cabana, Via Monumental",
+  "schedule": {
+    "monday": {"open": "12:00", "close": "24:00"},
+    "tuesday": {"open": "12:00", "close": "24:00"},
+    "wednesday": {"open": "12:00", "close": "24:00"},
+    "thursday": {"open": "12:00", "close": "24:00"},
+    "friday": {"open": "12:00", "close": "24:00"},
+    "saturday": {"open": "12:00", "close": "24:00"},
+    "sunday": {"open": "12:00", "close": "24:00"}
+  },
+  "contacts": {
+    "phone_number": "77937809",
+    "mobile": null,
+    "website": "La Divina Pastora (Facebook)",
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "Restaurant",
+  "specialty": ["Comida cubana estilizada (nativa)"],
+  "parking": true,
+  "reservations": true,
+  "payment_methods": {
+    "cash_national": false,
+    "digital_transfer_national": false,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": true
+  },
+  "delivery_areas": null,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      {"name": "Croqueticas La Tasca", "price": 540},
+      {"name": "Deditos de pollo", "price": 540},
+      {"name": "Empanadas Divina Pastora", "price": 1500},
+      {"name": "Fritura de malanga", "price": 540},
+      {"name": "Garbanzo frito", "price": 1620},
+      {"name": "Tablita de salmon ahumado", "price": 1620},
+      {"name": "Pastas fruto del mar", "price": 2100},
+      {"name": "Hamburguesa Pastora", "price": 1080},
+      {"name": "Sandwich Roast Beef", "price": 1620}
+    ],
+    "main_course": [
+      {"name": "Pollo empanado a la parmesana", "price": 1200},
+      {"name": "Filete de pescado", "price": 2300},
+      {"name": "Filete de cerdo", "price": 2040},
+      {"name": "Rollito de cerdo", "price": 1560},
+      {"name": "Filete de res", "price": 2880},
+      {"name": "Estofado de res", "price": 2040},
+      {"name": "Langosta Divina Pastora", "price": 2500}
+    ],
+    "additionals": null,
+    "garrison": null,
+    "drinks": null,
+    "desserts": null
+  },
+  "service_charge_percentage": 0
+}

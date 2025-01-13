@@ -1,0 +1,88 @@
+{
+  "name": "La Mia Pizza",
+  "address": "Avenida 29 entre 202 y 204, La Coronela",
+  "schedule": {
+    "monday": {"open": "10:30", "close": "02:00"},
+    "tuesday": {"open": "10:30", "close": "02:00"},
+    "wednesday": {"open": "10:30", "close": "02:00"},
+    "thursday": {"open": "10:30", "close": "02:00"},
+    "friday": {"open": "10:30", "close": "02:00"},
+    "saturday": {"open": "10:30", "close": "02:00"},
+    "sunday": {"open": "10:30", "close": "02:00"}
+  },
+  "contacts": {
+    "phone_number": "51469744 / 72718614",
+    "mobile": null,
+    "website": null,
+    "instagram": "@lamiapizza_",
+    "facebook": "La Mia Pizza"
+  },
+  "type_establishment": "Cafeteria",
+  "specialty": ["Cocina italiana"],
+  "parking": true,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": false,
+    "usd_cash": true,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": ["La Habana"],
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      {"name": "Entremes de jamon y queso", "price": 1400},
+      {"name": "Entremes de jamon", "price": 500},
+      {"name": "Entremes de ahumados", "price": 440},
+      {"name": "Entremes de aceitunas", "price": 300},
+      {"name": "Dados de queso", "price": 300},
+      {"name": "Croquetas de embutidos", "price": 220},
+      {"name": "Crema de queso", "price": 250},
+      {"name": "Crema Aurora", "price": 300},
+      {"name": "Crema Virginia", "price": 430}
+    ],
+    "main_course": [
+      {"name": "Lasagna de jamon", "price": 500},
+      {"name": "Lasagna de jamon y chorizo", "price": 610},
+      {"name": "Espaghettis napolitanos", "price": 700},
+      {"name": "Espaghettis a la carbonara", "price": 860},
+      {"name": "Pizza Junior napolitana", "price": 350},
+      {"name": "Espaghettis Junior napolitano", "price": 300},
+      {"name": "Combinacion del Menu Peques", "price": 650},
+      {"name": "Pizza Junior La Mia", "price": 1500},
+      {"name": "Pizza napolitana de 32 cm", "price": 700},
+      {"name": "Pizza La Mia de 32 cm", "price": 2500},
+      {"name": "Pizza La Mia de queso de 32 cm", "price": 1900},
+      {"name": "Pizza Tres Quesos de 32 cm", "price": 1700},
+      {"name": "Pizza La Mia Familiar", "price": 4800},
+      {"name": "Pizza La Mia Familiar de queso", "price": 4000},
+      {"name": "Pizza Familiar napolitana", "price": 2500}
+    ],
+    "garrison": [],
+    "desserts": [
+      {"name": "Helado montado (3 bolas)", "price": 350}
+    ],
+    "drinks": [
+      {"name": "Ron Havana Club 3 anos", "price": 175},
+      {"name": "Ron Havana Club 7 anos", "price": 225},
+      {"name": "Pina colada", "price": 250},
+      {"name": "Limonada frappe", "price": 1500},
+      {"name": "Cervezas", "price": 270},
+      {"name": "Refrescos", "price": 220},
+      {"name": "Refrescos de pomo", "price": 280},
+      {"name": "Malta", "price": 250},
+      {"name": "Agua natural", "price": 160},
+      {"name": "Agua saborizada", "price": 170},
+      {"name": "Energizante", "price": 250},
+      {"name": "Michelada", "price": 420},
+      {"name": "Chelada", "price": 340},
+      {"name": "Vodka", "price": 340},
+      {"name": "Whisky", "price": 340},
+      {"name": "Jugos de frutas naturales", "price": 200},
+      {"name": "Batidos de frutas naturales", "price": 250},
+      {"name": "Suero de helado", "price": 350}
+    ]
+  },
+  "service_charge_percentage": 0
+}

@@ -1,0 +1,72 @@
+{
+  "name": "La casa del campesino",
+  "address": "La Lisa",
+  "schedule": {
+    "monday": {"open": "11:00", "close": "23:00"},
+    "tuesday": {"open": "11:00", "close": "23:00"},
+    "wednesday": {"open": "11:00", "close": "23:00"},
+    "thursday": {"open": "11:00", "close": "23:00"},
+    "friday": {"open": "11:00", "close": "23:00"},
+    "saturday": {"open": "11:00", "close": "23:00"},
+    "sunday": {"open": "11:00", "close": "23:00"}
+  },
+  "contacts": {
+    "phone_number": null,
+    "mobile": null,
+    "website": null,
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["Cubana"],
+  "parking": true,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": false,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": false,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      {"name": "Entremes de embuido y queso", "price": 350},
+      {"name": "Ensalada fría", "price": 150},
+      {"name": "Croquetas", "price": 200}
+    ],
+    "main_course": [
+      {"name": "Chuleta de cerdo", "price": 1600},
+      {"name": "Bistec de cerdo", "price": 1350},
+      {"name": "Costilla de cerdo", "price": 1600},
+      {"name": "Pollo asado", "price": 650}
+    ],
+    "garrison": [
+      {"name": "Vianda frita", "price": 120}
+    ],
+    "desserts": [
+      {"name": "Mermelada de mango con queso", "price": 190},
+      {"name": "Fruta en almibar", "price": 160}
+    ],
+    "drinks": {
+      "alcoholic": [
+        {"name": "Cerveza Presidente", "price": 180},
+        {"name": "Cerveza Parranda", "price": 180},
+        {"name": "Cerveza Bucanero", "price": 180},
+        {"name": "Cerveza Moosehead", "price": 180},
+        {"name": "Cerveza Cristal", "price": 180},
+        {"name": "Cerveza Super Bock", "price": 180}
+      ],
+      "water": [
+        {"name": "Agua mineral", "price": 88}
+      ],
+      "soft_drinks": false,
+      "juices": false,
+      "smoothie": false,
+      "ice_cream_shake": false,
+      "coffee": false
+    }
+  },
+  "service_charge_percentage": 0
+}

@@ -1,0 +1,98 @@
+{
+  "name": "MM",
+  "address": "Playa",
+  "schedule": {
+    "monday": {"open": "07:00", "close": "24:00"},
+    "tuesday": {"open": "07:00", "close": "24:00"},
+    "wednesday": {"open": "07:00", "close": "24:00"},
+    "thursday": {"open": "07:00", "close": "24:00"},
+    "friday": {"open": "07:00", "close": "24:00"},
+    "saturday": {"open": "07:00", "close": "24:00"},
+    "sunday": {"open": "07:00", "close": "24:00"}
+  },
+  "contacts": {
+    "phone_number": null,
+    "mobile": "53863911",
+    "website": null,
+    "instagram": "@mm_habana",
+    "facebook": "Pizzeria MM"
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["Italiana"],
+  "parking": true,
+  "reservations": true,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": false,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [],
+    "main_course": [
+      {"name": "pizza marinara", "price": 2000},
+      {"name": "pizza margherita", "price": 2500},
+      {"name": "pizza hawaiana", "price": 3200},
+      {"name": "pizza napoletana", "price": 3300},
+      {"name": "pizza diavola", "price": 3300},
+      {"name": "pizza prosciutto cotto", "price": 3300},
+      {"name": "pizza 4 formaggi", "price": 3500},
+      {"name": "pizza calzone ripieno", "price": 3500},
+      {"name": "pizza salsiccia & funghi", "price": 3800},
+      {"name": "pizza prosciutto crudo & rucola", "price": 4200},
+      {"name": "pizza breadly cooper", "price": 4200},
+      {"name": "pizza mammamia", "price": 5000},
+      {"name": "pizza della nonna", "price": 5200},
+      {"name": "pizza romagnola", "price": 5800},
+      {"name": "carpaccio di manzo", "price": 3200},
+      {"name": "tagliere di salumi & formaggi", "price": 5000},
+      {"name": "tagliata di manzo", "price": 9000},
+      {"name": "re buy black angus (500gr)", "price": 11000},
+      {"name": "grigliata di mare", "price": 14000},
+      {"name": "pasta alla amatriciana", "price": 3200},
+      {"name": "pasta alla carbonara", "price": 3500},
+      {"name": "pasta alla bolognese", "price": 3500},
+      {"name": "lasagna alla bolognese", "price": 3500},
+      {"name": "pasta gamberi & pesto", "price": 3800},
+      {"name": "gnocchi alla sorrentina", "price": 3800},
+      {"name": "gnocchi alla bolognese", "price": 3800},
+      {"name": "gnocchi 4 formaggi", "price": 3800},
+      {"name": "pasta salsiccia & porcini", "price": 5500},
+      {"name": "linguine alla aragosta", "price": 5800},
+      {"name": "gnocchi al pesto", "price": 3200},
+      {"name": "cacio & pepe/alfredo al tavolo", "price": 5000}
+    ],
+    "garrison": [],
+    "desserts": [],
+    "drinks": {
+      "water": false,
+      "soft_drinks": [
+        {"name": "refrescos", "price": 700}
+      ],
+      "juices": [
+        {"name": "jugos natural", "price": 1200}
+      ],
+      "smoothie": false,
+      "ice_cream_shake": false,
+      "alcoholic": [
+        {"name": "cuba libre", "price": 1000},
+        {"name": "daikiri", "price": 1000},
+        {"name": "vodka tonic", "price": 1800},
+        {"name": "gin tonic", "price": 2000},
+        {"name": "margarita", "price": 2200},
+        {"name": "aperol spritz", "price": 2500},
+        {"name": "negroni", "price": 2800},
+        {"name": "cerveza nacional", "price": 900},
+        {"name": "cerveza importada", "price": 1000},
+        {"name": "copa de vino", "price": 1200}
+      ],
+      "coffee": [
+        {"name": "café espresso", "price": 400}
+      ]
+    }
+  },
+  "service_charge_percentage": 0
+}

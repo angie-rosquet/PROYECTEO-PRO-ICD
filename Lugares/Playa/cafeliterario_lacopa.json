@@ -1,0 +1,75 @@
+{
+  "name": "Café literario La Copa",
+  "address": "Playa",
+  "schedule": {
+    "monday": {"open": "09:00", "close": "17:00"},
+    "tuesday": {"open": "09:00", "close": "17:00"},
+    "wednesday": {"open": "09:00", "close": "17:00"},
+    "thursday": {"open": "09:00", "close": "17:00"},
+    "friday": {"open": "09:00", "close": "17:00"},
+    "saturday": {"open": "09:00", "close": "17:00"},
+    "sunday": {"open": "00:00", "close": "00:00"}
+  },
+  "contacts": {
+    "phone_number": null,
+    "mobile": "55094105",
+    "website": null,
+    "instagram": "@cafe.literario.lacopa",
+    "facebook": null
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["Cubana", "Americana"],
+  "parking": false,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": false,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      {"name": "Croquetas con tostadas", "price": 500},
+      {"name": "Papas fritas", "price": 600},
+      {"name": "Hot dog", "price": 600},
+      {"name": "Sandwich de jamón y queso", "price": 700},
+      {"name": "Pan con hamburguesa", "price": 700},
+      {"name": "Croissant de jamón con queso", "price": 800},
+      {"name": "Croissant natural", "price": 500}
+    ],
+    "main_course": [],
+    "garrison": [],
+    "desserts": [
+      {"name": "Copa de helado", "price": 500}
+    ],
+    "drinks": {
+      "water": [
+        {"name": "Agua natural", "price": 120}
+      ],
+      "soft_drinks": [
+        {"name": "Malteada", "price": 500},
+        {"name": "Malta Bucanero", "price": 300},
+        {"name": "Energizante", "price": 230}
+      ],
+      "juices": [
+        {"name": "Jugo de lata", "price": 270}
+      ],
+      "smoothie": [],
+      "ice_cream_shake": [
+        {"name": "Suero helado", "price": 800}
+      ],
+      "alcoholic": [],
+      "coffee": [
+        {"name": "Café expresso", "price": 1500},
+        {"name": "Café cortado", "price": 200},
+        {"name": "Café bombón", "price": 350},
+        {"name": "Capuchino", "price": 400},
+        {"name": "Frapuccino", "price": 500}
+      ]
+    }
+  },
+  "service_charge_percentage": 0
+}

@@ -1,0 +1,95 @@
+{
+  "name": "Pacomeralgo",
+  "address": "La Lisa",
+  "schedule": {
+    "monday": {"open": "10:30", "close": "01:00"},
+    "tuesday": {"open": "10:30", "close": "01:00"},
+    "wednesday": {"open": "10:30", "close": "01:00"},
+    "thursday": {"open": "10:30", "close": "01:00"},
+    "friday": {"open": "10:30", "close": "01:00"},
+    "saturday": {"open": "10:30", "close": "01:00"},
+    "sunday": {"open": "10:30", "close": "01:00"}
+  },
+  "contacts": {
+    "phone_number": null,
+    "mobile": null,
+    "website": null,
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["Italiana"],
+  "parking": false,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": false,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      {"name": "Entremes de jamon y queso", "price": 450},
+      {"name": "Entremes de aceitunas", "price": 300},
+      {"name": "Croquetas", "price": 300},
+      {"name": "Papas fritas", "price": 333},
+      {"name": "Picadera Paco", "price": 850}
+    ],
+    "main_course": [
+      {"name": "Sandwich de queso", "price": 400},
+      {"name": "Sandwich de jamon", "price": 400},
+      {"name": "Sandwich de jamon y queso", "price": 450},
+      {"name": "Sandwich de atun", "price": 450},
+      {"name": "Pan con hamburguesa", "price": 450},
+      {"name": "Lasagna", "price": 615},
+      {"name": "Pizza de queso", "price": 600},
+      {"name": "Pizza de jamon", "price": 770},
+      {"name": "Pizza de chorizo", "price": 770},
+      {"name": "Pizza de cebolla", "price": 750},
+      {"name": "Pizza de aji", "price": 730},
+      {"name": "Pizza de aceituna", "price": 780},
+      {"name": "Pizza hawaiana", "price": 820},
+      {"name": "Pizza de pasas con piña", "price": 730},
+      {"name": "Pizza de atun", "price": 840},
+      {"name": "Pizza Paco", "price": 1000},
+      {"name": "Spaghetti napolitano", "price": 600},
+      {"name": "Spaghetti de jamon", "price": 720},
+      {"name": "Spaghetti de chorizo", "price": 720},
+      {"name": "Spaghetti de atun", "price": 790}
+    ],
+    "garrison": [],
+    "desserts": [],
+    "drinks": {
+      "water": false,
+      "soft_drinks": [
+        {"name": "Refresco de cola", "price": 250},
+        {"name": "Refresco de limon", "price": 250},
+        {"name": "Refresco de naranja", "price": 250},
+        {"name": "Malta", "price": 350},
+        {"name": "Malteada", "price": 650},
+        {"name": "Energizante", "price": 350}
+      ],
+      "juices": [
+        {"name": "Jugo pequeño", "price": 250},
+        {"name": "Jugo grande", "price": 900}
+      ],
+      "smoothie": [
+        {"name": "Yogurt vaso", "price": 200}
+      ],
+      "ice_cream_shake": false,
+      "alcoholic": [
+        {"name": "Cerveza", "price": 250}
+      ],
+      "coffee": [
+        {"name": "Expresso", "price": 150},
+        {"name": "Americano", "price": 150},
+        {"name": "Cortadito", "price": 220},
+        {"name": "Bombon", "price": 350}
+      ]
+    }
+  },
+  "service_charge_percentage": 0
+}

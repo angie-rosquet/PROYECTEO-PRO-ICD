@@ -1,0 +1,105 @@
+{
+  "name": "Aroma de Cafe",
+  "address": "#5106, Calle 244 entre 51 y 61, La Lisa, La Habana, Cuba",
+  "schedule": {
+    "monday": {"open": "12:00", "close": "00:00"},
+    "tuesday": {"open": "12:00", "close": "00:00"},
+    "wednesday": {"open": "12:00", "close": "00:00"},
+    "thursday": {"open": "12:00", "close": "00:00"},
+    "friday": {"open": "12:00", "close": "00:00"},
+    "saturday": {"open": "12:00", "close": "00:00"},
+    "sunday": {"open": "12:00", "close": "00:00"}
+  },
+  "contacts": {
+    "phone_number": "53397639",
+    "mobile": null,
+    "website": null,
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "Cafetería",
+  "specialty": ["Cocina mixta", "Coctelería"],
+  "parking": true,
+  "reservations": true,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": false
+  },
+  "delivery_areas": false,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      {"name": "Nachos con salsa", "price": 200},
+      {"name": "Croquetas", "price": 320},
+      {"name": "Picadera Aroma", "price": 550},
+      {"name": "Tacos mexicanos de pollo", "price": 500},
+      {"name": "Tacos mexicanos de cangrejo", "price": 600},
+      {"name": "Tacos mexicanos de cerdo", "price": 620},
+      {"name": "Tacos mexicanos de ropa vieja", "price": 750},
+      {"name": "Tacos mexicanos de jamon pierna", "price": 750},
+      {"name": "Tostones rellenos con jamon y queso", "price": 380},
+      {"name": "Tostones rellenos con atun", "price": 400},
+      {"name": "Tostones rellenos con ropa vieja", "price": 500},
+      {"name": "Papas fritas", "price": 400}
+    ],
+    "main_course": [
+      {"name": "Sandwich de jamon y queso blanco", "price": 320},
+      {"name": "Sandwich de jamon y queso Gouda", "price": 360},
+      {"name": "Sandwich de jamon", "price": 360},
+      {"name": "Sandwich de queso blanco", "price": 320},
+      {"name": "Sandwich de queso Gouda", "price": 360},
+      {"name": "Sandwich de pollo", "price": 370},
+      {"name": "Sandwich de atun", "price": 480},
+      {"name": "Sandwich Hawaiano con queso blanco", "price": 380},
+      {"name": "Sandwich Hawaiano con queso Gouda", "price": 430},
+      {"name": "Garbanzos fritos", "price": 600},
+      {"name": "Eperlan de pescado", "price": 700},
+      {"name": "Enchilado de cangrejo", "price": 600},
+      {"name": "Fajitas de cerdo", "price": 600},
+      {"name": "Hamburguesa sencilla", "price": 450}
+    ],
+    "garrison": [
+      {"name": "Jamon", "price": 220},
+      {"name": "Queso blanco", "price": 200},
+      {"name": "Queso Gouda", "price": 220},
+      {"name": "Aceitunas", "price": 200},
+      {"name": "Pina", "price": 170},
+      {"name": "Atun", "price": 250}
+    ],
+    "desserts": [
+      {"name": "Donas", "price": 200},
+      {"name": "Helado con galletas", "price": 320},
+      {"name": "Bolas de helado", "price": 140},
+      {"name": "Dulce Aroma", "price": 350}
+    ],
+    "drinks": [
+      {"name": "Cafe Expresso", "price": 100},
+      {"name": "Cappuccino", "price": 150},
+      {"name": "Cafe Cortadito", "price": 120},
+      {"name": "Cafe Moka", "price": 180},
+      {"name": "Cafe Aroma", "price": 180},
+      {"name": "Cafe Carajillo", "price": 110},
+      {"name": "Cafe Especiado", "price": 115},
+      {"name": "Cafe Americano", "price": 110},
+      {"name": "Cafe Bombon", "price": 300},
+      {"name": "Cafe Cremoso", "price": 250},
+      {"name": "Frappuccino", "price": 280},
+      {"name": "Frappuccino Moka", "price": 300},
+      {"name": "Frappuccino Aroma", "price": 300},
+      {"name": "Frappuccino Sorpresa", "price": 350},
+      {"name": "Frappuccino Mousse", "price": 380},
+      {"name": "Cafe Capricho", "price": 350},
+      {"name": "Jugo natural", "price": 100},
+      {"name": "Limonada", "price": 180},
+      {"name": "Batido de chocolate", "price": 280},
+      {"name": "Batido de frutas", "price": 330},
+      {"name": "Batido de helado", "price": 380},
+      {"name": "Batido de helado Plus", "price": 550},
+      {"name": "Malteada", "price": 450}
+    ]
+  },
+  "service_charge_percentage": 0
+}

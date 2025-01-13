@@ -1,0 +1,65 @@
+{
+  "name": "Home Deli",
+  "address": "Playa, La Habana",
+  "schedule": {
+    "monday": {"open": "09:00", "close": "21:00"},
+    "tuesday": {"open": "09:00", "close": "21:00"},
+    "wednesday": {"open": "09:00", "close": "21:00"},
+    "thursday": {"open": "09:00", "close": "21:00"},
+    "friday": {"open": "09:00", "close": "21:00"},
+    "saturday": {"open": "09:00", "close": "21:00"},
+    "sunday": {"open": "09:00", "close": "21:00"}
+  },
+  "contacts": {
+    "phone_number": null,
+    "mobile": "59429273",
+    "website": "https://homedelimercado.com",
+    "instagram": "@homedelicuba",
+    "facebook": "Home Deli"
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["Italiana"],
+  "parking": false,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": true,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      {"name": "Tabla Mixta", "price": null},
+      {"name": "Chips Mariflye", "price": 380},
+      {"name": "Focaccina", "price": 400}
+    ],
+    "main_course": [
+      {"name": "Pizza Margarita", "price": 1900},
+      {"name": "Pizza Baby", "price": 1100},
+      {"name": "Sandwich de Queso Gouda", "price": 1400},
+      {"name": "Sandwich de Jamon Serrano", "price": 1600},
+      {"name": "Sandwich de Chorizo Iberico", "price": 1300},
+      {"name": "Sandwich de Mortadella", "price": 1300},
+      {"name": "Sandwich de Jamon York", "price": 1300}
+    ],
+    "garrison": [],
+    "desserts": [
+      {"name": "Copa de Helado", "price": 950}
+    ],
+    "drinks": [
+      {"name": "Batido de Frutas", "price": 350},
+      {"name": "Batido de Helado", "price": 550},
+      {"name": "Copa de Vino", "price": 600},
+      {"name": "Vaso de Cerveza", "price": 220},
+      {"name": "Jarra de Cerveza", "price": 380},
+      {"name": "Expresso", "price": 250},
+      {"name": "Cortado", "price": 320},
+      {"name": "Americano", "price": 300},
+      {"name": "Con Leche", "price": 450}
+    ]
+  },
+  "service_charge_percentage": 0
+}

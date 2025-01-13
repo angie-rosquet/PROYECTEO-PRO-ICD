@@ -1,0 +1,69 @@
+{
+  "name": "Teniente Rey 360",
+  "address": "Calle Teniente Rey #360 entre Aguacate y Villegas, Habana Vieja",
+  "schedule": {
+    "monday": {"open": "11:00 AM", "close": "9:30 PM"},
+    "tuesday": {"open": "11:00 AM", "close": "9:30 PM"},
+    "wednesday": {"open": "11:00 AM", "close": "9:30 PM"},
+    "thursday": {"open": "11:00 AM", "close": "9:30 PM"},
+    "friday": {"open": "11:00 AM", "close": "9:30 PM"},
+    "saturday": {"open": "11:00 AM", "close": "9:30 PM"},
+    "sunday": {"open": "11:00 AM", "close": "9:30 PM"}
+  },
+  "contacts": {
+    "phone_number": "7 8602916",
+    "mobile": null,
+    "website": null,
+    "instagram": "https://www.instagram.com/teniente_rey360",
+    "facebook": null
+  },
+  "type_establishment": "Bar-Restaurante",
+  "specialty": ["Caribeña", "Latina", "Marisco", "Cubana", "Sudamericana", "Centroamericana"],
+  "parking": null,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": false,
+    "digital_transfer_national": false,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": false,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      {"name": "Surtidos Tte Rey Especialidades", "price": null},
+      {"name": "Croquetas", "price": 400},
+      {"name": "Bolitas de Queso", "price": 500},
+      {"name": "Tostones Rellenos", "price": 600},
+      {"name": "Garbanzos Fritos", "price": 700}
+    ],
+    "main_course": [
+      {"name": "Pechuga de Pollo", "price": 1950},
+      {"name": "Fajitas de Pechuga de Pollo", "price": 2000},
+      {"name": "Ropa Vieja", "price": 2000},
+      {"name": "Picadillo a la Cubana", "price": 1500},
+      {"name": "Masas de Cerdo", "price": 1700},
+      {"name": "Fricase de Cerdo", "price": 1750},
+      {"name": "Solomillo", "price": 1900}
+    ],
+    "garrison": [
+      {"name": "Arroz", "price": 200},
+      {"name": "Chatinos", "price": 300},
+      {"name": "Yuca", "price": 200}
+    ],
+    "desserts": [],
+    "drinks": [
+      {"name": "Refrescos Nacionales", "price": 380},
+      {"name": "Refrescos Importados", "price": 420},
+      {"name": "Malta Nacional", "price": 420},
+      {"name": "Agua Natural Nacional", "price": 250},
+      {"name": "Kermato", "price": 500},
+      {"name": "Agua Tónica", "price": 450},
+      {"name": "Cerveza Nacional Lata", "price": 360},
+      {"name": "Cerveza Nacional Botella", "price": 460},
+      {"name": "Cerveza Importada", "price": 460}
+    ]
+  },
+  "service_charge_percentage": 10
+}             

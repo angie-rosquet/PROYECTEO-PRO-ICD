@@ -1,0 +1,93 @@
+{
+  "name": "Pechatniky",
+  "address": "Distrito Playa",
+  "schedule": {
+    "monday": {"open": "00:00", "close": "24:00"},
+    "tuesday": {"open": "00:00", "close": "24:00"},
+    "wednesday": {"open": "00:00", "close": "24:00"},
+    "thursday": {"open": "00:00", "close": "24:00"},
+    "friday": {"open": "00:00", "close": "24:00"},
+    "saturday": {"open": "00:00", "close": "24:00"},
+    "sunday": {"open": "00:00", "close": "24:00"}
+  },
+  "contacts": {
+    "phone_number": null,
+    "mobile": "50365341",
+    "website": null,
+    "instagram": "@pechatniky",
+    "facebook": "Pechatniky"
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["Internacional"],
+  "parking": true,
+  "reservations": true,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": false,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      {"name": "Croquetas de la casa", "price": 950},
+      {"name": "Frituras de malanga", "price": 820},
+      {"name": "Fajitas de pollo", "price": 950},
+      {"name": "Tostones rellenos", "price": 700},
+      {"name": "Garbanzo", "price": 1000},
+      {"name": "Papas fritas", "price": 800},
+      {"name": "Picadera Pechatniky", "price": 2900}
+    ],
+    "main_course": [
+      {"name": "Pollo", "price": 1050},
+      {"name": "Arroz frito", "price": 1500},
+      {"name": "Mariscos", "price": 3000},
+      {"name": "Cerdo", "price": 1800},
+      {"name": "Vegetales salteados al carbón", "price": 900},
+      {"name": "Ensalada de vegetales", "price": 700},
+      {"name": "Baguette de atún", "price": 950},
+      {"name": "Baguette jamón y queso", "price": 750},
+      {"name": "Baguette de pollo", "price": 780},
+      {"name": "Hamburguesa clásica", "price": 750},
+      {"name": "Pizza", "price": 1050},
+      {"name": "Pastas", "price": 1300},
+      {"name": "Pelmeni", "price": 1100},
+      {"name": "Shawarma", "price": 1000}
+    ],
+    "garrison": [
+      {"name": "Jamon", "price": 250},
+      {"name": "Queso", "price": 300},
+      {"name": "Pollo", "price": 350},
+      {"name": "Huevo", "price": 300},
+      {"name": "Atún", "price": 500}
+    ],
+    "desserts": [
+      {"name": "Copa 2 bolas", "price": 320},
+      {"name": "Copa 3 bolas", "price": 380},
+      {"name": "Tarta Pechatniky", "price": 590}
+    ],
+    "drinks": [
+      {"name": "Agua natural", "price": 170},
+      {"name": "Refresco importado", "price": 350},
+      {"name": "Refresco nacional", "price": 250},
+      {"name": "Malta", "price": 330},
+      {"name": "Malteda", "price": 420},
+      {"name": "Energizantes", "price": 350},
+      {"name": "Jugo natural", "price": 280},
+      {"name": "Jugo de lata", "price": 350},
+      {"name": "Batidos de frutas", "price": 470},
+      {"name": "Batidos de helado", "price": 550},
+      {"name": "Cerveza nacional", "price": 350},
+      {"name": "Cerveza importada", "price": 290},
+      {"name": "Expreso", "price": 200},
+      {"name": "Cortado", "price": 280},
+      {"name": "Capuchino", "price": 350},
+      {"name": "Americano", "price": 200},
+      {"name": "Pechatniky", "price": 680},
+      {"name": "Té o infusión", "price": 180}
+    ]
+  },
+  "service_charge_percentage": 0
+}

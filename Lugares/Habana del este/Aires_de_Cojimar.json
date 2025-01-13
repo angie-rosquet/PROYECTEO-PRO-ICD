@@ -1,0 +1,89 @@
+{
+  "name": "Aires de Cojimar",
+  "address": "Pezuela #3e05 entre RUA y Espartero, Cojimar",
+  "schedule": {
+    "monday": {"open": "12:00", "close": "00:00"},
+    "tuesday": {"open": "12:00", "close": "00:00"},
+    "wednesday": {"open": "12:00", "close": "00:00"},
+    "thursday": {"open": "12:00", "close": "00:00"},
+    "friday": {"open": "12:00", "close": "00:00"},
+    "saturday": {"open": "12:00", "close": "00:00"},
+    "sunday": {"open": "12:00", "close": "00:00"}
+  },
+  "contacts": {
+    "phone_number": "77666890",
+    "mobile": "58385050",
+    "website": null,
+    "instagram": "@aires_decojimar",
+    "facebook": "Aires de Cojimar"
+  },
+  "type_establishment": "Bar-Restaurante",
+  "specialty": ["Comida mixta"],
+  "parking": true,
+  "reservations": true,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": false,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": false,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      {"name": "Coctel de pescado", "price": 550},
+      {"name": "Ensalada mixta", "price": 400},
+      {"name": "Picadera mixta", "price": 1200},
+      {"name": "Coctel Bella Mar", "price": 750},
+      {"name": "Ceviche Aires de Cojimar", "price": 850},
+      {"name": "Lomo de pescado en escabeche", "price": 950},
+      {"name": "Bolitas de queso", "price": 550},
+      {"name": "Eperlan", "price": 950},
+      {"name": "Frituras de malanga", "price": 550},
+      {"name": "Tapas caprichosas", "price": 425},
+      {"name": "Surtido de croquetas", "price": 450},
+      {"name": "Tostones al ajo", "price": 350},
+      {"name": "Sopon de mariscos", "price": 750},
+      {"name": "Sopa de pollo y vegetales", "price": 550},
+      {"name": "Crema de calabaza y queso", "price": 500},
+      {"name": "Crema de queso", "price": 500},
+      {"name": "Crema de mariscos", "price": 600}
+    ],
+    "main_course": [
+      {"name": "Costillas de cerdo fritas", "price": 1950},
+      {"name": "Arroz con camarones", "price": 1450},
+      {"name": "Milanesa a la napolitana", "price": 1450},
+      {"name": "Uruguayo de cerdo", "price": 1750},
+      {"name": "Camaron al ajillo", "price": 1550},
+      {"name": "Langosta Varadero", "price": 1950},
+      {"name": "Langosta Busito", "price": 2000},
+      {"name": "Langosta Aires de Cojimar", "price": 5500},
+      {"name": "Pulpo al vino tinto", "price": 2850},
+      {"name": "Pulpo al ajillo", "price": 2850},
+      {"name": "Filete de pescado grille", "price": 1250},
+      {"name": "Filete de pescado en salsa de romero y limon", "price": 1350},
+      {"name": "Filete de pescado con camarones al graten", "price": 1650},
+      {"name": "Filete de pescado Canciller", "price": 1650},
+      {"name": "Camarones tropicales", "price": 1550},
+      {"name": "Enchilado de camarones", "price": 1450},
+      {"name": "Camarones al sesamo", "price": 1450},
+      {"name": "Caldereta Dona Blanca", "price": 3500},
+      {"name": "Dados de cerdo a la cojimera", "price": 1400},
+      {"name": "Bistec de cerdo al mojo criollo", "price": 1400},
+      {"name": "Pollo con camarones al graten", "price": 1450},
+      {"name": "Pollo Hawaiano", "price": 1150},
+      {"name": "Sabor del cielo", "price": 1550}
+    ],
+    "garrison": [
+      {"name": "Ensalada mixta", "price": 400}
+    ],
+    "drinks": [
+      null
+    ],
+    "desserts": [
+      {"name": "Dulces finos", "price": 450}
+    ]
+  },
+  "service_charge_percentage": 0
+}

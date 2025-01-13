@@ -1,0 +1,113 @@
+{
+  "name": "Antojos",
+  "address": "Callejón Espada entre Cuarteles y Chacon, Habana Vieja",
+  "schedule": {
+    "monday": {"open": "Closed", "close": "Closed"},
+    "tuesday": {"open": "11:00 AM", "close": "12:00 AM"},
+    "wednesday": {"open": "11:00 AM", "close": "12:00 AM"},
+    "thursday": {"open": "11:00 AM", "close": "12:00 AM"},
+    "friday": {"open": "11:00 AM", "close": "12:00 AM"},
+    "saturday": {"open": "11:00 AM", "close": "12:00 AM"},
+    "sunday": {"open": "11:00 AM", "close": "12:00 AM"}
+  },
+  "contacts": {
+    "phone_number": "+53 5 282 4907",
+    "mobile": null,
+    "website": null,
+    "instagram": "@Antojos",
+    "facebook": ""
+  },
+  "type_establishment": "Restaurante, Bar",
+  "specialty": ["Caribeña", "Latina", "Cubana", "Centroamericana"],
+  "parking": "Es difícil encontrar espacio",
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": true,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      {"name": "Fritura de Temporada", "price": 950},
+      {"name": "Croquetas de la Casa", "price": 1700},
+      {"name": "Tostones Campesinos", "price": 750},
+      {"name": "Caldosa Guajira", "price": 1400},
+      {"name": "Tacos", "price": 2700}
+    ],
+    "main_course": [
+      {"name": "Trozos de Pollo a la Mantequilla", "price": 2950},
+      {"name": "Ropa Vieja con Platanitos Maduros", "price": 3150},
+      {"name": "Ensalada Campesina", "price": 1800},
+      {"name": "Costillas de Cerdo Barbacoa", "price": 4300},
+      {"name": "Arroz a la Chorrera (2 PAX)", "price": 3500},
+      {"name": "Picadillo a la Habanera", "price": 2930},
+      {"name": "Masas de Cerdo Frita", "price": 3800},
+      {"name": "Camarones al Gusto", "price": 3900},
+      {"name": "Pollo Grillé", "price": 2950},
+      {"name": "Pesca al Carbón", "price": 3950},
+      {"name": "Pinchos Antojos", "price": 3700},
+      {"name": "Lomo al Carbón", "price": 4500},
+      {"name": "Bistec de Cerdo Encebollado", "price": 3550}
+    ],
+    "garrison": [
+      {"name": "Vianda Frita", "price": 800},
+      {"name": "Potaje", "price": 950},
+      {"name": "Arroz Blanco", "price": 800},
+      {"name": "Pan Artesanal", "price": 1050},
+      {"name": "Vegetales al Carbón", "price": 1250},
+      {"name": "Crema de Malanga", "price": 1400}
+    ],
+    "desserts": [
+      {"name": "Postres de la Casa", "price": 950}
+    ],
+    "drinks": [
+      {"name": "Aguas Naturales", "price": 650},
+      {"name": "Mojito Antojos", "price": 1280},
+      {"name": "Aguas Tónicas", "price": 750},
+      {"name": "Ron Collins", "price": 1180},
+      {"name": "Refrescos", "price": 650},
+      {"name": "Piña Colada", "price": 1630},
+      {"name": "Red Bull", "price": 850},
+      {"name": "Cuba Libre", "price": 1230},
+      {"name": "Jugos Naturales", "price": 750},
+      {"name": "Cubata", "price": 1230},
+      {"name": "Cubanito", "price": 1380},
+      {"name": "Limonada", "price": 900},
+      {"name": "Canchánchara", "price": 1150},
+      {"name": "Cerveza", "price": 800},
+      {"name": "Daiquirí", "price": 1250},
+      {"name": "Vino Blanco (Copa)", "price": 1400},
+      {"name": "Havana Special", "price": 1180},
+      {"name": "Vino Tinto (Copa)", "price": 1450},
+      {"name": "Gin Tonic", "price": 1450},
+      {"name": "Bloody Mary", "price": 1500},
+      {"name": "Negroni", "price": 1550},
+      {"name": "Martini", "price": 1500},
+      {"name": "Caipiroska", "price": 1250},
+      {"name": "Screwdriver", "price": 1200},
+      {"name": "Margarita", "price": 1380},
+      {"name": "Mary Pickford", "price": 1150},
+      {"name": "Chelada", "price": 900},
+      {"name": "Michelada", "price": 1100},
+      {"name": "Michelada de la Casa", "price": 1200}
+    ],
+    "coffee": [
+      {"name": "Café Americano", "price": 400},
+      {"name": "Café Expresso", "price": 400},
+      {"name": "Café Cortado", "price": 430},
+      {"name": "Café con Leche", "price": 500},
+      {"name": "Café Capuchino", "price": 500},
+      {"name": "Café Bombón", "price": 550},
+      {"name": "Frapuchino", "price": 900}
+    ],
+    "others": [
+      {"name": "Arroz / Rice", "price": 0},
+      {"name": "Potaje / Bean Soup", "price": 0}
+    ]
+  },
+  "service_charge_percentage": 10
+}

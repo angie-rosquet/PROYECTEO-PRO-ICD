@@ -1,0 +1,151 @@
+{
+  "name": "Luly Bar Café",
+  "address": "Playa",
+  "schedule": {
+    "monday": {"open": "08:00", "close": "22:00"},
+    "tuesday": {"open": "08:00", "close": "22:00"},
+    "wednesday": {"open": "08:00", "close": "22:00"},
+    "thursday": {"open": "08:00", "close": "22:00"},
+    "friday": {"open": "08:00", "close": "22:00"},
+    "saturday": {"open": "08:00", "close": "22:00"},
+    "sunday": {"open": "08:00", "close": "22:00"}
+  },
+  "contacts": {
+    "phone_number": null,
+    "mobile": "52921929",
+    "website": null,
+    "instagram": "@lulybarcafe_",
+    "facebook": null
+  },
+  "type_establishment": "bar - restaurante",
+  "specialty": ["internacional"],
+  "parking": true,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": false,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      {"name": "croquetas de pollo", "price": 1100},
+      {"name": "croquetones de serrano", "price": 1500},
+      {"name": "croquetones de pescado", "price": 1300},
+      {"name": "empanaditas de cerdo", "price": 1000},
+      {"name": "pañuelo de carbonara", "price": 900},
+      {"name": "montaditos", "price": 500},
+      {"name": "provolone y serrano", "price": 1400},
+      {"name": "tamal en cazuela", "price": 1000},
+      {"name": "pimientos piquillo rellenos de atún", "price": 1600},
+      {"name": "tapas de tumaca", "price": 700},
+      {"name": "tapas de serrano", "price": 1500},
+      {"name": "tapas de jamón de pavo", "price": 1100},
+      {"name": "tapas de jamón st dalmai", "price": 1000},
+      {"name": "tapas de salmón", "price": 1900},
+      {"name": "tapas de salchichón ibérico", "price": 1300},
+      {"name": "tapas de chorizo ibérico", "price": 1300},
+      {"name": "tapas de chorizo cular", "price": 1100},
+      {"name": "tapas de queso azul", "price": 900},
+      {"name": "croissant", "price": 350},
+      {"name": "donuts", "price": 450},
+      {"name": "cesta de pan", "price": 600},
+      {"name": "feria de quesos", "price": 2200},
+      {"name": "feria de embutidos", "price": 3000},
+      {"name": "el verdadero remix", "price": 2250},
+      {"name": "lecho fresco de vegetales", "price": 850}
+    ],
+    "main_course": [
+      {"name": "baguette jamón st dalmai", "price": 1300},
+      {"name": "baguette queso gouda", "price": 1200},
+      {"name": "baguette jamón st dalmai y queso gouda", "price": 1400},
+      {"name": "baguette serrano", "price": 2000},
+      {"name": "baguette jamón de pavo", "price": 1500},
+      {"name": "baguette salmón", "price": 2200},
+      {"name": "bocadito jamón st dalmai", "price": 600},
+      {"name": "bocadito queso gouda", "price": 600},
+      {"name": "bocadito jamón st dalmai y queso gouda", "price": 800},
+      {"name": "emparedado de huevo", "price": 1100},
+      {"name": "emparedado de atún", "price": 1200},
+      {"name": "pan con lechón", "price": 1600}
+    ],
+    "garrison": [
+      {"name": "nutella", "price": 250},
+      {"name": "almendras", "price": 160},
+      {"name": "chia", "price": 50},
+      {"name": "mantequilla", "price": 100},
+      {"name": "serrano", "price": 675},
+      {"name": "jamón de pavo", "price": 450},
+      {"name": "jamón st dalmai", "price": 400},
+      {"name": "salmón", "price": 700},
+      {"name": "salchichón ibérico", "price": 610},
+      {"name": "chorizo ibérico", "price": 500},
+      {"name": "chorizo cular", "price": 500},
+      {"name": "queso manchego", "price": 500},
+      {"name": "queso azul", "price": 500},
+      {"name": "queso provolone", "price": 450},
+      {"name": "queso feta", "price": 500},
+      {"name": "queso edam", "price": 375},
+      {"name": "queso gouda", "price": 350},
+      {"name": "huevo", "price": 160},
+      {"name": "aceitunas", "price": 800},
+      {"name": "lechón asado", "price": 1000}
+    ],
+    "desserts": [
+      {"name": "casquitos de guayaba con queso", "price": 500},
+      {"name": "pudin", "price": 250},
+      {"name": "mermelada con queso", "price": 300},
+      {"name": "mini muffin", "price": 300},
+      {"name": "muffin fusión", "price": 500},
+      {"name": "waffle", "price": 600},
+      {"name": "pop waffle", "price": 900}
+    ],
+    "drinks": {
+      "water": [
+        {"name": "agua cm", "price": 250},
+        {"name": "agua san benedetto natural", "price": 1000},
+        {"name": "agua san benedetto gaseada", "price": 1100}
+      ],
+      "soft_drinks": [
+        {"name": "tónica shweppes", "price": 1000},
+        {"name": "tukola", "price": 300},
+        {"name": "pepsi", "price": 350},
+        {"name": "malta", "price": 280},
+        {"name": "granizado", "price": 60}
+      ],
+      "juices": [
+        {"name": "jugo cajita", "price": 250},
+        {"name": "jugo natural", "price": 500},
+        {"name": "jugo verde", "price": 600},
+        {"name": "limonada", "price": 500}
+      ],
+      "smoothie": [
+        {"name": "batido de frutas naturales", "price": 700},
+        {"name": "smoothie", "price": 700}
+      ],
+      "ice_cream_shake": [
+        {"name": "batido de chocolate", "price": 800},
+        {"name": "batido de proteína", "price": 1000}
+      ],
+      "alcoholic": [
+        {"name": "cristal", "price": 450},
+        {"name": "bucanero", "price": 450},
+        {"name": "corona", "price": 600},
+        {"name": "cruzcampo", "price": 400},
+        {"name": "michelada", "price": 450},
+        {"name": "copa de campoviejo tempranillo tinto", "price": 1000},
+        {"name": "botella de campoviejo tempranillo tinto", "price": 4700},
+        {"name": "copa campoviejo tempranillo blanco", "price": 900},
+        {"name": "botella campoviejo tempranillo blanco", "price": 4200},
+        {"name": "havana club 7 años", "price": 850},
+        {"name": "havana club 3 años", "price": 400},
+        {"name": "havana club profundo", "price": 250},
+        {"name": "santiago añejo 8 años", "price": 1000},
+        {"name": "santiago añejo 12 años", "price": 1500}
+      ]
+    }
+  }
+}

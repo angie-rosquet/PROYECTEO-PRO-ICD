@@ -1,0 +1,68 @@
+{
+  "name": "La yaya",
+  "address": "100 Y 51",
+  "schedule": {
+    "monday": {"open": "11:00", "close": "11:00"},
+    "tuesday": {"open": "11:00", "close": "11:00"},
+    "wednesday": {"open": "11:00", "close": "11:00"},
+    "thursday": {"open": "11:00", "close": "11:00"},
+    "friday": {"open": "12:00", "close": "00:00"},
+    "saturday": {"open": "12:00", "close": "00:00"},
+    "sunday": {"open": "12:00", "close": "00:00"}
+  },
+  "contacts": {
+    "phone_number": "52016522",
+    "mobile": null,
+    "website": null,
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["Variada"],
+  "parking": true,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": false,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      {"name": "Superpicadera", "price": 2500},
+      {"name": "Tostones rellenos", "price": 600},
+      {"name": "Frituras de malanga", "price": 500},
+      {"name": "Papas fritas", "price": 500},
+      {"name": "Croquetas", "price": 600}
+    ],
+    "main_course": [
+      {"name": "Spaguettis con queso gouda", "price": 700},
+      {"name": "Spaguettis doble queso", "price": 1000},
+      {"name": "Pizza napolitana", "price": 1000},
+      {"name": "Pizza doble queso", "price": 1300},
+      {"name": "Pizza de jamon", "price": 1350},
+      {"name": "Fajitas de pollo con papa", "price": 900}
+    ],
+    "garrison": [
+      {"name": "Jamon", "price": 260},
+      {"name": "Queso", "price": 260},
+      {"name": "Salami", "price": 200}
+    ],
+    "desserts": [
+      {"name": "Helados gusto", "price": 1000}
+    ],
+    "drinks": [
+      {"name": "Refrescos Importados", "price": 250},
+      {"name": "Cervezas importadas", "price": 250},
+      {"name": "Jugo de lata", "price": 280},
+      {"name": "Jugos caja", "price": 650},
+      {"name": "Malta Santa Isabel", "price": 280},
+      {"name": "Cerveza Cubelazo", "price": 2700},
+      {"name": "Termo de cerveza", "price": 2000}
+    ]
+  },
+  "service_charge_percentage": 0
+}

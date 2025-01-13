@@ -1,0 +1,83 @@
+{
+    "name": "Beer para creer",
+    "address": "Centro comercial Falcon, Alamar",
+    "schedule": {
+      "monday": {"open": "10:00", "close": "21:00"},
+      "tuesday": {"open": "10:00", "close": "21:00"},
+      "wednesday": {"open": "10:00", "close": "21:00"},
+      "thursday": {"open": "10:00", "close": "21:00"},
+      "friday": {"open": "10:00", "close": "21:00"},
+      "saturday": {"open": "10:00", "close": "21:00"},
+      "sunday": {"open": "10:00", "close": "21:00"}
+    },
+    "contacts": {
+      "phone_number": null,
+      "mobile": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null
+    },
+    "type_establishment": "Bar-Cafeteria",
+    "specialty": ["Comida mixta"],
+    "parking": true,
+    "reservations": false,
+    "payment_methods": {
+      "cash_national": true,
+      "digital_transfer_national": false,
+      "usd_cash": true,
+      "usd_transfer": false,
+      "mlc": false
+    },
+    "delivery_areas": false,
+    "power_generator": false,
+    "menu": {
+      "appetizer": [
+        {"name": "Hamurguesa simple", "price": 450},
+        {"name": "Hamburguesa especial", "price": 550},
+        {"name": "Sandwich pinareno", "price": 900},
+        {"name": "Croquetas del Chef", "price": 650},
+        {"name": "Pan con lechon", "price": 350},
+        {"name": "Sandwish cubano con lechon", "price": 950}
+      ],
+      "main_course": [
+        {"name": "Fajitas de pollo", "price": 850},
+        {"name": "Spaghettis napolitanos", "price": 520},
+        {"name": "Arroz frito", "price": 800},
+        {"name": "Masas de cerdo fritas", "price": 1350},
+        {"name": "Ropa vieja de cerdo", "price": 1400},
+        {"name": "Fricase de cerdo", "price": 1400},
+        {"name": "Bistec de cerdo grille", "price": 850},
+        {"name": "Bistec de cerdo Princesa", "price": 1100},
+        {"name": "Milanesa de cerdo", "price": 1100},
+        {"name": "Envoltino de cerdo", "price": 1250},
+        {"name": "Lomo ahumado", "price": 1000},
+        {"name": "Lonjas de cerdo asadas al carbon", "price": 1300},
+        {"name": "Uruguayo de cerdo", "price": 1150},
+        {"name": "Escalope de cerdo", "price": 950},
+        {"name": "Gordon Blue de cerdo", "price": 1250},
+        {"name": "Bistec de pollo grille", "price": 850},
+        {"name": "Bistec de pollo gratinado", "price": 1200},
+        {"name": "Fricase de pollo", "price": 1400},
+        {"name": "Arroz a la chorrera", "price": 1400},
+        {"name": "Pollo chiflado", "price": 850},
+        {"name": "Pizza de queso blanco", "price": 160},
+        {"name": "Pizza de queso gouda", "price": 250}
+      ],
+      "additionals": [
+        {"name": "Jamon", "price": 100},
+        {"name": "Queso blanco", "price": 80},
+        {"name": "Cebolla", "price": 120},
+        {"name": "Chorizo", "price": 100}
+      ],
+      "garrison": [
+        {"name": "Arroz blanco", "price": 250},
+        {"name": "Arroz moro", "price": 180},
+        {"name": "Vianda frita", "price": 100},
+        {"name": "Ensalada de vegetales", "price": 80}
+      ],
+      "drinks": null,
+      "desserts": null
+    },
+    "service_charge_percentage": 0
+  }
+  

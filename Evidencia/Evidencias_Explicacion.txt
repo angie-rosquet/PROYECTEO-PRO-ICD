@@ -1,0 +1,8 @@
+Para el proyecto se necesito recopilar la información de los bares y restaurantes de La Habana, dicha información se encuentra en el repositorio común, de igual manera en esta carpeta se encuentran algunas evidencias que personalmente recopilé.
+
+Además, para los salarios de los cubanos, utilicé la gaceta oficial publicada en directorio cubano, publicada en 2020 acerca de los nuevos salarios en Cuba, tal vez algunos salarios hayan cambiado, pero los salarios básicos siguen siendo los mismos.
+
+Para la información de los salarios de otros países y cuanto cuesta una cena en otros lugares elegí un restaurante de renombre de cada uno de los países.
+
+sitios:
+

@@ -1,0 +1,99 @@
+{
+  "name": "Villarino",
+  "address": "Playa",
+  "schedule": {
+    "monday": {"open": "12:00", "close": "22:00"},
+    "tuesday": {"open": "12:00", "close": "22:00"},
+    "wednesday": {"open": "12:00", "close": "22:00"},
+    "thursday": {"open": "12:00", "close": "22:00"},
+    "friday": {"open": "12:00", "close": "22:00"},
+    "saturday": {"open": "12:00", "close": "22:00"},
+    "sunday": {"open": "12:00", "close": "22:00"}
+  },
+  "contacts": {
+    "phone_number": "72077867",
+    "mobile": "59889447",
+    "website": "http://linktr.ee/restaurantevillarino",
+    "instagram": "@villarino.restaurantehabana",
+    "facebook": "Restaurante Club Villarino"
+  },
+  "type_establishment": "Bar - Restaurante",
+  "specialty": ["Criolla", "Italiana"],
+  "parking": true,
+  "reservations": true,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": true,
+  "power_generator": true,
+  "menu": {
+    "appetizer": [
+      {"name": "Crujientes de yuca con aderezo agridulce", "price": 480},
+      {"name": "Croquetas de la casa", "price": 520},
+      {"name": "Bolitas de queso crujientes", "price": 720},
+      {"name": "Sandwich clásico", "price": 520},
+      {"name": "Eperlan de pescado", "price": 720},
+      {"name": "Fajitas de pollo", "price": 680},
+      {"name": "Cazuelita de garbanzos a la criolla", "price": 680}
+    ],
+    "main_course": [
+      {"name": "Arroz con pollo a la campesina", "price": 800},
+      {"name": "Arroz frito especial", "price": 800},
+      {"name": "Risotto", "price": 2250},
+      {"name": "Pizza napolitana", "price": 700},
+      {"name": "Pizza cebolla", "price": 750},
+      {"name": "Pizza chorizo", "price": 780},
+      {"name": "Pizza doble queso", "price": 950},
+      {"name": "Pizza jamón", "price": 800},
+      {"name": "Pizza vegetales", "price": 800},
+      {"name": "Pizza hawaiana", "price": 880},
+      {"name": "Pizza de pollo", "price": 800},
+      {"name": "Pizza del mar", "price": 1200},
+      {"name": "Pizza de atún", "price": 950},
+      {"name": "Pizza de ropa vieja", "price": 950},
+      {"name": "Pizza de camarones", "price": 1200},
+      {"name": "Pizza al gusto", "price": 1000},
+      {"name": "Pasta de queso", "price": 850},
+      {"name": "Pasta de jamón", "price": 920},
+      {"name": "Pasta de chorizo", "price": 880},
+      {"name": "Pasta carbonara", "price": 950},
+      {"name": "Pasta Villarino", "price": 1200},
+      {"name": "Lasagna de carne", "price": 850}
+    ],
+    "garrison": [],
+    "desserts": [],
+    "drinks": {
+      "water": [
+        {"name": "Agua natural", "price": 150},
+        {"name": "Agua tónica", "price": 300}
+      ],
+      "soft_drinks": [
+        {"name": "Malta importada", "price": 280},
+        {"name": "Malteada", "price": 480},
+        {"name": "Red Bull", "price": 220},
+        {"name": "Refrescos nacionales", "price": 220},
+        {"name": "Refrescos importados", "price": 235}
+      ],
+      "juices": [
+        {"name": "Limonada frappe", "price": 200},
+        {"name": "Jugos naturales", "price": 180},
+        {"name": "Jugos importados", "price": 210}
+      ],
+      "smoothie": [],
+      "ice_cream_shake": [],
+      "alcoholic": [
+        {"name": "Cócteles nacionales", "price": 475},
+        {"name": "Cócteles internacionales", "price": 550},
+        {"name": "Copa de vino", "price": 350},
+        {"name": "Cervezas nacionales (Cristal/Bucanero)", "price": 260},
+        {"name": "Cervezas importadas", "price": 380}
+      ],
+      "coffee": []
+    }
+  },
+  "service_charge_percentage": 0
+}

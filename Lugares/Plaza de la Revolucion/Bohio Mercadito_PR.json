@@ -1,0 +1,57 @@
+{
+  "name": "Bohío_Mercadito",
+  "address": "4HVX+3WQ, y C, Vedado, La, Malecón, La Habana",
+  "schedule": {
+    "monday": {"open": "10:00", "close": "21:00"},
+    "tuesday": {"open": "10:00", "close": "21:00"},
+    "wednesday": {"open": "10:00", "close": "21:00"},
+    "thursday": {"open": "10:00", "close": "21:00"},
+    "friday": {"open": "10:00", "close": "21:00"},
+    "saturday": {"open": "10:00", "close": "21:00"},
+    "sunday": {"open": "10:00", "close": "21:00"}
+  },
+  "contacts": {
+    "phone_number": null,
+    "mobile": null,
+    "website": "URL del sitio web",
+    "instagram": "@BohioMercadito",
+    "facebook": "URL de la página de Facebook"
+  },
+  "type_establishment": "Bar",
+  "specialty": ["Americana"],
+  "parking": true,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": true,
+  "power_generator": true,
+  "menu": {
+    "appetizer": [
+      {"name": "Baguette Jamón y Queso", "price": 700},
+      {"name": "Croissant Nutella", "price": 800},
+      {"name": "Croissant Jamón y Queso", "price": 900},
+      {"name": "Mini Croissants Chocolate", "price": 150},
+      {"name": "Dona Chocolate", "price": 250}
+    ],
+    "main_course": [],
+    "garrison": [],
+    "desserts": [],
+    "drinks": [
+      {"name": "Capuchino", "price": 250},
+      {"name": "Expresso", "price": 100},
+      {"name": "Cortado", "price": 150},
+      {"name": "Bombón", "price": 250},
+      {"name": "Affogato", "price": 500},
+      {"name": "Frappuccino", "price": 500},
+      {"name": "Frutos del Bosque/Plátano", "price": 600},
+      {"name": "Mango", "price": 500},
+      {"name": "Frutabomba", "price": 500}
+    ]
+  },
+  "service_charge_percentage": 0
+}

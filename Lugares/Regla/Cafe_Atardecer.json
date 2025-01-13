@@ -1,0 +1,59 @@
+{
+  "name": "Cafe Atardecer",
+  "address": "Martí entre Perdomo y Albuquerque, Regla, La Habana, Cuba",
+  "schedule": {
+    "monday": {"open": "07:00", "close": "19:00"},
+    "tuesday": {"open": "07:00", "close": "19:00"},
+    "wednesday": {"open": "07:00", "close": "19:00"},
+    "thursday": {"open": "07:00", "close": "19:00"},
+    "friday": {"open": "07:00", "close": "19:00"},
+    "saturday": {"open": "07:00", "close": "19:00"},
+    "sunday": {"open": "07:00", "close": "19:00"}
+  },
+  "contacts": {
+    "phone_number": null,
+    "mobile": null,
+    "website": "",
+    "instagram": "",
+    "facebook": ""
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["criolla"],
+  "parking": false,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": false,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": false,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      {"name": "croqueta", "price": 75},
+      {"name": "medallon", "price": 90},
+      {"name": "queso", "price": 90},
+      {"name": "perro", "price": 120},
+      {"name": "jamon_queso", "price": 150}
+    ],
+    "main_course": [
+      {"name": "pollo_empanado", "price": 450},
+      {"name": "pollo_fajitas", "price": 450},
+      {"name": "cerdo_escalope", "price": 480},
+      {"name": "cerdo_fajitas", "price": 480},
+      {"name": "cerdo_fricesse", "price": 380},
+      {"name": "pescado_empanado", "price": 330}
+    ],
+    "garrison": [],
+    "desserts": [
+      {"name": "confituras", "price": null}
+    ],
+    "drinks": [
+      {"name": "refresco", "price": 20},
+      {"name": "cafe", "price": 15}
+    ]
+  },
+  "service_charge_percentage": 0
+}

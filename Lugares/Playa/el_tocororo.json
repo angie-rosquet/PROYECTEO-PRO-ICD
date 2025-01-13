@@ -1,0 +1,103 @@
+{
+  "name": "El Tocororo",
+  "address": "Playa, La Habana",
+  "schedule": {
+    "monday": {"open": "12:00", "close": "23:00"},
+    "tuesday": {"open": "12:00", "close": "23:00"},
+    "wednesday": {"open": "12:00", "close": "23:00"},
+    "thursday": {"open": "12:00", "close": "23:00"},
+    "friday": {"open": "12:00", "close": "23:00"},
+    "saturday": {"open": "12:00", "close": "23:00"},
+    "sunday": {"open": "12:00", "close": "23:00"}
+  },
+  "contacts": {
+    "phone_number": "72024530",
+    "mobile": null,
+    "website": null,
+    "instagram": null,
+    "facebook": "Restaurante BAR Tocororo."
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["Criolla", "Caribeña", "Latina"],
+  "parking": true,
+  "reservations": true,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": false,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      {"name": "Panadería de la casa", "price": 75},
+      {"name": "Cóctel de langosta", "price": 550},
+      {"name": "Cóctel de pescado", "price": 385},
+      {"name": "Ensalada de pollo tropical", "price": 300},
+      {"name": "Dados de queso en escabeche", "price": 425},
+      {"name": "Entremés de jamón", "price": 285},
+      {"name": "Seviche caribeño", "price": 450},
+      {"name": "Picadera especial tocororos", "price": 1500},
+      {"name": "Frituritas de la abuela", "price": 170},
+      {"name": "Croquetas del chef", "price": 200},
+      {"name": "Eperlan de pescado", "price": 675},
+      {"name": "Mejillones a la diabla", "price": 700}
+    ],
+    "main_course": [
+      {"name": "Pesca especial del día con salsa de limón", "price": 1600},
+      {"name": "Delicias del Caribe", "price": 1775},
+      {"name": "Langosta grille abrillantada con mantequilla y olivo", "price": 1750},
+      {"name": "Langosta enchilada", "price": 1700},
+      {"name": "Mejillones a la diabla", "price": 1250},
+      {"name": "Pollo al horno al estilo del chef", "price": 820},
+      {"name": "Suprema de pollo perfumada al olivo", "price": 850},
+      {"name": "Hígado grille con aderezo primavera", "price": 985},
+      {"name": "Lonjas de cerdo asado con mojo criollo", "price": 1500},
+      {"name": "Costilla de cerdo asado a lo cubano", "price": 1425},
+      {"name": "Ternera guisada a la campesina", "price": 1550},
+      {"name": "Spaghetti napolitano", "price": 550},
+      {"name": "Spaghetti primavera", "price": 625},
+      {"name": "Spaghetti al olio", "price": 550},
+      {"name": "Spaghetti guarnecido con jamón", "price": 685},
+      {"name": "Spaghetti marinero", "price": 850}
+    ],
+    "garrison": [
+      {"name": "Arroz blanco", "price": 110},
+      {"name": "Arroz moro", "price": 200},
+      {"name": "Hortalizas salteadas", "price": 100},
+      {"name": "Vianda hervida aderezada con mojo criollo", "price": 100},
+      {"name": "Vianda frita", "price": 100},
+      {"name": "Papas fritas", "price": 150},
+      {"name": "Ensalada de hortalizas del día", "price": 100},
+      {"name": "Sopón campesino", "price": 80},
+      {"name": "Frijoles negros a la criolla", "price": 180},
+      {"name": "Caldo marinero", "price": 195}
+    ],
+    "desserts": [
+      {"name": "Deliciosa torta de la casa", "price": 285},
+      {"name": "Arroz con leche a la canela", "price": 200},
+      {"name": "Dulces en almíbar guarnecido con queso", "price": 200},
+      {"name": "Helado Tocororo", "price": 180}
+    ],
+    "drinks": {
+      "water": false,
+      "soft_drinks": null,
+      "juices": false,
+      "smoothie": false,
+      "ice_cream_shake": false,
+      "alcoholic": false,
+      "coffee": [
+        {"name": "Café expreso", "price": 90},
+        {"name": "Café cortadito", "price": 100},
+        {"name": "Café rocío de gallo", "price": 150},
+        {"name": "Café carajillo", "price": 150},
+        {"name": "Café americano", "price": 100},
+        {"name": "Infusión de manzanilla", "price": 100},
+        {"name": "Infusión de menta poleo", "price": 100}
+      ]
+    }
+  },
+  "service_charge_percentage": 0
+}

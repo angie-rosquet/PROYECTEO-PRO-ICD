@@ -1,0 +1,84 @@
+{
+  "name": "ChaChaChá",
+  "address": "Monserrate # 159 e/ Tejadillo y Chacón, Habana Vieja",
+  "schedule": {
+    "monday": {"open": "12:00 PM", "close": "12:00 AM"},
+    "tuesday": {"open": "12:00 PM", "close": "12:00 AM"},
+    "wednesday": {"open": "12:00 PM", "close": "12:00 AM"},
+    "thursday": {"open": "12:00 PM", "close": "12:00 AM"},
+    "friday": {"open": "12:00 PM", "close": "12:00 AM"},
+    "saturday": {"open": "12:00 PM", "close": "12:00 AM"},
+    "sunday": {"open": "12:00 PM", "close": "12:00 AM"}
+  },
+  "contacts": {
+    "phone_number": "078672450",
+    "mobile": null,
+    "website": null,
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "Bar Restaurante",
+  "specialty": ["Internacional", "Fusión", "Cubana"],
+  "parking": true,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": false,
+    "digital_transfer_national": false,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": false,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      {"name": "Ceviche de la Casa", "price": 3050},
+      {"name": "Carpaccio de Pulpo con Vinagreta de Cítricos", "price": 3850},
+      {"name": "Tiradito de Pez con Chicharrita", "price": 3050},
+      {"name": "Carpaccio de Res con Rúcula y Aceite de Trufa", "price": 4450},
+      {"name": "Carpaccio de Atún Rojo", "price": 4100},
+      {"name": "Pan y Mantequilla", "price": 1150},
+      {"name": "Croquetas Braseadas de Pollo", "price": 2250},
+      {"name": "Crema de Calabaza, Betabel y Parmesano", "price": 1800},
+      {"name": "Tacos ChaChaChá", "price": 2700},
+      {"name": "Empanadillas de Carne BBQ", "price": 2250},
+      {"name": "Tabla de Jamón Serrano, Salami y Quesos", "price": 5700},
+      {"name": "Sashimi Ahumado", "price": 4100},
+      {"name": "Tartar de Res", "price": 4450},
+      {"name": "Tartar de Atún", "price": 4100}
+    ],
+    "main_course": [
+      {"name": "Salsa Boloñesa", "price": 3850},
+      {"name": "Camarón, Curry y Pimienta Rosa", "price": 4100},
+      {"name": "Salsa Alfredo", "price": 3850},
+      {"name": "Salsa Funghi con Pollo y Trufa", "price": 4450},
+      {"name": "Salsa Carbonara Trufada", "price": 4150},
+      {"name": "Salsa Bisque al Fruti D'Mare", "price": 4900}
+    ],
+    "garrison": [
+      {"name": "Vianda Frita", "price": 760},
+      {"name": "Puré de Temporada", "price": 1140},
+      {"name": "Ensalada de Estación", "price": 1520},
+      {"name": "Arroz Blanco", "price": 760},
+      {"name": "Frijoles Negros", "price": 1140}
+    ],
+    "desserts": [
+      {"name": "Brownie", "price": 3000},
+      {"name": "Esfera de Frutas", "price": 3000},
+      {"name": "Bizcocho", "price": 2900},
+      {"name": "Arroz con Leche de la Abuela", "price": 2500},
+      {"name": "Flan Tía Lola", "price": 2700},
+      {"name": "Copa de Helado", "price": 2200},
+      {"name": "Carajillo", "price": 1050},
+      {"name": "Bombón", "price": 1200}
+    ],
+    "drinks": [
+      {"name": "Expresso", "price": 520},
+      {"name": "Nespresso", "price": 960},
+      {"name": "Cortado", "price": 875},
+      {"name": "Frappuccino", "price": 2200},
+      {"name": "Té / Infusiones", "price": 620}
+    ]
+  },
+  "service_charge_percentage": 10
+}

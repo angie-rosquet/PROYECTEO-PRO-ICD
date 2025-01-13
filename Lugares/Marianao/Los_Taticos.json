@@ -1,0 +1,63 @@
+{
+  "name": "Los taticos",
+  "address": "27 y 27A",
+  "schedule": {
+    "monday": {"open": "08:00", "close": "00:00"},
+    "tuesday": {"open": "08:00", "close": "00:00"},
+    "wednesday": {"open": "08:00", "close": "00:00"},
+    "thursday": {"open": "08:00", "close": "00:00"},
+    "friday": {"open": "08:00", "close": "00:00"},
+    "saturday": {"open": "08:00", "close": "00:00"},
+    "sunday": {"open": "08:00", "close": "00:00"}
+  },
+  "contacts": {
+    "phone_number": null,
+    "mobile": null,
+    "website": null,
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["Variada"],
+  "parking": true,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": true,
+  "power_generator": true,
+  "menu": {
+    "appetizer": [
+      {"name": "Picadera Tatico", "price": 2800},
+      {"name": "Entremes surtido", "price": 800},
+      {"name": "Tostones rellenos", "price": 800},
+      {"name": "Bolitas de queso", "price": 800},
+      {"name": "Bolitas de carne", "price": 800},
+      {"name": "Croquetas caseras", "price": 800}
+    ],
+    "main_course": [
+      {"name": "Lasagña", "price": 1250},
+      {"name": "Pizza Tatico", "price": 1200},
+      {"name": "Pizza mixta", "price": 680},
+      {"name": "Pizza hawaiana", "price": 680},
+      {"name": "Pizza jamon", "price": 680},
+      {"name": "Pizza de queso", "price": 680},
+      {"name": "Taco de cerdo", "price": 650},
+      {"name": "Pollo al carbon", "price": 1200},
+      {"name": "Taco de carne", "price": 800},
+      {"name": "Taco de atun", "price": 800}
+    ],
+    "garrison": [
+      {"name": "Arroz blanco", "price": null},
+      {"name": "Frijoles", "price": null},
+      {"name": "Arroz moro", "price": null}
+    ],
+    "desserts": [],
+    "drinks": []
+  },
+  "service_charge_percentage": 0
+}

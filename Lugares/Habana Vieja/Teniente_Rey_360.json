@@ -1,0 +1,84 @@
+{
+  "name": "Teniente Rey 360",
+  "address": "Calle Teniente Rey, #360, esquina de Aguacate y Villegas",
+  "schedule": {
+    "monday": {"open": "11:00", "close": "23:30"},
+    "tuesday": {"open": "11:00", "close": "23:30"},
+    "wednesday": {"open": "11:00", "close": "23:30"},
+    "thursday": {"open": "11:00", "close": "23:30"},
+    "friday": {"open": "11:00", "close": "23:30"},
+    "saturday": {"open": "11:00", "close": "23:30"},
+    "sunday": {"open": "11:00", "close": "23:30"}
+  },
+  "contacts": {
+    "phone_number": "78602916",
+    "mobile": null,
+    "website": "Teniente Rey 360 (Facebook)",
+    "instagram": null,
+    "facebook": "https://www.facebook.com/TenienteRey360"
+  },
+  "type_establishment": "Restaurant",
+  "specialty": ["Comida criolla"],
+  "parking": false,
+  "reservations": true,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": true,
+    "usd_transfer": true,
+    "mlc": true
+  },
+  "delivery_areas": false,
+  "power_generator": true,
+  "menu": {
+    "appetizer": [
+      {"name": "Croquetas", "price": 400},
+      {"name": "Bolitas de queso", "price": 500},
+      {"name": "Tostones rellenos", "price": 600},
+      {"name": "Garbanzos fritos", "price": 700}
+    ],
+    "main_course": [
+      {"name": "Pechuga de pollo", "price": 1950},
+      {"name": "Fajitas de pechuga de pollo", "price": 2000},
+      {"name": "Ropa vieja", "price": 1950},
+      {"name": "Picadillo a la cubana", "price": 1500},
+      {"name": "Masas de cerdo", "price": 1700},
+      {"name": "Fricase de cerdo", "price": 1750},
+      {"name": "Solomillo", "price": 1900},
+      {"name": "Coctel de camarones", "price": 700},
+      {"name": "Coctel de langosta", "price": 700},
+      {"name": "Langosta al ajillo o enchilada", "price": 2500},
+      {"name": "Colas de langosta", "price": 2600},
+      {"name": "Camarones a la orden (al ajillo o enchilado)", "price": 2500},
+      {"name": "Camarones rebosados", "price": 2800},
+      {"name": "Pulpo al ajillo o grille", "price": 2700},
+      {"name": "Cazuelita Teniente Rey", "price": 2900},
+      {"name": "Mariscada Teniente Rey", "price": 2900},
+      {"name": "Filete de pescado", "price": 2400},
+      {"name": "Filete Mignon", "price": 3200},
+      {"name": "Punta de filete", "price": 2900},
+      {"name": "Filete Jhonvill", "price": 3500}
+    ],
+    "garrison": [
+      {"name": "Arroz", "price": 200},
+      {"name": "Chatinos", "price": 300},
+      {"name": "Yuca", "price": 200}
+    ],
+    "desserts": [
+      {"name": "Flan", "price": 500},
+      {"name": "Torrejas", "price": 400}
+    ],
+    "drinks": [
+      {"name": "Refrescos nacionales", "price": 380},
+      {"name": "Refrescos importados", "price": 420},
+      {"name": "Malta nacional", "price": 420},
+      {"name": "Agua natural nacional", "price": 250},
+      {"name": "Kermato", "price": 500},
+      {"name": "Agua tonica", "price": 450},
+      {"name": "Cerveza nacional enlatada", "price": 360},
+      {"name": "Cerveza nacional en botella", "price": 460},
+      {"name": "Cerveza importada", "price": 460}
+    ]
+  },
+  "service_charge_percentage": 10
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Ranchon de 41",
+  "address": "Avenida 41 y 84",
+  "schedule": {
+    "monday": {"open": "00:00", "close": "23:59"},
+    "tuesday": {"open": "00:00", "close": "23:59"},
+    "wednesday": {"open": "00:00", "close": "23:59"},
+    "thursday": {"open": "00:00", "close": "23:59"},
+    "friday": {"open": "00:00", "close": "23:59"},
+    "saturday": {"open": "00:00", "close": "23:59"},
+    "sunday": {"open": "00:00", "close": "23:59"}
+  },
+  "contacts": {
+    "phone_number": "52014975",
+    "mobile": null,
+    "website": null,
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["Variada"],
+  "parking": true,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": false,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      {"name": "Croquetas de la casa", "price": 400},
+      {"name": "Coctel de camaron", "price": 650},
+      {"name": "Picadera el toro bravo", "price": 1700}
+    ],
+    "main_course": [
+      {"name": "Espaguetis", "price": 700},
+      {"name": "Pizza de queso blanco", "price": 400},
+      {"name": "Pizza de queso gouda", "price": 680},
+      {"name": "Pollo chiflado", "price": 1200},
+      {"name": "Fajitas de pollo", "price": 750}
+    ],
+    "garrison": [
+      {"name": "Queso", "price": 200},
+      {"name": "Jamon", "price": 150},
+      {"name": "Chorizo", "price": 150},
+      {"name": "Cebolla", "price": 150},
+      {"name": "Piña", "price": 150},
+      {"name": "Aceituna", "price": 200},
+      {"name": "Queso gouda", "price": 500},
+      {"name": "Atun", "price": 300}
+    ],
+    "desserts": [
+      {"name": "Suero de helado", "price": 400}
+    ],
+    "drinks": []
+  },
+  "service_charge_percentage": 0
+}

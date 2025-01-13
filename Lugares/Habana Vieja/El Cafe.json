@@ -1,0 +1,92 @@
+{
+  "name": "El Cafe",
+  "address": "#358, Calle La Amargura, Habana Vieja",
+  "municipality": "Habana Vieja",
+  "classification": "Bar-Restaurant",
+  "specialization": "Comida mixta",
+  "property": "Privado",
+  "schedule": {
+    "monday": {"open": "08:00 AM", "close": "05:00 PM"},
+    "tuesday": {"open": "08:00 AM", "close": "05:00 PM"},
+    "wednesday": {"open": "08:00 AM", "close": "05:00 PM"},
+    "thursday": {"open": "08:00 AM", "close": "05:00 PM"},
+    "friday": {"open": "08:00 AM", "close": "05:00 PM"},
+    "saturday": {"open": "08:00 AM", "close": "05:00 PM"},
+    "sunday": {"open": "08:00 AM", "close": "05:00 PM"}
+  },
+  "ratings": {
+    "tripadvisor": 4.5,
+    "google_maps": 4.6
+  },
+  "reservations": true,
+  "delivery": false,
+  "delivery_area": false,
+  "phone_number": "78613817",
+  "accounts_or_website": {
+    "instagram": ["elcafehavana", "amarilladelcafe"]
+  },
+  "payment_methods": ["Tarjeta", "Cryptomonedas", "Efectivo (MN o moneda extranjera)"],
+  "capacity": 20,
+  "parking": false,
+  "wifi": false,
+  "smoking_area": false,
+  "menu": {
+    "starters": [
+      {"plate": "Tostadas de tomate", "price": 500},
+      {"plate": "Tortilla con calabaza y cebolla", "price": 950},
+      {"plate": "Galleta de avena y jengibre (c/u)", "price": 40},
+      {"plate": "Ensalada Chikpea", "price": 950},
+      {"plate": "Ensalada Chikpea con cordero", "price": 1200},
+      {"plate": "Plato de frutas frescas", "price": 60},
+      {"plate": "Tostadas de mantequilla", "price": 80},
+      {"plate": "Tostadas de mantequilla con mermelada", "price": 80},
+      {"plate": "Tostadas de mantequilla de mani", "price": 80},
+      {"plate": "Huevos, tomate, aguacate, tostadas y mantequilla", "price": 300},
+      {"plate": "Huevos, tomate, aguacate, tostadas, mantequilla y queso", "price": 350},
+      {"plate": "Huevos, tomate, aguacate, tostadas, mantequilla y bacon", "price": 500},
+      {"plate": "Huevos, tomate, aguacate, tostadas, mantequilla, bacon y queso", "price": 500},
+      {"plate": "Hummus con pepino, tomate, zanahorias y tostadas", "price": 300}
+    ],
+    "main_course": [
+      {"plate": "Sandwich vegano de hummus, vegetales asados y salsa picante", "price": 300},
+      {"plate": "Sandwich de jamon y queso con tomate, aji y hierba buena", "price": 400},
+      {"plate": "Sandwich de bacon, lechuga, tomate y aguacate", "price": 500},
+      {"plate": "Sandwich de queso, pimenton y cebollino", "price": 350},
+      {"plate": "Sandwich de cerdo asado con yuca, lechuga y mermelada de naranja agria", "price": 450},
+      {"plate": "Sandwich de pollo con tomate, rucula y alioli verde", "price": 400}
+    ],
+    "siders": null,
+    "drinks": [
+      {"type": "Expresso", "price": 60},
+      {"type": "Cafe cortado", "price": 80},
+      {"type": "Cafe americano", "price": 100},
+      {"type": "Cafe con leche", "price": 140},
+      {"type": "Cappuchino", "price": 150},
+      {"type": "Cafe frappe", "price": 160},
+      {"type": "Cafe con leche y hielo", "price": 140},
+      {"type": "Cafe Clandestina", "price": 80},
+      {"type": "Long Black", "price": 100},
+      {"type": "Frappuccino", "price": 160},
+      {"type": "Jugos frescos", "price": 120},
+      {"type": "Limonada fresca", "price": 120},
+      {"type": "Refresco de jengibre", "price": 100},
+      {"type": "Chocolate caliente", "price": 120},
+      {"type": "Batidos", "price": 150},
+      {"type": "Batidos con leche vegana", "price": 180},
+      {"type": "Te", "price": 60},
+      {"type": "Agua", "price": 50},
+      {"type": "Cerveza", "price": 150},
+      {"type": "Ron Collins", "price": 250},
+      {"type": "Mojito", "price": 250},
+      {"type": "Caipirinha", "price": 250},
+      {"type": "Canchanchara", "price": 250},
+      {"type": "Dark & Stormy (jengibre y ron)", "price": 250}
+    ],
+    "desserts": [
+      {"plate": "Yogurt con frutas frescas", "price": 150},
+      {"plate": "Yogurt con frutas frescas y granola", "price": 180},
+      {"plate": "Pancakes de frutas y miel", "price": 300},
+      {"plate": "Panetela navidena", "price": 120}
+    ]
+  }
+}

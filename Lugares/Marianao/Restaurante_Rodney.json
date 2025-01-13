@@ -1,0 +1,78 @@
+{
+  "name": "Bar Tropicana",
+  "address": "72A, Avenida 41, Marianao",
+  "schedule": {
+    "monday": {"open": "12:00", "close": "22:00"},
+    "tuesday": {"open": "12:00", "close": "22:00"},
+    "wednesday": {"open": "12:00", "close": "22:00"},
+    "thursday": {"open": "12:00", "close": "22:00"},
+    "friday": {"open": "12:00", "close": "22:00"},
+    "saturday": {"open": "12:00", "close": "22:00"},
+    "sunday": {"open": "12:00", "close": "22:00"}
+  },
+  "contacts": {
+    "phone_number": "7279147",
+    "mobile": null,
+    "website": "Cabaret-Tropicana.com",
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "Bar",
+  "specialty": ["Variada"],
+  "parking": true,
+  "reservations": true,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": false,
+  "power_generator": true,
+  "menu": {
+    "appetizer": [
+      {"name": "Picadera de la casa", "price": 650},
+      {"name": "Entremes de embutido y queso", "price": 400},
+      {"name": "Tacos mexicanos de pollo", "price": 700},
+      {"name": "Tacos mexicanos de cerdo", "price": 1400},
+      {"name": "Sopa del día", "price": 125},
+      {"name": "Croquetas", "price": 250},
+      {"name": "Crema aurora", "price": 350},
+      {"name": "Crema virginia", "price": 480},
+      {"name": "Crema de calabaza con queso", "price": 400},
+      {"name": "Eperlan de pescado", "price": 600},
+      {"name": "Fajitas de pollo", "price": 500}
+    ],
+    "main_course": [
+      {"name": "Pasta Napolitana", "price": 500},
+      {"name": "Pizza Napolitana", "price": 500},
+      {"name": "Pizza Campesina", "price": 1200},
+      {"name": "Pizza Especial Rodney (rellena con queso)", "price": 800},
+      {"name": "Pizza Especial Rodney (rellena con embutido)", "price": 900},
+      {"name": "Pizza Super Especial Rodney (rellena con queso y varios embutidos)", "price": 1200},
+      {"name": "Lonjas de cerdo asada", "price": 2000},
+      {"name": "Fricase de cerdo", "price": 2300},
+      {"name": "Bistec de cerdo grille", "price": 1800},
+      {"name": "Pollo asado", "price": 850},
+      {"name": "Pollo frito", "price": 900},
+      {"name": "Pollo deshuesado", "price": 900},
+      {"name": "Filete migñon", "price": 3000},
+      {"name": "Steack de res", "price": 1400},
+      {"name": "Filete de pescado a la plancha", "price": 1500},
+      {"name": "Filete de pescado gratinado con queso", "price": 1750},
+      {"name": "Filete de pescado Canciller", "price": 2000},
+      {"name": "Langosta a la plancha", "price": 1800},
+      {"name": "Langosta enchilada", "price": 1900}
+    ],
+    "garrison": [
+      {"name": "Arroz Rodney", "price": 780},
+      {"name": "Filete bacalao a la plancha", "price": 250},
+      {"name": "Arroz blanco", "price": 120},
+      {"name": "Ensalada de vegetales", "price": 120}
+    ],
+    "desserts": [],
+    "drinks": []
+  },
+  "service_charge_percentage": 0
+}

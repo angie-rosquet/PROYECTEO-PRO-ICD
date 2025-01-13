@@ -1,0 +1,60 @@
+{
+  "name": "LKG",
+  "address": "La Lisa",
+  "schedule": {
+    "monday": {"open": "11:00", "close": "22:00"},
+    "tuesday": {"open": "11:00", "close": "22:00"},
+    "wednesday": {"open": "11:00", "close": "22:00"},
+    "thursday": {"open": "11:00", "close": "22:00"},
+    "friday": {"open": "11:00", "close": "22:00"},
+    "saturday": {"open": "11:00", "close": "22:00"},
+    "sunday": {"open": "11:00", "close": "22:00"}
+  },
+  "contacts": {
+    "phone_number": null,
+    "mobile": null,
+    "website": null,
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["Caribeña"],
+  "parking": false,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": false,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [],
+    "main_course": [
+      {"name": "Bistec", "price": 900},
+      {"name": "Fricase", "price": 900},
+      {"name": "Pollo", "price": 1200},
+      {"name": "Cangrejo", "price": 550},
+      {"name": "Arroz frito", "price": 600},
+      {"name": "Langosta", "price": 1400},
+      {"name": "Rueda de pescado", "price": 950},
+      {"name": "Pescado entero", "price": 950},
+      {"name": "Pizza de jamon", "price": 300},
+      {"name": "Pizza de queso", "price": 200},
+      {"name": "Pizza de doble queso", "price": 250},
+      {"name": "Pizza de queso gouda", "price": 250}
+    ],
+    "garrison": [],
+    "desserts": [],
+    "drinks": [
+      {"name": "Agua mineral", "price": 150},
+      {"name": "Refresco importado", "price": 230},
+      {"name": "Batido de frutas", "price": 235},
+      {"name": "Cerveza", "price": 250},
+      {"name": "Expresso", "price": 20}
+    ]
+  },
+  "service_charge_percentage": 0
+}

@@ -1,0 +1,147 @@
+{
+  "name": "Beirut",
+  "address": "Calle 1ra entre A y B, Vedado, Plaza de la Revolución, La Habana",
+  "schedule": {
+    "monday": {"open": "11:00", "close": "23:00"},
+    "tuesday": {"open": "11:00", "close": "23:00"},
+    "wednesday": {"open": "11:00", "close": "23:00"},
+    "thursday": {"open": "11:00", "close": "23:00"},
+    "friday": {"open": "11:00", "close": "23:00"},
+    "saturday": {"open": "11:00", "close": "23:00"},
+    "sunday": {"open": "11:00", "close": "23:00"}
+  },
+  "contacts": {
+    "phone_number": "78315883",
+    "mobile": null,
+    "website": null,
+    "instagram": null,
+    "facebook": "Restaurante Beirut"
+  },
+  "type_establishment": "Bar-Restaurante",
+  "specialty": ["Comida libanesa", "de oriente medio"],
+  "parking": true,
+  "reservations": true,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": false,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [],
+    "main_course": [
+      {
+        "name": "Shish Taouk",
+        "price": 2950,
+        "description": "Brochetas de pollo, pimiento y cebolla asados, acompañados de arroz con fideos, vegetales y salsa de ajo"
+      },
+      {
+        "name": "Kabab",
+        "price": 2900,
+        "description": "Brochetas de masa de carne de cordero picada, con pimienta, cebolla y perejil, acompañada de arroz con fideos, hummus y vegetales"
+      },
+      {
+        "name": "Shish Taouk-Kabab",
+        "price": 2800,
+        "description": "Brochetas de pollo asadas con pimiento y cebolla asados, brochetas de masa de carne de cordero picada, con pimienta, cebolla, perejil, acompañados de arroz con fideos, vegetales y hummus"
+      },
+      {
+        "name": "Shish Kabab",
+        "price": 2000,
+        "description": "Brochetas de masa de carne molida de pollo con perejil, cebolla y ajo; acompañados de arroz con fideos, salsa de ajo y ensalada de vegetales"
+      },
+      {
+        "name": "Tajin",
+        "price": 3500,
+        "description": "Dados de cordero con cebolla, perejil; acompañados de arroz, fideos, ensalada de vegetales, hummus y pisto de vegetales"
+      },
+      {
+        "name": "Mixto Beirut",
+        "price": 3700,
+        "description": "Kabab, Shish Taouk, Shish Kabab, Shawarma de pollo acompañados de hummus, vegetales y pan árabe"
+      }
+    ],
+    "garrison": [
+      {
+        "name": "Fetuche",
+        "price": 1500,
+        "description": "Lechuga, pepino, tomate, cebolla, costrones de pan y aceite de oliva extra virgen"
+      },
+      {
+        "name": "Ensalada mixta",
+        "price": 2000,
+        "description": ""
+      },
+      {
+        "name": "Betabel",
+        "price": 2000,
+        "description": "Remolacha, queso feta, lechuga, cebolla con vinagre balsámico y aceite de oliva extra virgen"
+      },
+      {
+        "name": "Ensalada Beirut",
+        "price": 2100,
+        "description": "Shawarma de pollo, vegetales de estación y costrones de pan, aderezo con pasta de ajo y granada"
+      },
+      {
+        "name": "Tabule",
+        "price": 3000,
+        "description": "Tomate, cebolla, perejil, trigo bulgur aderezado con limón y aceite de oliva"
+      }
+    ],
+    "desserts": [],
+    "drinks": [
+      {
+        "name": "Agua nacional",
+        "price": 175
+      },
+      {
+        "name": "Refrescos importados",
+        "price": 290
+      },
+      {
+        "name": "Maltas",
+        "price": 290
+      },
+      {
+        "name": "Cervezas",
+        "price": 390
+      },
+      {
+        "name": "Jugos naturales",
+        "price": 410
+      }
+    ],
+    "cocktails": [
+      {
+        "name": "Limonada",
+        "price": 410
+      }
+    ],
+    "infusions": [
+      {
+        "name": "Expresso",
+        "price": 125
+      },
+      {
+        "name": "Capuccino",
+        "price": 300
+      },
+      {
+        "name": "Americano",
+        "price": 160
+      },
+      {
+        "name": "Cortado",
+        "price": 200
+      },
+      {
+        "name": "Te",
+        "price": 150
+      }
+    ]
+  },
+  "service_charge_percentage": 0
+}

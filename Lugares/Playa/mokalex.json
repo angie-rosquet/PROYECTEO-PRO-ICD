@@ -1,0 +1,96 @@
+{
+  "name": "Mokalex",
+  "address": "Distrito Playa",
+  "schedule": {
+    "monday": {"open": "00:00", "close": "00:00"},
+    "tuesday": {"open": "09:00", "close": "18:00"},
+    "wednesday": {"open": "09:00", "close": "18:00"},
+    "thursday": {"open": "09:00", "close": "18:00"},
+    "friday": {"open": "09:00", "close": "18:00"},
+    "saturday": {"open": "09:00", "close": "18:00"},
+    "sunday": {"open": "09:00", "close": "14:00"}
+  },
+  "contacts": {
+    "phone_number": null,
+    "mobile": "53674114",
+    "website": null,
+    "instagram": "@mokalex_cuba",
+    "facebook": "Mokaléx"
+  },
+  "type_establishment": "Restaurante",
+  "specialty": ["Internacional"],
+  "parking": true,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": true,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": true,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      {"name": "Sandwich cubano", "price": 1500},
+      {"name": "Sandwich de jamón y queso", "price": 1300},
+      {"name": "Empanada gallega", "price": 800},
+      {"name": "Tabla de embutidos y quesos", "price": 2300},
+      {"name": "Aceitunas", "price": 700},
+      {"name": "Croissant con Nutella", "price": 1300},
+      {"name": "Croissant con jamón y queso", "price": 1800},
+      {"name": "Ensalada fría", "price": 800}
+    ],
+    "main_course": [
+      {"name": "Lasagna bolognesa", "price": 1800},
+      {"name": "Spaghetti con jamón", "price": 1500},
+      {"name": "Arroz frito", "price": 1800},
+      {"name": "Ensalada de humus con pechuga de pollo y vegetales", "price": 1400}
+    ],
+    "garrison": [],
+    "desserts": [
+      {"name": "Pastelería", "price": 350},
+      {"name": "Torta de la casa", "price": 700}
+    ],
+    "drinks": {
+      "water": [
+        {"name": "H2O natural", "price": 300},
+        {"name": "H2O gaseada", "price": 400},
+        {"name": "H2O gaseada importada", "price": 600}
+      ],
+      "soft_drinks": [
+        {"name": "Refresco", "price": 400},
+        {"name": "Malta", "price": 500},
+        {"name": "Energizante", "price": 400}
+      ],
+      "juices": [
+        {"name": "Jugos naturales", "price": 400},
+        {"name": "Jugo óxido rojo", "price": 600}
+      ],
+      "smoothie": false,
+      "ice_cream_shake": false,
+      "alcoholic": [
+        {"name": "Cerveza", "price": 450},
+        {"name": "Michelada", "price": 600},
+        {"name": "Copa de vino tinto", "price": 600},
+        {"name": "Copa de vino blanco", "price": 600},
+        {"name": "Crema catalana", "price": 800},
+        {"name": "Havana Club Especial", "price": 400},
+        {"name": "Havana Club 7 años", "price": 600},
+        {"name": "Whisky J&B", "price": 800}
+      ],
+      "coffee": [
+        {"name": "Café exconvicto", "price": 400},
+        {"name": "Café yuma", "price": 400},
+        {"name": "Café suturado", "price": 500},
+        {"name": "Café conde", "price": 600},
+        {"name": "Café mulata", "price": 550},
+        {"name": "Frapuchino", "price": 800},
+        {"name": "Frapuhelado", "price": 900},
+        {"name": "Capuchino", "price": 800},
+        {"name": "Infusiones", "price": 300}
+      ]
+    }
+  },
+  "service_charge_percentage": 0
+}

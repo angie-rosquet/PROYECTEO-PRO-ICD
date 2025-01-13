@@ -1,0 +1,53 @@
+{
+  "name": "Mini Bar (Hotel Royalton Paseo Del Prado)",
+  "address": "Prado y Malecón, Habana Vieja",
+  "schedule": {
+    "monday": {"open": "24 horas", "close": "24 horas"},
+    "tuesday": {"open": "24 horas", "close": "24 horas"},
+    "wednesday": {"open": "24 horas", "close": "24 horas"},
+    "thursday": {"open": "24 horas", "close": "24 horas"},
+    "friday": {"open": "24 horas", "close": "24 horas"},
+    "saturday": {"open": "24 horas", "close": "24 horas"},
+    "sunday": {"open": "24 horas", "close": "24 horas"}
+  },
+  "contacts": {
+    "phone_number": null,
+    "mobile": null,
+    "website": null,
+    "instagram": null,
+    "facebook": null
+  },
+  "type_establishment": "Hotel",
+  "specialty": ["Mini Bar"],
+  "parking": null,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": false,
+    "digital_transfer_national": false,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false,
+    "credit_card": true
+  },
+  "delivery_areas": false,
+  "power_generator": false,
+  "menu": {
+    "items": [
+      {"name": "Jugo de frutas / Fruit juice", "price": 360},
+      {"name": "Refresco / Soda", "price": 390},
+      {"name": "Agua tónica / Tonic water", "price": 450},
+      {"name": "Agua natural / Natural water", "price": 600},
+      {"name": "Agua gaseada / Sparkling water", "price": 600},
+      {"name": "Cerveza nacional / National beer", "price": 600},
+      {"name": "Cerveza importada / Imported beer", "price": 750},
+      {"name": "Ron en miniatura (45ml) / Miniature rum (45ml)", "price": 850}
+    ],
+    "notes": [
+      "*Los precios son en CUP. A su cuenta se le adicionará el 10% por concepto de servicio.",
+      "Prices are in CUP. A 10% service charge will be added to your account.",
+      "**Deberá contar con crédito, para poder cargarlo a la habitación.",
+      "You must have credit, to be able to charge it to the room."
+    ]
+  },
+  "service_charge_percentage": 10
+}

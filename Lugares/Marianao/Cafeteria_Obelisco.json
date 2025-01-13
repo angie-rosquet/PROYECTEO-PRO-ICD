@@ -1,0 +1,56 @@
+{
+  "name": "Cafeteria obelisco",
+  "address": "Avenida 31, Marianao",
+  "schedule": {
+    "monday": {"open": "09:00", "close": "18:00"},
+    "tuesday": {"open": "09:00", "close": "18:00"},
+    "wednesday": {"open": "09:00", "close": "18:00"},
+    "thursday": {"open": "09:00", "close": "18:00"},
+    "friday": {"open": "09:00", "close": "18:00"},
+    "saturday": {"open": "09:00", "close": "18:00"},
+    "sunday": {"open": "09:00", "close": "18:00"}
+  },
+  "contacts": {
+    "phone_number": null,
+    "mobile": null,
+    "website": null,
+    "instagram": "@nombre_de_usuario_instagram",
+    "facebook": "URL de la página de Facebook"
+  },
+  "type_establishment": "Restaurante",
+  "specialty": [],
+  "parking": true,
+  "reservations": false,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": false,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": false,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      {"name": "bolitas de carne", "price": 20},
+      {"name": "Dados de queso", "price": 180}
+    ],
+    "main_course": [
+      {"name": "Pizza de queso", "price": 200}
+    ],
+    "garrison": [
+      {"name": "Frijol negro", "price": 55},
+      {"name": "Arroz blanco", "price": 70}
+    ],
+    "desserts": [],
+    "drinks": [
+      {"name": "agua saborizada", "price": 50},
+      {"name": "agua natural", "price": 180},
+      {"name": "Cerveza cristal", "price": 180},
+      {"name": "Vino blanco entre Rio", "price": 160},
+      {"name": "Vino blanco", "price": 160},
+      {"name": "Cerveza", "price": 50}
+    ]
+  },
+  "service_charge_percentage": 0
+}

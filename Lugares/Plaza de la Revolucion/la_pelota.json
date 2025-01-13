@@ -1,0 +1,59 @@
+{
+  "name": "La Pelota",
+  "address": "Esquina 23 y 12, Vedado, Plaza, La Habana",
+  "schedule": {
+    "monday": {"open": "09:45", "close": "21:45"},
+    "tuesday": {"open": "09:45", "close": "21:45"},
+    "wednesday": {"open": "09:45", "close": "21:45"},
+    "thursday": {"open": "09:45", "close": "21:45"},
+    "friday": {"open": "09:45", "close": "21:45"},
+    "saturday": {"open": "09:45", "close": "21:45"},
+    "sunday": {"open": "09:45", "close": "21:45"}
+  },
+  "contacts": {
+    "phone_number": null,
+    "mobile": null,
+    "website": "URL del sitio web",
+    "instagram": "@nombre_de_usuario_instagram",
+    "facebook": "URL de la página de Facebook"
+  },
+  "type_establishment": "Restaurante y Bar",
+  "specialty": [],
+  "parking": true,
+  "reservations": true,
+  "payment_methods": {
+    "cash_national": true,
+    "digital_transfer_national": false,
+    "usd_cash": false,
+    "usd_transfer": false,
+    "mlc": false
+  },
+  "delivery_areas": false,
+  "power_generator": false,
+  "menu": {
+    "appetizer": [
+      {"name": "chicharrón 58g", "price": 120},
+      {"name": "croqueta 36g", "price": 15},
+      {"name": "entrante de jamón", "price": 300}
+    ],
+    "main_course": [
+      {"name": "bistec de cerdo", "price": 600},
+      {"name": "masa de cerdo frita", "price": 600},
+      {"name": "costilla de credo frito", "price": 600},
+      {"name": "pollo grillé", "price": 550},
+      {"name": "pollo asado", "price": 550},
+      {"name": "picadillo", "price": 250},
+      {"name": "arroz moro", "price": 100},
+      {"name": "vianda hervida", "price": 40}
+    ],
+    "garrison": [],
+    "desserts": [],
+    "drinks": [
+      {"name": "energizante", "price": 200},
+      {"name": "refresco de cola", "price": 190},
+      {"name": "jugo de frutas", "price": 180},
+      {"name": "cerveza importada", "price": 200}
+    ]
+  },
+  "service_charge_percentage": 0
+}
