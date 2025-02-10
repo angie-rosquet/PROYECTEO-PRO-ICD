@@ -41,30 +41,10 @@
       {"name": "Papas Fritas", "price": 500 }
     ],
     "main_course": [
-      {"name": "Hamburguesas de Cerdo", "price": 430 , "added":{
-        "jamon" : 100 ,
-        "queso" : 100 ,
-        "vegetales" : 100 ,
-        "papas" : 500 
-      }},
-      {"name": "Hamburguesas de Pollo", "price": 430 , "added":{
-        "jamon" : 100 ,
-        "queso" : 100 ,
-        "vegetales" : 100 ,
-        "papas" : 500 
-      }},
-      {"name": "Hamburguesas Doble", "price": 1000 , "added":{
-        "jamon" : 100 ,
-        "queso" : 100 ,
-        "vegetales" : 100 ,
-        "papas" : 500 
-      }},
-      {"name": "Hamburguesas Super Magic's", "price": 1500 , "added":{
-        "jamon" : 100 ,
-        "queso" : 100 ,
-        "vegetales" : 100 ,
-        "papas" : 500 
-      }}
+      {"name": "Hamburguesas de Cerdo", "price": 430},
+      {"name": "Hamburguesas de Pollo", "price": 430},
+      {"name": "Hamburguesas Doble", "price": 1000},
+      {"name": "Hamburguesas Super Magic's", "price": 1500}
     ],
     "garrison": [
       null
