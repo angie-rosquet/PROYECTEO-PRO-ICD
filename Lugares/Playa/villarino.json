@@ -66,34 +66,23 @@
     ],
     "garrison": [],
     "desserts": [],
-    "drinks": {
-      "water": [
+    "drinks": [
         {"name": "Agua natural", "price": 150},
-        {"name": "Agua tónica", "price": 300}
-      ],
-      "soft_drinks": [
+        {"name": "Agua tónica", "price": 300},
         {"name": "Malta importada", "price": 280},
         {"name": "Malteada", "price": 480},
         {"name": "Red Bull", "price": 220},
         {"name": "Refrescos nacionales", "price": 220},
-        {"name": "Refrescos importados", "price": 235}
-      ],
-      "juices": [
+        {"name": "Refrescos importados", "price": 235},
         {"name": "Limonada frappe", "price": 200},
         {"name": "Jugos naturales", "price": 180},
-        {"name": "Jugos importados", "price": 210}
-      ],
-      "smoothie": [],
-      "ice_cream_shake": [],
-      "alcoholic": [
+        {"name": "Jugos importados", "price": 210},
         {"name": "Cócteles nacionales", "price": 475},
         {"name": "Cócteles internacionales", "price": 550},
         {"name": "Copa de vino", "price": 350},
         {"name": "Cervezas nacionales (Cristal/Bucanero)", "price": 260},
         {"name": "Cervezas importadas", "price": 380}
-      ],
-      "coffee": []
-    }
+      ]
   },
   "service_charge_percentage": 0
 }

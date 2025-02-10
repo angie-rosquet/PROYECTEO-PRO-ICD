@@ -31,7 +31,7 @@
   "delivery_areas": false,
   "power_generator": false,
   "menu": {
-    "mezze": [
+    "appetizer": [
       {"name": "Hummus de Garbanzo", "price": 700},
       {"name": "Melitzanosalata", "price": 800},
       {"name": "Tzatziki", "price": 600},
@@ -41,14 +41,14 @@
       {"name": "Griego pobre", "price": 750},
       {"name": "Saganaki", "price": 1500}
     ],
-    "souvlakis": [
+    "main_course": [
       {"name": "Souvlaki de cerdo", "price": 2500},
       {"name": "Souvlaki de pechuga de pollo", "price": 2100},
       {"name": "Souvlaki de res", "price": 2800},
       {"name": "Souvlaki vegano", "price": 2000},
       {"name": "Souvlaki de queso feta", "price": 2500}
     ],
-    "platos_fuertes": [
+    "garrison": [
       {"name": "Pastitsio", "price": 2300},
       {"name": "Imam", "price": 2000},
       {"name": "Saganaki de langosta o camarón", "price": 3500},
@@ -59,27 +59,19 @@
       {"name": "Pulpo Grille", "price": 4200},
       {"name": "Solomillo de cerdo en salsa de limón griega", "price": 3500}
     ],
-    "pastas": [
-      {"name": "Pasta Mediterránea", "price": 3000, "description": "Pasta con queso feta, tomate natural, cebolla, pimiento, aceitunas negras"},
-      {"name": "Pasta de Camarón al Anís", "price": 3200}
-    ],
-    "postres": [
+    "desserts": [
       {"name": "Tarta de Yogurt Griego con reducción de vino tinto", "price": 1000}
     ],
-    "cocteles_de_autor": [
-      {"name": "Demeter", "price": 1800, "description": "Ginebra, mix de pepino y jengibre, zumo de piña"},
-      {"name": "Afrodita", "price": 2000, "description": "Ginebra, mix no. 2, licor de orgeat"},
-      {"name": "Persefone", "price": 2100, "description": "Ginebra, licor de grosella, vermouth rosso, jarabe de hibiscus"},
-      {"name": "Hades", "price": 2500, "description": "Detalles no especificados"},
-      {"name": "Dionisio", "price": 2800, "description": "Ron blanco, reducción de vino tinto, mix no. 3"},
-      {"name": "Poseidón", "price": 2500, "description": "Detalles no especificados"},
-      {"name": "Ares", "price": 2400, "description": "Ron oscuro, mix no. 5, tajin, mango"},
-      {"name": "Apolo", "price": 2300, "description": "Ron blanco, Ruavieja, mix no. 7"}
-    ],
-    "cafes": [
-      {"name": "Freddo Expresso", "price": 450, "description": "Café batido servido con hielo"},
-      {"name": "Freddo Capucchino", "price": 650, "description": "Café batido servido con leche, nata y hielo"}
+    "drinks": [
+      {"name": "Demeter", "price": 1800},
+      {"name": "Afrodita", "price": 2000},
+      {"name": "Persefone", "price": 2100},
+      {"name": "Hades", "price": 2500},
+      {"name": "Dionisio", "price": 2800},
+      {"name": "Poseidón", "price": 2500},
+      {"name": "Ares", "price": 2400},
+      {"name": "Apolo", "price": 2300}
     ]
   },
   "service_charge_percentage": 10
-}    
+}

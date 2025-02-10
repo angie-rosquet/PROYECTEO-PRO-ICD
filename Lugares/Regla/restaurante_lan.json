@@ -55,8 +55,7 @@
     ],
     "garrison": [],
     "desserts": [],
-    "drinks": [],
-    "special_offers": false
+    "drinks": []
   },
   "service_charge_percentage": 0
 }

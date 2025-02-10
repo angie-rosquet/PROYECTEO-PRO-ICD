@@ -45,31 +45,19 @@
     "desserts": [
       {"name": "Copa de helado", "price": 500}
     ],
-    "drinks": {
-      "water": [
-        {"name": "Agua natural", "price": 120}
-      ],
-      "soft_drinks": [
+    "drinks": [
+        {"name": "Agua natural", "price": 120},
         {"name": "Malteada", "price": 500},
         {"name": "Malta Bucanero", "price": 300},
-        {"name": "Energizante", "price": 230}
-      ],
-      "juices": [
-        {"name": "Jugo de lata", "price": 270}
-      ],
-      "smoothie": [],
-      "ice_cream_shake": [
-        {"name": "Suero helado", "price": 800}
-      ],
-      "alcoholic": [],
-      "coffee": [
+        {"name": "Energizante", "price": 230},
+        {"name": "Jugo de lata", "price": 270},
+        {"name": "Suero helado", "price": 800},
         {"name": "Café expresso", "price": 1500},
         {"name": "Café cortado", "price": 200},
         {"name": "Café bombón", "price": 350},
         {"name": "Capuchino", "price": 400},
         {"name": "Frapuccino", "price": 500}
       ]
-    }
   },
   "service_charge_percentage": 0
 }

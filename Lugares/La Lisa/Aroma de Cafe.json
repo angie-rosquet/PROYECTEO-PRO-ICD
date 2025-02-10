@@ -1,6 +1,6 @@
 {
   "name": "Aroma de Cafe",
-  "address": "#5106, Calle 244 entre 51 y 61, La Lisa, La Habana, Cuba",
+  "address": "#5106, Calle 244 entre 51 y 61, La Lisa",
   "schedule": {
     "monday": {"open": "12:00", "close": "00:00"},
     "tuesday": {"open": "12:00", "close": "00:00"},

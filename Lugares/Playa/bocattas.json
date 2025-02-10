@@ -88,35 +88,22 @@
       {"name": "Bola de helado", "price": 150},
       {"name": "Copa golosa", "price": 800}
     ],
-    "drinks": {
-      "water": [
-        {"name": "Agua natural 500 ml", "price": 200}
-      ],
-      "soft_drinks": [
+    "drinks": [
+        {"name": "Agua natural 500 ml", "price": 200},
         {"name": "Refresco importado y nacional", "price": 260},
         {"name": "Malta", "price": 300},
-        {"name": "Energizantes", "price": 400}
-      ],
-      "juices": [
+        {"name": "Energizantes", "price": 400},
         {"name": "Limonada frappe", "price": 600},
-        {"name": "Jugos naturales", "price": 250}
-      ],
-      "smoothie": [
-        {"name": "Batido de fruta", "price": 350}
-      ],
-      "ice_cream_shake": [
+        {"name": "Jugos naturales", "price": 250},
+        {"name": "Batido de fruta", "price": 350},
         {"name": "Suero bocatta", "price": 800},
-        {"name": "Suero de helado", "price": 650}
-      ],
-      "alcoholic": [
+        {"name": "Suero de helado", "price": 650},
         {"name": "Cerveza importada", "price": 280},
         {"name": "Cerveza nacional", "price": 400},
         {"name": "Michelada con cerv import", "price": 660},
         {"name": "Michelada con cerv nacional", "price": 750},
         {"name": "Chelada", "price": 180},
-        {"name": "Preparado de michelada", "price": 340}
-      ],
-      "coffee": [
+        {"name": "Preparado de michelada", "price": 340},
         {"name": "Expresso", "price": 130},
         {"name": "Capuchino", "price": 225},
         {"name": "Cortado", "price": 150},
@@ -124,7 +111,6 @@
         {"name": "Frappuccino", "price": 600},
         {"name": "Café con leche", "price": 275}
       ]
-    }
   },
   "service_charge_percentage": 0
 }

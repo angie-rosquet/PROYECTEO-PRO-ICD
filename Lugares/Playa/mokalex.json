@@ -52,34 +52,22 @@
       {"name": "Pastelería", "price": 350},
       {"name": "Torta de la casa", "price": 700}
     ],
-    "drinks": {
-      "water": [
+    "drinks":  [
         {"name": "H2O natural", "price": 300},
         {"name": "H2O gaseada", "price": 400},
-        {"name": "H2O gaseada importada", "price": 600}
-      ],
-      "soft_drinks": [
+        {"name": "H2O gaseada importada", "price": 600},
         {"name": "Refresco", "price": 400},
         {"name": "Malta", "price": 500},
-        {"name": "Energizante", "price": 400}
-      ],
-      "juices": [
+        {"name": "Energizante", "price": 400},
         {"name": "Jugos naturales", "price": 400},
-        {"name": "Jugo óxido rojo", "price": 600}
-      ],
-      "smoothie": false,
-      "ice_cream_shake": false,
-      "alcoholic": [
-        {"name": "Cerveza", "price": 450},
+        {"name": "Jugo óxido rojo", "price": 600},        {"name": "Cerveza", "price": 450},
         {"name": "Michelada", "price": 600},
         {"name": "Copa de vino tinto", "price": 600},
         {"name": "Copa de vino blanco", "price": 600},
         {"name": "Crema catalana", "price": 800},
         {"name": "Havana Club Especial", "price": 400},
         {"name": "Havana Club 7 años", "price": 600},
-        {"name": "Whisky J&B", "price": 800}
-      ],
-      "coffee": [
+        {"name": "Whisky J&B", "price": 800},
         {"name": "Café exconvicto", "price": 400},
         {"name": "Café yuma", "price": 400},
         {"name": "Café suturado", "price": 500},
@@ -90,7 +78,6 @@
         {"name": "Capuchino", "price": 800},
         {"name": "Infusiones", "price": 300}
       ]
-    }
   },
   "service_charge_percentage": 0
 }

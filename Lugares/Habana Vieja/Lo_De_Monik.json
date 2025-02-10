@@ -19,98 +19,46 @@
   },
   "type_establishment": "Bar-Restaurante",
   "specialty": ["Restaurante", "Bar"],
-  "parking": null,
+  "parking": false,
   "reservations": true,
   "payment_methods": {
     "cash_national": false,
     "digital_transfer_national": false,
     "usd_cash": false,
     "usd_transfer": false,
-    "mlc": false,
-    "credit_card": false
+    "mlc": false
   },
   "delivery_areas": false,
   "power_generator": false,
   "menu": {
-    "courses": [
-      {
-        "category": "Entrantes / Starters",
-        "items": [
-          {"name": "Yucas Bravas / Yucca With Hot Tacos Sauce", "price": 600},
-          {"name": "Croquetas / Croquette", "price": 560},
-          {"name": "Tamal en Cazuela", "price": 1500},
-          {"name": "Tostones Rellenos de Jamón y queso", "price": 1100},
-          {"name": "Ropa Vieja", "price": 1200},
-          {"name": "Cerdo", "price": 1300},
-          {"name": "Fituras de Malanga", "price": 600}
-        ]
-      },
-      {
-        "category": "Pasta",
-        "items": [
-          {"name": "Pasta Napolitana", "price": 1700},
-          {"name": "Pasta de Pollo con Salsa Alfredo", "price": 2000},
-          {"name": "Pasta Frutti di Mare", "price": 2300}
-        ]
-      },
-      {
-        "category": "Tacos",
-        "items": [
-          {"name": "Vegetales / Vegetables Tacos", "price": 1200},
-          {"name": "Pollo / Chicken Tacos", "price": 1500},
-          {"name": "Cerdo / Pork Tacos", "price": 2200},
-          {"name": "Ropa Vieja / Shredded Beef Tacos", "price": 2000},
-          {"name": "Camarón / Shrimps Tacos", "price": 3000},
-          {"name": "Pescado / Fish Tacos", "price": 2300},
-          {"name": "Punta de Filete / Beef Tacos", "price": 3800},
-          {"name": "Langosta / Lobster Tacos", "price": 2200},
-          {"name": "Pulpo / Octopus Tacos", "price": 2500}
-        ]
-      },
-      {
-        "category": "Principales / Mains",
-        "items": [
-          {"name": "Pollo Grillado / Grilled Chicken", "price": 1500},
-          {"name": "Camarón Grillado / Grilled Shrimps", "price": 3000},
-          {"name": "Ropa Vieja / Shredded Beef", "price": 2000},
-          {"name": "Ropa Vieja con Garbanzos / Shredded Beef With Chickpeas", "price": 2400},
-          {"name": "Pescado Empanado / Fish and Chips", "price": 2500},
-          {"name": "Masas de Cerdo / Pork Masses", "price": 2800},
-          {"name": "Pescado Grillado / Grilled Fish", "price": 2300},
-          {"name": "Pulpo Grillado / Grilled Octopus", "price": 3800},
-          {"name": "Langosta / Lobster", "price": 3000},
-          {"name": "Punta de Filete a la Deutch", "price": 3800}
-        ]
-      },
-      {
-        "category": "Guarniciones / Side Dishes",
-        "items": [
-          {"name": "Side Dish", "price": 300}
-        ]
-      },
-      {
-        "category": "Postres / Dessert",
-        "items": [
-          {"name": "Postre de la Casa / House's Dessert", "price": 600}
-        ]
-      },
-      {
-        "category": "Desayuno / Breakfast",
-        "items": [
-          {"name": "Huevos, Tostadas, Jamón, Vegetales, Jugo, Café", "price": 1800}
-        ]
-      },
-      {
-        "category": "Sandwich",
-        "items": [
-          {"name": "Sandwich de Vegetales", "price": 850},
-          {"name": "Sandwich de Jamón y Queso", "price": 1000},
-          {"name": "Sandwich de Pollo", "price": 1500},
-          {"name": "Sandwich de Atún", "price": 1000},
-          {"name": "Sandwich Cubano", "price": 2000}
-        ]
-      }
-    ]
+    "appetizer": [
+      {"name": "Yucas Bravas / Yucca With Hot Tacos Sauce", "price": 600},
+      {"name": "Croquetas / Croquette", "price": 560},
+      {"name": "Tamal en Cazuela", "price": 1500},
+      {"name": "Tostones Rellenos de Jamón y queso", "price": 1100},
+      {"name": "Ropa Vieja", "price": 1200},
+      {"name": "Cerdo", "price": 1300},
+      {"name": "Fituras de Malanga", "price": 600}
+    ],
+    "main_course": [
+      {"name": "Pollo Grillado / Grilled Chicken", "price": 1500},
+      {"name": "Camarón Grillado / Grilled Shrimps", "price": 3000},
+      {"name": "Ropa Vieja / Shredded Beef", "price": 2000},
+      {"name": "Ropa Vieja con Garbanzos / Shredded Beef With Chickpeas", "price": 2400},
+      {"name": "Pescado Empanado / Fish and Chips", "price": 2500},
+      {"name": "Masas de Cerdo / Pork Masses", "price": 2800},
+      {"name": "Pescado Grillado / Grilled Fish", "price": 2300},
+      {"name": "Pulpo Grillado / Grilled Octopus", "price": 3800},
+      {"name": "Langosta / Lobster", "price": 3000},
+      {"name": "Punta de Filete a la Deutch", "price": 3800}
+    ],
+    "garrison": [
+      {"name": "Side Dish", "price": 300}
+    ],
+    "desserts": [
+      {"name": "Postre de la Casa / House's Dessert", "price": 600}
+    ],
+    "drinks": []
   },
-  "service_fee_percentage": 10
-}    
+  "service_charge_percentage": 10
+}

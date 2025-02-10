@@ -46,16 +46,8 @@
     "main_course": [],
     "garrison": [],
     "desserts": [],
-    "drinks": {
-      "water": false,
-      "soft_drinks": false,
-      "juices": [
-        {"name": "jugos", "price": 270}
-      ],
-      "smoothie": [],
-      "ice_cream_shake": [],
-      "alcoholic": [],
-      "coffee": [
+    "drinks": [
+        {"name": "jugos", "price": 270},
         {"name": "expresso", "price": 150},
         {"name": "cortado", "price": 250},
         {"name": "capuchino", "price": 400},
@@ -64,7 +56,6 @@
         {"name": "carajillo", "price": 350},
         {"name": "leche fría", "price": 370}
       ]
-    }
   },
   "service_charge_percentage": 0
 }

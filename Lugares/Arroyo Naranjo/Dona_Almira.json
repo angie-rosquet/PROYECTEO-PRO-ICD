@@ -72,12 +72,11 @@
         {"name": "Ensalada Estación", "price": 285 }
       ],
       "desserts": [
-        {"name": "Musse Variados", "price": 570 },
-        {"name": "Café Cubano", "price": 150 },
-        {"name": "Café Cortado", "price": 180 }
+        {"name": "Musse Variados", "price": 570 }
       ],
       "drinks": [
-        null
+        {"name": "Café Cubano", "price": 150 },
+        {"name": "Café Cortado", "price": 180 }
       ]
     },
     "service_charge_percentage": 0 

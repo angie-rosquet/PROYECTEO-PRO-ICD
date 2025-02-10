@@ -93,9 +93,7 @@
       {"name": "Mary Pickford", "price": 1150},
       {"name": "Chelada", "price": 900},
       {"name": "Michelada", "price": 1100},
-      {"name": "Michelada de la Casa", "price": 1200}
-    ],
-    "coffee": [
+      {"name": "Michelada de la Casa", "price": 1200},
       {"name": "Café Americano", "price": 400},
       {"name": "Café Expresso", "price": 400},
       {"name": "Café Cortado", "price": 430},
@@ -103,10 +101,6 @@
       {"name": "Café Capuchino", "price": 500},
       {"name": "Café Bombón", "price": 550},
       {"name": "Frapuchino", "price": 900}
-    ],
-    "others": [
-      {"name": "Arroz / Rice", "price": 0},
-      {"name": "Potaje / Bean Soup", "price": 0}
     ]
   },
   "service_charge_percentage": 10

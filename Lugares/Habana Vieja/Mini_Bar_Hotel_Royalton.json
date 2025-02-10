@@ -2,13 +2,13 @@
   "name": "Mini Bar (Hotel Royalton Paseo Del Prado)",
   "address": "Prado y Malecón, Habana Vieja",
   "schedule": {
-    "monday": {"open": "24 horas", "close": "24 horas"},
-    "tuesday": {"open": "24 horas", "close": "24 horas"},
-    "wednesday": {"open": "24 horas", "close": "24 horas"},
-    "thursday": {"open": "24 horas", "close": "24 horas"},
-    "friday": {"open": "24 horas", "close": "24 horas"},
-    "saturday": {"open": "24 horas", "close": "24 horas"},
-    "sunday": {"open": "24 horas", "close": "24 horas"}
+    "monday": {"open": "00:00", "close": "24:00"},
+    "tuesday": {"open": "00:00", "close": "24:00"},
+    "wednesday": {"open": "00:00", "close": "24:00"},
+    "thursday": {"open": "00:00", "close": "24:00"},
+    "friday": {"open": "00:00", "close": "24:00"},
+    "saturday": {"open": "00:00", "close": "24:00"},
+    "sunday": {"open": "00:00", "close": "24:00"}
   },
   "contacts": {
     "phone_number": null,
@@ -19,7 +19,7 @@
   },
   "type_establishment": "Hotel",
   "specialty": ["Mini Bar"],
-  "parking": null,
+  "parking": false,
   "reservations": false,
   "payment_methods": {
     "cash_national": false,
@@ -32,7 +32,11 @@
   "delivery_areas": false,
   "power_generator": false,
   "menu": {
-    "items": [
+    "appetizer": [],
+    "main_course": [],
+    "garrison": [],
+    "desserts": [],
+    "drinks": [
       {"name": "Jugo de frutas / Fruit juice", "price": 360},
       {"name": "Refresco / Soda", "price": 390},
       {"name": "Agua tónica / Tonic water", "price": 450},
@@ -41,12 +45,6 @@
       {"name": "Cerveza nacional / National beer", "price": 600},
       {"name": "Cerveza importada / Imported beer", "price": 750},
       {"name": "Ron en miniatura (45ml) / Miniature rum (45ml)", "price": 850}
-    ],
-    "notes": [
-      "*Los precios son en CUP. A su cuenta se le adicionará el 10% por concepto de servicio.",
-      "Prices are in CUP. A 10% service charge will be added to your account.",
-      "**Deberá contar con crédito, para poder cargarlo a la habitación.",
-      "You must have credit, to be able to charge it to the room."
     ]
   },
   "service_charge_percentage": 10

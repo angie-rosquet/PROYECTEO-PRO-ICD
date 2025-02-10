@@ -28,9 +28,7 @@
       "usd_transfer": false,
       "mlc": false
     },
-    "delivery_areas": [
-      "Diez de Octubre"
-    ],
+    "delivery_areas": true,
     "power_generator": true ,
     "menu": {
     "appetizer": false,

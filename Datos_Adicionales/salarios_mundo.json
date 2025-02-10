@@ -1,74 +1,93 @@
 {
     "Estados Unidos": {
-            "medico": 200000,
-            "profesor asistente nivel superior": 5060,
-            "profesor titular nivel superior": 5560,
-            "profesor auxiliar nivel superior": 5310,
-            "profesor nivel medio": 4010,
-            "cientifico o investigador titular": 5560,
-            "enfermero": 4610,
-            "periodista": 4010
-      },
-      "España": {
-            "medico": 40000,
-            "profesor asistente nivel superior": 5060,
-            "profesor titular nivel superior": 5560,
-            "profesor auxiliar nivel superior": 5310,
-            "profesor nivel medio": 4010,
-            "cientifico o investigador titular": 5560,
-            "enfermero": 4610,
-            "periodista": 4010
-      },
-      "México": {
-            "medico": 30000,
-            "profesor asistente nivel superior": 5060,
-            "profesor titular nivel superior": 5560,
-            "profesor auxiliar nivel superior": 5310,
-            "profesor nivel medio": 4010,
-            "cientifico o investigador titular": 5560,
-            "enfermero": 4610,
-            "periodista": 4010
-      },
-      "Argentina": {
-            "medico": 50000,
-            "profesor asistente nivel superior": 5060,
-            "profesor titular nivel superior": 5560,
-            "profesor auxiliar nivel superior": 5310,
-            "profesor nivel medio": 4010,
-            "cientifico o investigador titular": 5560,
-            "enfermero": 4610,
-            "periodista": 4010
-      },
-      "Colombia": {
-            "medico": 40000,
-            "profesor asistente nivel superior": 5060,
-            "profesor titular nivel superior": 5560,
-            "profesor auxiliar nivel superior": 5310,
-            "profesor nivel medio": 4010,
-            "cientifico o investigador titular": 5560,
-            "enfermero": 4610,
-            "periodista": 4010
-      },
-      "Chile": {
-            "medico": 45000,
-            "profesor asistente nivel superior": 5060,
-            "profesor titular nivel superior": 5560,
-            "profesor auxiliar nivel superior": 5310,
-            "profesor nivel medio": 4010,
-            "cientifico o investigador titular": 5560,
-            "enfermero": 4610,
-            "periodista": 4010
-      },
-      "Perú": {
-            "medico": 35000,
-            "profesor asistente nivel superior": 5060,
-            "profesor titular nivel superior": 5560,
-            "profesor auxiliar nivel superior": 5310,
-            "profesor nivel medio": 4010,
-            "cientifico o investigador titular": 5560,
-            "enfermero": 4610,
-            "periodista": 4010
-      }
+        "medico" : 5810,
+        "profesor asistente nivel superior": 5060,
+        "profesor titular nivel superior": 5560,
+        "profesor auxiliar nivel superior": 5310,
+        "profesor nivel medio": 4010,
+        "cientifico o investigador titular": 5560,
+        "enfermero": 4610,
+        "periodista": 4010,
+        "salario minimo": 2100,
+        "pensionados": 1733,
+        "salario maximo": 9510
+    },
+    "España": {
+        "medico" : 5810,
+        "profesor asistente nivel superior": 5060,
+        "profesor titular nivel superior": 5560,
+        "profesor auxiliar nivel superior": 5310,
+        "profesor nivel medio": 4010,
+        "cientifico o investigador titular": 5560,
+        "enfermero": 4610,
+        "periodista": 4010,
+        "salario minimo": 2100,
+        "pensionados": 1733,
+        "salario maximo": 9510
+    },
+    "México": {
+        "medico" : 5810,
+        "profesor asistente nivel superior": 5060,
+        "profesor titular nivel superior": 5560,
+        "profesor auxiliar nivel superior": 5310,
+        "profesor nivel medio": 4010,
+        "cientifico o investigador titular": 5560,
+        "enfermero": 4610,
+        "periodista": 4010,
+        "salario minimo": 2100,
+        "pensionados": 1733,
+        "salario maximo": 9510
+    },
+    "Argentina": {
+        "medico" : 5810,
+        "profesor asistente nivel superior": 5060,
+        "profesor titular nivel superior": 5560,
+        "profesor auxiliar nivel superior": 5310,
+        "profesor nivel medio": 4010,
+        "cientifico o investigador titular": 5560,
+        "enfermero": 4610,
+        "periodista": 4010,
+        "salario minimo": 2100,
+        "pensionados": 1733,
+        "salario maximo": 9510
+    },
+    "Colombia": {
+        "medico" : 5810,
+        "profesor asistente nivel superior": 5060,
+        "profesor titular nivel superior": 5560,
+        "profesor auxiliar nivel superior": 5310,
+        "profesor nivel medio": 4010,
+        "cientifico o investigador titular": 5560,
+        "enfermero": 4610,
+        "periodista": 4010,
+        "salario minimo": 2100,
+        "pensionados": 1733,
+        "salario maximo": 9510
+    },
+    "Chile": {
+        "medico" : 5810,
+        "profesor asistente nivel superior": 5060,
+        "profesor titular nivel superior": 5560,
+        "profesor auxiliar nivel superior": 5310,
+        "profesor nivel medio": 4010,
+        "cientifico o investigador titular": 5560,
+        "enfermero": 4610,
+        "periodista": 4010,
+        "salario minimo": 2100,
+        "pensionados": 1733,
+        "salario maximo": 9510
+    },
+    "Perú": {
+        "medico" : 5810,
+        "profesor asistente nivel superior": 5060,
+        "profesor titular nivel superior": 5560,
+        "profesor auxiliar nivel superior": 5310,
+        "profesor nivel medio": 4010,
+        "cientifico o investigador titular": 5560,
+        "enfermero": 4610,
+        "periodista": 4010,
+        "salario minimo": 2100,
+        "pensionados": 1733,
+        "salario maximo": 9510
+    }
 }
-
-#incorrector

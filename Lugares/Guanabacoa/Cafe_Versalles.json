@@ -1,6 +1,6 @@
 {
   "name": "Café Versalles",
-  "address": "4MGV+4M6, Martí, Guanabacoa",
+  "address": "Martí, Guanabacoa",
   "schedule": {
     "monday": {"open": "09:00", "close": "24:00"},
     "tuesday": {"open": "09:00", "close": "24:00"},
@@ -56,7 +56,21 @@
       {"name": "Solomillo de cerdo al carbón con bbq 1 libra", "price": 3000},
       {"name": "Uruguayo de cerdo", "price": 2500},
       {"name": "Masa de cerdo frita 300 gr", "price": 2800},
-      {"name": "Bistec de cerdo encebollado", "price": 1600}
+      {"name": "Bistec de cerdo encebollado", "price": 1600},
+      {"name": "Pizza Napoles","price": 900},
+      {"name": "Pizza queso gouda","price": 1260},
+      {"name": "Pizza jamón","price": 1150},
+      {"name": "Pizza chorizo", "price": 1250},
+      {"name": "Pizza camarones","price": 1700},
+      {" name": "Pizza cebolla","price": 1150},
+      {" name": "Pizza aceituna","price": 1200},
+      {"name": "Pizza piña","price": 1150},
+      {"name": "Pizza atún","price": 1250},
+      {"name": "Pizza lomo ahumado","price": 1250 },
+      {" name": "Pizza beicon","price": 1300 },
+      {"name": "Pizza pimiento","price": 1200 },
+      {" name": "Espaguetis","price": 800},
+      {" name": "Lazaña de Jamon","price": 1200}
     ],
     "garrison": [
       null
@@ -72,7 +86,15 @@
       {"name": "Whisky chivas regal", "price": 1000},
       {"name": "Limonada frappe", "price": 250},
       {"name": "Cerveza cristal", "price": 350},
-      {"name": "Piña colada", "price": 550}
+      {"name": "Piña colada", "price": 550},
+      {" name": "Agua natural","price": 200},
+      {" name": "Refresco importado","price": 250},
+      {" name": "Refresco nacional","price": 250},
+      {" name": "Malta","price": 320},
+      {" name": "Jugos naturales","price": 350},
+      {" name": "Café expreso","price": 100},
+      {"name": "Café bombon","price": 250},
+      {" name": "Café cortado","price": 200}
     ]
   },
   "service_charge_percentage": 0

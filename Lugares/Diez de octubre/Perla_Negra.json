@@ -17,7 +17,7 @@
       "instagram": "@rs_perlanegra",
       "facebook": null
     },
-    "type_establishment": "Tipo de establecimiento (ej: Restaurante, Cafetería, Bar)",
+    "type_establishment": "Restaurante",
     "specialty": ["cubana", "italiana"],
     "parking": true,
     "reservations": true,

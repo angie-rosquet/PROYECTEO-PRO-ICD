@@ -82,22 +82,13 @@
       {"name": "tarta", "price": 1000},
       {"name": "flan de la casa", "price": 500}
     ],
-    "drinks": {
-      "water": [
-        {"name": "agua natural", "price": 250}
-      ],
-      "soft_drinks": [
+    "drinks": [
+        {"name": "agua natural", "price": 250},
         {"name": "refrescos", "price": 350},
         {"name": "energizantes", "price": 250},
-        {"name": "red bull", "price": 650}
-      ],
-      "juices": [
+        {"name": "red bull", "price": 650},
         {"name": "limonada", "price": 250},
-        {"name": "jugos naturales", "price": 350}
-      ],
-      "smoothie": false,
-      "ice_cream_shake": false,
-      "alcoholic": [
+        {"name": "jugos naturales", "price": 350},
         {"name": "hc 7 anos", "price": 650},
         {"name": "hc seleccion", "price": 1850},
         {"name": "santiago 8 anos", "price": 780},
@@ -148,15 +139,12 @@
         {"name": "jagger", "price": 750},
         {"name": "campari", "price": 800},
         {"name": "sambuca", "price": 650},
-        {"name": "grapa", "price": 550}
-      ],
-      "coffee": [
+        {"name": "grapa", "price": 550},
         {"name": "cafe", "price": 250},
         {"name": "cafe cortado", "price": 300},
         {"name": "capuccino", "price": 700},
         {"name": "frappuccino", "price": 1000}
       ]
-    }
   },
   "service_charge_percentage": 0
 }

@@ -35,10 +35,6 @@
       null
     ],
     "main_course": [
-      {"name": "Nombre del plato", "price": 2500 },
-      {"name": "Nombre del plato", "price": 3000 }
-    ],
-    "garrison": [
       {"name": "Pizza Napolitana", "price": 950 },
       {"name": "Pizza de Jamon", "price": 980 },
       {"name": "Pizza de Chorizo", "price": 980 },
@@ -60,6 +56,9 @@
       {"name": "Hamburguesa", "price": 350 },
       {"name": "Emapredado de Heredia", "price": 350 },
       {"name": "Emparedado Cubano", "price": 350 }
+    ],
+    "garrison": [
+      null
     ],
     "desserts": [
       null

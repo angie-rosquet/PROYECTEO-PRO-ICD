@@ -13,9 +13,9 @@
   "contacts": {
     "phone_number": "50671673",
     "mobile": null,
-    "website": "URL del sitio web",
-    "instagram": "@nombre_de_usuario_instagram",
-    "facebook": "URL de la página de Facebook"
+    "website": null,
+    "instagram": null,
+    "facebook": null
   },
   "type_establishment": "Bar-Restaurante-Cafetería",
   "specialty": ["Entrantes"],
@@ -64,9 +64,7 @@
       {"name": "Línea Reserva", "price": 400},
       {"name": "Tequila Blanco", "price": 350},
       {"name": "Copa de vino", "price": 500},
-      {"name": "Tequila reposado", "price": 500}
-    ],
-    "cocktails": [
+      {"name": "Tequila reposado", "price": 500},
       {"name": "Mojito", "price": 500},
       {"name": "Cuba libre", "price": 450},
       {"name": "Caipirina", "price": 400},
@@ -80,9 +78,7 @@
       {"name": "Bejuco colorao", "price": 700},
       {"name": "Bejuco Gin", "price": 700},
       {"name": "Cubata en reserva", "price": 650},
-      {"name": "Cubata con 7 años", "price": 800}
-    ],
-    "infusions": [
+      {"name": "Cubata con 7 años", "price": 800},
       {"name": "Cafe expreso", "price": 150},
       {"name": "Cortado", "price": 250},
       {"name": "Capuccino", "price": 300},

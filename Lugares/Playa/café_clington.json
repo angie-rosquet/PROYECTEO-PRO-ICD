@@ -95,45 +95,31 @@
       {"name": "protiferol", "price": 450},
       {"name": "eclair", "price": 450}
     ],
-    "drinks": {
-      "water": [
+    "drinks": [
         {"name": "agua purificada de 500ml", "price": 270},
         {"name": "agua purificada de 1l", "price": 350},
         {"name": "agua purificada de 5l", "price": 900},
-        {"name": "agua gaseada", "price": 500}
-      ],
-      "soft_drinks": [
+        {"name": "agua gaseada", "price": 500},
         {"name": "malta", "price": 350},
         {"name": "pepsi", "price": 350},
         {"name": "redbull", "price": 500},
         {"name": "coca cola", "price": 450},
-        {"name": "sprite", "price": 450}
-      ],
-      "juices": [
+        {"name": "sprite", "price": 450},
         {"name": "jugos de 1l", "price": 900},
-        {"name": "copa de jugos naturales", "price": 250}
-      ],
-      "smoothie": false,
-      "ice_cream_shake": false,
-      "alcoholic": [
+        {"name": "copa de jugos naturales", "price": 250},
         {"name": "cerveza cristal", "price": 300},
         {"name": "cerveza sol", "price": 400},
         {"name": "cerveza bucanero", "price": 400},
         {"name": "cerveza heineken", "price": 500},
         {"name": "cerveza blue", "price": 300},
-        {"name": "cerveza corona", "price": 550}
-      ],
-      "coffee": [
+        {"name": "cerveza corona", "price": 550},
         {"name": "expresso", "price": 200},
         {"name": "cortado", "price": 250},
         {"name": "capuchino", "price": 500},
         {"name": "bombon", "price": 500},
         {"name": "frapuccino", "price": 600},
         {"name": "con leche", "price": 600},
-        {"name": "chocolate caliente", "price": 600}
-      ]
-    },
-    "special_offers": [
+        {"name": "chocolate caliente", "price": 600},
       {"name": "yougurt natural de 1l", "price": 1200},
       {"name": "yogurt probiotico de mango y guayaba", "price": 900}
     ]

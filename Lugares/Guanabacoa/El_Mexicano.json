@@ -35,8 +35,10 @@
       null
     ],
     "main_course": [
-      { "name": "Sandwich de Jamón y Queso", "price": 350 },
-      { "name": "Sandwich de Queso Jamón Especial", "price": 600 }
+      {"name": "Sandwich de Jamón y Queso", "price": 350 },
+      {"name": "Sandwich de Queso Jamón Especial", "price": 600 },
+      {"name": "Pizza Queso Gouda","price": 450},
+      {"name": "Spaguetti Queso Gouda","price": 770}
     ],
     "garrison": [
       null

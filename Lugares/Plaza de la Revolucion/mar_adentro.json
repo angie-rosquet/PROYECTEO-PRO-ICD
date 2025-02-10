@@ -1,6 +1,6 @@
 {
   "name": "Mar Adentro",
-  "address": "Calle C, #15, entre 1ª y 3ª, Plaza de la Revolución, La Habana, Cuba",
+  "address": "Calle C, #15, entre 1ª y 3ª, Plaza de la Revolución",
   "schedule": {
     "monday": {"open": "09:00", "close": "00:30"},
     "tuesday": {"open": "09:00", "close": "00:30"},

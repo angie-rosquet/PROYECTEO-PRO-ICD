@@ -44,7 +44,16 @@
       { "name": "HAMBURGUESA FARO", "price": 900 },
       { "name": "Costillas de Cerdo", "price": 1200 },
       { "name": "Ruedas de pescado Grille", "price": 1400 },
-      { "name": "Pollo Grille", "price": 950 }
+      { "name": "Pollo Grille", "price": 950 },
+      {"name": "PIZZA EL FARO","price": 900},
+      {"name": "PIZZA COMBINADA","price": 900},
+      {"name": "PIZZA HAWAIANA","price": 900 },
+      {"name": "PIZZA DE CEBOLLA","price": 900 },
+      {"name": "PIZZA DE PIMIENTO","price": 900 },
+      {"name": "PIZZA GUSTAZO (Doble Queso)","price": 900},
+      {"name": "PIZZA JAMÓN","price": 900},
+      {"name": "Spaguetti Napolitano","price": 750},
+      {"name": "Spaguetti de Jamón","price": 850}
     ],
     "garrison": [
       null

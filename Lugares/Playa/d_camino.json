@@ -96,7 +96,7 @@
       {"name": "Brownie de nueces y helado de pistacho", "price": 2000},
       {"name": "Es mas que un flan", "price": 2000}
     ],
-    "drinks": null
+    "drinks": []
   },
   "service_charge_percentage": 0
 }

@@ -1,6 +1,6 @@
 {
   "name": "El Ajiaco",
-  "address": "esquina de calle Los Pinos y Cuba, Cojimar",
+  "address": "esquina de calle Los Pinos y Cuba, Cojimar, Habana del Este",
   "schedule": {
     "monday": {"open": "12:00", "close": "00:00"},
     "tuesday": {"open": "12:00", "close": "00:00"},
@@ -17,7 +17,7 @@
     "instagram": null,
     "facebook": null
   },
-  "type_establishment": "Restaurant",
+  "type_establishment": "Restaurante",
   "specialty": ["Criolla"],
   "parking": true,
   "reservations": true,
@@ -28,7 +28,7 @@
     "usd_transfer": false,
     "mlc": false
   },
-  "delivery_areas": "Habana del Este, Guanabacoa",
+  "delivery_areas": true,
   "power_generator": false,
   "menu": {
     "appetizer": [

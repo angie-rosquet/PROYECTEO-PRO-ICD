@@ -82,8 +82,9 @@
       {"name": "Yakisoba de Langosta", "price": 2000},
       {"name": "Yakisoba de Pollo", "price": 1550}
     ],
-    "side": null,
-    "beverages": [
+    "guartison": null,
+
+    "drinks": [
       {"name": "Agua Mineral Carbonatada Ciego Montero", "price": 150},
       {"name": "Agua Natural Ciego Montero", "price": 350},
       {"name": "Cerveza Bucanero", "price": 500},

@@ -86,9 +86,7 @@
       {"name": "piña colada", "price": 850},
       {"name": "barbie", "price": 700},
       {"name": "canchánchara", "price": 550},
-      {"name": "daiquirí", "price": 650}
-    ],
-    "coffee": [
+      {"name": "daiquirí", "price": 650},
       {"name": "expresso", "price": 220},
       {"name": "americano", "price": 360},
       {"name": "cortadito", "price": 250},

@@ -17,8 +17,8 @@
     "instagram": null,
     "facebook": null
   },
-  "type_establishment": "Tipo de establecimiento (ej: Restaurante, Cafetería, Bar)",
-  "specialty": [],
+  "type_establishment": "Cafetería",
+  "specialty": ["comida rapida"],
   "parking": false,
   "reservations": false,
   "payment_methods": {
@@ -35,11 +35,11 @@
       null
     ],
     "main_course": [
-      {"name": "Hamburguesa cerdo", "price": 640.0},
-      {"name": "Hamburguesa pollo", "price": 650.0},
-      {"name": "Hamburguesa res", "price": 690.0},
-      {"name": "Sandwich", "price": 350.0},
-      {"name": "Sandwich especial", "price": 450.0}
+      {"name": "Hamburguesa cerdo", "price": 640 },
+      {"name": "Hamburguesa pollo", "price": 650 },
+      {"name": "Hamburguesa res", "price": 690 },
+      {"name": "Sandwich", "price": 350 },
+      {"name": "Sandwich especial", "price": 450 }
     ],
     "garrison": [
       null
@@ -48,14 +48,14 @@
       null
     ],
     "drinks": [
-      {"name": "Refresco", "price": 270.0},
-      {"name": "Pepsi", "price": 320.0},
-      {"name": "Jugo lata", "price": 280.0},
-      {"name": "Kermato", "price": 480.0},
+      {"name": "Refresco", "price": 270 },
+      {"name": "Pepsi", "price": 320 },
+      {"name": "Jugo lata", "price": 280 },
+      {"name": "Kermato", "price": 480 },
       {"name": "Tigon", "price": null},
-      {"name": "Cristal", "price": 3000.0},
-      {"name": "Hollandia", "price": 300.0},
-      {"name": "Stella", "price": 400.0}
+      {"name": "Cristal", "price": 3000 },
+      {"name": "Hollandia", "price": 300 },
+      {"name": "Stella", "price": 400 }
     ]
   },
   "service_charge_percentage": 10

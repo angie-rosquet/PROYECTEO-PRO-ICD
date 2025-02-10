@@ -97,37 +97,24 @@
       {"name": "nutella", "price": 450}
     ],
     "desserts": [],
-    "drinks": {
-      "water": [
+    "drinks": [
         {"name": "agua natural", "price": 300},
         {"name": "agua natural importada", "price": 350},
         {"name": "agua carbonatada", "price": 300},
         {"name": "agua carbonatada importada", "price": 850},
         {"name": "agua tonica MG", "price": 600},
-        {"name": "agua tonica Schweppes", "price": 900}
-      ],
-      "soft_drinks": [
+        {"name": "agua tonica Schweppes", "price": 900},
         {"name": "refresco nacional", "price": 350},
         {"name": "refresco importado", "price": 450},
         {"name": "malta", "price": 450},
         {"name": "malteada", "price": 650},
-        {"name": "red bull", "price": 650}
-      ],
-      "juices": [
+        {"name": "red bull", "price": 650},
         {"name": "jugo de fruta natural", "price": 350},
         {"name": "jugo de caja importado", "price": 300},
-        {"name": "kermato", "price": 750}
-      ],
-      "smoothie": [
-        {"name": "batido de fruta", "price": 600}
-      ],
-      "ice_cream_shake": [
-        {"name": "suero de helado", "price": 850}
-      ],
-      "alcoholic": [
-        {"name": "cerveza", "price": 650}
-      ],
-      "coffee": [
+        {"name": "kermato", "price": 750},
+        {"name": "batido de fruta", "price": 600},
+        {"name": "suero de helado", "price": 850},
+        {"name": "cerveza", "price": 650},
         {"name": "cafe expresso", "price": 350},
         {"name": "cafe americano", "price": 350},
         {"name": "cafe nespresso", "price": 700},
@@ -141,7 +128,6 @@
         {"name": "chocolate a la espanola", "price": 600},
         {"name": "te caliente o frio", "price": 350}
       ]
-    }
   },
   "service_charge_percentage": 0
 }

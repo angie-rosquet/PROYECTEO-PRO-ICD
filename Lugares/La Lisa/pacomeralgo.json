@@ -62,34 +62,22 @@
     ],
     "garrison": [],
     "desserts": [],
-    "drinks": {
-      "water": false,
-      "soft_drinks": [
+    "drinks":[
         {"name": "Refresco de cola", "price": 250},
         {"name": "Refresco de limon", "price": 250},
         {"name": "Refresco de naranja", "price": 250},
         {"name": "Malta", "price": 350},
         {"name": "Malteada", "price": 650},
-        {"name": "Energizante", "price": 350}
-      ],
-      "juices": [
+        {"name": "Energizante", "price": 350},
         {"name": "Jugo pequeño", "price": 250},
-        {"name": "Jugo grande", "price": 900}
-      ],
-      "smoothie": [
-        {"name": "Yogurt vaso", "price": 200}
-      ],
-      "ice_cream_shake": false,
-      "alcoholic": [
-        {"name": "Cerveza", "price": 250}
-      ],
-      "coffee": [
+        {"name": "Jugo grande", "price": 900},
+        {"name": "Yogurt vaso", "price": 200},
+        {"name": "Cerveza", "price": 250},
         {"name": "Expresso", "price": 150},
         {"name": "Americano", "price": 150},
         {"name": "Cortadito", "price": 220},
         {"name": "Bombon", "price": 350}
       ]
-    }
   },
   "service_charge_percentage": 0
 }

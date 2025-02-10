@@ -75,8 +75,7 @@
     ],
     "garrison": [],
     "desserts": [],
-    "drinks": {
-      "alcoholic": [
+    "drinks": [
         {"name": "Cerveza Stella", "price": 510},
         {"name": "Caipirisima", "price": 600},
         {"name": "Caipiroska", "price": 520},
@@ -113,9 +112,7 @@
         {"name": "Whisky JW Black Label", "price": 940},
         {"name": "Whisky JW Red Label", "price": 470},
         {"name": "Whisky Old Partner", "price": 200},
-        {"name": "Whisky Spirit Speech", "price": 200}
-      ],
-      "non_alcoholic": [
+        {"name": "Whisky Spirit Speech", "price": 200},
         {"name": "Jugo de Fruta Bomba", "price": 185},
         {"name": "Jugo de Guayaba", "price": 185},
         {"name": "Liminada", "price": 415},
@@ -131,7 +128,6 @@
         {"name": "Refresco de Limon", "price": 300},
         {"name": "Refresco de Naranja", "price": 300}
       ]
-    }
-  },
-  "service_charge_percentage": 0
-}
+    },
+    "service_charge_percentage": 0
+  }

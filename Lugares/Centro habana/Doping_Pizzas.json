@@ -1,6 +1,6 @@
 {
   "name": "Doping pizza",
-  "address": "Centro Habana",
+  "address": "calle Zanja, entre Espada y San Francisco, Centro Habana",
   "schedule": {
     "monday": {"open": "12:00", "close": "24:00"},
     "tuesday": {"open": "12:00", "close": "24:00"},

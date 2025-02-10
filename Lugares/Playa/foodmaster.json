@@ -59,22 +59,13 @@
       {"name": "muffin", "price": 550},
       {"name": "helado", "price": 750}
     ],
-    "drinks": {
-      "water": false,
-      "soft_drinks": false,
-      "juices": [
+    "drinks": [
         {"name": "jugo natural", "price": 500},
         {"name": "jugo cajita", "price": 400},
-        {"name": "fresh de pepino", "price": 300}
-      ],
-      "smoothie": [
-        {"name": "smoothie de frutas", "price": 600}
-      ],
-      "ice_cream_shake": [
+        {"name": "fresh de pepino", "price": 300},
+        {"name": "smoothie de frutas", "price": 600},
         {"name": "batido de helado", "price": 750},
-        {"name": "batido de helado y frutas", "price": 750}
-      ],
-      "alcoholic": [
+        {"name": "batido de helado y frutas", "price": 750},
         {"name": "vino por copa", "price": 900},
         {"name": "gin & tonic", "price": 1200},
         {"name": "chelada", "price": 900},
@@ -85,9 +76,7 @@
         {"name": "spirit coctel", "price": 800},
         {"name": "cerveza", "price": 600},
         {"name": "cerveza gama alta", "price": 800}
-      ],
-      "coffee": false
-    }
+      ]
   },
   "service_charge_percentage": 0
 }

@@ -11,7 +11,7 @@
     "sunday": {"open": "08:00", "close": "22:00"}
   },
   "contacts": {
-    "phone_number": "078015162",
+    "phone_number": "78015162",
     "mobile": null,
     "website": "URL del sitio web",
     "instagram": "@nombre_de_usuario_instagram",
@@ -31,7 +31,7 @@
   "delivery_areas": false,
   "power_generator": true,
   "menu": {
-    "aperitivo": [
+    "appetizer": [
       {"name": "Croquetas Serrano", "price": 1480},
       {"name": "Rillete de Cerdo", "price": 1500},
       {"name": "Tacos de Cerdo", "price": 2200},

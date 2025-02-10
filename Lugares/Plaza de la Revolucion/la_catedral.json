@@ -1,6 +1,6 @@
 {
   "name": "La Catedral",
-  "address": "Calle 8 e/ Calzada 5ta, Vedado. Plaza de la Revolución, La Habana 10400 Cuba",
+  "address": "Calle 8 e/ Calzada 5ta, Vedado. Plaza de la Revolución",
   "schedule": {
     "monday": {"open": "08:00", "close": "23:00"},
     "tuesday": {"open": "08:00", "close": "23:00"},

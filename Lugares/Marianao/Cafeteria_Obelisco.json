@@ -14,8 +14,8 @@
     "phone_number": null,
     "mobile": null,
     "website": null,
-    "instagram": "@nombre_de_usuario_instagram",
-    "facebook": "URL de la página de Facebook"
+    "instagram": null,
+    "facebook": null
   },
   "type_establishment": "Restaurante",
   "specialty": [],

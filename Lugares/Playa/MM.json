@@ -67,17 +67,9 @@
     ],
     "garrison": [],
     "desserts": [],
-    "drinks": {
-      "water": false,
-      "soft_drinks": [
-        {"name": "refrescos", "price": 700}
-      ],
-      "juices": [
-        {"name": "jugos natural", "price": 1200}
-      ],
-      "smoothie": false,
-      "ice_cream_shake": false,
-      "alcoholic": [
+    "drinks": [
+        {"name": "refrescos", "price": 700},
+        {"name": "jugos natural", "price": 1200},
         {"name": "cuba libre", "price": 1000},
         {"name": "daikiri", "price": 1000},
         {"name": "vodka tonic", "price": 1800},
@@ -87,12 +79,9 @@
         {"name": "negroni", "price": 2800},
         {"name": "cerveza nacional", "price": 900},
         {"name": "cerveza importada", "price": 1000},
-        {"name": "copa de vino", "price": 1200}
-      ],
-      "coffee": [
+        {"name": "copa de vino", "price": 1200},
         {"name": "café espresso", "price": 400}
       ]
-    }
   },
   "service_charge_percentage": 0
 }

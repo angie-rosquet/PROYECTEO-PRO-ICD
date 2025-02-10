@@ -1,6 +1,6 @@
 {
   "name": "La Taberna",
-  "address": "avenida 101 número 3006 entre 30 y 32 magdalena cotorro",
+  "address": "avenida 101 número 3006 entre 30 y 32 magdalena, Cotorro",
   "schedule": {
     "monday": {"open": null, "close": null},
     "tuesday": {"open": "12:00", "close": "24:00"},

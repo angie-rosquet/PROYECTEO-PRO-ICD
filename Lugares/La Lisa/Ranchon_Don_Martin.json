@@ -2,20 +2,20 @@
   "name": "Ranchon Don Martin",
   "address": "La Lisa",
   "schedule": {
-    "monday": {"open": "HH:mm", "close": "HH:mm"},
-    "tuesday": {"open": "HH:mm", "close": "HH:mm"},
-    "wednesday": {"open": "HH:mm", "close": "HH:mm"},
-    "thursday": {"open": "HH:mm", "close": "HH:mm"},
-    "friday": {"open": "HH:mm", "close": "HH:mm"},
-    "saturday": {"open": "HH:mm", "close": "HH:mm"},
-    "sunday": {"open": "HH:mm", "close": "HH:mm"}
+    "monday": {"open": "09:00", "close": "22:00"},
+    "tuesday": {"open": "09:00", "close": "22:00"},
+    "wednesday": {"open": "09:00", "close": "22:00"},
+    "thursday": {"open": "09:00", "close": "22:00"},
+    "friday": {"open": "09:00", "close": "22:00"},
+    "saturday": {"open": "09:00", "close": "22:00"},
+    "sunday": {"open": "09:00", "close": "22:00"}
   },
   "contacts": {
     "phone_number": null,
     "mobile": null,
     "website": null,
-    "instagram": "@nombre_de_usuario_instagram",
-    "facebook": "URL de la página de Facebook"
+    "instagram": null,
+    "facebook": null
   },
   "type_establishment": "Restaurante",
   "specialty": ["Cubana"],
@@ -78,9 +78,7 @@
     "desserts": [
       {"name": "Flan", "price": 350}
     ],
-    "drinks": {
-      "alcoholic": [],
-      "non_alcoholic": [
+    "drinks": [
         {"name": "Refresco de Lata", "price": 220},
         {"name": "Malta Caribia", "price": 230},
         {"name": "Refresco Manzanita", "price": 290},
@@ -91,7 +89,6 @@
         {"name": "Jugo de Caja", "price": 175},
         {"name": "Batido de Helado", "price": 450}
       ]
-    }
   },
   "service_charge_percentage": 0
 }

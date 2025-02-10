@@ -55,8 +55,7 @@
       {"name": "cebolla", "price": 250}
     ],
     "desserts": [],
-    "drinks": {
-      "alcoholic": [
+    "drinks": [
         {"name": "daiquiri", "price": 900},
         {"name": "old fashion", "price": 1800},
         {"name": "sangria", "price": 1000},
@@ -79,17 +78,12 @@
         {"name": "mojito", "price": 700},
         {"name": "gin tonic", "price": 1500},
         {"name": "caipis", "price": 800},
-        {"name": "cubata", "price": 700}
-      ],
-      "coffee": [
+        {"name": "cubata", "price": 700},
         {"name": "expresso", "price": 200},
         {"name": "cortadito", "price": 300},
         {"name": "capuchino", "price": 350},
         {"name": "bombon", "price": 500},
-        {"name": "frapuccino", "price": 1200}
-      ]
-    },
-    "special_offers": [
+        {"name": "frapuccino", "price": 1200},
       {"name": "habanos esplendido", "price": 2000},
       {"name": "habanos trinidad", "price": 3100},
       {"name": "ron premium y habanos", "price": 4000},

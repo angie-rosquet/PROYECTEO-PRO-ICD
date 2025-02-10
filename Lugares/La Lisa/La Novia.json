@@ -2,13 +2,13 @@
   "name": "La Novia",
   "address": "#33013, Calle 51 entre 330 y 332, La Novia del Mediodia",
   "schedule": {
-    "monday": {"open": "", "close": ""},
-    "tuesday": {"open": "", "close": ""},
-    "wednesday": {"open": "", "close": ""},
-    "thursday": {"open": "", "close": ""},
-    "friday": {"open": "", "close": ""},
-    "saturday": {"open": "", "close": ""},
-    "sunday": {"open": "", "close": ""}
+    "monday": {"open": "09:00", "close": "22:00"},
+    "tuesday": {"open": "09:00", "close": "22:00"},
+    "wednesday": {"open": "09:00", "close": "22:00"},
+    "thursday": {"open": "09:00", "close": "22:00"},
+    "friday":{"open": "09:00", "close": "22:00"},
+    "saturday": {"open": "09:00", "close": "22:00"},
+    "sunday":{"open": "09:00", "close": "22:00"}
   },
   "contacts": {
     "phone_number": "55861545",

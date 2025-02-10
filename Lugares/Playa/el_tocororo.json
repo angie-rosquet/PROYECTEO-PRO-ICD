@@ -81,14 +81,7 @@
       {"name": "Dulces en almíbar guarnecido con queso", "price": 200},
       {"name": "Helado Tocororo", "price": 180}
     ],
-    "drinks": {
-      "water": false,
-      "soft_drinks": null,
-      "juices": false,
-      "smoothie": false,
-      "ice_cream_shake": false,
-      "alcoholic": false,
-      "coffee": [
+    "drinks":[
         {"name": "Café expreso", "price": 90},
         {"name": "Café cortadito", "price": 100},
         {"name": "Café rocío de gallo", "price": 150},
@@ -97,7 +90,6 @@
         {"name": "Infusión de manzanilla", "price": 100},
         {"name": "Infusión de menta poleo", "price": 100}
       ]
-    }
   },
   "service_charge_percentage": 0
 }

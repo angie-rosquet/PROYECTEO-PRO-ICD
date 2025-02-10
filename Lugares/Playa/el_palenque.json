@@ -63,27 +63,17 @@
       {"name": "arroz con leche", "price": 60},
       {"name": "dulce de frutabomba", "price": 120}
     ],
-    "drinks": {
-      "water": false,
-      "soft_drinks": false,
-      "juices": [
-        {"name": "jugos naturales", "price": 100}
-      ],
-      "smoothie": false,
-      "ice_cream_shake": false,
-      "alcoholic": [
+    "drinks": [
+        {"name": "jugos naturales", "price": 100},
         {"name": "cerveza", "price": 120},
         {"name": "licores nacionales", "price": 20},
         {"name": "ron havana club reserva", "price": 40},
-        {"name": "tequila blanco", "price": 150}
-      ],
-      "coffee": [
+        {"name": "tequila blanco", "price": 150},
         {"name": "cafe palenque", "price": null},
         {"name": "cortadito", "price": 60},
         {"name": "café con leche", "price": 80},
         {"name": "te", "price": 30}
       ]
-    }
   },
   "service_charge_percentage": 0
 }

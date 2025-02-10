@@ -18,79 +18,54 @@
     "facebook": null
   },
   "type_establishment": "Restaurante Japonés",
-  "specialty": ["Restaurante", "Bar"],
-  "parking": null,
+  "specialty": [],
+  "parking": false,
   "reservations": false,
   "payment_methods": {
     "cash_national": true,
     "digital_transfer_national": true,
     "usd_cash": false,
     "usd_transfer": false,
-    "mlc": false,
-    "credit_card": false
+    "mlc": false
   },
   "delivery_areas": true,
   "power_generator": false,
   "menu": {
-    "courses": [
-      {
-        "category": "Platos Especiales",
-        "items": [
-          {"name": "Takoyaki", "price": 1000},
-          {"name": "Sushi (Makizushi) Atún", "price": 1750},
-          {"name": "Sushi (Makizushi) Salmón", "price": 2100},
-          {"name": "Sushi (Makizushi) Mixto", "price": 2750},
-          {"name": "Chashu", "price": 1000},
-          {"name": "Sashimi Salmón", "price": 2900},
-          {"name": "Sashimi Calamar", "price": 2900},
-          {"name": "Tataki Atún", "price": 2300},
-          {"name": "Yakitori", "price": 2400},
-          {"name": "Karaage", "price": 2400},
-          {"name": "Chicken Teriyaki", "price": 2400},
-          {"name": "Tempura Vegetales", "price": 2300},
-          {"name": "Tempura Calamar o Camarón", "price": 3000},
-          {"name": "Tempura Udon", "price": 2000},
-          {"name": "Ramen (Shoyu o Miso) Camarón", "price": 2550},
-          {"name": "Ramen (Shoyu o Miso) Camarón Grande", "price": 3000},
-          {"name": "Katsudon", "price": 2850},
-          {"name": "Tonkatsu", "price": 2750},
-          {"name": "Yakisoba", "price": 2750},
-          {"name": "Yakisoba Mariscos o Calamar", "price": 3100},
-          {"name": "Yakisoba Camarón", "price": 3100},
-          {"name": "Combo Habana-Tokio", "price": 3900},
-          {"name": "Combo Sashimi Atún", "price": 4200},
-          {"name": "Combo Sashimi Salmón", "price": 4400},
-          {"name": "Oyakodon", "price": 2800},
-          {"name": "Okonomiyaki", "price": 800}
-        ]
-      },
-      {
-        "category": "Postres",
-        "items": [
-          {"name": "Kakigoori", "price": 800},
-          {"name": "Flan", "price": 600}
-        ]
-      }
-    ]
+    "appetizer": [
+      {"name": "Takoyaki", "price": 1000},
+      {"name": "Sushi (Makizushi) Atún", "price": 1750},
+      {"name": "Sushi (Makizushi) Salmón", "price": 2100},
+      {"name": "Sushi (Makizushi) Mixto", "price": 2750},
+      {"name": "Chashu", "price": 1000},
+      {"name": "Sashimi Salmón", "price": 2900},
+      {"name": "Sashimi Calamar", "price": 2900},
+      {"name": "Tataki Atún", "price": 2300},
+      {"name": "Yakitori", "price": 2400},
+      {"name": "Karaage", "price": 2400},
+      {"name": "Chicken Teriyaki", "price": 2400},
+      {"name": "Tempura Vegetales", "price": 2300},
+      {"name": "Tempura Calamar o Camarón", "price": 3000},
+      {"name": "Tempura Udon", "price": 2000},
+      {"name": "Ramen (Shoyu o Miso) Camarón", "price": 2550},
+      {"name": "Ramen (Shoyu o Miso) Camarón Grande", "price": 3000},
+      {"name": "Katsudon", "price": 2850},
+      {"name": "Tonkatsu", "price": 2750},
+      {"name": "Yakisoba", "price": 2750},
+      {"name": "Yakisoba Mariscos o Calamar", "price": 3100},
+      {"name": "Yakisoba Camarón", "price": 3100},
+      {"name": "Combo Habana-Tokio", "price": 3900},
+      {"name": "Combo Sashimi Atún", "price": 4200},
+      {"name": "Combo Sashimi Salmón", "price": 4400},
+      {"name": "Oyakodon", "price": 2800},
+      {"name": "Okonomiyaki", "price": 800}
+    ],
+    "main_course": [],
+    "garrison": [],
+    "desserts": [
+      {"name": "Kakigoori", "price": 800},
+      {"name": "Flan", "price": 600}
+    ],
+    "drinks": []
   },
-  "service_fee_percentage": 10,
-  "features": {
-    "reservation_required": false,
-    "outdoor_seating": false,
-    "dine_in": true,
-    "takeaway": true,
-    "offers": ["Restaurante", "Bar"],
-    "local_options": ["Almuerzo", "Cena", "Postres"],
-    "services": ["Sanitario", "Tiene bar"],
-    "ambience": ["Agradable", "Informal"],
-    "usual_customers": ["Grupos"],
-    "planning": ["Se aceptan reservas"],
-    "children": "Ideal para ir con niños",
-    "pets": null,
-    "parking": null
-  },
-  "dietary_options": [],
-  "meals": ["Comidas", "Cenas"],
-  "advantages": ["Para llevar", "Reservas", "Capacidad", "Sirve alcohol", "Bar completo", "Servicio de mesa"],
-  "highlights": ["Aperitivos", "Agradable", "Informal", "Ideal para ir con niños", "Recomendable para ir en grupo"]
-}              
+  "service_charge_percentage": 10
+}          

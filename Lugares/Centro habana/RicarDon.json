@@ -48,7 +48,9 @@
       {"name": "tostones rellenos de ropa vieja de cerdo (100g)", "price": 1000},
       {"name": "baston de pollo empanado (280g)", "price": 2200},
       {"name": "brochetas de pollo con piña (280g)", "price": 2025},
-      {"name": "brochetas de pollo (280g)", "price": 2000},
+      {"name": "brochetas de pollo (280g)", "price": 2000}
+    ],
+    "main_course": [
       {"name": "pollo a la crema con jamon serrano (280g)", "price": 2250},
       {"name": "fajitas de pollo a la campesina (280g)", "price": 2500},
       {"name": "pollo gorden blue (280g y 45g jamon y queso)", "price": 3000},
@@ -107,7 +109,9 @@
       {"name": "pizza al pesto", "price": 1100},
       {"name": "pizza hawaina", "price": 1500},
       {"name": "pizza vegetariana", "price": 1350},
-      {"name": "pizza mexicana", "price": 1300},
+      {"name": "pizza mexicana", "price": 1300}
+    ],
+    "garrison":[
       {"name": "ensalada mixta", "price": 600},
       {"name": "ensalada caesar", "price": 950},
       {"name": "papas fritas", "price": 600},
@@ -115,14 +119,18 @@
       {"name": "frijoles negros", "price": 500},
       {"name": "arroz con pollo", "price": 1500},
       {"name": "tostones con salsa", "price": 700},
-      {"name": "yuca frita con mojo", "price": 750},
+      {"name": "yuca frita con mojo", "price": 750}
+    ],
+    "desserts": [
       {"name": "chocolate mousse", "price": 900},
       {"name": "flan casero", "price": 750},
       {"name": "tarta de queso", "price": 850},
       {"name": "tarta de manzana", "price": 850},
       {"name": "tarta de chocolate", "price": 950},
       {"name": "brownie", "price": 800},
-      {"name": "tarta de limón", "price": 800},
+      {"name": "tarta de limón", "price": 800}
+    ],
+    "drinks": [
       {"name": "agua gaseada", "price": 600},
       {"name": "agua natural buonaso ml", "price": 280},
       {"name": "agua tónica (mg)", "price": 750},

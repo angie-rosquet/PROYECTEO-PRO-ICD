@@ -18,7 +18,7 @@
     "facebook": "https://www.facebook.com/ThePlaceCuba/"
   },
   "type_establishment": "Restaurante",
-  "specialty": [],
+  "specialty": ["cubana"],
   "parking": true,
   "reservations": true,
   "payment_methods": {

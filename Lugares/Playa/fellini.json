@@ -63,13 +63,10 @@
       {"name": "casquito de guayaba", "price": 380},
       {"name": "fruta bomba en almibar", "price": 380}
     ],
-    "drinks": {
-      "water": [
+    "drinks": [
         {"name": "agua natural", "price": 250},
         {"name": "aguas gaseada", "price": 300},
-        {"name": "tanica", "price": 350}
-      ],
-      "soft_drinks": [
+        {"name": "tanica", "price": 350},
         {"name": "red bull", "price": 500},
         {"name": "energizante", "price": 320},
         {"name": "refresco cola", "price": 300},
@@ -77,14 +74,8 @@
         {"name": "coca cola", "price": 350},
         {"name": "refresco limon", "price": 300},
         {"name": "sprite", "price": 350},
-        {"name": "fanta", "price": 350}
-      ],
-      "juices": [
-        {"name": "jugos natural", "price": 250}
-      ],
-      "smoothie": false,
-      "ice_cream_shake": false,
-      "alcoholic": [
+        {"name": "fanta", "price": 350},
+        {"name": "jugos natural", "price": 250},
         {"name": "clan camphl", "price": 500},
         {"name": "ballentines finest", "price": 550},
         {"name": "ballentines 12 anos", "price": 700},
@@ -146,10 +137,7 @@
         {"name": "tequila olmeca reposado", "price": 650},
         {"name": "jequila aito b", "price": 800},
         {"name": "tequila altor", "price": 100}
-      ],
-      "coffee": false
-    },
-    "special_offers": false
+      ]
   },
   "service_charge_percentage": 0
 }

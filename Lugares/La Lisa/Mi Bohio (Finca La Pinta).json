@@ -135,5 +135,5 @@
       {"name": "Copa tropical con crema batida", "price": 1200}
     ]
   },
-  "description": "Mi Bohio es un restaurante especializado en cocina mixta cubana e internacional. Ofrece un ambiente acogedor con una variada carta de entradas, platos principales y postres. Es ideal para eventos y comidas familiares."
+  "service_charge_percentage": 0
 }

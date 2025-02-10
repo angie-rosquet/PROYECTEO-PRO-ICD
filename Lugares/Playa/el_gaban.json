@@ -64,26 +64,17 @@
       {"name": "arroz con leche", "price": 1800},
       {"name": "postre con helado", "price": 1800}
     ],
-    "drinks": {
-      "water": [
+    "drinks": [
         {"name": "agua tonica", "price": 1500},
         {"name": "agua san pellegrino", "price": 1600},
         {"name": "agua natural", "price": 1600},
         {"name": "agua panna", "price": 1600},
-        {"name": "agua con gas", "price": 1600}
-      ],
-      "soft_drinks": [
+        {"name": "agua con gas", "price": 1600},
         {"name": "refresco", "price": 1000},
         {"name": "malta", "price": 1000},
-        {"name": "energizante", "price": 1500}
-      ],
-      "juices": [
+        {"name": "energizante", "price": 1500},
         {"name": "kermato", "price": 1600},
-        {"name": "limonada frappe/natural", "price": 1600}
-      ],
-      "smoothie": false,
-      "ice_cream_shake": false,
-      "alcoholic": [
+        {"name": "limonada frappe/natural", "price": 1600},
         {"name": "cerveza de botella", "price": 1600},
         {"name": "copa de vino (espumoso, tinto o blanco)", "price": 1800},
         {"name": "grinch", "price": 1600},
@@ -115,16 +106,13 @@
         {"name": "amaretto sour", "price": 2500},
         {"name": "old fashioned", "price": 2500},
         {"name": "new york whisky sour", "price": 2500},
-        {"name": "expresso martini", "price": 1500}
-      ],
-      "coffee": [
+        {"name": "expresso martini", "price": 1500},
         {"name": "cafe", "price": 800},
         {"name": "frapuccino", "price": 1500},
         {"name": "carajillo", "price": 1500},
         {"name": "te", "price": 800},
         {"name": "infusiones", "price": 800}
       ]
-    }
   },
   "service_charge_percentage": 0
 }

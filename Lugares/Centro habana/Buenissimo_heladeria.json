@@ -1,6 +1,6 @@
 {
   "name": "Bueníssimo heladería",
-  "address": "Dirección completa del restaurante",
+  "address": "Calle 23 e Infanta, Centro Habana",
   "schedule": {
     "monday": {"open": "09:00", "close": "23:00"},
     "tuesday": {"open": "09:00", "close": "23:00"},
