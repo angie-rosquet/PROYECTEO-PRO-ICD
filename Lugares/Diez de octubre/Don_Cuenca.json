@@ -64,9 +64,7 @@
       {"name": "espaguetis de mariscos", "price": 2450},
       {"name": "espaguetis frutos del mar", "price": 2900}
     ],
-    "garrison": [
-      null
-    ],
+    "garrison": [],
     "desserts": [
       {"name": "tarta de la casa", "price": 450},
       {"name": "flan de la casa", "price": 450},

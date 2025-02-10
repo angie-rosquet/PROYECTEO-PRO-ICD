@@ -31,9 +31,7 @@
   "delivery_areas": false,
   "power_generator": false ,
   "menu": {
-    "appetizer": [
-      null
-    ],
+    "appetizer": [],
     "main_course": [
       {"name": "Pizza Napolitana", "price": 950 },
       {"name": "Pizza de Jamon", "price": 980 },
@@ -57,12 +55,8 @@
       {"name": "Emapredado de Heredia", "price": 350 },
       {"name": "Emparedado Cubano", "price": 350 }
     ],
-    "garrison": [
-      null
-    ],
-    "desserts": [
-      null
-    ],
+    "garrison": [ ],
+    "desserts": [],
     "drinks": [
       {"name": "Limonada", "price": 100 },
       {"name": "Jugo de mango", "price": 120 },

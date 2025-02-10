@@ -50,12 +50,8 @@
       {"name": "SANDWICH DE POLLO", "price": 900},
       {"name": "MINI HOT DOGS", "price": 300}
     ],
-    "garrison": [
-      null
-    ],
-    "desserts": [
-      null
-    ],
+    "garrison": [ ],
+    "desserts": [],
     "drinks": [
       {"name": "BATIDO DE HELADO", "price": 1000 },
       {"name": "MALTEADA", "price": 900 },

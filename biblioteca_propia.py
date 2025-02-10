@@ -1,8 +1,6 @@
 import pandas as pd
 import json
 import os
-import matplotlib.pyplot as plt
-import numpy as np
 
 #rutas que necesito
 
@@ -42,25 +40,6 @@ def load_for_municipality(municipality):
     df = pd.DataFrame(restaurants_s)
     return df
 
-#VARIABLES PARA CADA MUNICIPIO
-#_______________________________________________________________________________________________________________
-a = load_for_municipality("Arroyo Naranjo")
-b = load_for_municipality("Boyeros")
-ch = load_for_municipality("Centro Habana")
-ce = load_for_municipality("Cerro")
-c = load_for_municipality("Cotorro")
-d = load_for_municipality("Diez de Octubre")
-g = load_for_municipality("Guanabacoa")
-he = load_for_municipality("Habana del Este")
-hv = load_for_municipality("Habana Vieja")
-l = load_for_municipality("La Lisa")
-m = load_for_municipality("Marianao")
-p = load_for_municipality("Playa")
-pr = load_for_municipality("Plaza de la Revolucion")
-r = load_for_municipality("Regla")
-s = load_for_municipality("San Miguel")
-#_______________________________________________________________________________________________________________
-
 #funcion para mostrar las profesiones con el salario
 def show_professions_salary(json_salary_cuba):
     with open(json_salary_cuba, "r", encoding = "utf-8") as file:
@@ -73,7 +52,7 @@ def pay_h(profession):
     with open(json_salary_cuba, "r", encoding = "utf-8") as f:
         data = json.load(f)
         data = data.get(profession)
-        horas = data / 44
+        horas = data / 176
         return round(horas, 2)
 
 # funcion para mostrar el nombre:
@@ -120,5 +99,21 @@ def list_prom(municipality):
         a = prom_category(os.path.join(route, place))
         list1.append(a)
     return list1
-        
-print(list_prom("Cerro"))
+    
+def prom_mun(municipality):
+    list1 = []
+    list2 = []
+    route = os.path.join(route_municipality, municipality)
+    categories = ['appetizer', 'main_course', 'garrison', 'desserts', 'drinks']
+    for c in categories:
+        list1 = []
+        for place in os.listdir(route):
+            with open(os.path.join(route, place), encoding="utf-8") as f:
+                data = json.load(f)
+                if c in data['menu']:
+                    if not isinstance(data['menu'][c], bool):
+                        precios = [int(item["price"]) for item in data['menu'][c] if isinstance(item, dict) and "price" in item and item["price"] is not None]
+                        list1.extend(precios)
+                promedio = sum(list1) / len(list1) if list1 else 0
+            list2.append(promedio)
+        return round(sum(list2))

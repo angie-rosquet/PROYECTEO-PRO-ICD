@@ -35,32 +35,12 @@
       null
     ],
     "main_course": [
-      {"name": "hamburguesa sencilla", "price": 350, "added":{
-        "jamón": 80,
-        "chorizo": 100,
-        "atún": 100
-      }},
-      {"name": "pan con bistec", "price": 550, "added":{
-        "jamón": 80,
-        "chorizo": 100,
-        "atún": 100
-      }},
+      {"name": "hamburguesa sencilla", "price": 350},
+      {"name": "pan con bistec", "price": 550},
       {"name": "arroz salteado", "price": 500 },
-      {"name": "lasaña", "price": 550, "added":{
-        "jamón": 80,
-        "chorizo": 100,
-        "atún": 100
-      }},
-      {"name": "espaguetti", "price": 300, "added":{
-        "jamón": 80,
-        "chorizo": 100,
-        "atún": 100
-      }},
-      {"name": "pizza napolitana", "price": 160, "added":{
-        "jamón": 80,
-        "chorizo": 100,
-        "atún": 100
-      }}
+      {"name": "lasaña", "price": 550},
+      {"name": "espaguetti", "price": 300},
+      {"name": "pizza napolitana", "price": 160}
     ],
     "garrison": [
       null

@@ -63,9 +63,7 @@
     "desserts": [
       {"name": "Torta", "price": 550}
     ],
-    "drinks": [
-      null
-    ]
+    "drinks": []
   },
   "service_charge_percentage": 10
 }

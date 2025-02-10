@@ -81,9 +81,7 @@
       {"name": "Espaghettis Carbonara", "price": 1600},
       {"name": "Espaghettis del mar Kimera", "price": 2500}
     ],
-    "garrison": [
-      null
-    ],
+    "garrison": [],
     "desserts": [
       {"name": "Helado", "price": 320},
       {"name": "Flan", "price": 350},

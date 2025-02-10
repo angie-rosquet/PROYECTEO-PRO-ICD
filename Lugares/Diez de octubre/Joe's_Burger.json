@@ -50,9 +50,7 @@
       {"name": "Pepinillo", "price": 50},
       {"name": "Tomate", "price": 100}
     ],
-    "desserts" : [
-      null
-    ],
+    "desserts" : [],
     "drinks": [
       {"name": "Cerveza", "price": 350},
       {"name": "Limonada Frappé", "price": 500},

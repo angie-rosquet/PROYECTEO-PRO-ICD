@@ -40,24 +40,9 @@
       {"name": "chicharrita", "price": 300}
     ],
     "main_course": [
-      {"name": "Espaguetis napolitanos", "price": 550, "added": {
-        "queso" : 200,
-        "chorizo" : 300,
-        "jamon" : 300,
-        "piña" : 150
-      }},
-      {"name": "pizza napolitana grande", "price": 650, "added": {
-        "queso" : 200,
-        "chorizo" : 300,
-        "jamon" : 300,
-        "piña" : 150
-      }},
-      {"name": "pizza napolitana", "price": 220, "added": {
-        "queso" : 200,
-        "chorizo" : 300,
-        "jamon" : 300,
-        "piña" : 150
-      }}
+      {"name": "Espaguetis napolitanos", "price": 550},
+      {"name": "pizza napolitana grande", "price": 650},
+      {"name": "pizza napolitana", "price": 220}
     ],
     "garrison": [
       null

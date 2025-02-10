@@ -31,9 +31,7 @@
   "delivery_areas": true,
   "power_generator": false ,
   "menu": {
-    "appetizer": [
-      null
-    ],
+    "appetizer": [ ],
     "main_course": [
       {"name": "Lechon asado", "price": 1650 },
       {"name": "Espaguetis napolitana", "price": 850 },
@@ -50,9 +48,7 @@
       {"name": "Aceituna", "price": 500 },
       {"name": "Queso", "price": 350 }
     ],
-    "desserts": [
-      null
-    ],
+    "desserts": [],
     "drinks": [
       {"name": "termo de cerveza", "price": 2160 }
     ]

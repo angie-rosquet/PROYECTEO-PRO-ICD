@@ -31,9 +31,7 @@
   "delivery_areas": true,
   "power_generator": true ,
   "menu": {
-    "appetizer": [
-      null
-    ],
+    "appetizer": [],
     "main_course": [
       {"name": "Pizza Hawaiana", "price": 520},
       {"name": "Pizza Chorizo", "price": 500},
@@ -59,15 +57,9 @@
       {"name": "Calzone D'Mitu", "price": 480 },
       {"name": "Super Takaso", "price": 950 }
     ],
-    "garrison": [
-      null
-    ],
-    "desserts": [
-      null
-    ],
-    "drinks": [
-      null
-    ]
+    "garrison": [],
+    "desserts": [],
+    "drinks": []
   },
   "service_charge_percentage": 0
 }

@@ -65,12 +65,8 @@
       {"name": "pizza grande", "price": 300 },
       {"name": "pizza chiquita", "price": 200 }
     ],
-    "garrison": [
-      null
-    ],
-    "desserts": [
-      null
-    ],
+    "garrison": [],
+    "desserts": [],
     "drinks": [
       {"name": "cerveza", "price": 200 },
       {"name": "enrgizante", "price": 300 },
