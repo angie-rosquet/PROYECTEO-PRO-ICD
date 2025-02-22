@@ -118,7 +118,7 @@ def find_average_price_main_course(df, municipality):
         average_price = average / count
     else:
         average_price = 0
-    return average_price
+    return round(average_price)
 
 #funcion para hallar el precio promedio de una bebida
 def find_average_price_drinks(df, municipality):
@@ -134,7 +134,6 @@ def find_average_price_drinks(df, municipality):
                 elif dish['price'] is None:
                     continue
                 else:
-                    print(dish)
                     average += dish['price']
                     count += 1
     if count > 0: 
@@ -143,4 +142,56 @@ def find_average_price_drinks(df, municipality):
         average_price = 0
     return round(average_price)
 
-print(find_average_price_drinks(load_df(route_municipalities), "Centro Habana"))
+#funcion para hacer una grafica de barras q muestre el precio promedio de una comida en un restaurante
+def prom_per_restaurante(df, restaurant):
+    df_restaurant = df[df['name'] == restaurant]
+    restaurant = df_restaurant.iloc[0]
+    menu = restaurant['menu']
+    mc = 0
+    d = 0
+    count = 0
+    if 'main_course' in menu:
+        for dish in menu['main_course']:
+            if dish is not None and isinstance(dish['price'], (int, float)):
+                mc += dish['price']
+                count += 1
+        if count > 0:
+            mc = mc / count
+    if 'drinks' in menu:
+        for dish in menu['drinks']:
+            if dish is not None and isinstance(dish['price'], (int, float)):
+                d += dish['price']
+                count += 1
+        if count > 0:
+            d = d / count
+    return round(mc + d)
+        
+#funcion para crear una lista de nombres de restaurantes 
+def restuarant_names_list(df, municipality):
+    names = []
+    df_municipality = df[df['municipality'] == municipality]
+    for i, row in df_municipality.iterrows():
+        row = row['name']
+        names.append(row)
+    return names
+
+#funcion para tener una lista de promedios de una lista de restaurantes
+def find_prom_price_for_restaurants_list(df, restaurant_names):
+    prom_prices = []
+    for restaurant_name in restaurant_names:
+        data = prom_per_restaurante(df, restaurant_name)
+        prom_prices.append(data)
+    return prom_prices
+
+#función para generar el gráfico de barras con los precios promedio de los restaurantes
+def plot_prom_prices_for_restaurants(restaurant_names, prom_prices):
+    plt.figure(figsize=(10, 6))
+    bars = plt.bar(restaurant_names, prom_prices, color='skyblue')
+    plt.title('Precio Promedio de una Comida en Restaurantes')
+    plt.xlabel('Restaurantes')
+    plt.ylabel('Precio Promedio')
+    for i, bar in enumerate(bars):
+        height = bar.get_height()
+        plt.text(bar.get_x() + bar.get_width() / 2, height + 0.1, f'{height:.2f}', ha='center', fontsize=10)
+    plt.tight_layout()
+    plt.show()
