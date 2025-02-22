@@ -36,11 +36,11 @@
       {"name": "papas fritas", "price": 150}
     ],
     "main_course": [
-      {"nombre": "caldosa boulevard", "precio": 200},
-      {"nombre": "arroz con subproductos", "precio": 300},
-      {"nombre": "fajitas de cerdo", "precio": 1350},
-      {"nombre": "fajitas de pollo", "precio": 1300},
-      {"nombre": "filete de merluza", "precio": 550}
+      {"name": "caldosa boulevard", "price": 200},
+      {"name": "arroz con subproductos", "price": 300},
+      {"name": "fajitas de cerdo", "price": 1350},
+      {"name": "fajitas de pollo", "price": 1300},
+      {"name": "filete de merluza", "price": 550}
     ],
     "garrison": [
       null
@@ -49,17 +49,17 @@
       null
     ],
     "drinks": [
-      {"nombre": "jugo de fruta", "precio": 100},
-      {"nombre": "cerveza importada", "precio": 180},
-      {"nombre": "vino tinto cabernet", "precio": 1340},
-      {"nombre": "copa de vino blanco (125ml)", "precio": 145},
-      {"nombre": "licor paso pondal (30ml)", "precio": 75},
-      {"nombre": "licor fenet blanca (30ml)", "precio": 75},
-      {"nombre": "grappa carolina bianca (30ml)", "precio": 75},
-      {"nombre": "ron legendario añejo (45ml)", "precio": 90},
-      {"nombre": "ron legendario dorado (45ml)", "precio": 100},
-      {"nombre": "trago legendario ronse (45ml)", "precio": 75},
-      {"nombre": "licor de cafe (30ml)", "precio": 75}
+      {"name": "jugo de fruta", "price": 100},
+      {"name": "cerveza importada", "price": 180},
+      {"name": "vino tinto cabernet", "price": 1340},
+      {"name": "copa de vino blanco (125ml)", "price": 145},
+      {"name": "licor paso pondal (30ml)", "price": 75},
+      {"name": "licor fenet blanca (30ml)", "price": 75},
+      {"name": "grappa carolina bianca (30ml)", "price": 75},
+      {"name": "ron legendario añejo (45ml)", "price": 90},
+      {"name": "ron legendario dorado (45ml)", "price": 100},
+      {"name": "trago legendario ronse (45ml)", "price": 75},
+      {"name": "licor de cafe (30ml)", "price": 75}
     ]
   },
   "service_charge_percentage": 0

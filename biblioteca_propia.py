@@ -100,7 +100,7 @@ def filter_restaurants_by_categories(df, municipalities, categories):
     filtered_df = pd.DataFrame(filtered_restaurants)
     return filtered_df
 
-#funcion para hallar el precio promedio de una comida
+#funcion para hallar el precio promedio de un plato principal
 def find_average_price_main_course(df, municipality):
     df_municipality = df[df['municipality'] == municipality]
     average = 0
@@ -109,10 +109,38 @@ def find_average_price_main_course(df, municipality):
         menu = row['menu']
         if 'main_course' in menu:
             for dish in menu['main_course']:
-                average += dish['price']
-                count += 1
-    if count > 0:
+                if dish is None:
+                    continue
+                else:
+                    average += dish['price']
+                    count += 1
+    if count > 0: 
         average_price = average / count
     else:
         average_price = 0
     return average_price
+
+#funcion para hallar el precio promedio de una bebida
+def find_average_price_drinks(df, municipality):
+    df_municipality = df[df['municipality'] == municipality]
+    average = 0
+    count = 0
+    for i, row in df_municipality.iterrows():
+        menu = row['menu']
+        if 'drinks' in menu:
+            for dish in menu['drinks']:
+                if dish is None:
+                    continue
+                elif dish['price'] is None:
+                    continue
+                else:
+                    print(dish)
+                    average += dish['price']
+                    count += 1
+    if count > 0: 
+        average_price = average / count
+    else:
+        average_price = 0
+    return round(average_price)
+
+print(find_average_price_drinks(load_df(route_municipalities), "Centro Habana"))
