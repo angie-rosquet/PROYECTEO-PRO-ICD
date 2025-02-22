@@ -51,11 +51,7 @@
       {"name": "Taco de carne", "price": 800},
       {"name": "Taco de atun", "price": 800}
     ],
-    "garrison": [
-      {"name": "Arroz blanco", "price": null},
-      {"name": "Frijoles", "price": null},
-      {"name": "Arroz moro", "price": null}
-    ],
+    "garrison": [],
     "desserts": [],
     "drinks": []
   },

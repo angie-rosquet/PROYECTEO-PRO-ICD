@@ -46,30 +46,9 @@
         {"name": "Eperlas", "price": 550 }
       ],
       "main_course": [
-        {"name": "Pizza de Queso", "price": 1200 , "added" : {
-          "queso" : 500,
-          "jamon" : 300,
-          "piña" : 150,
-          "camaron" : 1500,
-          "atun" : 1000,
-          "cebolla" : 200
-        }},
-        {"name": "Pizza de Jamon", "price": 1400 , "added" : {
-          "queso" : 500,
-          "jamon" : 300,
-          "piña" : 150,
-          "camaron" : 1500,
-          "atun" : 1000,
-          "cebolla" : 200
-        }},
-        {"name": "Pizza Hawaiiana", "price": 1500 , "details" : {
-          "queso" : 500,
-          "jamon" : 300,
-          "piña" : 150,
-          "camaron" : 1500,
-          "atun" : 1000,
-          "cebolla" : 200
-        }},
+        {"name": "Pizza de Queso", "price": 1200},
+        {"name": "Pizza de Jamon", "price": 1400},
+        {"name": "Pizza Hawaiiana", "price": 1500},
         {"name": "Eperlan Pechuga", "price": 1600 },
         {"name": "Eperlan Pescado", "price": 2000 }
       ],

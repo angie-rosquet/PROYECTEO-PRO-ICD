@@ -122,10 +122,6 @@
       {"name": "Margarita", "price": 550},
       {"name": "Caipiriña", "price": 450},
       {"name": "Caipiroska", "price": 550}
-    ],
-    "plus": [
-      {"name": "Termo Pack", "price": 120},
-      {"name": "Caja de Pizza", "price": 1000}
     ]
   },
   "service_charge_percentage": 0

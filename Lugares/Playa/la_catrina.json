@@ -89,7 +89,7 @@
       {"name": "Gelato Italiano Artesanal", "price": 1200},
       {"name": "Flan Casero", "price": 1400}
     ],
-    "drinks": null
+    "drinks": []
   },
   "service_charge_percentage": 0
 }

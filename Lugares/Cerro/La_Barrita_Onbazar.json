@@ -41,83 +41,17 @@
       {"name": "Pollo chiflado", "price": 1650 }
     ],
     "main_course": [
-      {"name": "Pizza de napolitana", "price": 850, "added":{
-        "Jamón": 150,
-        "Cebolla": 150,
-        "Chorizo": 150,
-        "Hawaiana": 250,
-        "Doble Queso": 250
-    }},
-      {"name": "Pizza de chorizo", "price": 1000, "added": {
-        "Jamón": 150,
-        "Cebolla": 150,
-        "Chorizo": 150,
-        "Hawaiana": 250,
-        "Doble Queso": 250
-    }},
-      {"name": "Pizza de jamón", "price": 1000, "added":{
-        "Jamón": 150,
-        "Cebolla": 150,
-        "Chorizo": 150,
-        "Hawaiana": 250,
-        "Doble Queso": 250
-    }},
-      {"name": "Pizza de hawaiana", "price": 1150, "added":{
-        "Jamón": 150,
-        "Cebolla": 150,
-        "Chorizo": 150,
-        "Hawaiana": 250,
-        "Doble Queso": 250
-    }},
-      {"name": "Pizza de cebolla", "price": 1000, "added":{
-        "Jamón": 150,
-        "Cebolla": 150,
-        "Chorizo": 150,
-        "Hawaiana": 250,
-        "Doble Queso": 250
-    }},
-      {"name": "Espaguetis", "price": 850, "added":{
-        "Jamón": 150,
-        "Cebolla": 150,
-        "Chorizo": 150,
-        "Hawaiana": 250,
-        "Doble Queso": 250
-    }},
-      {"name": "Espaguetis de jamón", "price": 1100, "added":{
-        "Jamón": 150,
-        "Cebolla": 150,
-        "Chorizo": 150,
-        "Hawaiana": 250,
-        "Doble Queso": 250
-    }},
-      {"name": "Espaguetis de chorizo", "price": 1000, "added":{
-        "Jamón": 150,
-        "Cebolla": 150,
-        "Chorizo": 150,
-        "Hawaiana": 250,
-        "Doble Queso": 250
-    }},
-      {"name": "Hamburguesa", "price": 1200, "added":{
-        "Jamón": 150,
-        "Cebolla": 150,
-        "Chorizo": 150,
-        "Hawaiana": 250,
-        "Doble Queso": 250
-    }},
-      {"name": "Hamburguesa jamón y queso", "price": 1650, "added":{
-        "Jamón": 150,
-        "Cebolla": 150,
-        "Chorizo": 150,
-        "Hawaiana": 250,
-        "Doble Queso": 250
-    }},
-      {"name": "Hamburguesa onbazar", "price": 2700, "added":{
-        "Jamón": 150,
-        "Cebolla": 150,
-        "Chorizo": 150,
-        "Hawaiana": 250,
-        "Doble Queso": 250
-    }}
+      {"name": "Pizza de napolitana", "price": 850},
+      {"name": "Pizza de chorizo", "price": 1000},
+      {"name": "Pizza de jamón", "price": 1000},
+      {"name": "Pizza de hawaiana", "price": 1150},
+      {"name": "Pizza de cebolla", "price": 1000},
+      {"name": "Espaguetis", "price": 850},
+      {"name": "Espaguetis de jamón", "price": 1100},
+      {"name": "Espaguetis de chorizo", "price": 1000},
+      {"name": "Hamburguesa", "price": 1200},
+      {"name": "Hamburguesa jamón y queso", "price": 1650},
+      {"name": "Hamburguesa onbazar", "price": 2700}
     ],
     "garrison": [
       null

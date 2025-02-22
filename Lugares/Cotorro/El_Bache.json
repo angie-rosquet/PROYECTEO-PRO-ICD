@@ -35,114 +35,18 @@
       null
     ],
     "main_course": [
-      {"name": "Pizza Napolitana", "price": 700, "added":{
-        "Cebolla": 200,
-        "Queso": 300,
-        "Aceituna": 300,
-        "Chorizo": 200, 
-        "Jamón": 300,
-        "Queso Gouda": 650,
-        "Atún": 750
-      }},
-      {"name": "Pizza de Cebolla", "price": 900, "added":{
-        "Cebolla": 200,
-        "Queso": 300,
-        "Aceituna": 300,
-        "Chorizo": 200, 
-        "Jamón": 300,
-        "Queso Gouda": 650,
-        "Atún": 750
-      }},
-      {"name": "Pizza de Chorizo", "price": 900, "added":{
-        "Cebolla": 200,
-        "Queso": 300,
-        "Aceituna": 300,
-        "Chorizo": 200, 
-        "Jamón": 300,
-        "Queso Gouda": 650,
-        "Atún": 750
-      }},
-      {"name": "Pizza de Jamón", "price": 1000, "added":{
-        "Cebolla": 200,
-        "Queso": 300,
-        "Aceituna": 300,
-        "Chorizo": 200, 
-        "Jamón": 300,
-        "Queso Gouda": 650,
-        "Atún": 750
-      }},
-      {"name": "Pizza de Aceituna", "price": 1000, "added":{
-        "Cebolla": 200,
-        "Queso": 300,
-        "Aceituna": 300,
-        "Chorizo": 200, 
-        "Jamón": 300,
-        "Queso Gouda": 650,
-        "Atún": 750
-      }},
-      {"name": "Pizza Doble Queso", "price": 1000, "added":{
-        "Cebolla": 200,
-        "Queso": 300,
-        "Aceituna": 300,
-        "Chorizo": 200, 
-        "Jamón": 300,
-        "Queso Gouda": 650,
-        "Atún": 750
-      }},
-      {"name": "Pizza Hawaiana", "price": 1300, "added":{
-        "Cebolla": 200,
-        "Queso": 300,
-        "Aceituna": 300,
-        "Chorizo": 200, 
-        "Jamón": 300,
-        "Queso Gouda": 650,
-        "Atún": 750
-      }},
-      {"name": "Pizza Queso Gouda", "price": 1000, "added":{
-        "Cebolla": 200,
-        "Queso": 300,
-        "Aceituna": 300,
-        "Chorizo": 200, 
-        "Jamón": 300,
-        "Queso Gouda": 650,
-        "Atún": 750
-      }},
-      {"name": "Pizza de Atún", "price": 1450, "added":{
-        "Cebolla": 200,
-        "Queso": 300,
-        "Aceituna": 300,
-        "Chorizo": 200, 
-        "Jamón": 300,
-        "Queso Gouda": 650,
-        "Atún": 750
-      }},
-      {"name": "Pizza 4 estaciones", "price": 1700, "added":{
-        "Cebolla": 200,
-        "Queso": 300,
-        "Aceituna": 300,
-        "Chorizo": 200, 
-        "Jamón": 300,
-        "Queso Gouda": 650,
-        "Atún": 750
-      }},
-      {"name": "Espaguetis", "price": 700, "added":{
-        "Cebolla": 200,
-        "Queso": 300,
-        "Aceituna": 300,
-        "Chorizo": 200, 
-        "Jamón": 300,
-        "Queso Gouda": 650,
-        "Atún": 750
-      }},
-      {"name": "Espaguetis queso gouda", "price": 1000, "added":{
-        "Cebolla": 200,
-        "Queso": 300,
-        "Aceituna": 300,
-        "Chorizo": 200, 
-        "Jamón": 300,
-        "Queso Gouda": 650,
-        "Atún": 750
-      }},
+      {"name": "Pizza Napolitana", "price": 700},
+      {"name": "Pizza de Cebolla", "price": 900},
+      {"name": "Pizza de Chorizo", "price": 900},
+      {"name": "Pizza de Jamón", "price": 1000},
+      {"name": "Pizza de Aceituna", "price": 1000},
+      {"name": "Pizza Doble Queso", "price": 1000},
+      {"name": "Pizza Hawaiana", "price": 1300},
+      {"name": "Pizza Queso Gouda", "price": 1000},
+      {"name": "Pizza de Atún", "price": 1450},
+      {"name": "Pizza 4 estaciones", "price": 1700},
+      {"name": "Espaguetis", "price": 700},
+      {"name": "Espaguetis queso gouda", "price": 1000},
       {"name": "Lasaña de queso blanco", "price": 900 },
       {"name": "Lasaña de queso gouda", "price": 1300 }
     ],

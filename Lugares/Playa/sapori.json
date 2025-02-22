@@ -55,7 +55,7 @@
       {"name": "carpaccio de res", "price": 3250},
       {"name": "ceviche de pescado", "price": 2000}
     ],
-    "garrison": false,
+    "garrison": [],
     "desserts": [
       {"name": "dulce de chocolate", "price": 750},
       {"name": "dulce de fresa", "price": 700},

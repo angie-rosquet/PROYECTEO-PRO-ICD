@@ -48,126 +48,16 @@
       {"name": "Sándwich de jamón y queso", "price": 900}
     ],
     "main_course": [
-      {"name": "Canelones", "price": 1350, "added":{
-        "Ají": 150,
-        "Chorizo": 300,
-        "Atún": 600,
-        "Jamón pierna": 300,
-        "Piña": 150,
-        "Cebolla": 250,
-        "Queso de cabra": 600,
-        "Queso Gouda": 500,
-        "Queso Parmesano": 800,
-        "Aceituna": 500
-      }},
-      {"name": "Penne napolitano", "price": 1100, "added":{
-        "Ají": 150,
-        "Chorizo": 300,
-        "Atún": 600,
-        "Jamón pierna": 300,
-        "Piña": 150,
-        "Cebolla": 250,
-        "Queso de cabra": 600,
-        "Queso Gouda": 500,
-        "Queso Parmesano": 800,
-        "Aceituna": 500
-      }},
-      {"name": "Pizza napolitana", "price": 1200, "added":{
-        "Ají": 150,
-        "Chorizo": 300,
-        "Atún": 600,
-        "Jamón pierna": 300,
-        "Piña": 150,
-        "Cebolla": 250,
-        "Queso de cabra": 600,
-        "Queso Gouda": 500,
-        "Queso Parmesano": 800,
-        "Aceituna": 500
-      }},
-      {"name": "Espagueti napolitano", "price": 1100, "added":{
-        "Ají": 150,
-        "Chorizo": 300,
-        "Atún": 600,
-        "Jamón pierna": 300,
-        "Piña": 150,
-        "Cebolla": 250,
-        "Queso de cabra": 600,
-        "Queso Gouda": 500,
-        "Queso Parmesano": 800,
-        "Aceituna": 500
-      }},
-      {"name": "Espagueti a la carbonara", "price": 1970, "added":{
-        "Ají": 150,
-        "Chorizo": 300,
-        "Atún": 600,
-        "Jamón pierna": 300,
-        "Piña": 150,
-        "Cebolla": 250,
-        "Queso de cabra": 600,
-        "Queso Gouda": 500,
-        "Queso Parmesano": 800,
-        "Aceituna": 500
-      }},
-      {"name": "Tacos de carne", "price": 900, "added":{
-        "Ají": 150,
-        "Chorizo": 300,
-        "Atún": 600,
-        "Jamón pierna": 300,
-        "Piña": 150,
-        "Cebolla": 250,
-        "Queso de cabra": 600,
-        "Queso Gouda": 500,
-        "Queso Parmesano": 800,
-        "Aceituna": 500
-      }},
-      {"name": "Hamburguesa", "price": 1500, "added":{
-        "Ají": 150,
-        "Chorizo": 300,
-        "Atún": 600,
-        "Jamón pierna": 300,
-        "Piña": 150,
-        "Cebolla": 250,
-        "Queso de cabra": 600,
-        "Queso Gouda": 500,
-        "Queso Parmesano": 800,
-        "Aceituna": 500
-      }},
-      {"name": "Lonjas de cerdo", "price": 3500, "added":{
-        "Ají": 150,
-        "Chorizo": 300,
-        "Atún": 600,
-        "Jamón pierna": 300,
-        "Piña": 150,
-        "Cebolla": 250,
-        "Queso de cabra": 600,
-        "Queso Gouda": 500,
-        "Queso Parmesano": 800,
-        "Aceituna": 500
-      }},
-      {"name": "Nuggets de pollo", "price": 2000, "added":{
-        "Ají": 150,
-        "Chorizo": 300,
-        "Atún": 600,
-        "Jamón pierna": 300,
-        "Piña": 150,
-        "Cebolla": 250,
-        "Queso de cabra": 600,
-        "Queso Gouda": 500,
-        "Queso Parmesano": 800,
-        "Aceituna": 500
-      }},
-      {"name": "Masas de cerdo", "price": 1750, "added":{
-        "Ají": 150,
-        "Chorizo": 300,
-        "Atún": 600,
-        "Jamón pierna": 300,
-        "Piña": 150,
-        "Cebolla": 250,
-        "Queso de cabra": 600,
-        "Queso Gouda": 500,
-        "Queso Parmesano": 800,
-        "Aceituna": 500
-      }}
+      {"name": "Canelones", "price": 1350},
+      {"name": "Penne napolitano", "price": 1100},
+      {"name": "Pizza napolitana", "price": 1200},
+      {"name": "Espagueti napolitano", "price": 1100},
+      {"name": "Espagueti a la carbonara", "price": 1970},
+      {"name": "Tacos de carne", "price": 900},
+      {"name": "Hamburguesa", "price": 1500},
+      {"name": "Lonjas de cerdo", "price": 3500},
+      {"name": "Nuggets de pollo", "price": 2000},
+      {"name": "Masas de cerdo", "price": 1750}
     ],
     "garrison": [
       null

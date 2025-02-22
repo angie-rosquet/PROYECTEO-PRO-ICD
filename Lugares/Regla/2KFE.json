@@ -44,7 +44,6 @@
       {"name": "Tacos Res", "price": 900},
       {"name": "Tacos Pollo", "price": 600},
       {"name": "Tacos Vegetariano", "price": 400},
-      {"name": "Tacos Vegetales salteados en mantequilla y limón", "price": 0},
       {"name": "Tacos Jamón y Queso", "price": 650}
     ],
     "garrison": [

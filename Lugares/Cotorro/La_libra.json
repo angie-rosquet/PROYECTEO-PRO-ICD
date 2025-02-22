@@ -46,16 +46,7 @@
       {"name": "Eperlan", "price": 2500}
     ],
     "main_course": [
-      {"name": "Pizza Napolitana", "price": 1200, "added":{
-        "queso" : 700,
-        "jamon" : 600,
-        "aji" : 400,
-        "camaron" : 800,
-        "aceituna" : 400,
-        "atun" : 800,
-        "cebolla" : 300,
-        "tomate" : 500
-      }},
+      {"name": "Pizza Napolitana", "price": 1200},
       {"name": "Langosta Grille", "price": 2000},
       {"name": "Masa Frita", "price": 2400},
       {"name": "Bistec de Cerdo", "price": 2000},

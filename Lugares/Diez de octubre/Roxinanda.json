@@ -52,7 +52,6 @@
       {"name": "Pepsi", "price": 320 },
       {"name": "Jugo lata", "price": 280 },
       {"name": "Kermato", "price": 480 },
-      {"name": "Tigon", "price": null},
       {"name": "Cristal", "price": 3000 },
       {"name": "Hollandia", "price": 300 },
       {"name": "Stella", "price": 400 }

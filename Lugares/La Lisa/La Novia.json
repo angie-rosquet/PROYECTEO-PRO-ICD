@@ -11,8 +11,8 @@
     "sunday":{"open": "09:00", "close": "22:00"}
   },
   "contacts": {
-    "phone_number": "55861545",
-    "mobile": null,
+    "phone_number": null,
+    "mobile": "55861545",
     "website": null,
     "instagram": "@restaurante_lanovia",
     "facebook": "Restaurante La Novia"

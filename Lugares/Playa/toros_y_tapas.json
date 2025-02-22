@@ -70,7 +70,6 @@
       {"name": "parrillada de mariscos", "price": 9750},
       {"name": "calamares a la plancha", "price": 5200},
       {"name": "solomillo de ternera importado", "price": 9750},
-      {"name": "cochinillo al estilo segoviano", "price": null},
       {"name": "pierna o paletilla de cabrito lechal al horno con patatas panaderas", "price": 9750}
     ],
     "garrison": [

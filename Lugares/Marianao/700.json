@@ -78,7 +78,6 @@
       {"name": "Arroz blanco", "price": 100}
     ],
     "desserts": [
-      {"name": "Postre", "price": null}
     ],
     "drinks": [
       {"name": "Agua natural", "price": 290},

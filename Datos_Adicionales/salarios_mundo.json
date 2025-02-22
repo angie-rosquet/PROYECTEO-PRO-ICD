@@ -1,93 +1,29 @@
 {
     "Estados Unidos": {
-        "medico" : 5810,
-        "profesor asistente nivel superior": 5060,
-        "profesor titular nivel superior": 5560,
-        "profesor auxiliar nivel superior": 5310,
-        "profesor nivel medio": 4010,
-        "cientifico o investigador titular": 5560,
-        "enfermero": 4610,
-        "periodista": 4010,
-        "salario minimo": 2100,
-        "pensionados": 1733,
-        "salario maximo": 9510
+        "médico" : 18000,
+        "profesor": 7100,
+        "científico o investigador titular": 7900,
+        "periodista": 4400,
+        "pensionados": 1907,
+        "chofer" : 4000,
+        "salario promedio": 5300
     },
-    "España": {
-        "medico" : 5810,
-        "profesor asistente nivel superior": 5060,
-        "profesor titular nivel superior": 5560,
-        "profesor auxiliar nivel superior": 5310,
-        "profesor nivel medio": 4010,
-        "cientifico o investigador titular": 5560,
-        "enfermero": 4610,
-        "periodista": 4010,
-        "salario minimo": 2100,
-        "pensionados": 1733,
-        "salario maximo": 9510
+    "Uruguay": {
+        "médico" : 1300,
+        "profesor": 1300,
+        "científico o investigador titular": 600,
+        "periodista": 900,
+        "pensionados": 400,
+        "chofer" : 1000,
+        "salario promedio": 700
     },
-    "México": {
-        "medico" : 5810,
-        "profesor asistente nivel superior": 5060,
-        "profesor titular nivel superior": 5560,
-        "profesor auxiliar nivel superior": 5310,
-        "profesor nivel medio": 4010,
-        "cientifico o investigador titular": 5560,
-        "enfermero": 4610,
-        "periodista": 4010,
-        "salario minimo": 2100,
-        "pensionados": 1733,
-        "salario maximo": 9510
-    },
-    "Argentina": {
-        "medico" : 5810,
-        "profesor asistente nivel superior": 5060,
-        "profesor titular nivel superior": 5560,
-        "profesor auxiliar nivel superior": 5310,
-        "profesor nivel medio": 4010,
-        "cientifico o investigador titular": 5560,
-        "enfermero": 4610,
-        "periodista": 4010,
-        "salario minimo": 2100,
-        "pensionados": 1733,
-        "salario maximo": 9510
-    },
-    "Colombia": {
-        "medico" : 5810,
-        "profesor asistente nivel superior": 5060,
-        "profesor titular nivel superior": 5560,
-        "profesor auxiliar nivel superior": 5310,
-        "profesor nivel medio": 4010,
-        "cientifico o investigador titular": 5560,
-        "enfermero": 4610,
-        "periodista": 4010,
-        "salario minimo": 2100,
-        "pensionados": 1733,
-        "salario maximo": 9510
-    },
-    "Chile": {
-        "medico" : 5810,
-        "profesor asistente nivel superior": 5060,
-        "profesor titular nivel superior": 5560,
-        "profesor auxiliar nivel superior": 5310,
-        "profesor nivel medio": 4010,
-        "cientifico o investigador titular": 5560,
-        "enfermero": 4610,
-        "periodista": 4010,
-        "salario minimo": 2100,
-        "pensionados": 1733,
-        "salario maximo": 9510
-    },
-    "Perú": {
-        "medico" : 5810,
-        "profesor asistente nivel superior": 5060,
-        "profesor titular nivel superior": 5560,
-        "profesor auxiliar nivel superior": 5310,
-        "profesor nivel medio": 4010,
-        "cientifico o investigador titular": 5560,
-        "enfermero": 4610,
-        "periodista": 4010,
-        "salario minimo": 2100,
-        "pensionados": 1733,
-        "salario maximo": 9510
+    "Cuba":{
+        "médico" : 18,
+        "profesor": 16,
+        "científico o investigador titular": 23,
+        "periodista": 13,
+        "pensionados": 7,
+        "chofer" : 12,
+        "salario promedio": 15
     }
 }

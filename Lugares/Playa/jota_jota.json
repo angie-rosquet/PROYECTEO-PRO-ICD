@@ -201,5 +201,5 @@
       { "name": "cafe bombon", "price": 500 }
     ]
   },
-  "special_offers": false
+  "service_charge_percentage": 0
 }    

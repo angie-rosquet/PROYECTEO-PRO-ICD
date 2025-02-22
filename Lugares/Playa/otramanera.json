@@ -75,7 +75,7 @@
       {"name": "Arroz con leche", "price": 1800},
       {"name": "Helado", "price": 1350}
     ],
-    "drinks": null
+    "drinks": []
   },
   "service_charge_percentage": 0
 }

@@ -32,7 +32,6 @@
   "power_generator": false,
   "menu": {
     "appetizer": [
-      {"name": "Surtidos Tte Rey Especialidades", "price": null},
       {"name": "Croquetas", "price": 400},
       {"name": "Bolitas de Queso", "price": 500},
       {"name": "Tostones Rellenos", "price": 600},

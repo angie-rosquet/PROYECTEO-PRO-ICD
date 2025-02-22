@@ -47,9 +47,7 @@
       {"name": "pescado_empanado", "price": 330}
     ],
     "garrison": [],
-    "desserts": [
-      {"name": "confituras", "price": null}
-    ],
+    "desserts": [],
     "drinks": [
       {"name": "refresco", "price": 20},
       {"name": "cafe", "price": 15}

@@ -49,24 +49,15 @@
       {"name": "Mermelada de mango con queso", "price": 190},
       {"name": "Fruta en almibar", "price": 160}
     ],
-    "drinks": {
-      "alcoholic": [
-        {"name": "Cerveza Presidente", "price": 180},
-        {"name": "Cerveza Parranda", "price": 180},
-        {"name": "Cerveza Bucanero", "price": 180},
-        {"name": "Cerveza Moosehead", "price": 180},
-        {"name": "Cerveza Cristal", "price": 180},
-        {"name": "Cerveza Super Bock", "price": 180}
-      ],
-      "water": [
-        {"name": "Agua mineral", "price": 88}
-      ],
-      "soft_drinks": false,
-      "juices": false,
-      "smoothie": false,
-      "ice_cream_shake": false,
-      "coffee": false
-    }
+    "drinks":[
+      {"name": "Cerveza Presidente", "price": 180},
+      {"name": "Cerveza Parranda", "price": 180},
+      {"name": "Cerveza Bucanero", "price": 180},
+      {"name": "Cerveza Moosehead", "price": 180},
+      {"name": "Cerveza Cristal", "price": 180},
+      {"name": "Cerveza Super Bock", "price": 180},
+      {"name": "Agua mineral", "price": 88}
+    ]
   },
   "service_charge_percentage": 0
 }

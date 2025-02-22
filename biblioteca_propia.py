@@ -1,44 +1,35 @@
 import pandas as pd
 import json
 import os
+import matplotlib.pyplot as plt
 
 #rutas que necesito
 
-route_municipality = "Lugares/"
+route_municipalities = "Lugares/"
 json_salary_cuba = "Datos_Adicionales/salarios_cuba.json"
 json_salary_world = "Datos_Adicionales/salarios_mundo.json"
 
-#funcion para saber de que municipio es
-def extract_municipio(address):
-    return address.split(",")[-1].strip()
-
 #funcion que crea el DataFrame:
-def load_all(route_municipality):
+def load_df(route_municipalities):
     restaurants = []
-    restaurants_df = 0
-    for municipality in os.listdir(route_municipality):
-        municipality_path = os.path.join(route_municipality, municipality)
-        if os.path.isdir(municipality_path):
-            for place in os.listdir(municipality_path):
-                if place.endswith(".json"):
-                    place_path = os.path.join(municipality_path, place)
-                    with open (place_path, "r", encoding = "utf-8") as file:
-                        data = json.load(file)
-                        restaurants.append(data)
-    restaurants_df = pd.DataFrame(restaurants)
-    return restaurants_df
-
-#funcion para crear un DataFrame en dependencia del municipio elegido
-def load_for_municipality(municipality):
-    restaurants_s = []
-    municipality_route = os.path.join(route_municipality, municipality)
-    for place in os.listdir(municipality_route):
-        if place.endswith(".json"):
-            with open (os.path.join(municipality_route, place), "r", encoding = "utf-8") as file:
-                data = json.load(file)
-                restaurants_s.append(data)
-    df = pd.DataFrame(restaurants_s)
+    for municipality in os.listdir(route_municipalities):
+        municipalities_path = os.path.join(route_municipalities, municipality)
+        for place in os.listdir(municipalities_path):
+            if place.endswith(".json"):
+                with open (os.path.join(municipalities_path, place), "r", encoding = "utf-8") as f:
+                    data = json.load(f)
+                    restaurants.append(data)
+                    data['municipality']= municipality
+    df = pd.DataFrame(restaurants)
+    column_municipality = df.pop("municipality")
+    df.insert(1, "municipality", column_municipality)
     return df
+
+#funcion para filtrar el dataframe por un municipio
+def filter_restaurant(municipality):
+    df = load_df(route_municipalities)
+    filtered_df = df[df['municipality'] == municipality]
+    return filtered_df
 
 #funcion para mostrar las profesiones con el salario
 def show_professions_salary(json_salary_cuba):
@@ -46,74 +37,82 @@ def show_professions_salary(json_salary_cuba):
         data = json.load(file)
         dataframe = pd.DataFrame(list(data.items()), columns=['Profesión', 'Salario'])
         return dataframe
+        
+#función para verificar si un restaurante tiene todas las categorías del menú
+def has_all_categories(menu):
+    required_categories = ["appetizer", "main_course", "garrison", "desserts", "drinks"]
+    for category in required_categories:
+        if category not in menu or not menu[category]:
+            return False
+    return True
 
-#funcion que calcula cuanto pagan por hora(44 horas al mes)
-def pay_h(profession):
-    with open(json_salary_cuba, "r", encoding = "utf-8") as f:
-        data = json.load(f)
-        data = data.get(profession)
-        horas = data / 176
-        return round(horas, 2)
+#función para crear la gráfica de pastel que muestre el pprciento que tienen los menus completos
+def plot_menu_categories_pie_chart(df, municipality):
+    df['has_all_categories'] = df['menu'].apply(has_all_categories)
+    category_counts = df['has_all_categories'].value_counts()
+    plt.figure(figsize=(3,4))
+    plt.pie(category_counts, labels=['Tiene platos en todas las categorias', 'No tiene platos en al menos una categoria'], autopct='%1.1f%%', startangle=90, colors=['#66b3ff', '#ff6666'])
+    plt.title(f'Porcentaje de restaurantes en {municipality} con todas las categorías del menú')
+    plt.axis('equal')
+    plt.show()
 
-# funcion para mostrar el nombre:
-def filter_restaurants_name():
-    all_rest = []
-    rest = load_all(route_municipality)
-    all_rest.extend(rest['name'])
-    df = pd.DataFrame(all_rest)
-    return df
+#función para contar el número de restaurantes que tienen una categoría específica
+def count_restaurants_per_category(df, category):
+    count = 0
+    for i, row in df.iterrows():
+        if category in row['menu'] and row['menu'][category]:
+            count += 1
+    return count
 
-#lista de nombres de restaurantes en dependencia del municipio(para la grafica)
-def rest_per_municipality(municipality):
-    rest = []
-    mun = os.path.join(route_municipality, municipality)
-    for place in os.listdir(mun):
-        if place.endswith(".json"):
-            with open (os.path.join(mun, place), "r", encoding = "utf-8") as file:
-                data = json.load(file)
-                rest.append(data["name"])
-    return rest
+#función para crear el gráfico de barras para comparar las categorías entre municipios todo lindon
+def plot_category_comparison_for_municipalities(df):
+    categories = ["appetizer", "main_course", "garrison", "desserts", "drinks"]
+    municipalities = ["Playa", "Diez de Octubre", "Centro Habana"]
+    data = {}
+    for municipality in municipalities:
+        data[municipality] = []
+        df_municipality = filter_restaurant(municipality)
+        for category in categories:
+            category_count = count_restaurants_per_category(df_municipality, category)
+            data[municipality].append(category_count)
+    category_counts_df = pd.DataFrame(data, index=categories)
+    ax = category_counts_df.plot(kind='bar', figsize=(10,6), colormap='viridis')
+    plt.title('Número de restaurantes que tienen cada categoría por municipio')
+    plt.xlabel('Categoría del menú')
+    plt.ylabel('Número de restaurantes')
+    plt.xticks(rotation=45)
+    for p in ax.patches:
+        ax.annotate(f'{int(p.get_height())}', (p.get_x() + p.get_width() / 2., p.get_height()), 
+                    ha='center', va='center', fontsize=10, color='black', xytext=(0, 6), textcoords='offset points')
+    plt.tight_layout()
+    plt.show()
 
-#funcion para comida promedio de un restaurante
-def prom_category(restaurant):
-    with open(restaurant, 'r', encoding='utf-8') as f:
-        restaurant = json.load(f)
-    prom = []
-    total = 0
-    categorias = ['appetizer', 'main_course', 'garrison', 'desserts', 'drinks']
-    for categoria in categorias:
-        items = restaurant['menu'].get(categoria, {})
-        if len(items) > 0:
-            for item in items:
-                if item and 'price' in item and isinstance(item['price'], (int, float)):  # Validar item antes de acceder
-                    total += item['price']
-            prom.append(total / len(items))
-        else:
-            prom.append(0)
-        return round(sum(prom))
-    
-def list_prom(municipality):
-    list1 = []
-    route = os.path.join(route_municipality, municipality)
-    for place in os.listdir(route):
-        a = prom_category(os.path.join(route, place))
-        list1.append(a)
-    return list1
-    
-def prom_mun(municipality):
-    list1 = []
-    list2 = []
-    route = os.path.join(route_municipality, municipality)
-    categories = ['appetizer', 'main_course', 'garrison', 'desserts', 'drinks']
-    for c in categories:
-        list1 = []
-        for place in os.listdir(route):
-            with open(os.path.join(route, place), encoding="utf-8") as f:
-                data = json.load(f)
-                if c in data['menu']:
-                    if not isinstance(data['menu'][c], bool):
-                        precios = [int(item["price"]) for item in data['menu'][c] if isinstance(item, dict) and "price" in item and item["price"] is not None]
-                        list1.extend(precios)
-                promedio = sum(list1) / len(list1) if list1 else 0
-            list2.append(promedio)
-        return round(sum(list2))
+#función para filtrar los restaurantes por municipio y las categorías
+def filter_restaurants_by_categories(df, municipalities, categories):
+    filtered_restaurants = []
+    for municipality in municipalities:
+        df_municipality = df[df['municipality'] == municipality]
+        for i, row in df_municipality.iterrows():
+            menu = row['menu']
+            if categories['drinks'] in menu and categories['main_course'] in menu:
+                if menu[categories['drinks']] and menu[categories['main_course']]:
+                    filtered_restaurants.append(row)
+    filtered_df = pd.DataFrame(filtered_restaurants)
+    return filtered_df
+
+#funcion para hallar el precio promedio de una comida
+def find_average_price_main_course(df, municipality):
+    df_municipality = df[df['municipality'] == municipality]
+    average = 0
+    count = 0
+    for i, row in df_municipality.iterrows():
+        menu = row['menu']
+        if 'main_course' in menu:
+            for dish in menu['main_course']:
+                average += dish['price']
+                count += 1
+    if count > 0:
+        average_price = average / count
+    else:
+        average_price = 0
+    return average_price

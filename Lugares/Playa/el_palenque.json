@@ -69,7 +69,6 @@
         {"name": "licores nacionales", "price": 20},
         {"name": "ron havana club reserva", "price": 40},
         {"name": "tequila blanco", "price": 150},
-        {"name": "cafe palenque", "price": null},
         {"name": "cortadito", "price": 60},
         {"name": "café con leche", "price": 80},
         {"name": "te", "price": 30}

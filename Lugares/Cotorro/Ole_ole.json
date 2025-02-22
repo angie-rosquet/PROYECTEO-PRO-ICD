@@ -36,168 +36,51 @@
     {"name": "Tacos de cerdo", "price": 750 },
     {"name": "Frituras de malanga", "price": 450 },
     {"name": "Chicharritas", "price": 320 },        
-    {"name": "Picadera", "price": 1500 , "details": {
-    "jamón": "60 gramos",
-    "queso": "60 gramos",
-    "chorizo": "60 gramos",
-    "tostones rellenos": "3 unidades",
-    "aceitunas": "25 gramos",
-    "croquetas": "5 unidades",
-    "frituras de malanga": "5 unidades"
-    }},
+    {"name": "Picadera", "price": 1500},
     {"name": "Brocheta Olé", "price": 1200 },
-    {"name": "Croquetas Olé Olé", "price": 500 , "details":"10 unidades"},
-    {"name": "Tostones Tradicionales", "price": 450 , "details":"10 unidades"},
+    {"name": "Croquetas Olé Olé", "price": 500 },
+    {"name": "Tostones Tradicionales", "price": 450},
     {"name": "Ensalada Mixta", "price": 350 },
     {"name": "Tostones Atun", "price": 1000 },
-    {"name": "Eperlán", "price": 1000 , "details":{
-      "pescado" : "115 gramos"
-    }},
-    {"name": "Coctel de Camarones", "price": 1350 , "details":{
-      "camaron" : "100 gramos"
-    }},
+    {"name": "Eperlán", "price": 1000},
+    {"name": "Coctel de Camarones", "price": 1350},
     {"name": "Baston de Pollo", "price": 900 },
-    {"name": "Entremés", "price": 1000 , "details": {
-      "jamón": "80 gramos",
-      "queso": "60 gramos",
-      "chorizo": "80 gramos",
-      "aceitunas": "25 gramos"
-    }},
-    {"name": "Picadera Premium", "price": 1800 , "details": {
-      "jamón": null,
-      "queso": null,
-      "chorizo": null,
-      "tostones rellenos": null,
-      "aceitunas": null,
-      "croquetas": null,
-      "frituras de malanga": null
-    }}
+    {"name": "Entremés", "price": 1000},
+    {"name": "Picadera Premium", "price": 1800}
     ],
     "main_course": [
-    {"name": "Pizza Napolitana Gouda", "price": 1100 , "added": {
-      "queso": 100
-    }},
-    {"name": "Pizza Jamón Gouda", "price": 1280 , "added": {
-      "jamon": 60
-    }},
-    {"name": "Pizza Chorizos Gouda", "price": 1260 , "added": {
-      "chorizo": 60
-    }},
-    {"name": "Pizza Doble Queso Gouda", "price": 1420 , "added": {
-      "queso": 150
-    }},
-    {"name": "Pizza Camarones Gouda", "price": 1800 , "added": {
-      "camarones": 100
-    }},
-    {"name": "Pizza Hawaiana Gouda", "price": 1400 , "added": {
-      "piña": 80, 
-      "jamon": 60
-    }},
-    {"name": "Pizza Habanera Gouda", "price": 1790 , "added": {
-      "carne_de_res": 75
-    }},
-    {"name": "Pizza al Tonno Gouda", "price": 1400 , "added": {
-      "atun": 100, 
-      "cebolla": 60
-    }},
+    {"name": "Pizza Napolitana Gouda", "price": 1100},
+    {"name": "Pizza Jamón Gouda", "price": 1280},
+    {"name": "Pizza Chorizos Gouda", "price": 1260},
+    {"name": "Pizza Doble Queso Gouda", "price": 1420},
+    {"name": "Pizza Camarones Gouda", "price": 1800},
+    {"name": "Pizza Hawaiana Gouda", "price": 1400},
+    {"name": "Pizza Habanera Gouda", "price": 1790},
+    {"name": "Pizza al Tonno Gouda", "price": 1400},
     {"name": "Pizza Jamón Piña Gouda", "price": 1500 },
-    {"name": "Pizza Napolitana", "price": 700 , "added": {
-      "queso": 100
-    }},
-    {"name": "Pizza Jamón", "price": 900 , "added": {
-      "jamon": 60
-    }},
-    {"name": "Pizza Chorizos", "price": 900 , "added": {
-      "chorizo": 60
-    }},
-    {"name": "Pizza Doble Queso", "price": 850 , "added": {
-      "queso": 150
-    }},
-    {"name": "Pizza Camarones", "price": 1600 , "added": {
-      "camarones": 100
-    }},
-    {"name": "Pizza Hawaiana", "price": 1000 , "added": {
-      "piña": 80, 
-      "jamon": 60
-    }},
-    {"name": "Pizza Habanera", "price": 1400 , "added": {
-      "carne_de_res": 75
-    }},
-    {"name": "Pizza al Tonno", "price": 1280 , "added": {
-      "atun": 100, 
-      "cebolla": 60
-    }},
+    {"name": "Pizza Napolitana", "price": 700},
+    {"name": "Pizza Jamón", "price": 900},
+    {"name": "Pizza Chorizos", "price": 900},
+    {"name": "Pizza Doble Queso", "price": 850},
+    {"name": "Pizza Camarones", "price": 1600},
+    {"name": "Pizza Hawaiana", "price": 1000},
+    {"name": "Pizza Habanera", "price": 140},
+    {"name": "Pizza al Tonno", "price": 1280},
     {"name": "Pizza Jamón Piña", "price": 1300 },
-    {"name": "Espaguetis Napolitanos Queso Gouda", "price": 720 , "added": {
-      "espaguetis": 350, 
-      "queso": 45
-    }},
-    {"name": "Espaguetis Jamón Queso Gouda", "price": 900 , "added": {
-      "espaguetis": 350, 
-      "jamon": 60, 
-      "queso": 45
-    }},
-    {"name": "Espaguetis Al Pomodoro Queso Gouda", "price": 750 , "added": {
-      "espaguetis": 350, 
-      "tomate_natural": 100, 
-      "queso": 45
-    }},
-    {"name": "Espaguetis A la Amatriciana Queso Gouda", "price": 1250 , "added": {
-      "espaguetis": 350, 
-      "bacon": 100, 
-      "queso": 45
-    }},
-    {"name": "Espaguetis Doble Queso Gouda", "price": 1000 , "added": {
-      "espaguetis": 350, 
-      "queso": 90
-    }},
-    {"name": "Espaguetis De Camarón Queso Gouda", "price": 1430 , "added": {
-      "espaguetis": 350, 
-      "camaron": 100, 
-      "queso": 45
-    }},
-    {"name": "Espaguetis A la Arabiata Queso Gouda", "price": 770 , "added": {
-      "espaguetis": 350, 
-      "ajo": 45, 
-      "picante": 45, 
-      "tomate_natural": 45, 
-      "queso": 45
-    }},
-    {"name": " Espaguetis Napolitanos", "price": 600 , "added": {
-      "espaguetis": 350, 
-      "queso": 45
-    }},
-    {"name": "Espaguetis Jamón", "price": 800 , "added": {
-      "espaguetis": 350, 
-      "jamon": 60, 
-      "queso": 45
-    }},
-    {"name": "Espaguetis Al Pomodoro", "price": 650 , "added": {
-      "espaguetis": 350, 
-      "tomate_natural": 100, 
-      "queso": 45
-    }},
-    {"name": "Espaguetis A la Amatriciana", "price": 1100 , "added": {
-      "espaguetis": 350, 
-      "bacon": 100, 
-      "queso": 45
-    }},
-    {"name": "Espaguetis Doble Queso", "price": 800 , "added": {
-      "espaguetis": 350, 
-      "queso": 90
-    }},
-    {"name": "Espaguetis De Camarón", "price": 1380 , "added": {
-      "espaguetis": 350, 
-      "camaron": 100, 
-      "queso": 45
-    }},
-    {"name": "Espaguetis A la Arabiata", "price": 670 , "added": {
-      "espaguetis": 350, 
-      "ajo": 45, 
-      "picante": 45, 
-      "tomate_natural": 45, 
-      "queso": 45
-    }},
+    {"name": "Espaguetis Napolitanos Queso Gouda", "price": 720},
+    {"name": "Espaguetis Jamón Queso Gouda", "price": 900},
+    {"name": "Espaguetis Al Pomodoro Queso Gouda", "price": 750},
+    {"name": "Espaguetis A la Amatriciana Queso Gouda", "price": 1250},
+    {"name": "Espaguetis Doble Queso Gouda", "price": 1000 },
+    {"name": "Espaguetis De Camarón Queso Gouda", "price": 1430},
+    {"name": "Espaguetis A la Arabiata Queso Gouda", "price": 770},
+    {"name": " Espaguetis Napolitanos", "price": 600 },
+    {"name": "Espaguetis Jamón", "price": 800 },
+    {"name": "Espaguetis Al Pomodoro", "price": 650},
+    {"name": "Espaguetis A la Amatriciana", "price": 1100},
+    {"name": "Espaguetis Doble Queso", "price": 800},
+    {"name": "Espaguetis De Camarón", "price": 1380},
+    {"name": "Espaguetis A la Arabiata", "price": 670},
     {"name": "Filete de Pescado a la Grille", "price": 1300 },
     {"name": "Filete de Pescado Encebollado", "price": 1500 },
     {"name": "Pescado Frito al Plato", "price": 1200 },
@@ -228,8 +111,8 @@
     {"name": "Pachuga Grille","price": 1200 }
     ],      
     "garrison": [
-      {"name": "Arroz Blanco", "price": 120 , "details":"180 gramos"},
-      {"name": "Arroz Moro", "price": 220 , "details":"180 gramos"}
+      {"name": "Arroz Blanco", "price": 120},
+      {"name": "Arroz Moro", "price": 220}
     ],
     "desserts": [
       null

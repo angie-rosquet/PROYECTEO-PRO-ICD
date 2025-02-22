@@ -125,11 +125,7 @@
       {"name": "Chuchai", "price": 650},
       {"name": "Café Expresso", "price": 200},
       {"name": "Café Cortado", "price": 300},
-      {"name": "Té", "price": 300}
-    ],
-    "vines": null,
-    "cocktail": null,
-    "desserts": [
+      {"name": "Té", "price": 300},
       {"name": "Ración de tarta flan", "price": 850},
       {"name": "Toffee", "price": 850}
     ]

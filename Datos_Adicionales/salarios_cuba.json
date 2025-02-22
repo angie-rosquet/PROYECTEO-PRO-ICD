@@ -1,13 +1,9 @@
 {
   "médico" : 5810,
-  "profesor asistente nivel superior": 5060,
-  "profesor titular nivel superior": 5560,
-  "profesor auxiliar nivel superior": 5310,
-  "profesor nivel medio": 4010,
+  "profesor": 5560,
   "científico o investigador titular": 5560,
-  "enfermero": 4610,
   "periodista": 4010,
-  "salario mínimo": 2100,
   "pensionados": 1733,
-  "salario máximo": 9510
+  "chofer" : 3610,
+  "salario promedio": 4555
 }

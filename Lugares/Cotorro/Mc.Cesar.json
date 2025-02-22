@@ -46,24 +46,8 @@
       {"name": "Pan de jamon-queso", "price": 500 },
       {"name": "Pan con pechuga", "price": 500 },
       {"name": "Pan con bistec", "price": 500 },
-      {"name": "Pizza", "price": 500 , "details": {
-        "atun" : 400,
-        "cebolla" : 250,
-        "pimiento" : 300,
-        "queso" : 300,
-        "jamon" : 200,
-        "piña" : 200,
-        "chorizo" : 200
-      }},
-      {"name": "Espaguetis", "price": 500 ,"details" :{
-        "atun" : 400,
-        "cebolla" : 250,
-        "pimiento" : 300,
-        "queso" : 300,
-        "jamon" : 200,
-        "piña" : 200,
-        "chorizo" : 200
-      }},
+      {"name": "Pizza", "price": 500},
+      {"name": "Espaguetis", "price": 500},
       {"name": "Garbanzos fritos", "price": 1000 },
       {"name": "Higado de cerdo a la italiana", "price": 1000 },
       {"name": "Salteado de Vegetales", "price": 1500 },
@@ -99,7 +83,7 @@
     ],
     "desserts": [
       {"name": "Torrejas", "price": 500 },
-      {"name": "Ensalada Helado", "price": 500 , "details": "5 bolas"},
+      {"name": "Ensalada Helado", "price": 500},
       {"name": "Bola de Helado", "price": 100 },
       {"name": "Batido de Helado", "price": 500 }
     ],

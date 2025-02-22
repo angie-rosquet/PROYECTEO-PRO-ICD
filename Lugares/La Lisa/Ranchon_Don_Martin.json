@@ -68,8 +68,8 @@
       {"name": "Chilindron de Cordero", "price": 1810},
       {"name": "Pan con Hamburguesa", "price": 900},
       {"name": "Pan con Hamburguesa, Jamon y Queso", "price": 1280},
-      {"name": "Espaguetis", "price": [840, [250, 300, 800]]},
-      {"name": "Pizza", "price": [860, [250, 300, 800]]}
+      {"name": "Espaguetis", "price": 840},
+      {"name": "Pizza", "price": 800}
     ],
     "garrison": [
       {"name": "Arroz Moro", "price": 180},
