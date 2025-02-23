@@ -21,7 +21,7 @@ Clona el repositorio:
 bash
 Copiar
 Editar
-git clone https://github.com/tu-usuario/proyecto-restaurantes.git
+git clone https://github.com/angie-rosquet/PROYECTO-PRO-ICD.git
 Instala las dependencias:
 bash
 Copiar
