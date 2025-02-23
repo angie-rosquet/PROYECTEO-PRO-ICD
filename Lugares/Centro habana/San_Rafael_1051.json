@@ -61,9 +61,7 @@
     "garrison": [
 			null
 		],
-    "desserts": [
-			null
-		],
+    "desserts": [],
     "drinks" :[
 			{"name": "agua natural","price": 300},
 			{"name": "refresco importado","price": 380},

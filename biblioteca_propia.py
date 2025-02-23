@@ -44,6 +44,8 @@ def has_all_categories(menu):
     for category in required_categories:
         if category not in menu or not menu[category]:
             return False
+        elif len(menu[category]) == 1 and menu[category][0] == "null":
+            return False    
     return True
 
 #función para crear la gráfica de pastel que muestre el pprciento que tienen los menus completos
@@ -61,7 +63,10 @@ def count_restaurants_per_category(df, category):
     count = 0
     for i, row in df.iterrows():
         if category in row['menu'] and row['menu'][category]:
-            count += 1
+            if len(row['menu'][category]) == 1 and row['menu'][category][0] == None:
+                continue
+            else:
+                count += 1
     return count
 
 #función para crear el gráfico de barras para comparar las categorías entre municipios todo lindon
@@ -96,7 +101,9 @@ def filter_restaurants_by_categories(df, municipalities, categories):
             menu = row['menu']
             if categories['drinks'] in menu and categories['main_course'] in menu:
                 if menu[categories['drinks']] and menu[categories['main_course']]:
-                    filtered_restaurants.append(row)
+                    if len(menu[categories['drinks']]) != 0 or len(menu[categories['main_course']]) != 0:
+                        if menu[categories['drinks']][0] != None and menu[categories['main_course']][0] != None:
+                            filtered_restaurants.append(row)   
     filtered_df = pd.DataFrame(filtered_restaurants)
     return filtered_df
 
@@ -186,12 +193,50 @@ def find_prom_price_for_restaurants_list(df, restaurant_names):
 #función para generar el gráfico de barras con los precios promedio de los restaurantes
 def plot_prom_prices_for_restaurants(restaurant_names, prom_prices):
     plt.figure(figsize=(10, 6))
-    bars = plt.bar(restaurant_names, prom_prices, color='skyblue')
+    bars = plt.bar(restaurant_names, prom_prices, color='#dd1313')
     plt.title('Precio Promedio de una Comida en Restaurantes')
     plt.xlabel('Restaurantes')
     plt.ylabel('Precio Promedio')
+    plt.xticks(rotation=45, ha='right')
     for i, bar in enumerate(bars):
         height = bar.get_height()
         plt.text(bar.get_x() + bar.get_width() / 2, height + 0.1, f'{height:.2f}', ha='center', fontsize=10)
     plt.tight_layout()
+    plt.show()
+
+#funcion para mostrar el menu de un restaurante
+def show_menu(df, restaurant):
+    df_restaurant = df[df['name'] == restaurant]
+    menu = df_restaurant.iloc[0]['menu']
+    menu_filtered = {}
+    if 'main_course' in menu:
+        menu_filtered['main_course'] = menu['main_course']
+    if 'drinks' in menu:
+        menu_filtered['drinks'] = menu['drinks']
+    return menu_filtered
+
+#funcion para filtrar un dataframe pero que no tenga en cuenta la fila que tenga unos nombres especificos de restaurantes
+def filter_restaurants_not_name(df, municipality,restaurants_list):
+    filtered_restaurants = []
+    df_municipality = df[df['municipality'] == municipality]
+    for _, row in df_municipality.iterrows():
+        if row['name'] not in restaurants_list:
+            filtered_restaurants.append(row)
+    filtered_df = pd.DataFrame(filtered_restaurants)
+    return filtered_df
+
+#funcion para graficar que tanto por ciento representa del salario de cuba una precio establecido 
+def plot_salary_percentage(json_salary_cuba, prom):
+    salaries = list(json_salary_cuba.values())
+    professions = list(json_salary_cuba.keys())
+    percentages = [(prom / salary) * 100 if salary != 0 else 0 for salary in salaries]
+    plt.figure(figsize=(10, 6))
+    plt.bar(professions, percentages, color='skyblue')
+    plt.title('Porcentaje del salario que representa el precio de una comida promedio')
+    plt.xlabel('Profesión')
+    plt.ylabel('Porcentaje (%)')
+    for i, value in enumerate(percentages):
+        plt.text(i, value + 0.5, f'{value:.2f}%', ha='center', fontsize=10)
+    plt.xticks(rotation=45, ha='right')
+    plt.tight_layout() 
     plt.show()

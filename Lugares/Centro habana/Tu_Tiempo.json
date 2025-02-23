@@ -31,9 +31,7 @@
   "delivery_areas": true,
   "power_generator": false,
   "menu": {
-    "appetizer": [
-      null
-    ],
+    "appetizer": [],
     "main_course": [
       {"name": "combo 17", "price": 2000},
       {"name": "combo 18", "price": 2000},
@@ -65,9 +63,7 @@
       {"name": "combo 15", "price": 2000},
       {"name": "combo 16", "price": 2300}
     ],
-    "garrison": [
-      null
-    ],
+    "garrison": [],
     "desserts": [
       {"name": "arroz con leche", "price": 300},
       {"name": "coctel de frutas", "price": 150}

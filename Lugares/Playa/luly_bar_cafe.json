@@ -103,34 +103,23 @@
       {"name": "waffle", "price": 600},
       {"name": "pop waffle", "price": 900}
     ],
-    "drinks": {
-      "water": [
+    "drinks": [
         {"name": "agua cm", "price": 250},
         {"name": "agua san benedetto natural", "price": 1000},
-        {"name": "agua san benedetto gaseada", "price": 1100}
-      ],
-      "soft_drinks": [
+        {"name": "agua san benedetto gaseada", "price": 1100},
         {"name": "tónica shweppes", "price": 1000},
         {"name": "tukola", "price": 300},
         {"name": "pepsi", "price": 350},
         {"name": "malta", "price": 280},
-        {"name": "granizado", "price": 60}
-      ],
-      "juices": [
+        {"name": "granizado", "price": 60},
         {"name": "jugo cajita", "price": 250},
         {"name": "jugo natural", "price": 500},
         {"name": "jugo verde", "price": 600},
-        {"name": "limonada", "price": 500}
-      ],
-      "smoothie": [
+        {"name": "limonada", "price": 500},
         {"name": "batido de frutas naturales", "price": 700},
-        {"name": "smoothie", "price": 700}
-      ],
-      "ice_cream_shake": [
+        {"name": "smoothie", "price": 700},
         {"name": "batido de chocolate", "price": 800},
-        {"name": "batido de proteína", "price": 1000}
-      ],
-      "alcoholic": [
+        {"name": "batido de proteína", "price": 1000},
         {"name": "cristal", "price": 450},
         {"name": "bucanero", "price": 450},
         {"name": "corona", "price": 600},
@@ -146,6 +135,6 @@
         {"name": "santiago añejo 8 años", "price": 1000},
         {"name": "santiago añejo 12 años", "price": 1500}
       ]
-    }
-  }
+  },
+  "service_charge_percentage": 0
 }

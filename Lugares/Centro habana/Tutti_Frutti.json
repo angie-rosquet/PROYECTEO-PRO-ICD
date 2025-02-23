@@ -31,12 +31,8 @@
   "delivery_areas": false,
   "power_generator": false,
   "menu": {
-    "appetizer": [
-      null
-    ],
-    "main_course": [
-      null
-    ],
+    "appetizer": [],
+    "main_course": [],
     "garrison": [
       {"name": "Huevo", "price": 250},
       {"name": "Atún", "price": 800},

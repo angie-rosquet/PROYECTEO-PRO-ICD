@@ -31,9 +31,7 @@
   "delivery_areas": false,
   "power_generator": false,
   "menu": {
-    "appetizer": [
-      null
-    ],
+    "appetizer": [],
     "main_course": [
       {"name": "Jiaozi Ravioles", "price": 1350},
       {"name": "Bao", "price": 700},
@@ -49,12 +47,8 @@
       {"name": "Pescado", "price": 1650},
       {"name": "Fajitas de Pechuga", "price": 2200}
     ],
-    "garrison": [
-      null
-    ],
-    "desserts": [
-      null
-    ],
+    "garrison": [],
+    "desserts": [],
     "drinks": [
       {"name": "Cerveza", "price": 300},
       {"name": "Cerveza Nacional", "price": 500},
