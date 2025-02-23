@@ -44,8 +44,10 @@ def has_all_categories(menu):
     for category in required_categories:
         if category not in menu or not menu[category]:
             return False
-        elif len(menu[category]) == 1 and menu[category][0] == "null":
-            return False    
+        elif len(menu[category]) == 0:
+            return False   
+        elif len(menu[category]) == 1 and menu[category][0] == None:
+            return False
     return True
 
 #función para crear la gráfica de pastel que muestre el pprciento que tienen los menus completos
@@ -64,6 +66,8 @@ def count_restaurants_per_category(df, category):
     for i, row in df.iterrows():
         if category in row['menu'] and row['menu'][category]:
             if len(row['menu'][category]) == 1 and row['menu'][category][0] == None:
+                continue
+            elif len(row['menu'][category]) == 0:
                 continue
             else:
                 count += 1
