@@ -226,17 +226,19 @@ def filter_restaurants_not_name(df, municipality,restaurants_list):
     return filtered_df
 
 #funcion para graficar que tanto por ciento representa del salario de cuba una precio establecido 
-def plot_salary_percentage(json_salary_cuba, prom):
-    salaries = list(json_salary_cuba.values())
-    professions = list(json_salary_cuba.keys())
-    percentages = [(prom / salary) * 100 if salary != 0 else 0 for salary in salaries]
-    plt.figure(figsize=(10, 6))
-    plt.bar(professions, percentages, color='skyblue')
-    plt.title('Porcentaje del salario que representa el precio de una comida promedio')
-    plt.xlabel('Profesión')
-    plt.ylabel('Porcentaje (%)')
-    for i, value in enumerate(percentages):
-        plt.text(i, value + 0.5, f'{value:.2f}%', ha='center', fontsize=10)
-    plt.xticks(rotation=45, ha='right')
-    plt.tight_layout() 
-    plt.show()
+def plot_salary_percentage(json_salary_cuba, prom, municipality):
+    with open(json_salary_cuba, "r", encoding = "utf-8") as f:
+        json_salaries = json.load(f)
+        professions = list(json_salaries.keys())
+        salaries = list(json_salaries.values())
+        percentages = [(prom / salary) * 100 if salary != 0 else 0 for salary in salaries]
+        plt.figure(figsize=(10, 6))
+        plt.bar(professions, percentages, color='#2c9b0d')
+        plt.title(f'Porcentaje del salario que representa el precio de una comida promedio para cada profesion en {municipality}')
+        plt.xlabel('Profesiones')
+        plt.ylabel('Porcentaje (%)')
+        for i, value in enumerate(percentages):
+            plt.text(i, value + 0.5, f'{value:.2f}%', ha='center', fontsize=10)
+        plt.xticks(rotation=45, ha='right')
+        plt.tight_layout() 
+        plt.show()
