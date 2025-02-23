@@ -35,48 +35,48 @@
       null
     ],
     "main_course": [
-      {"nombre": "hamburguesa clasica", "precio": 500},
-      {"nombre": "hamburguesa sencilla", "precio": 700},
-      {"nombre": "hamburguesa grosera", "precio": 1200},
-      {"nombre": "hamburguesa patrona", "precio": 1000},
-      {"nombre": "bistec uruguayo", "precio": 2600},
-      {"nombre": "ropa vieja", "precio": 1400},
-      {"nombre": "escalope de cerdo", "precio": 1800},
-      {"nombre": "bistec de cerdo", "precio": 1600},
-      {"nombre": "arroz frito", "precio": 1000},
-      {"nombre": "lasaña", "precio": 1250},
-      {"nombre": "canelones", "precio": 1100},
-      {"nombre": "espaguetti carbonara", "precio": 1500},
-      {"nombre": "pizza La Patrona", "precio": 1800}
+      {"nombre": "hamburguesa clasica", "price": 500},
+      {"nombre": "hamburguesa sencilla", "price": 700},
+      {"nombre": "hamburguesa grosera", "price": 1200},
+      {"nombre": "hamburguesa patrona", "price": 1000},
+      {"nombre": "bistec uruguayo", "price": 2600},
+      {"nombre": "ropa vieja", "price": 1400},
+      {"nombre": "escalope de cerdo", "price": 1800},
+      {"nombre": "bistec de cerdo", "price": 1600},
+      {"nombre": "arroz frito", "price": 1000},
+      {"nombre": "lasaña", "price": 1250},
+      {"nombre": "canelones", "price": 1100},
+      {"nombre": "espaguetti carbonara", "price": 1500},
+      {"nombre": "pizza La Patrona", "price": 1800}
     ],
     "garrison": [
-      {"nombre": "jamón serrano", "precio": 800},
-      {"nombre": "jamón", "precio": 400},
-      {"nombre": "chorizo", "precio": 400},
+      {"nombre": "jamón serrano", "price": 800},
+      {"nombre": "jamón", "price": 400},
+      {"nombre": "chorizo", "price": 400},
       {"name": "bacon", "price": 400 },
       {"name": "pepperoni", "price": 400 },
       {"name": "queso parmesano", "price": 400 },
       {"name": "queso blanco", "price": 300 },
-      {"nombre": "queso gouda", "precio": 400},
-      {"nombre": "cebolla", "precio": 300},
-      {"nombre": "piña", "precio": 300},
+      {"nombre": "queso gouda", "price": 400},
+      {"nombre": "cebolla", "price": 300},
+      {"nombre": "piña", "price": 300},
       {"name": "aceitunas", "price": 300 },
       {"name": "atún", "price": 500 }
     ],
     "desserts": [
-      {"nombre": "flan", "precio": 200},
-      {"nombre": "copa lolita", "precio": 400},
-      {"nombre": "cesta helado", "precio": 500},
-      {"nombre": "tres gracias", "precio": 300}
+      {"nombre": "flan", "price": 200},
+      {"nombre": "copa lolita", "price": 400},
+      {"nombre": "cesta helado", "price": 500},
+      {"nombre": "tres gracias", "price": 300}
     ],
     "drinks": [
-      {"nombre": "café express", "precio": 150},
-      {"nombre": "cafe con crema", "precio": 180},
-      {"nombre": "cafe La Patrona", "precio": 250},
-      {"nombre": "frapuchino", "precio": 250},
-      {"nombre": "jugos", "precio": 100},
-      {"nombre": "suero helado", "precio": 350},
-      {"nombre": "batidos", "precio": 300}
+      {"nombre": "café express", "price": 150},
+      {"nombre": "cafe con crema", "price": 180},
+      {"nombre": "cafe La Patrona", "price": 250},
+      {"nombre": "frapuchino", "price": 250},
+      {"nombre": "jugos", "price": 100},
+      {"nombre": "suero helado", "price": 350},
+      {"nombre": "batidos", "price": 300}
     ]
   },
   "service_charge_percentage": 0

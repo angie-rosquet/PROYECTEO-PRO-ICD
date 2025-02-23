@@ -108,19 +108,20 @@ def filter_restaurants_by_categories(df, municipalities, categories):
     return filtered_df
 
 #funcion para hallar el precio promedio de un plato principal
-def find_average_price_main_course(df, municipality):
-    df_municipality = df[df['municipality'] == municipality]
+def find_average_price_main_course(df, municipalities):
     average = 0
     count = 0
-    for i, row in df_municipality.iterrows():
-        menu = row['menu']
-        if 'main_course' in menu:
-            for dish in menu['main_course']:
-                if dish is None:
-                    continue
-                else:
-                    average += dish['price']
-                    count += 1
+    for municipality in municipalities:
+        df_municipality = df[df['municipality'] == municipality]
+        for i, row in df_municipality.iterrows():
+            menu = row['menu']
+            if 'main_course' in menu:
+                for dish in menu['main_course']:
+                    if dish['price'] in dish and type(dish['price']) != float and int:
+                        continue
+                    else:
+                        average += dish['price']
+                        count += 1
     if count > 0: 
         average_price = average / count
     else:
@@ -128,21 +129,22 @@ def find_average_price_main_course(df, municipality):
     return round(average_price)
 
 #funcion para hallar el precio promedio de una bebida
-def find_average_price_drinks(df, municipality):
-    df_municipality = df[df['municipality'] == municipality]
+def find_average_price_drinks(df, municipalities):
     average = 0
     count = 0
-    for i, row in df_municipality.iterrows():
-        menu = row['menu']
-        if 'drinks' in menu:
-            for dish in menu['drinks']:
-                if dish is None:
-                    continue
-                elif dish['price'] is None:
-                    continue
-                else:
-                    average += dish['price']
-                    count += 1
+    for municipality in municipalities:
+        df_municipality = df[df['municipality'] == municipality]
+        for i, row in df_municipality.iterrows():
+            menu = row['menu']
+            if 'drinks' in menu:
+                for dish in menu['drinks']:
+                    if dish['price'] in dish and type(dish['price']) != float and int:
+                        continue
+                    elif dish['price'] is None:
+                        continue
+                    else:
+                        average += dish['price']
+                        count += 1
     if count > 0: 
         average_price = average / count
     else:
@@ -226,7 +228,7 @@ def filter_restaurants_not_name(df, municipality,restaurants_list):
     return filtered_df
 
 #funcion para graficar que tanto por ciento representa del salario de cuba una precio establecido 
-def plot_salary_percentage(json_salary_cuba, prom, municipality):
+def plot_salary_percentage(json_salary_cuba, prom, label):
     with open(json_salary_cuba, "r", encoding = "utf-8") as f:
         json_salaries = json.load(f)
         professions = list(json_salaries.keys())
@@ -234,7 +236,7 @@ def plot_salary_percentage(json_salary_cuba, prom, municipality):
         percentages = [(prom / salary) * 100 if salary != 0 else 0 for salary in salaries]
         plt.figure(figsize=(10, 6))
         plt.bar(professions, percentages, color='#2c9b0d')
-        plt.title(f'Porcentaje del salario que representa el precio de una comida promedio para cada profesion en {municipality}')
+        plt.title(f'Porcentaje del salario que representa el precio de una comida promedio para cada profesion en {label}')
         plt.xlabel('Profesiones')
         plt.ylabel('Porcentaje (%)')
         for i, value in enumerate(percentages):
@@ -242,3 +244,42 @@ def plot_salary_percentage(json_salary_cuba, prom, municipality):
         plt.xticks(rotation=45, ha='right')
         plt.tight_layout() 
         plt.show()
+        
+#funciion para hallar el plato mas barato de un restaurante 
+def find_cheap_price_restaurant(df, restaurant, category):
+    dish = {"name": "", "price": 1000000}
+    df_restaurant = df[df['name'] == restaurant]
+    if df_restaurant.shape[0] == 0:
+        return "Restaurante no encontrado"
+    if 'menu' in df_restaurant.columns:
+        menu = df_restaurant.iloc[0]['menu']
+        
+        if category in menu:
+            for row in menu[category]:
+                if row is not None and isinstance(row, dict) and 'price' in row:
+                    if row['price'] < dish['price']:
+                        dish['name'] = row['name']
+                        dish['price'] = row['price']
+    return dish
+
+#funcion para hacer una grafica por municipios que muestre el precio promedio de una comida 
+def plot_prom_price_for_municipalities(df, municipalities):
+    x = []
+    y = []
+    for municipality in municipalities:
+        x.append(municipality)
+        mc = find_average_price_main_course(df, [municipality])
+        d = find_average_price_drinks(df, [municipality])
+        total = mc + d
+        y.append(total)
+    plt.figure(figsize=(10, 6))
+    plt.bar(x, y, color='#912b84')
+    plt.title(f'Promedio de una comida por municipios')
+    plt.xlabel('Municipios')
+    plt.ylabel('Precio Promedio')
+    for i, value in enumerate(y):
+        plt.text(i, value + 0.5, f'{value:.2f}%', ha='center', fontsize=10)
+    plt.xticks(rotation=45, ha='right')
+    plt.tight_layout() 
+    plt.show()
+    

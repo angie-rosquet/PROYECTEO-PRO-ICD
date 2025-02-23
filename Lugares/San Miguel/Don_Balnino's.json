@@ -27,7 +27,7 @@
     "pago en línea": true,
     "usd_cash": true,
     "usd_transfer": true,
-    "mlc": true 
+    "mlc": true
   },
   "delivery_areas": false, 
   "power_generator": false,
