@@ -425,9 +425,8 @@ def plot_salary_percentage_for_profession_in_municipalities(df, json_salary_worl
 #ya no me acuerdo pero es la de las comidas ultimo
 def meal(df, cell, name, count):
     p = 0
-    df_n = df[df["name"] == "name"]
+    df_n = df[df['name'] == name]
     for i in list(cell.keys()):
-        print("hola")
         if cell[i] != 0:
             auxiliar = find_average_price_any(df_n, i) * cell[i]
             p += auxiliar
