@@ -103,11 +103,17 @@ def filter_restaurants_by_categories(df, municipalities, categories):
         df_municipality = df[df['municipality'] == municipality]
         for i, row in df_municipality.iterrows():
             menu = row['menu']
-            if categories['drinks'] in menu and categories['main_course'] in menu:
-                if menu[categories['drinks']] and menu[categories['main_course']]:
-                    if len(menu[categories['drinks']]) != 0 or len(menu[categories['main_course']]) != 0:
-                        if menu[categories['drinks']][0] != None and menu[categories['main_course']][0] != None:
-                            filtered_restaurants.append(row)   
+            include_restaurant = True
+            for category in categories:
+                if category in menu and menu[category]: 
+                    if len(menu[category]) == 0 or menu[category][0] is None:
+                        include_restaurant = False
+                        break
+                else:
+                    include_restaurant = False
+                    break 
+            if include_restaurant:
+                filtered_restaurants.append(row)
     filtered_df = pd.DataFrame(filtered_restaurants)
     return filtered_df
 
@@ -329,7 +335,7 @@ def plot_working_hours_by_profession(json_salary, avg_food_price):
     for i, bar in enumerate(bars):
         height = bar.get_height()
         plt.text(bar.get_x() + bar.get_width()/2, height + 0.1, f'{height:.2f}', ha='center', fontsize=10)
-    plt.tight_layout()  # Ajustar el layout para evitar que los textos se corten
+    plt.tight_layout()
     plt.show()
 
 #funcion para hacer una grafica por municipios que muestre el precio promedio de una comida en dolares
@@ -415,3 +421,53 @@ def plot_salary_percentage_for_profession_in_municipalities(df, json_salary_worl
     plt.legend()
     plt.tight_layout()
     plt.show()
+    
+#ya no me acuerdo pero es la de las comidas ultimo
+def meal(df, cell, name, count):
+    p = 0
+    df_n = df[df["name"] == "name"]
+    for i in list(cell.keys()):
+        print("hola")
+        if cell[i] != 0:
+            auxiliar = find_average_price_any(df_n, i) * cell[i]
+            p += auxiliar
+    return p*count
+    
+    
+#funcion para hallar el precio promedio de cualquier plato
+def find_average_price_any(df, category):
+    average = 0
+    count = 0
+    for i, row in df.iterrows():
+        menu = row['menu']
+        if category in menu:
+            for dish in menu[category]:
+                if dish['price'] in dish and type(dish['price']) != float and int:
+                    continue
+                else:
+                    average += dish['price']
+                    count += 1
+    if count > 0: 
+        average_price = average / count
+    else:
+        average_price = 0
+    return round(average_price)
+
+#otro grafico
+def plot_hours_meals_rest(json_salary_cuba, df, cell, name, count):
+    with open (json_salary_cuba, 'r', encoding = 'utf-8') as f:
+        d = json.load(f)
+        price = meal(df, cell, name, count)
+        working_hours = calculate_working_hours_for_food(d, price)
+        profession = ["médico", "profesor", "científico o investigador titular", "periodista", "chofer", "salario promedio"]
+        plt.figure(figsize=(10, 6))
+        bars = plt.bar(profession, working_hours, color='#79a10c')
+        plt.title('Horas de trabajo necesarias para cubrir el precio de una comida')
+        plt.xlabel('Profesión')
+        plt.ylabel('Horas de trabajo necesarias')
+        plt.xticks(rotation=45, ha='right')
+        for i, bar in enumerate(bars):
+            height = bar.get_height()
+            plt.text(bar.get_x() + bar.get_width()/2, height + 0.1, f'{height:.2f}', ha='center', fontsize=10)
+        plt.tight_layout()
+        plt.show()
