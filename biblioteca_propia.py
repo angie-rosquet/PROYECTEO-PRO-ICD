@@ -278,7 +278,7 @@ def plot_prom_price_for_municipalities(df, municipalities):
         y.append(total)
     plt.figure(figsize=(10, 6))
     plt.bar(x, y, color='#912b84')
-    plt.title(f'Promedio de una comida por municipios')
+    plt.title('Promedio de una comida por municipios')
     plt.xlabel('Municipios')
     plt.ylabel('Precio Promedio')
     for i, value in enumerate(y):
@@ -286,4 +286,43 @@ def plot_prom_price_for_municipalities(df, municipalities):
     plt.xticks(rotation=45, ha='right')
     plt.tight_layout() 
     plt.show()
-    
+
+#funcion diccionario
+def dic_generator (json_route):
+    with open (json_route, 'r', encoding = 'utf=8') as f:
+        data = json.load(f)
+        return data
+
+#funcion para calcular cuanto ganan por dia
+def calculate_daily_salary(json_salary_cuba, profession):
+    if profession == "pensionado":
+        pass
+    if profession in json_salary_cuba:
+        monthly_salary = json_salary_cuba[profession]
+        daily_salary = monthly_salary / 20  # Suponiendo que trabajan 20 días al mes
+        return daily_salary
+
+def calculate_working_hours_for_food(json_salary_cuba, avg_food_price):
+    professions = ["médico", "profesor", "científico o investigador titular", "periodista", "chofer", "salario promedio"]
+    working_hours = []
+    for profession in professions:
+        daily_salary = calculate_daily_salary(json_salary_cuba, profession)
+        if daily_salary is not None:
+            hours_needed = (avg_food_price / daily_salary) * 8  # Horas necesarias para cubrir el precio de la comida
+            working_hours.append(hours_needed)
+    return working_hours
+
+def plot_working_hours_by_profession(json_salary, avg_food_price):
+    working_hours = calculate_working_hours_for_food(json_salary, avg_food_price)
+    profession = ["médico", "profesor", "científico o investigador titular", "periodista", "chofer", "salario promedio"]
+    plt.figure(figsize=(10, 6))
+    bars = plt.bar(profession, working_hours, color='skyblue')
+    plt.title('Horas de trabajo necesarias para cubrir el precio de una comida')
+    plt.xlabel('Profesión')
+    plt.ylabel('Horas de trabajo necesarias')
+    plt.xticks(rotation=45, ha='right')
+    for i, bar in enumerate(bars):
+        height = bar.get_height()
+        plt.text(bar.get_x() + bar.get_width()/2, height + 0.1, f'{height:.2f}', ha='center', fontsize=10)
+    plt.tight_layout()  # Ajustar el layout para evitar que los textos se corten
+    plt.show()
