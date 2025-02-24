@@ -302,6 +302,7 @@ def calculate_daily_salary(json_salary_cuba, profession):
         daily_salary = monthly_salary / 20  # Suponiendo que trabajan 20 días al mes
         return daily_salary
 
+#funcion para calcular la cantidad de horas que debe trabajar alguien 
 def calculate_working_hours_for_food(json_salary_cuba, avg_food_price):
     professions = ["médico", "profesor", "científico o investigador titular", "periodista", "chofer", "salario promedio"]
     working_hours = []
@@ -312,6 +313,7 @@ def calculate_working_hours_for_food(json_salary_cuba, avg_food_price):
             working_hours.append(hours_needed)
     return working_hours
 
+#funcion de la grafica de esa vaina de las horas
 def plot_working_hours_by_profession(json_salary, avg_food_price):
     working_hours = calculate_working_hours_for_food(json_salary, avg_food_price)
     profession = ["médico", "profesor", "científico o investigador titular", "periodista", "chofer", "salario promedio"]
@@ -326,3 +328,4 @@ def plot_working_hours_by_profession(json_salary, avg_food_price):
         plt.text(bar.get_x() + bar.get_width()/2, height + 0.1, f'{height:.2f}', ha='center', fontsize=10)
     plt.tight_layout()  # Ajustar el layout para evitar que los textos se corten
     plt.show()
+
