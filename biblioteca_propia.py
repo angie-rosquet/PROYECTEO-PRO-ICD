@@ -233,11 +233,14 @@ def filter_restaurants_not_name(df, municipality,restaurants_list):
 
 #funcion para graficar que tanto por ciento representa del salario de cuba una precio establecido 
 def plot_salary_percentage(json_salary_cuba, prom, label):
+    percentages = []
     with open(json_salary_cuba, "r", encoding = "utf-8") as f:
         json_salaries = json.load(f)
         professions = list(json_salaries.keys())
         salaries = list(json_salaries.values())
-        percentages = [(prom / salary) * 100 if salary != 0 else 0 for salary in salaries]
+        for salary in salaries:
+            if salary != 0:
+                percentages.append((prom / salary) * 100) 
         plt.figure(figsize=(10, 6))
         plt.bar(professions, percentages, color='#2c9b0d')
         plt.title(f'Porcentaje del salario que representa el precio de una comida promedio para cada profesion en {label}')
@@ -282,7 +285,7 @@ def plot_prom_price_for_municipalities(df, municipalities):
     plt.xlabel('Municipios')
     plt.ylabel('Precio Promedio')
     for i, value in enumerate(y):
-        plt.text(i, value + 0.5, f'{value:.2f}%', ha='center', fontsize=10)
+        plt.text(i, value + 0.5, f'{value:.2f}', ha='center', fontsize=10)
     plt.xticks(rotation=45, ha='right')
     plt.tight_layout() 
     plt.show()
@@ -329,3 +332,86 @@ def plot_working_hours_by_profession(json_salary, avg_food_price):
     plt.tight_layout()  # Ajustar el layout para evitar que los textos se corten
     plt.show()
 
+#funcion para hacer una grafica por municipios que muestre el precio promedio de una comida en dolares
+def plot_prom_price_for_municipalities_inter(df, municipalities):
+    x = []
+    y = []
+    for municipality in municipalities:
+        x.append(municipality)
+        mc = find_average_price_main_course(df, [municipality])
+        d = find_average_price_drinks(df, [municipality])
+        total = mc + d
+        y.append(total/340)
+    plt.figure(figsize=(10, 6))
+    plt.bar(x, y, color='#912b84')
+    plt.title('Promedio de una comida por municipios')
+    plt.xlabel('Municipios')
+    plt.ylabel('Precio Promedio')
+    for i, value in enumerate(y):
+        plt.text(i, value + 0.5, f'{value:.2f}', ha='center', fontsize=10)
+    plt.xticks(rotation=45, ha='right')
+    plt.tight_layout() 
+    plt.show()
+    
+#funcion para hacer una lista por municipios que muestre el precio promedio de una comida en dolares
+def prom_municipality_in_dolar(df, municipalities):
+    data = {} 
+    for municipality in municipalities:
+        mc = find_average_price_main_course(df, [municipality])
+        d = find_average_price_drinks(df, [municipality])
+        total = (mc + d) / 340
+        data[municipality] = total
+    return data
+
+#funcion para filtrar el pais en el json
+def get_salaries_by_country(json_salary_data, country):
+    with open (json_salary_world, 'r', encoding ='utf8') as f:
+        data = json.load(f)
+        if country in data:
+            lol = data[country]
+            return lol
+    
+
+#funcion para calcular que tanto por ciento representa una comida en el salario del pais que elija
+def percentage(country, profession, municipalities):
+    country_salaries = get_salaries_by_country(json_salary_world, country)
+    if profession not in country_salaries:
+        return f"La profesión {profession} no se encuentra en los datos de {country}"
+    salary = country_salaries[profession]
+    data = prom_municipality_in_dolar(load_df(route_municipalities), municipalities)
+    percentages = {}
+    for municipality, avg_food_price in data.items():
+        percentage = (avg_food_price / salary) * 100
+        percentages[municipality] = round(percentage, 2)
+    return percentages
+
+
+def plot_salary_percentage_for_profession_in_municipalities(df, json_salary_world, profession, municipalities):
+    countries = ["Estados Unidos", "Uruguay", "Cuba"]
+    plt.figure(figsize=(10, 6))
+    for country in countries:
+        country_salaries = get_salaries_by_country(json_salary_world, country)
+        
+        if profession not in country_salaries:
+            print(f"La profesión {profession} no se encuentra en los datos de {country}")
+            return
+        salary = country_salaries[profession]
+        data = prom_municipality_in_dolar(df, municipalities)
+        percentages = {}
+        for municipality, avg_food_price in data.items():
+            if salary > 0:  # Evitar división por cero
+                percentage = (avg_food_price / salary) * 100
+                percentages[municipality] = round(percentage, 2)
+            else:
+                percentages[municipality] = 0
+        if not percentages:
+            print(f"No se calcularon porcentajes para {country}. Puede que algunos valores de comida estén vacíos.")
+            return
+        plt.plot(list(percentages.keys()), list(percentages.values()), label=country, marker='o')
+    plt.title(f'Porcentaje de lo que equivale una cena en estos municipios con respecto al salario de {profession}')
+    plt.xlabel('Municipios')
+    plt.ylabel('Porcentaje (%)')
+    plt.xticks(rotation=45, ha='right')
+    plt.legend()
+    plt.tight_layout()
+    plt.show()
